@@ -5,7 +5,11 @@ gems:
   - jekyll-seo-tag
 
 theme: minima
-title: Michael Nordmeyer
+title: Site Title
+description: GitHub Pages test. Publishing without any apps or servers.
+email: plonk@example.com
+twitter_username: mnordmeyer
+github_username: michaelnordmeyer
 
 twitter:
   username: mnordmeyer
