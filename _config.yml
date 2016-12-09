@@ -21,8 +21,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "my-site"
-      author: "Michael Nordmeyer"
+      layout: default
+      author: Foo Bar
   -
     scope:
       path: "projects"
