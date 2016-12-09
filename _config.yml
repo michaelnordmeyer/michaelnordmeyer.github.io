@@ -5,6 +5,7 @@ gems:
   - jekyll-seo-tag
 
 theme: minima
+title: Michael Nordmeyer
 
 twitter:
   username: mnordmeyer
