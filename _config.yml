@@ -1,6 +1,13 @@
 gems:
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
+
+theme: minima
+
+twitter:
+  username: mnordmeyer
 
 defaults:
   -
