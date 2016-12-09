@@ -19,7 +19,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       layout: default
       author: Foo Bar
