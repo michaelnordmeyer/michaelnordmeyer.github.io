@@ -2,4 +2,4 @@
 title: Michael Nordmeyer
 ---
 
-Start
+An experiment in blogging using GitHub in a browser only.
