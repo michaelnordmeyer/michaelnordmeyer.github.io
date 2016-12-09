@@ -7,10 +7,10 @@ gems:
 theme: minima
 title: Site Title
 description: GitHub Pages test. Publishing without any apps or servers.
-author: Michael Nordmeyer
+author: GH Pages Tester
 email: plonk@example.com
-twitter_username: mnordmeyer
-github_username: michaelnordmeyer
+twitter_username: twitter
+github_username: github
 
 twitter:
   username: mnordmeyer
