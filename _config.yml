@@ -5,7 +5,7 @@ gems:
   - jekyll-seo-tag
 
 theme: minima
-title: Site Title
+title: Github Pages Test
 description: My GitHub Pages test. Publishing with Github.com or on iOS.
 author: Pages Tester
 email: plonk@example.com
