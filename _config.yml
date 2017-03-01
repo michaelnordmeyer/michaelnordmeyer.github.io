@@ -6,11 +6,11 @@ gems:
 
 theme: minima
 title: Site Title
-description: GitHub Pages test. Publishing without any apps or servers.
-author: GH Pages Tester
+description: My GitHub Pages test. Publishing with Github.com or on iOS.
+author: Pages Tester
 email: plonk@example.com
-twitter_username: twitter
-github_username: github
+twitter_username: mnordmeyer
+github_username: mnordmeyer
 
 twitter:
   username: mnordmeyer
@@ -22,7 +22,7 @@ defaults:
       type: posts
     values:
       layout: default
-      author: Foo Bar
+      author: "Mr. Jekyll"
   -
     scope:
       path: "projects"
