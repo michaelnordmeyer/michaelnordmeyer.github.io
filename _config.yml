@@ -6,11 +6,11 @@ gems:
 
 theme: minima
 title: Github Pages Test
-description: My GitHub Pages test. Publishing with Github.com or on iOS.
-author: Pages Tester
+description: Publishing with Github.com or on iOS.
+author: Mr. Tester
 email: plonk@example.com
 twitter_username: mnordmeyer
-github_username: mnordmeyer
+github_username: michaelnordmeyer
 
 twitter:
   username: mnordmeyer
