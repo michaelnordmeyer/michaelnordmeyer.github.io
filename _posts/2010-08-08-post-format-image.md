@@ -9,7 +9,7 @@ tags:
   - image
   - Post Formats
 ---
-<dl id="attachment_612" class="caption aligncenter" style="width:650px;">
+<dl class="caption aligncenter" style="width:650px;">
   <dt class="caption-dt">
   </dt>
 </dl>

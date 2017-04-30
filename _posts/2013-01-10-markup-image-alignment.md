@@ -40,11 +40,11 @@ And now we’re going to shift things to the _**right align**_. Again, there sho
 
 In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah… Just like that. It never felt so good to be right.
 
-And just when you thought we were done, we’re going to do them all over again with captions!<figure id="attachment_906" style="width: 580px" class="caption aligncenter">
+And just when you thought we were done, we’re going to do them all over again with captions!<figure style="width: 580px" class="caption aligncenter">
 
 <img class="size-full" title="Image Alignment 580x300" alt="Image Alignment 580x300" src="http://michaelnordmeyer.github.io/images/2013/03/image-alignment-580x300.jpg" width="580" height="300" /><figcaption class="caption-text">Look at 580&#215;300 getting some [caption](http://en.support.wordpress.com/images/image-settings/ "Image Settings") love.</figcaption></figure> 
 
-The image above happens to be _**centered**_. The caption also has a link in it, just to see if it does anything funky.<figure id="attachment_904" style="width: 150px" class="caption alignleft">
+The image above happens to be _**centered**_. The caption also has a link in it, just to see if it does anything funky.<figure style="width: 150px" class="caption alignleft">
 
 <img class="size-full" title="Image Alignment 150x150" alt="Image Alignment 150x150" src="http://michaelnordmeyer.github.io/images/2013/03/image-alignment-150x150.jpg" width="150" height="150" /><figcaption class="caption-text">Itty-bitty caption.</figcaption></figure> 
 
@@ -52,11 +52,11 @@ The image above happens to be _**centered**_. The caption also has a link in it
 
 As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thang. Mission accomplished!
 
-And now for a _**massively large image**_. It also has _**no alignment**_.<figure id="attachment_907" style="width: 1200px" class="caption alignnone">
+And now for a _**massively large image**_. It also has _**no alignment**_.<figure style="width: 1200px" class="caption alignnone">
 
 <img title="Image Alignment 1200x400" alt="Image Alignment 1200x400" src="http://michaelnordmeyer.github.io/images/2013/03/image-alignment-1200x4002.jpg" width="1200" height="400" /><figcaption class="caption-text">Massive image comment for your eyeballs.</figcaption></figure> 
 
-The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.<figure id="attachment_905" style="width: 300px" class="caption alignright">
+The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.<figure style="width: 300px" class="caption alignright">
 
 <img class="size-full" title="Image Alignment 300x200" alt="Image Alignment 300x200" src="http://michaelnordmeyer.github.io/images/2013/03/image-alignment-300x200.jpg" width="300" height="200" /><figcaption class="caption-text">Feels good to be right all the time.</figcaption></figure> 
 

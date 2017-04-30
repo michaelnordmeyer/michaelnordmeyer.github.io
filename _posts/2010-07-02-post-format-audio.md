@@ -22,6 +22,6 @@ Link:
 
 Audio shortcode:
 
-<audio class="audio-shortcode" id="audio-587-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="http://michaelnordmeyer.github.io/images/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3?_=1" />
+<audio class="audio-shortcode" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="http://michaelnordmeyer.github.io/images/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3?_=1" />
 
 <http://michaelnordmeyer.github.io/images/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3></audio>
