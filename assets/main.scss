@@ -11,13 +11,13 @@
 /* >= 440px (440/16) */
 @media screen and (min-width: 27.5em) {
   .footer-col-1 { width: calc(25% - (30px / 2)); }
-  .footer-col-2 { width: calc(25% - (30px / 2)); }
+  .footer-col-2 { width: calc(30% - (30px / 2)); }
   .footer-col-3 { width: calc(100% - (30px / 2)); }
 }
 
-/* >= 440px (670/16) */
+/* >= 670px (670/16) */
 @media screen and (min-width: 41.875em) {
   .footer-col-1 { width: calc(25% - (30px / 2)); }
-  .footer-col-2 { width: calc(30% - (30px / 2)); }
+  .footer-col-2 { width: calc(25% - (30px / 2)); }
   .footer-col-3 { width: calc(50% - (30px / 2)); }
 }
