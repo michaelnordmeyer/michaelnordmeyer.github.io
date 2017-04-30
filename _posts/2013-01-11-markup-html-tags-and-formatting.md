@@ -113,17 +113,16 @@ Multi line blockquote with a cite reference:
 
 ## Definition Lists
 
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I’ll let Bill O’Reilly will [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+<dl>
+ 	<dt>Definition List Title</dt>
+ 	<dd>Definition list division.</dd>
+ 	<dt>Startup</dt>
+ 	<dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+ 	<dt>#dowork</dt>
+ 	<dd>Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.</dd>
+ 	<dt>Do It Live</dt>
+ 	<dd>I'll let Bill O'Reilly will [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.</dd>
+</dl>
 
 ## Unordered Lists (Nested)
 
@@ -159,6 +158,10 @@ Do It Live
 
 These supported tags come from the WordPress.com code [FAQ](http://en.support.wordpress.com/code/ "Code").
 
+**Abbreviation Tag**
+
+The abbreviation <abbr>srsly</abbr> stands for “seriously”.
+
 **Address Tag**
 
 <address>
@@ -170,10 +173,6 @@ These supported tags come from the WordPress.com code [FAQ](http://en.support.wo
 **Anchor Tag (aka. Link)**
 
 This is an example of a [link](http://apple.com "Apple").
-
-**Abbreviation Tag**
-
-The abbreviation srsly stands for “seriously”.
 
 **Cite Tag**
 
