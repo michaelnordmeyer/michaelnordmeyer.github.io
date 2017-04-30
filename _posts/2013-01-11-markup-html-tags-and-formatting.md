@@ -230,3 +230,15 @@ Still sticking with science and Isaac Newton&#8217;s E = MC<sup>2</sup>, which s
 **Variable Tag**
 
 This allows you to denote <var>variables</var>.
+
+**Jekyll Code Highlighting**
+
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
