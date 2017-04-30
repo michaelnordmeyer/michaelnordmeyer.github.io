@@ -6,7 +6,6 @@ layout: post
 permalink: /template-excerpt-defined
 categories:
   - Template
-  - Uncategorized
 tags:
   - content
   - excerpt
