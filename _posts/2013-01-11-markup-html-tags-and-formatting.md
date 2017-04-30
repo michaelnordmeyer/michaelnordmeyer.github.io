@@ -162,7 +162,9 @@ These supported tags come from the WordPress.com code [FAQ](http://en.support.wo
 **Address Tag**
 
 <address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+  1 Infinite Loop<br>
+  Cupertino, CA 95014<br>
+  United States
 </address>
 
 **Anchor Tag (aka. Link)**
@@ -172,14 +174,6 @@ This is an example of a [link](http://apple.com "Apple").
 **Abbreviation Tag**
 
 The abbreviation srsly stands for &#8220;seriously&#8221;.
-
-**Acronym Tag (_deprecated in HTML5_)**
-
-The acronym <acronym title="For The Win">ftw</acronym> stands for &#8220;for the win&#8221;.
-
-**Big Tag **(_deprecated in HTML5_)****
-
-These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.
 
 **Cite Tag**
 
@@ -221,13 +215,9 @@ This tag styles large blocks of code.
 
 <q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
 
-**Strike Tag **(_deprecated in HTML5_)****
-
-This tag shows <span style="text-decoration:line-through;">strike-through text</span>
-
 **Strong Tag**
 
-This tag shows **bold **text.****
+This tag shows **bold text.**
 
 **Subscript Tag**
 
@@ -236,10 +226,6 @@ Getting our science styling on with H<sub>2</sub>O, which should push the &#8220
 **Superscript Tag**
 
 Still sticking with science and Isaac Newton&#8217;s E = MC<sup>2</sup>, which should lift the 2 up.
-
-**Teletype Tag **(_deprecated in HTML5_)****
-
-This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the `<code>` tag.
 
 **Variable Tag**
 
