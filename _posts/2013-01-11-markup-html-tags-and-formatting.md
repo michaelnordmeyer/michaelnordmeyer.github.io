@@ -215,6 +215,10 @@ This tag styles large blocks of code.
 
 <q>Developers, developers, developers…</q> —Steve Ballmer
 
+**Quote and Cite Tags**
+
+<q>Developers, developers, developers…</q> —<cite>Steve Ballmer</cite>
+
 **Strong Tag**
 
 This tag shows **bold text.**
