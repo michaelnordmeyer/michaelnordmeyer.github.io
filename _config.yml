@@ -21,8 +21,8 @@ twitter:
   username: mnordmeyer
 
 piwik:
-    url: "https://stats.michaelnordmeyer.com/"
-    site_id: 2
+  url: "https://stats.michaelnordmeyer.com/"
+  site_id: 2
 
 defaults:
   -
