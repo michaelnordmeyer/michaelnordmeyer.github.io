@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-permalink: lorem-ipsum
+permalink: /lorem-ipsum
 date: 2007-09-04T09:52:50+00:00
 layout: page
 ---
