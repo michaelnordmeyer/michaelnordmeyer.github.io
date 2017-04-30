@@ -185,7 +185,7 @@ You will learn later on in these tests that `word-wrap: break-word;` will be you
 
 **Delete Tag**
 
-This tag will let you <del>strikeout text</del>, but this tag is no longer supported in HTML5 (use the `<strike>` instead).
+This tag will let you <del>strikeout text</del>.
 
 **Emphasize Tag**
 
