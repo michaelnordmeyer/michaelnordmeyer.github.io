@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+/* Custom CSS based on Minima */
 .footer-col-1 { width: calc(25% - (30px / 2)); }
 .footer-col-2 { width: calc(25% - (30px / 2)); }
 .footer-col-3 { width: calc(50% - (30px / 2)); }
