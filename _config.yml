@@ -22,7 +22,6 @@ defaults:
       type: posts # posts, pages, drafts
     values:
       layout: default
-      author: "Mr. Jekyll"
   -
     scope:
       path: "projects"
