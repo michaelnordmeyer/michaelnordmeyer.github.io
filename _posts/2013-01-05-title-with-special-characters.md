@@ -26,7 +26,7 @@ This is a test to see if the fonts used in this theme support basic Latin charac
     </td>
     
     <td>
-      &#8220;
+      “
     </td>
     
     <td>
@@ -46,7 +46,7 @@ This is a test to see if the fonts used in this theme support basic Latin charac
     </td>
     
     <td>
-      &#8216;
+      ‘
     </td>
     
     <td>
@@ -72,7 +72,7 @@ This is a test to see if the fonts used in this theme support basic Latin charac
     </td>
     
     <td>
-      &#8211;
+      –
     </td>
     
     <td>

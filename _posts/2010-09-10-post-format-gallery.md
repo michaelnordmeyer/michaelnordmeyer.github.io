@@ -113,7 +113,7 @@ tags:
 
 <!--nextpage-->
 
-You can use this page to test the Theme&#8217;s handling of the
+You can use this page to test the Theme’s handling of the
 
 <div id='gallery-3' class='gallery galleryid-555 gallery-columns-3 gallery-size-thumbnail'>
   <figure class='gallery-item'> 

@@ -12,7 +12,7 @@ tags:
   - shortcode
   - tiled
 ---
-This is a test for Jetpack&#8217;s Tiled Gallery.
+This is a test for Jetpack’s Tiled Gallery.
 
 Install <a title="Jetpack for WordPress" href="http://wordpress.org/plugins/jetpack/" target="_blank">Jetpack</a> to test.
 

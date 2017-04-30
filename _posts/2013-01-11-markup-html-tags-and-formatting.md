@@ -34,9 +34,9 @@ Single line blockquote:
 
 Multi line blockquote with a cite reference:
 
-> People think focus means saying yes to the thing you&#8217;ve got to focus on. But that&#8217;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I&#8217;m actually as proud of the things we haven&#8217;t done as the things I have done. Innovation is saying no to 1,000 things. 
+> People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things. 
 
-<cite>Steve Jobs</cite> &#8211; Apple Worldwide Developers&#8217; Conference, 1997
+<cite>Steve Jobs</cite> – Apple Worldwide Developers’ Conference, 1997
 
 ## Tables
 
@@ -64,7 +64,7 @@ Multi line blockquote with a cite reference:
     </td>
     
     <td>
-      Because that&#8217;s all Steve Jobs needed for a salary.
+      Because that’s all Steve Jobs needed for a salary.
     </td>
   </tr>
   
@@ -106,7 +106,7 @@ Multi line blockquote with a cite reference:
     </td>
     
     <td>
-      With hair like that?! Enough said&#8230;
+      With hair like that?! Enough said…
     </td>
   </tr>
 </table>
@@ -120,10 +120,10 @@ Startup
 :   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
 
 #dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher &#8220;Big Black&#8221; Boykins, &#8220;Do Work&#8221; works as a self motivator, to motivating your friends.
+:   Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.
 
 Do It Live
-:   I&#8217;ll let Bill O&#8217;Reilly will [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+:   I’ll let Bill O’Reilly will [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
 
 ## Unordered Lists (Nested)
 
@@ -173,11 +173,11 @@ This is an example of a [link](http://apple.com "Apple").
 
 **Abbreviation Tag**
 
-The abbreviation srsly stands for &#8220;seriously&#8221;.
+The abbreviation srsly stands for “seriously”.
 
 **Cite Tag**
 
-&#8220;Code is poetry.&#8221; &#8212;<cite>Automattic</cite>
+“Code is poetry.” —<cite>Automattic</cite>
 
 **Code Tag**
 
@@ -213,7 +213,7 @@ This tag styles large blocks of code.
 
 **Quote Tag**
 
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+<q>Developers, developers, developers…</q> –Steve Ballmer
 
 **Strong Tag**
 
@@ -221,11 +221,11 @@ This tag shows **bold text.**
 
 **Subscript Tag**
 
-Getting our science styling on with H<sub>2</sub>O, which should push the &#8220;2&#8221; down.
+Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.
 
 **Superscript Tag**
 
-Still sticking with science and Isaac Newton&#8217;s E = MC<sup>2</sup>, which should lift the 2 up.
+Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.
 
 **Variable Tag**
 
