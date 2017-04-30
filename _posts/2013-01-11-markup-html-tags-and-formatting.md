@@ -233,7 +233,7 @@ This allows you to denote <var>variables</var>.
 
 **Jekyll Code Highlighting**
 
-{% highlight ruby %}
+```ruby
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -241,4 +241,4 @@ def show
     format.json { render json: @widget }
   end
 end
-{% endhighlight %}
+```
