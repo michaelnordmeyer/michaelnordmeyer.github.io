@@ -6,7 +6,6 @@ permalink: /template-featured-image-horizontal
 image: /images/2013/03/featured-image-horizontal.jpg
 categories:
   - Template
-  - Uncategorized
 tags:
   - Codex
   - edge case
