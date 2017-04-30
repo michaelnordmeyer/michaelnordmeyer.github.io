@@ -1,6 +1,6 @@
 ---
 title: Sample Page 👍
-permalink: sample-page
+permalink: /sample-page
 date: 2017-04-29T23:04:32+00:00
 layout: page
 ---
