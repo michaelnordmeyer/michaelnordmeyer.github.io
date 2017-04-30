@@ -22,6 +22,7 @@ defaults:
       type: posts # posts, pages, drafts
     values:
       layout: default
+      author: Michael Nordmeyer
   -
     scope:
       path: "projects"
