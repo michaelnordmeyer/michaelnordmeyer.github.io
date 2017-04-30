@@ -8,4 +8,4 @@ categories:
 tags:
   - Post Formats
 ---
-http://www.youtube.com/watch?v=SQEQr7c0-dw
+<iframe src="https://www.youtube-nocookie.com/embed/SQEQr7c0-dw" width="660" height="364" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
