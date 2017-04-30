@@ -213,7 +213,7 @@ This tag styles large blocks of code.
 
 **Quote Tag**
 
-<q>Developers, developers, developers…</q> –Steve Ballmer
+<q>Developers, developers, developers…</q> —Steve Ballmer
 
 **Strong Tag**
 
