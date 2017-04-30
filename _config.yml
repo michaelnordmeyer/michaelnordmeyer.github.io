@@ -11,13 +11,18 @@ minima:
 
 title: Michael Nordmeyer
 description: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place."
+
 author: Michael Nordmeyer
-email: plonk@example.com
+#email: plonk@example.com
 twitter_username: mnordmeyer
 github_username: michaelnordmeyer
 
 twitter:
   username: mnordmeyer
+
+piwik:
+    url: "https://stats.michaelnordmeyer.com/"
+    site_id: 2
 
 defaults:
   -
