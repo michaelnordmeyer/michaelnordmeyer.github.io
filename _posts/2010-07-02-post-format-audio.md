@@ -22,5 +22,5 @@ Link:
 
 Audio embed:
 
-<audio preload="metadata" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="http://michaelnordmeyer.github.io/images/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3?_=1" />
-originaldixielandjazzbandwithalbernard-stlouisblues</audio>
+<audio preload="metadata" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="http://michaelnordmeyer.github.io/images/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3?_=1">
+Your browser does not support the audio element.</audio>
