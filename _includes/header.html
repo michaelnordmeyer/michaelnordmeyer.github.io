@@ -26,7 +26,7 @@ Redirect
          {% else %}
 {{ my_page.url | relative_url }}
          {% endif %}
-         {% if my_page.title and my_page.title != "Not found" and !my_page.title.start_with?("Redirect") %}
+         {% if my_page.title and my_page.title != "Not found" %}
          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
          {% endif %}
        {% endfor %}
