@@ -3,6 +3,7 @@
   <head>
 
     <meta name="robots" content="noindex,follow">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect.to | absolute_url }}">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,8 +32,8 @@
 
           <div class="post-content">
             <a href="{{ page.redirect.to }}">Click here if you are not being redirected.</a>
-        		<img src="{{ site.piwik.url }}p.php?idsite={{ site.piwik.site_id }}&amp;rec=1&amp;url={{ page.url | replace:'index.html','' | absolute_url }}&amp;action_name={{ page.title | uri_escape }}&amp;urlref=javascript:document.referrer" style="border:0;width:0;height:0" width="0" height="0" alt="">;
-            <script>location="{{ page.redirect.to }}"</script>
+        		<img src="{{ site.piwik.url }}p.php?idsite={{ site.piwik.site_id }}&amp;rec=1&amp;url={{ page.url | replace:'index.html','' | absolute_url }}&amp;action_name={{ page.title | uri_escape }}" style="border:0;width:0;height:0" width="0" height="0" alt="">;
+            <script>location="{{ page.redirect.to | absolute_url }}"</script>
           </div>
 
         </article>
