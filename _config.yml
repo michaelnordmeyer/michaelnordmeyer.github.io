@@ -17,8 +17,27 @@ author: Michael Nordmeyer
 twitter_username: mnordmeyer
 github_username: michaelnordmeyer
 
+lang: en_US
+
+# jekyll-seo-tag
 twitter:
   username: mnordmeyer
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+logo: /assets/your-company-logo.png
+social:
+  name: Michael Nordmeyer
+  links:
+    - https://twitter.com/mnordmeyer
+    - https://www.facebook.com/michaelnordmeyer
+    - https://www.linkedin.com/in/michaelnordmeyer
+    - https://github.com/michaelnordmeyer
+#    - https://www.xing.com/profile/Michael_Nordmeyer
+#    - https://plus.google.com/+BenBalter
+#    - https://keybase.io/michaelnordmeyer
+
 
 piwik:
   url: "https://stats.michaelnordmeyer.com/"
