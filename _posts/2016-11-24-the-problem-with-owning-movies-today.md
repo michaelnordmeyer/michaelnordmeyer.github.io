@@ -28,4 +28,4 @@ So I’m back to square one. Wondering if I should buy those movies.
 
 ###### Update
 
-I bought the Indiana Jones collection. ¯\(ツ)/¯
+I bought the Indiana Jones collection. ¯\\(ツ)/¯
