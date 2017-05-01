@@ -3,7 +3,7 @@ title: 'Template: Featured Image (Vertical)'
 date: 2012-03-15T15:36:32+00:00
 layout: post
 permalink: /template-featured-image-vertical
-image: /images/2013/03/featured-image-vertical.jpg
+image: /images/test/03/featured-image-vertical.jpg
 categories:
   - Template
 tags:

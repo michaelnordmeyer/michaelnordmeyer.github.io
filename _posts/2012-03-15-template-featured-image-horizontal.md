@@ -3,7 +3,7 @@ title: 'Template: Featured Image (Horizontal)'
 date: 2012-03-15T15:15:12+00:00
 layout: post
 permalink: /template-featured-image-horizontal
-image: /images/2013/03/featured-image-horizontal.jpg
+image: /images/test/03/featured-image-horizontal.jpg
 categories:
   - Template
 tags:
