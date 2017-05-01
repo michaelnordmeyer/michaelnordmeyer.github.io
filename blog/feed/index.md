@@ -1,4 +1,4 @@
 ---
-title: /blog/feed/
+title: Redirect old blog root feed
 redirect_to: /feed
 ---

@@ -1,4 +1,4 @@
 ---
-title: /feed/
-redirect_to: /
+title: Redirect old feed
+redirect_to: /feed
 ---
