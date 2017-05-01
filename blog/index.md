@@ -1,3 +1,3 @@
 ---
-redirect-to: /
+redirect_to: /
 ---

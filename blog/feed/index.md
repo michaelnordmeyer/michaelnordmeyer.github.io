@@ -1,3 +1,3 @@
 ---
-redirect-to: /feed
+redirect_to: /feed
 ---
