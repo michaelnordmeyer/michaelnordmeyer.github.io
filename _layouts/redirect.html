@@ -9,6 +9,7 @@ layout: default
 
       <div class="post-content">
         <a href="{{ page.redirect.to }}">Click here if you are not being redirected.</a>
+    		<img src="{{ piwik.url }}p.php?idsite={{ piwik.site_id }}&amp;rec=1&amp;url={{ page.url }}&amp;action_name={{ page.title }}&amp;urlref=redirect" style="border:0;width:0;height:0" width="0" height="0" alt="">;
         <script>location="{{ page.redirect.to }}"</script>
       </div>
 
