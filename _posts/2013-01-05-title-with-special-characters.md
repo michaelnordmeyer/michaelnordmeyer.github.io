@@ -6,6 +6,7 @@ permalink: /title-with-special-characters
 categories:
   - Markup
 tags:
+  - test
   - html
   - markup
   - post

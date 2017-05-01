@@ -6,6 +6,7 @@ permalink: /post-format-gallery-tiled
 categories:
   - Post Formats
 tags:
+  - test
   - gallery
   - jetpack
   - Post Formats

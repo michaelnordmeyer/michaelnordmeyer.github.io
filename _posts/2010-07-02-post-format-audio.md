@@ -12,6 +12,7 @@ enclosure:
 categories:
   - Post Formats
 tags:
+  - test
   - audio
   - Post Formats
   - shortcode

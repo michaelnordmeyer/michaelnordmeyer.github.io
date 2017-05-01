@@ -6,6 +6,7 @@ permalink: /markup-text-alignment
 categories:
   - Markup
 tags:
+  - test
   - alignment
   - content
   - css

@@ -7,6 +7,7 @@ image: /images/test/07/img_8399.jpg
 categories:
   - Post Formats
 tags:
+  - test
   - gallery
   - Post Formats
   - shortcode

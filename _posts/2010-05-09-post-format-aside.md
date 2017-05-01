@@ -6,6 +6,7 @@ permalink: /post-format-aside
 categories:
   - Post Formats
 tags:
+  - test
   - aside
   - Post Formats
 ---

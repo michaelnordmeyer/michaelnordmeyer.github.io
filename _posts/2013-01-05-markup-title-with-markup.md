@@ -6,6 +6,7 @@ permalink: /markup-title-with-markup
 categories:
   - Markup
 tags:
+  - test
   - css
   - html
   - title

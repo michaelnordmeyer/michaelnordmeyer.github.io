@@ -6,6 +6,7 @@ permalink: /post-format-quote
 categories:
   - Post Formats
 tags:
+  - test
   - Post Formats
   - quote
 ---

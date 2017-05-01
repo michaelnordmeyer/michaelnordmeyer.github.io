@@ -7,6 +7,7 @@ image: /images/test/03/soworthloving-wallpaper.jpg
 categories:
   - Markup
 tags:
+  - test
   - alignment
   - captions
   - content

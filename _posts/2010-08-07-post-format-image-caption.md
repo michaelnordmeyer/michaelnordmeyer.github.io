@@ -7,6 +7,7 @@ image: /images/test/04/triforce-wallpaper.jpg
 categories:
   - Post Formats
 tags:
+  - test
   - image
   - Post Formats
   - shortcode

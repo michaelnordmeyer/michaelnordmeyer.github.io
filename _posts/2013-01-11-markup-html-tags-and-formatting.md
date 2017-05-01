@@ -9,6 +9,7 @@ redirect_from:
 categories:
   - Markup
 tags:
+  - test
   - content
   - css
   - formatting

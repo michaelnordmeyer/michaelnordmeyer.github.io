@@ -12,6 +12,7 @@ minima:
 
 title: Michael Nordmeyer
 description: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place."
+#description: 'Agile Project Management & Development'
 
 author: Michael Nordmeyer
 #email: plonk@example.com

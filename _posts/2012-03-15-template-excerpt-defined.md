@@ -7,6 +7,7 @@ permalink: /template-excerpt-defined
 categories:
   - Template
 tags:
+  - test
   - content
   - excerpt
   - template

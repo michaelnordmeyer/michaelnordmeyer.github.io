@@ -7,6 +7,7 @@ image: /images/test/03/featured-image-horizontal.jpg
 categories:
   - Template
 tags:
+  - test
   - Codex
   - edge case
   - featured image

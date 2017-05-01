@@ -6,6 +6,7 @@ permalink: /post-format-standard
 categories:
   - Post Formats
 tags:
+  - test
   - Post Formats
   - readability
   - standard

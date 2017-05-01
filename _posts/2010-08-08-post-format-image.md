@@ -6,6 +6,7 @@ permalink: /post-format-image
 categories:
   - Post Formats
 tags:
+  - test
   - image
   - Post Formats
 ---
