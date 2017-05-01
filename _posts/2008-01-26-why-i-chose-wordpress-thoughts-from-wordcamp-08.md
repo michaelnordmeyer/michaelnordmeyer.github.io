@@ -1,5 +1,5 @@
 ---
-title: Why I Chose WordPress — Thoughts from WordCamp 08
+title: Why I Chose WordPress - Thoughts from WordCamp 08
 date: 2008-01-26T16:23:31+00:00
 excerpt: "WordPress trumps other blog software. Here's why, in a nutshell."
 layout: post
