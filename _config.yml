@@ -18,6 +18,8 @@ twitter_username: mnordmeyer
 github_username: michaelnordmeyer
 
 lang: en_US
+feed:
+  path: /feed
 
 # jekyll-seo-tag
 twitter:
