@@ -160,7 +160,7 @@ These supported tags come from the WordPress.com code [FAQ](http://en.support.wo
 
 **Abbreviation Tag**
 
-The abbreviation <abbr>srsly</abbr> stands for “seriously”.
+The abbreviation <abbr>srsly</abbr> stands for “seriously” "seriously".
 
 **Address Tag**
 
