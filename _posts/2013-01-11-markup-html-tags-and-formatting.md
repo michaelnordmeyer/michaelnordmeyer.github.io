@@ -3,6 +3,9 @@ title: 'Markup: HTML Tags and Formatting'
 date: 2013-01-11T20:22:19+00:00
 layout: post
 permalink: /markup-html-tags-and-formatting
+redirect_from:
+  - /markup-html-tags-and-formatting/
+  - /blog/markup-html-tags-and-formatting/
 categories:
   - Markup
 tags:
