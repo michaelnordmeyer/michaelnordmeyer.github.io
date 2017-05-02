@@ -10,6 +10,6 @@ tags:
   - Entrepreneurship
   - Quote
 ---
-> Entrepreneurs want to do, not to be.
+<q>Entrepreneurs want to do, not to be.</q>
 
 — <cite>Ola Ahlvarsson</cite>

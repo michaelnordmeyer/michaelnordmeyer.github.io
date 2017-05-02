@@ -12,7 +12,7 @@ Sometimes I wonder if I sport a behaviour called digital hoarding.
 
 <q>Digital hoarding (also known as e-hoarding) is excessive acquisition and reluctance to delete electronic material no longer valuable to the user.</q>
 
-—<cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_hoarding)</cite>
+— <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_hoarding)</cite>
 
 I'm not obsessive but I keep things I want to consume or work on around for way too long. If I remove one item, two items get added. The pile is constantly growing. And it drowns my energy.
 

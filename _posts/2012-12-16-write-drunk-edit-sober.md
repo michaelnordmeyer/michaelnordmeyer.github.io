@@ -9,6 +9,6 @@ categories:
 tags:
   - Quote
 ---
-> Write drunk; edit sober.
+<q>Write drunk; edit sober.</q>
 
 — <cite>Ernest Hemingway</cite>

@@ -9,6 +9,6 @@ categories:
 tags:
   - Quote
 ---
-> Do not read beauty magazines. They will only make you feel ugly.
+<q>Do not read beauty magazines. They will only make you feel ugly.</q>
 
 — <cite>Mary Schmich</cite>

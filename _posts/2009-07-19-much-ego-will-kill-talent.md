@@ -9,6 +9,6 @@ categories:
 tags:
   - Quote
 ---
-> Too much ego will kill your talent
+<q>Too much ego will kill your talent</q>
 
 — <cite>Unknown</cite>

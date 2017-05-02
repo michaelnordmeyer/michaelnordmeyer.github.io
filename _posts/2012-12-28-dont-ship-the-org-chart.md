@@ -9,6 +9,6 @@ categories:
 tags:
   - Quote
 ---
-> Don’t ship the org chart.
+<q>Don’t ship the org chart.</q>
 
 — <cite>Unknown</cite>
