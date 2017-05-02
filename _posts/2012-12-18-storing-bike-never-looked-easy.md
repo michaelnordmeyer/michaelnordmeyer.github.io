@@ -10,17 +10,17 @@ categories:
 <div id='gallery-3' class='gallery galleryid-6544 gallery-columns-3 gallery-size-thumbnail'>
   <figure class='gallery-item'>   
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2012/12/Tian-Front.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2012/12/Tian-Front-200x200.jpg" alt=""></a>
+      <a href='https://michaelnordmeyer.github.io/images/2012/12/Tian-Front.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2012/12/Tian-Front-200x200.jpg" alt=""></a>
     </div>
   </figure>
   <figure class='gallery-item'> 
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2012/12/Tian-Side.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2012/12/Tian-Side-200x200.jpg" alt=""></a>
+      <a href='https://michaelnordmeyer.github.io/images/2012/12/Tian-Side.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2012/12/Tian-Side-200x200.jpg" alt=""></a>
     </div>
   </figure>
   <figure class='gallery-item'> 
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2012/12/Tian-Drawer.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2012/12/Tian-Drawer-200x200.jpg" alt=""></a>
+      <a href='https://michaelnordmeyer.github.io/images/2012/12/Tian-Drawer.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2012/12/Tian-Drawer-200x200.jpg" alt=""></a>
     </div>
   </figure>
 </div>

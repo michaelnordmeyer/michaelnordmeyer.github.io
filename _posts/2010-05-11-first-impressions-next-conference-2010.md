@@ -40,92 +40,92 @@ Here are some photos of the next10 event:
 <div id='gallery-1' class='gallery galleryid-605 gallery-columns-3 gallery-size-thumbnail'>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0223.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0223-200x200.jpg" alt="Lunch"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0223.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0223-200x200.jpg" alt="Lunch"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0224.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0224-200x200.jpg" alt="Queueing for Lunch"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0224.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0224-200x200.jpg" alt="Queueing for Lunch"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0227.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0227-200x200.jpg" alt="Lounges at NEXT conference"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0227.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0227-200x200.jpg" alt="Lounges at NEXT conference"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0229.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0229-200x200.jpg" alt="Dumbed-down presentations"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0229.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0229-200x200.jpg" alt="Dumbed-down presentations"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0235.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0235-200x200.jpg" alt="Peter Sunde presents Flattr"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0235.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0235-200x200.jpg" alt="Peter Sunde presents Flattr"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0239.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0239-200x200.jpg" alt="A notebook space"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0239.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0239-200x200.jpg" alt="A notebook space"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0240.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0240-200x200.jpg" alt="Networking"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0240.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0240-200x200.jpg" alt="Networking"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0244.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0244-200x200.jpg" alt="Busy note taking to Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0244.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0244-200x200.jpg" alt="Busy note taking to Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0250.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0250-200x200.jpg" alt="Smartphone distraction"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0250.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0250-200x200.jpg" alt="Smartphone distraction"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0255.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0255-200x200.jpg" alt="next Branding"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0255.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0255-200x200.jpg" alt="next Branding"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0257.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0257-200x200.jpg" alt="Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0257.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0257-200x200.jpg" alt="Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0261.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0261-200x200.jpg" alt="The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab even his employees."></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0261.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0261-200x200.jpg" alt="The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab even his employees."></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0260.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0260-200x200.jpg" alt="A crowded WePad booth"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0260.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0260-200x200.jpg" alt="A crowded WePad booth"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0258.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0258-200x200.jpg" alt="Brian Solis"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0258.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0258-200x200.jpg" alt="Brian Solis"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0259.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0259-200x200.jpg" alt="A panel"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0259.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0259-200x200.jpg" alt="A panel"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0262.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0262-200x200.jpg" alt="Stefana Broadbent of University College London"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0262.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0262-200x200.jpg" alt="Stefana Broadbent of University College London"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0264.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0264-200x200.jpg" alt="Stefana Broadbent and Stowe Boyd are moderated by Ola Ahlvarsson"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0264.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0264-200x200.jpg" alt="Stefana Broadbent and Stowe Boyd are moderated by Ola Ahlvarsson"></a>
     </div>
   </figure>
   <figure class='gallery-item'>
     <div class='gallery-icon landscape'>
-      <a href='https://michaelnordmeyer.com/images/2010/05/IMG_0266.jpg'><img width="200" height="200" src="https://michaelnordmeyer.com/images/2010/05/IMG_0266-200x200.jpg" alt="Jemima Gibbons about Social Leadership"></a>
+      <a href='https://michaelnordmeyer.github.io/images/2010/05/IMG_0266.jpg'><img width="200" height="200" src="https://michaelnordmeyer.github.io/images/2010/05/IMG_0266-200x200.jpg" alt="Jemima Gibbons about Social Leadership"></a>
     </div>
   </figure>
 </div>
