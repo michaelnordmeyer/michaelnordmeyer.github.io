@@ -15,7 +15,6 @@ I strongly prefer agile and lean methodologies and use Scrum and Kanban in my pr
 ## Where
 
 *   [On Twitter](https://twitter.com/mnordmeyer)
-*   [On Facebook](https://www.facebook.com/michaelnordmeyer)
 *   [On LinkedIn](https://www.linkedin.com/in/michaelnordmeyer)
 *   [On XING](https://www.xing.com/profile/Michael_Nordmeyer)
 *   [On GitHub](https://github.com/michaelnordmeyer)
