@@ -6,18 +6,7 @@
 
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li>
-              {% if site.author %}
-                {{ site.author | escape }}
-              {% else %}
-                {{ site.title | escape }}
-              {% endif %}
-            </li>
-              {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {% endif %}
-          </ul>
+          <iframe src="https://duckduckgo.com/search.html?width=200&site=michaelnordmeyer.github.io&prefill=Search" style="overflow:hidden;margin:0;padding:0;width:258px;height:40px;" frameborder="0"></iframe>
         </div>
 
         <div class="footer-col footer-col-2">
@@ -37,6 +26,7 @@
         </div>
 
         <div class="footer-col footer-col-3">
+          <p>{% if site.author %}{{ site.author | escape }}{% else %}{{ site.title | escape }}{% endif %}</p>
           <p>{{ site.description | escape }}</p>
         </div>
       </div>
