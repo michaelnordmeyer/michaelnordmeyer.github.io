@@ -11,13 +11,14 @@ minima:
   date_format: "%Y-%m-%d"
 
 title: Michael Nordmeyer
-description: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place."
+description: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker (sencha)."
 #description: 'Agile Project Management & Development'
 
 author: Michael Nordmeyer
 #email: plonk@example.com
-twitter_username: mnordmeyer
 github_username: michaelnordmeyer
+twitter_username: mnordmeyer
+linkedin_username: michaelnordmeyer
 
 lang: en
 feed:
