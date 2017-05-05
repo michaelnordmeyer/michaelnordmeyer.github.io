@@ -2,6 +2,20 @@
 layout: page
 title: About
 permalink: /about
+redirect_from:
+  - /contact/
+  - /kontakt/
+  - /profile/
+  - /profil/
+  - /imprint/
+  - /impressum/
+  - /projektanfrage/
+  - /Michael%20Nordmeyer%20-%20Profil%20anonymisiert.pdf
+  - /Michael%20Nordmeyer%20-%20Profil%20anonymisiert.doc
+  - /Michael%20Nordmeyer%20-%20Profil.pdf
+  - /Michael%20Nordmeyer%20-%20Profil.doc
+  - /Michael%20N%20-%20Profil.pdf
+  - /Michael%20N%20-%20Profil.doc
 date: 2016-12-09 16:11:00 UTC
 ---
 ## Who

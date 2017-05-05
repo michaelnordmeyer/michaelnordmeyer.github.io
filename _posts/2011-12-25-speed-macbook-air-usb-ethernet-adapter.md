@@ -5,8 +5,8 @@ excerpt: A quick benchmark of the USB Ethernet adapter.
 layout: post
 permalink: /speed-macbook-air-usb-ethernet-adapter
 redirect_from:
-  - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet
-  - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet-2
+  - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet/
+  - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet-2/
 image: /images/2011/12/usb-ethernet.jpg
 categories:
   - Apple

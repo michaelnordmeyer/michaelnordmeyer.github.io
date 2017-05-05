@@ -5,7 +5,7 @@ excerpt: "The poor man's ad blocker and tracking blocker."
 layout: post
 permalink: /javascript-blocklists-removing-ads-notifications
 redirect_from:
-  - /2013/04/javascript-blocklisten-fuer-besseres-surfen
+  - /2013/04/javascript-blocklisten-fuer-besseres-surfen/
 categories:
   - Web
 tags:
