@@ -1,6 +1,6 @@
 ---
 title: 'Template: Featured Image (Vertical)'
-date: 2012-03-15T15:36:32+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /template-featured-image-vertical
 image: /images/test/03/featured-image-vertical.jpg

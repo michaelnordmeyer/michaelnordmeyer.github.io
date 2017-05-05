@@ -1,6 +1,6 @@
 ---
 title: 'Post Format: Gallery'
-date: 2010-09-10T07:24:14+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /post-format-gallery
 image: /images/test/07/img_8399.jpg

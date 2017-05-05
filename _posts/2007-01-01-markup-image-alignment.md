@@ -1,6 +1,6 @@
 ---
 title: 'Markup: Image Alignment'
-date: 2013-01-10T20:15:40+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /markup-image-alignment
 image: /images/test/03/soworthloving-wallpaper.jpg

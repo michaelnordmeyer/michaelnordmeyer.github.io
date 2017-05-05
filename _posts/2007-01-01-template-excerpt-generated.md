@@ -1,6 +1,6 @@
 ---
 title: 'Template: Excerpt (Generated)'
-date: 2012-03-14T09:49:22+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /template-excerpt-generated
 categories:

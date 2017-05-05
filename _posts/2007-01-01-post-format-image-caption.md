@@ -1,6 +1,6 @@
 ---
 title: 'Post Format: Image (Caption)'
-date: 2010-08-07T06:00:19+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /post-format-image-caption
 image: /images/test/04/triforce-wallpaper.jpg

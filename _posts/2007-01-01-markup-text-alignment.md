@@ -1,6 +1,6 @@
 ---
 title: 'Markup: Text Alignment'
-date: 2013-01-09T09:00:39+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /markup-text-alignment
 categories:

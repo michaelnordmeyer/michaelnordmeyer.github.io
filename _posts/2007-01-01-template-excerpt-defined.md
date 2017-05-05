@@ -1,6 +1,6 @@
 ---
 title: 'Template: Excerpt (Defined)'
-date: 2012-03-15T14:38:08+00:00
+date: 2007-01-01T12:00:00+00:00
 excerpt: This is a user-defined post excerpt. It should be displayed in place of the post content in archive-index pages.
 layout: post
 permalink: /template-excerpt-defined

@@ -1,6 +1,6 @@
 ---
 title: 'Markup: Title With Special Characters'
-date: 2013-01-05T11:00:20+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /title-with-special-characters
 categories:

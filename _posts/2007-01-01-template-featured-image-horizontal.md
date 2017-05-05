@@ -1,6 +1,6 @@
 ---
 title: 'Template: Featured Image (Horizontal)'
-date: 2012-03-15T15:15:12+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /template-featured-image-horizontal
 image: /images/test/03/featured-image-horizontal.jpg

@@ -1,6 +1,6 @@
 ---
 title: 'Post Format: Image (Linked)'
-date: 2010-08-06T08:09:39+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /post-format-image-linked
 categories:

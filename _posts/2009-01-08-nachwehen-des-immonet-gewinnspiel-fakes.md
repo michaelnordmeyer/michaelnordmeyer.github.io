@@ -1,6 +1,7 @@
 ---
 title: Nachwehen des Immonet-Gewinnspiel Fakes
 date: 2009-01-08T21:00:45+00:00
+excerpt: Blogger und Marketing-Experten haben sich beim Immonet-Gewinnspiel-Fake nicht durch Kopetenz hervor getan.
 layout: post
 permalink: /nachwehen-des-immonet-gewinnspiel-fakes
 lang: de

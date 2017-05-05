@@ -1,6 +1,6 @@
 ---
 title: 'Markup: HTML Tags and Formatting'
-date: 2013-01-11T20:22:19+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /markup-html-tags-and-formatting
 categories:

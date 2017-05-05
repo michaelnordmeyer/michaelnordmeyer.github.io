@@ -1,6 +1,6 @@
 ---
 title: 'Post Format: Aside'
-date: 2010-05-09T07:51:54+00:00
+date: 2007-01-01T12:00:00+00:00
 layout: post
 permalink: /post-format-aside
 categories:
