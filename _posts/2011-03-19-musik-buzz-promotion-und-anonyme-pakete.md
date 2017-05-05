@@ -4,6 +4,7 @@ date: 2011-03-19T12:00:06+00:00
 excerpt: Ein rätselhafter Titel. Und ein rätselhaftes Paket. Das habe ich nämlich anonym bekommen. Mit Kram drin.
 layout: post
 permalink: /musik-buzz-promotion-und-anonyme-pakete
+redirect_from: /2011/03/musik-buzz-promotion-und-anonyme-pakete/
 lang: de
 categories:
   - Miscellaneous
@@ -20,10 +21,10 @@ Da frag ich doch mal Tante Google, was sie so darüber weiß und finde [Julia](h
 
 Die Musik ist gar nicht mal schlecht. Aber erzeugt diese Aktion wirklich den Buzz, den sich die Initiatoren von dieser Aktion erhoffen? Anscheinend nicht. Wer sucht schon nach Bierflasche und Stimmgabel auf Google? **Interessanter Weise kenne ich vier der Adressaten persönlich.** Komische Aktion. Die Aktion soll vielleicht viral sein, allerdings sind alle eher verschnupft.
 
-**Wer hats erfunden?** Keine Ahnung.
+**Wer hat’s erfunden?** Keine Ahnung.
   
 **Ist es viral?** Eher nicht.
   
 **Warum schreibe ich darüber?** Die Sonne scheint, ich entspanne auf dem Sofa mit dem Notebook neben mir, warum also nicht.
   
-**Werde ich morgen noch daran denken?** Nein.
+**Werde ich mich morgen noch daran erinnern?** Nein.

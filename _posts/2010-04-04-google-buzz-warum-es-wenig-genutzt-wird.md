@@ -4,8 +4,7 @@ date: 2010-04-04T12:00:49+00:00
 excerpt: Google Buzz hat wenig Nutzer und kommt nicht vom Fleck. Warum?
 layout: post
 permalink: /google-buzz-warum-es-wenig-genutzt-wird
-redirect_from:
-  - /2010/04/google-buzz-warum-es-wenig-genutzt-wird/
+redirect_from: - /2010/04/google-buzz-warum-es-wenig-genutzt-wird/
 lang: de
 categories:
   - Web

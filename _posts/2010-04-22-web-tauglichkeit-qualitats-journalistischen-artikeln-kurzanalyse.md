@@ -4,8 +4,7 @@ date: 2010-04-22T12:22:31+00:00
 excerpt: Journalistische Publikationen können oder wollen nicht verlinken, obwohl sie die Inhalte selbst nur zusammengeklaubt haben.
 layout: post
 permalink: /web-tauglichkeit-qualitats-journalistischen-artikeln-kurzanalyse
-redirect_from:
-  - /blog/2010/04/aktuelle-web-tauglichkeit-von-qualitats-journalistischen-artikeln-–-eine-kurzanalyse/
+redirect_from: - /blog/2010/04/aktuelle-web-tauglichkeit-von-qualitats-journalistischen-artikeln-–-eine-kurzanalyse/
 image: /images/2010/04/Google-Government-Requests.jpg
 lang: de
 categories:

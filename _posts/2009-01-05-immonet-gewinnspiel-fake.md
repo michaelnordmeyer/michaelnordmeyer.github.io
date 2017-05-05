@@ -4,6 +4,7 @@ date: 2009-01-05T20:00:31+00:00
 excerpt: "Ein Gewinnspiel, welches auf einer illegal kopierten Immonet-Website veranstaltet wird, versucht Links für's Affiliate-Marketing zu generieren."
 layout: post
 permalink: /immonet-gewinnspiel-fake
+redirect_from: /blog/2009/01/immonet-gewinnspiel-fak/
 lang: de
 categories:
   - Web

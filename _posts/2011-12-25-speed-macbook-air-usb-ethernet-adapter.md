@@ -7,6 +7,7 @@ permalink: /speed-macbook-air-usb-ethernet-adapter
 redirect_from:
   - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet/
   - /2011/12/geschwindigkeit-macbook-air-2011-mit-usb-ethernet-2/
+  - /speed-macbook-air-usb-ethernet-adapter/
 image: /images/2011/12/usb-ethernet.jpg
 categories:
   - Apple
