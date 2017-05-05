@@ -4,7 +4,7 @@ date: 2013-09-25T20:35:34+00:00
 excerpt: "BarCamps are awesome and here's why."
 layout: post
 permalink: /of-mice-and-men-my-first-barcamp
-redirect_from: - /2013/09/von-maeusen-und-menschen-mein-erstes-barcamp/
+redirect_from: /2013/09/von-maeusen-und-menschen-mein-erstes-barcamp/
 categories:
   - Events
 tags:

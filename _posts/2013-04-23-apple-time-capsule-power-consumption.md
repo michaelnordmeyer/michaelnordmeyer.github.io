@@ -4,7 +4,7 @@ date: 2013-04-23T09:31:52+00:00
 excerpt: I tested both the Time Capsule 802.11n 4th generation and the Time Capsule 802.11ac. Measured power consumption is for the Time Capsule 2TB model.
 layout: post
 permalink: /apple-time-capsule-power-consumption
-redirect_from: - /2013/04/stromverbrauch-apple-time-capsule-2-tb/
+redirect_from: /2013/04/stromverbrauch-apple-time-capsule-2-tb/
 categories:
   - Apple
 tags:

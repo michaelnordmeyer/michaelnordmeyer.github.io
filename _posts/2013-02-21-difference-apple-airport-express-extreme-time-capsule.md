@@ -4,7 +4,7 @@ date: 2013-02-21T12:30:51+00:00
 excerpt: "Apple's AirPort devices are the first choice for Mac users. These are the differences."
 layout: post
 permalink: /difference-apple-airport-express-extreme-time-capsule
-redirect_from: - /2013/02/unterschied-apple-airport-express-vs-airport-extreme-vs-time-capsule/
+redirect_from: /2013/02/unterschied-apple-airport-express-vs-airport-extreme-vs-time-capsule/
 categories:
   - Apple
 tags:
