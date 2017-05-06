@@ -1,5 +1,5 @@
 ---
-title: How To Disable WordPress Comments and Fully Avoid Spam
+title: How to Disable WordPress Comments and Fully Avoid Spam
 date: 2017-04-29T14:42:43+00:00
 excerpt: Comment spam on WordPress blogs can easily be avoided without the need for plugins if you configure your own servers. Just turning off comments in settings will not stop spam.
 layout: post
