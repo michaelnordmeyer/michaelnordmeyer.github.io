@@ -55,8 +55,6 @@ Here are some photos of the next10 event:
 
 ![Smartphone distraction](https://michaelnordmeyer.com/images/2010/05/IMG_0250.jpg)
 
-![next Branding](https://michaelnordmeyer.com/images/2010/05/IMG_0255.jpg)
-
 ![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](https://michaelnordmeyer.com/images/2010/05/IMG_0257.jpg)
 
 ![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab even his employees.](https://michaelnordmeyer.com/images/2010/05/IMG_0261.jpg)
