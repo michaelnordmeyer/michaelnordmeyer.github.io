@@ -11,7 +11,7 @@ tags:
   - Affiliate Marketing
   - German
 ---
-Nachdem ich noch während des <a href="http://immonet.finden-sie-hier.de/blog/gewinnspiel/" rel="nofollow">Immonet-Gewinnspiel Fakes</a> einen [entlarvenden Beitrag](https://michaelnordmeyer.com/immonet-gewinnspiel-fake) zu dem Thema verfasst hatte, scheinen mittlerweile auch andere gemerkt zu haben, dass etwas nicht stimmte.
+Nachdem ich noch während des <a href="http://immonet.finden-sie-hier.de/blog/gewinnspiel/" rel="nofollow">Immonet-Gewinnspiel Fakes</a> einen [entlarvenden Beitrag](https://michaelnordmeyer.github.io/immonet-gewinnspiel-fake) zu dem Thema verfasst hatte, scheinen mittlerweile auch andere gemerkt zu haben, dass etwas nicht stimmte.
 
 Da ich sicher gehen wollte, ob meine Vermutungen korrekt sind, habe ich bei Dr. Michael Sievers, dem Leiter Systemmanagement, und Daniel Görs, dem Leiter Corporate Communications, beide von Immonet, anfragen lassen, ob die Gewinnspiel-Aktion im Auftrag von Immonet statt findet.
 
