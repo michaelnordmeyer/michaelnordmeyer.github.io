@@ -22,6 +22,8 @@ The names of the teas are on the packaging. This will inevitably lead to a prese
   <figcaption>Different teas</figcaption>
 </figure> 
 
+## Tasting
+
 The test process is easy. You have to assign marks for four different areas:
 
   1. The dry leaves: visual and smell
@@ -34,7 +36,7 @@ The test process is easy. You have to assign marks for four different areas:
   <figcaption>Dry tea leaves: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)</figcaption>
 </figure> 
 
-You need a little bit of practice to infuse and steep four teas at the same time if you don’t have enough tea strainers. This green tea should only steep for two minutes.
+You need a little bit of practice to infuse and steep four teas at the same time if you don’t have enough tea strainers. These green teas should only steep for two minutes which makes it quite hard to do it in time.
 
 <figure>
   <img title="Infusion in the cup" src="https://michaelnordmeyer.com/images/2008/12/img_9240.jpg" alt="Infusion in the cup: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="196" srcset="https://michaelnordmeyer.com/images/2008/12/img_9240.jpg 480w, https://michaelnordmeyer.com/images/2008/12/img_9240-300x123.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
