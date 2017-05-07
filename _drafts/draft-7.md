@@ -13,4 +13,4 @@ Do’s
 
 * Turn on two-factor authentication
 
-http://www.youtube-nocookie.com/watch?v=LXZ6yUsn0v8
+https://www.youtube.com/watch?v=LXZ6yUsn0v8
