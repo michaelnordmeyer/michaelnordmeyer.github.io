@@ -25,4 +25,4 @@ I’m curios if we can manage to pull off some cool stuff.
 
 ###### Update
 
-I postet an [aftermath](https://michaelnordmeyer.github.io/google-chrome-extensions-hackathon-hamburg-aftermath).
+I postet an [aftermath](https://michaelnordmeyer.com/google-chrome-extensions-hackathon-hamburg-aftermath).

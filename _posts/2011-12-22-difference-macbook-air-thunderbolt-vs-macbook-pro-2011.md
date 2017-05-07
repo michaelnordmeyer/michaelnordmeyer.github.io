@@ -15,7 +15,7 @@ tags:
 ---
 Warum, wenn man keine CDs oder DVDs mehr benutzt, sollte man sich noch ein MacBook Pro kaufen, wenn das MacBook Air mit Thunderbolt und Core i5 und i7 Prozessoren doch ausreichend Leistung bietet und sehr sexy ist? Ein paar interessante Dinge fehlen doch, wobei ich mich hier auf die weniger offensichtlichen beschränke und offensichtliche wie dedizierte Grafikkarte oder Bluetooth 4.0 einfach mal auslasse.
 
-Ich hatte ja schon mal das [MacBook Air 2010 als 13,3″ und 11,6″ mit dem MacBook Pro verglichen](https://michaelnordmeyer.github.io/macbook-air-2010-macbook-pro-differences-omissions). Hier also der 2011er-Vergleich.
+Ich hatte ja schon mal das [MacBook Air 2010 als 13,3″ und 11,6″ mit dem MacBook Pro verglichen](https://michaelnordmeyer.com/macbook-air-2010-macbook-pro-differences-omissions). Hier also der 2011er-Vergleich.
 
 ## Unterschiede
 

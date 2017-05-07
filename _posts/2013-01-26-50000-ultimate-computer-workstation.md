@@ -9,7 +9,7 @@ categories:
 tags:
   - Computer
 ---
-<img src="https://michaelnordmeyer.github.io/images/2013/01/Emperor-200.png" alt="Emperor 200" width="400" height="566" srcset="https://michaelnordmeyer.github.io/images/2013/01/Emperor-200.png 400w, https://michaelnordmeyer.github.io/images/2013/01/Emperor-200-212x300.png 212w" sizes="(max-width: 400px) 85vw, 400px">
+<img src="https://michaelnordmeyer.com/images/2013/01/Emperor-200.png" alt="Emperor 200" width="400" height="566" srcset="https://michaelnordmeyer.com/images/2013/01/Emperor-200.png 400w, https://michaelnordmeyer.com/images/2013/01/Emperor-200-212x300.png 212w" sizes="(max-width: 400px) 85vw, 400px">
 
 A $50,000 [ultimate computer workstation](http://www.mwelab.com/) with several exclusive features such as touch screen control center, air filtering system, light therapy, electric powered leather seat, up to 3 x 27″ LED screens and a breathtaking sound.
 

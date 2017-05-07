@@ -12,7 +12,7 @@ tags:
   - iPad
   - Mac
 ---
-Das neue MacBook Air 2012 hat technisch zu den MacBook Pros (Retina) weitgehend aufgeschlossen. Mein [Vergleich des MacBook Air Thunderbolt mit den Pros aus 2011](https://michaelnordmeyer.github.io/difference-macbook-air-thunderbolt-vs-macbook-pro-2011) sieht jetzt bei weitem nicht mehr so schlecht aus.
+Das neue MacBook Air 2012 hat technisch zu den MacBook Pros (Retina) weitgehend aufgeschlossen. Mein [Vergleich des MacBook Air Thunderbolt mit den Pros aus 2011](https://michaelnordmeyer.com/difference-macbook-air-thunderbolt-vs-macbook-pro-2011) sieht jetzt bei weitem nicht mehr so schlecht aus.
 
 ## Abgestellte Unterschiede
 

@@ -10,7 +10,7 @@ tags:
   - Google
   - Privacy
 ---
-I wrote about [keeping your privacy](https://michaelnordmeyer.github.io/disable-google-account-history-keep-privacy) while using Google products a while ago. The post covered ways to reduce your data footprint with Google. To stress the importance of interest-based ads for Google I’m going to write in more detail about the collected data.
+I wrote about [keeping your privacy](https://michaelnordmeyer.com/disable-google-account-history-keep-privacy) while using Google products a while ago. The post covered ways to reduce your data footprint with Google. To stress the importance of interest-based ads for Google I’m going to write in more detail about the collected data.
 
 On [Google’s ads opt out page](https://www.google.com/settings/u/0/ads) there are some areas of information of what Google is actually storing about you:
 
