@@ -53,7 +53,7 @@ So schön aber das MacBook Air ist (klein und leicht, dabei aber leistungsfähig
 
 Abwarten und Tee trinken. Mein 2009er MacBook Pro läuft gut und ich brauche zurzeit die 8 GB RAM. Mal sehen, was die nahe Zukunft so bringt. Es stehen ja kurzfristig wieder Upgrades für die MacBook Pros an. Und MacBook Airs mit Intels Sandy Bridge Chipsatz werden auch endlich für Core i3 oder Core i5 Prozessoren sorgen: deutlich höhere Leistung bei gleichem Stromverbrauch. Ich bin gespannt.
 
-###### Update
+#### Update
 
 Ich habe jetzt auch das [2011er MacBook Air mit dem MacBook Pro verglichen](https://michaelnordmeyer.com/difference-macbook-air-thunderbolt-vs-macbook-pro-2011).
 

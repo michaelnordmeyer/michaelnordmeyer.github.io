@@ -89,6 +89,6 @@ The interesting bit is, that the MacBook Air 2011 is faster using wireless than 
 
 Because I only use wired Ethernet – if ever –, if I have to copy large amounts of data (gigabytes to terabytes), I’m very happy with the wireless speed. The slow USB Ethernet adapter is just for emergency. Who wants to use cables anyway.
 
-###### Update
+#### Update
 
 For a faster wired network connection use [Apple’s Thunderbolt Ethernet adapter](https://michaelnordmeyer.com/speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina "Apple's Thunderbolt Ethernet adapter").

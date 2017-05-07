@@ -33,7 +33,7 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 [**Die Süddeutsche**](http://www.sueddeutsche.de/digital/google-statistik-zu-behoerdeneingriffen-deutschland-loescht-gerne-1.936251) verlinkt zwar den Original-Artikel, verarbeitet aber kaum Informationen aus diesem, außer die Aussagekraft in Frage zu stellen und schweift nach der Hälfte des Artikels ab, sodass die Überschrift des Artikels nicht wirklich etwas mit dem Inhalt zu tun hat.
 
-###### Update
+#### Update
 
 <del>Der alte (obige) Link funktioniert nicht mehr. So etwas darf im Internet einfach nicht passieren, da bei fehlender Weiterleitung alte URLs von externen Links nicht mehr zum Ziel führen. Hier ist der korrigierte Link.</del> Mittlerweile wurde der alte Link korrekt weitergeleitet.
 

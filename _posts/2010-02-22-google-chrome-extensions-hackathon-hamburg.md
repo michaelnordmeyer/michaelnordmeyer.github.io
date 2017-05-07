@@ -23,6 +23,6 @@ Tomorrow’s topic is [“browser actions”](https://developer.chrome.com/exten
 
 I’m curios if we can manage to pull off some cool stuff.
 
-###### Update
+#### Update
 
 I postet an [aftermath](https://michaelnordmeyer.com/google-chrome-extensions-hackathon-hamburg-aftermath).

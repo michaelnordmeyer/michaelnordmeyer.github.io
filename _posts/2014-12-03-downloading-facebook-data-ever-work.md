@@ -18,6 +18,6 @@ It’s fast and easy to start the process and wait for an email with the downloa
 
 Great. This didn’t help at all. To answer my own question I asked in the headline: not for me.
 
-###### Update 2015-02-05
+#### Update 2015-02-05
 
 Finally it worked and I downloaded an archive. But apart from the downloaded media like images and videos, the rest is just plain HTML files. Those files don’t have much data compared to what Facebook is harvesting. The only useful info is friend’s names and email addresses and messages.

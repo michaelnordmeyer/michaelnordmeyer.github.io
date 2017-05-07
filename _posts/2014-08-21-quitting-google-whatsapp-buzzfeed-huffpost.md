@@ -45,6 +45,6 @@ You can shape the world out there if you decide what kind of services you want t
 
 At least keep your private accounts on services which value your privacy. You can change jobs but not your life.
 
-###### Update 2014-08-25
+#### Update 2014-08-25
 
 [Facebook started fighting click-baiting today](https://newsroom.fb.com/news/2014/08/news-feed-fyi-click-baiting/ "Facebook started fighting click-baiting today").

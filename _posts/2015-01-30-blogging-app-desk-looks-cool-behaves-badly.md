@@ -14,7 +14,7 @@ tags:
 ---
 I bought [<cite>Desk</cite>](https://desk.pm/) because I wanted to get an undistracted writing experience and some Markdown for good measure. Unfortunately <cite>Desk</cite> is too buggy to provide this yet.
 
-###### Update
+#### Update
 
 _This is a living post, meaning I’m going to update it if new versions of Desk are going to be released._ (Desk 1.2 and 1.3 fix some problems. Strikethrough text has been fixed.)
 

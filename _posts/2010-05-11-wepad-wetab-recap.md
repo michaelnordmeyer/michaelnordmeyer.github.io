@@ -84,7 +84,7 @@ Zumindest kann sich Neofonie/WeTab damit brüsten, das wahrscheinlich erste Konk
 
 **Die abschließende Gretchenfrage lautet also: WeFail?**
 
-###### Update
+#### Update
 
 Das WeTab kommt am 20. September in die Media-Märkte. Richard Gutjahr hat eines der [auszuliefernden Geräte in einem ausführlichen Artikel mit Videos getestet](http://www.gutjahr.biz/2010/09/wetab/).
 

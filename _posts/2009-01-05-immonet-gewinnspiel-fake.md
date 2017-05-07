@@ -30,6 +30,6 @@ Die reine <a href="http://immonet.finden-sie-hier.de/" rel="nofollow">Immobilien
 
 <del datetime="2009-01-05T18:19:36+00:00">So, jetzt noch warten, bis die ersten 100 Blogger die Sache verlinkt haben, damit ich nicht auch dazu gehöre.</del> Mit den manuell in die Kommentare gesetzten Links sollten es jetzt wohl genug sein.
 
-###### Update
+#### Update
 
 Meine Trackbacks und Pingbacks sind _leider_ nicht bei denen angekommen. Na sowas.
