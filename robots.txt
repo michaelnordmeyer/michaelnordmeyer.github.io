@@ -33,10 +33,3 @@ User-agent: WBSearchBot
 User-agent: wsr-agent
 User-agent: XoviBot
 Disallow: /
-
-User-agent: *
-Disallow: /images/foto-michael-nordmeyer.jpg
-Disallow: /images/profile/michael-nordmeyer_150x150.jpg
-Disallow: /profil
-Disallow: /xmlrpc.php
-Disallow: /blog/xmlrpc.php
