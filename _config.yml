@@ -44,10 +44,13 @@ social:
 #    - https://plus.google.com/+BenBalter
 #    - https://keybase.io/michaelnordmeyer
 
+clicky:
+  url: "https://michaelnordmeyer.com/c.js"
+  site_id: 101044344
 
 piwik:
   url: "https://stats.michaelnordmeyer.com/"
-  site_id: 2
+  site_id: 1
 
 defaults:
   -

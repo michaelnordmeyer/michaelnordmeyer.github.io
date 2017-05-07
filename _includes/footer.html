@@ -41,9 +41,9 @@
     </div>
 
   </footer>
-{% if jekyll.environment == 'production' and site.piwik %}
-  {% include piwik.html %}
+{% if jekyll.environment == 'production' and site.clicky %}
+  {% include clicky.html %}
   {% if my_page.title and my_page.title == "Not found" %}
-    {% include piwik-404.html %}
+    {% include clicky-404.html %}
   {% endif %}
 {% endif %}
