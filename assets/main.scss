@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+figure img { margin: 0 auto; }
+figcaption { text-align: center; }
+
 .social-media-list .icon { padding-right: 8px; }
 
 /* Custom CSS based on Minima */
