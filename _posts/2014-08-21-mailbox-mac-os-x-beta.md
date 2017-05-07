@@ -13,7 +13,7 @@ tags:
 ---
 The [Mailbox iOS app everybody loves](https://itunes.apple.com/us/app/mailbox/id576502633?mt=8 "Mailbox iOS app everybody loves") gets a [OS X companion app](https://www.mailboxapp.com/ "OS X companion app"). It’s still in beta and you need beta invites. Beta invites for Mailbox are very cool betacoins.
 
-<img src="https://michaelnordmeyer.com/images/2014/08/mailbox-mac-os-x-betacoin.png" alt="Mailbox Mac OS X Betacoin" width="183" height="159">
+![Mailbox Mac OS X Betacoin](https://michaelnordmeyer.com/images/2014/08/mailbox-mac-os-x-betacoin.png)
 
 You are supposed to drop your personal coin into the beta can. While being dropped into it makes a metal sound like a coin dropping in a can. Quite cool!
 
