@@ -9,6 +9,6 @@ categories:
 ---
 Introducing [Tîan](http://mikili.de/products/tian/tian-weiss-eiche/ "tian"). Storing a bike never looked so easy. Tîan is an amazingly minimalist storage rack for bicycles. Functional meets beautiful.
 
-<img width="680" height="499" src="https://michaelnordmeyer.com/images/2012/12/Tian-Front.jpg" alt="Tian rack with bike front view">
+![Tian rack with bike front view](https://michaelnordmeyer.com/images/2012/12/Tian-Front.jpg)
 <img width="680" height="499" src="https://michaelnordmeyer.com/images/2012/12/Tian-Side.jpg" alt="Tian rack with bike side view">
 <img width="680" height="499" src="https://michaelnordmeyer.com/images/2012/12/Tian-Drawer.jpg" alt="Tian rack drawer">
