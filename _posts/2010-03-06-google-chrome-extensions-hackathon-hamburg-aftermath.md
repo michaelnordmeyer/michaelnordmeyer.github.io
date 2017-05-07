@@ -11,7 +11,7 @@ tags:
   - Google
   - Hackathon
 ---
-The days go by and I nearly forgot to post my aftermath of the [Google Chrome Extensions Hackathon Hamburg](https://michaelnordmeyer.com/google-chrome-extensions-hackathon-hamburg).
+The days go by and I nearly forgot to post my aftermath of the [Google Chrome Extensions Hackathon Hamburg](https://michaelnordmeyer.github.io/google-chrome-extensions-hackathon-hamburg).
 
 After Google giving a short intro to the Chrome extension technology which wasn’t necessary in my opinion, because their are some great tutorial videos on Google’s developer pages, we did some brainstorming what to build. Some people already brought their ideas e.g. porting some Firefox plugins.
 

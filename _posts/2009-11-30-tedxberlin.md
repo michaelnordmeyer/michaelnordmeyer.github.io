@@ -80,4 +80,4 @@ Im Mai 2010 wird es eine TEDxHamburg geben, welche in meiner Heimatstadt stattfi
 
 ###### Update
 
-Die TEDxHamburg 2010 hat stattgefunden. Ich war dort und schrieb einen Artikel darüber: [“TEDxHamburg 2010”](https://michaelnordmeyer.com/tedxhamburg-2010).
+Die TEDxHamburg 2010 hat stattgefunden. Ich war dort und schrieb einen Artikel darüber: [“TEDxHamburg 2010”](https://michaelnordmeyer.github.io/tedxhamburg-2010).

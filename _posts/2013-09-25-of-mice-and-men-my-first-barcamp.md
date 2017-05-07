@@ -15,7 +15,7 @@ The first [BarCamp](https://en.wikipedia.org/wiki/Barcamp "BarCamp definition on
 
 I wasn’t sure if I should go. I had doubts. It’s about a two hours drive by car from Hamburg. How would it be? Why should I spend “lots” of money to listen to some Internet stuff? The BarCamp itself is for free, but is it worth the money? Shouldn’t I better spend my time and money to get to somewhere else? Like going on vacation.
 
-**In the end it was one of the best decisions of my life.** I learned many [new things](https://michaelnordmeyer.com/barcamp-hannover-2008). Not only Internet stuff, but also something about me, uncertainty, prejudices, and comfort zones. Mine to be exact.
+**In the end it was one of the best decisions of my life.** I learned many [new things](https://michaelnordmeyer.github.io/barcamp-hannover-2008). Not only Internet stuff, but also something about me, uncertainty, prejudices, and comfort zones. Mine to be exact.
 
 I can’t remember the content of the talks. Only the unconventional talks I can remember: Internet in China and head hunting. Although I haven’t been to both. An important part of attending a BarCamps is being open to new and interesting topics. And that doesn’t mean just internet technology or internet culture but completely different stuff.
 

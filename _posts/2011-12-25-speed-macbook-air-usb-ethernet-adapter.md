@@ -91,4 +91,4 @@ Because I only use wired Ethernet – if ever –, if I have to copy large amoun
 
 ###### Update
 
-For a faster wired network connection use [Apple’s Thunderbolt Ethernet adapter](https://michaelnordmeyer.com/speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina "Apple's Thunderbolt Ethernet adapter").
+For a faster wired network connection use [Apple’s Thunderbolt Ethernet adapter](https://michaelnordmeyer.github.io/speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina "Apple's Thunderbolt Ethernet adapter").
