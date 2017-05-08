@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+iframe { border: 0; }
+
 figure img { margin: 0 auto; }
 figcaption { text-align: center; }
 
