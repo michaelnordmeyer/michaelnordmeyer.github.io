@@ -3,7 +3,13 @@
 
 @import "{{ site.theme }}";
 
-table { margin-bottom: 15px; }
+table {
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+
+tr { background-color: #eee; }
+tr, td { padding: 2px 4px; }
 
 /* Make sure embeds and iframes fit their containers. */
 embed,
