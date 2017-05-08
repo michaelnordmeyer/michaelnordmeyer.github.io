@@ -28,7 +28,7 @@ _Das_ ist schlimm.
 
 Die reine <a href="http://immonet.finden-sie-hier.de/" rel="nofollow">Immobilien-Suche</a> der <a href="http://finden-sie-hier.de/impressum/" rel="nofollow">Finden-Sie-Hier-Betreiber</a> sieht aus, als wäre das Immonet-Portal einfach direkt übernommen worden. Kein Re-Branding. Das kann Immonet so wollen, halte ich aber für sehr unwahrscheinlich. Normale Internet-Nutzer würden vielleicht denken, sie wären auf der Immonet-Site.
 
-<del datetime="2009-01-05T18:19:36+00:00">So, jetzt noch warten, bis die ersten 100 Blogger die Sache verlinkt haben, damit ich nicht auch dazu gehöre.~~ Mit den manuell in die Kommentare gesetzten Links sollten es jetzt wohl genug sein.
+~~So, jetzt noch warten, bis die ersten 100 Blogger die Sache verlinkt haben, damit ich nicht auch dazu gehöre.~~ Mit den manuell in die Kommentare gesetzten Links sollten es jetzt wohl genug sein.
 
 #### Update
 
