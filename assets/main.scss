@@ -3,7 +3,15 @@
 
 @import "{{ site.theme }}";
 
-iframe { border: 0; }
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+	vertical-align: middle;
+}
 
 figure img { margin: 0 auto; }
 figcaption { text-align: center; }
