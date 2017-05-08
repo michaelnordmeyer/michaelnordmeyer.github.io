@@ -16,7 +16,7 @@ tags:
   - iPhone
   - Video
 ---
-Nach einer [desaströsen Premiere](http://www.handelsblatt.com/technik/gadgets/ipad-konkurrent-blogger-entlarven-wepad-fake/3410480.html) versuchte [Neofonie](https://www.neofonie.de/), oder besser gesagt die <del datetime="2010-05-10T18:33:16+00:00">WePad GmbH</del> [WeTab GmbH](http://www.wetab.mobi/), noch zu retten, was zu retten ist, und präsentierte diesmal keine Videos, die in einer Endlosschleife unter Windows 7 laufen, sondern die aktuelle WeTab-Software.
+Nach einer [desaströsen Premiere](http://www.handelsblatt.com/technik/gadgets/ipad-konkurrent-blogger-entlarven-wepad-fake/3410480.html) versuchte [Neofonie](https://www.neofonie.de/), oder besser gesagt die ~~WePad GmbH~~ [WeTab GmbH](http://www.wetab.mobi/), noch zu retten, was zu retten ist, und präsentierte diesmal keine Videos, die in einer Endlosschleife unter Windows 7 laufen, sondern die aktuelle WeTab-Software.
 
 Leider hat der Geschäftsführer der Neofonie Hoffer von Ankershoffen auch diesmal nicht ganz begriffen, dass er sich mit Apple und insbesondere Steve Jobs messen muss. Eine Präsentation muss großartig sein, um neben diesem bestehen zu können. Statt einer gut strukturierten Präsentation gab es nur eine Aneinanderreihung von Features, die vorgestellt wurden:
 

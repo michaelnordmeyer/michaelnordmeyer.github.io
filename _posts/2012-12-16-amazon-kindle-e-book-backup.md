@@ -27,4 +27,4 @@ It synchronizes the managed ebooks with different readers, tablets and smartphon
 
 If you don’t want to be dependent on Amazon or any other publisher, you can easily make sure the purchased ebooks won’t be removed from your devices and be more independent as publishers can only remove ebooks from their own apps.
 
-<small>(Photo: <a href="https://www.flickr.com/photos/alienratt/5580530063/">Alienratt</a>, <a title="cc by-nc-nd 2.0" href="https://creativecommons.org/licenses/by-nc-nd/2.0/">some rights reserved</a>)</small>
+<small>(Photo: [Alienratt](https://www.flickr.com/photos/alienratt/5580530063/), [cc by-nc-nd 2.0, some rights reserved](https://creativecommons.org/licenses/by-nc-nd/2.0/))</small>

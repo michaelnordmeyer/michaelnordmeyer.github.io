@@ -53,4 +53,4 @@ Social Media in Form von Activity-Feeds sind ein mächtiger Wissenstransporteur.
 
 Logischerweise eignen sich interne, nicht-öffentliche Konversationen nicht zur Neukunden-Gewinnung. Aber es kann vorhandenes Business stärken, Kommunikation vereinfachen und persönlicher gestalten und die Identität mit der Firma und deren Projekten fördern. Kein schlechter Deal.
 
-<small>(Foto Header: <a href="https://www.flickr.com/photos/clairity/154640125/">“Conversation” von Sharon Mollerus, cc by 2.0</a>)</small>
+<small>(Foto Header: [“Conversation” von Sharon Mollerus](https://www.flickr.com/photos/clairity/154640125/), [cc by-nc 2.0, bestimmte Rechte vorbehalten](https://creativecommons.org/licenses/by-nc/2.0/))</small>
