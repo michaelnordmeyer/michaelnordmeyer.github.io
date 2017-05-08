@@ -32,7 +32,7 @@ To test real-wold performance I copied a 800 MB file. Because of the large file 
 
 ## Speed Comparison
 
-| **Connection**                                   | **MacBook Air** | **MacBook Pro** |
+| Connection                                       | MacBook Air     | MacBook Pro     |
 | ------------------------------------------------ | --------------- | --------------- |
 | Wireless 802.11n (300 Mbit/s)                    | 16 MByte/s down
                                                      20 MByte/s up   |                 |
