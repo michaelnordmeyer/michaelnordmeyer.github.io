@@ -34,7 +34,7 @@ There may be very old accounts (mac.com or me.com), where your Apple ID is your 
 
 ## Changing an iCloud Email Alias
 
-You can delete and recreate an [iCloud email alias](https://support.apple.com/kb/PH2622), but you have to use the same account to which the alias belongs to. Between deletion and recreation is a seven-day delay.
+You can [delete and recreate an iCloud email alias](https://support.apple.com/kb/PH2622), but you have to use the same account to which the alias belongs to. Between deletion and recreation is a seven-day delay.
 
 ## Moving an iCloud Email Alias to a Different Account
 
