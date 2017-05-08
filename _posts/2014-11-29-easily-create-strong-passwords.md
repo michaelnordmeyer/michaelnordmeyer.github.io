@@ -63,7 +63,7 @@ If you are a techie and have access to a computer running Unix like Linux or mac
 
 This generates 10 random passwords with the length of 20, the output is one password per line:
 
-<pre>pwgen -cnys1 -N 10 20</pre>
+`pwgen -cnys1 -N 10 20`
 
 ## Don’t Use Password Generating Websites
 
