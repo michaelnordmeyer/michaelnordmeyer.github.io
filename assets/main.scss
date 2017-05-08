@@ -4,12 +4,16 @@
 @import "{{ site.theme }}";
 
 table {
-  margin-bottom: 15px;
   border-collapse: collapse;
+  margin: 0 0 15px;
+  width: 100%;
 }
 
-th { background-color: #eee; }
-th, td { padding: 2px 4px; }
+th, td {
+  padding: 0.4em;
+  border-bottom: 1px solid #eee;
+}
+th:first-child, td:first-child { padding-left: 0; }
 
 /* Make sure embeds and iframes fit their containers. */
 embed,
