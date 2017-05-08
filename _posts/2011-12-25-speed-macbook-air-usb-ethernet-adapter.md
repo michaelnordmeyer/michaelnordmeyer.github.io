@@ -30,60 +30,12 @@ For a real world performance test is copied a 800 MB large file to my network. T
 
 ## Speed Comparison
 
-<table>
-  <tr>
-    <td>
-      <strong>Connection</strong>
-    </td>
-    
-    <td>
-      <strong>MacBook Air</strong>
-    </td>
-    
-    <td>
-      <strong>MacBook Pro</strong>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wired USB Ethernet (100 Mbit/s)
-    </td>
-    
-    <td>
-      12 MByte/s
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wireless 802.11n (300 Mbit/s)
-    </td>
-    
-    <td>
-      16 MByte/s down /<br> 20 MByte/s up
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wired Gigabit Ethernet (1,000 Mbit/s)
-    </td>
-    
-    <td>
-    </td>
-    
-    <td>
-      75-80 MByte/s
-    </td>
-  </tr>
-</table>
+| **Connection**                        | **MacBook Air** | **MacBook Pro** |
+| ------------------------------------- | --------------- | --------------- |
+| Wired USB Ethernet (100 Mbit/s)       | 12 MByte/s      |                 |
+| Wireless 802.11n (300 Mbit/s)         | 16 MByte/s down /
+                                          20 MByte/s up   |                 |
+| Wired Gigabit Ethernet (1,000 Mbit/s) |                 | 75-80 MByte/s   |
 
 The interesting bit is, that the MacBook Air 2011 is faster using wireless than wired using the USB Ethernet adapter. Not only you have to use an adapter and a cable, but you’re slower as well.
 

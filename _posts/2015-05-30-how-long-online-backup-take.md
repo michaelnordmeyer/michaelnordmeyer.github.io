@@ -15,105 +15,14 @@ Here is a list for some common upload speeds to get an idea of how much data you
 
 ## Cloud Backup Upload Speed
 
-<table style="width: auto;">
-  <tr>
-    <th style="text-align: right;">
-      Upload Speed Mbit/s
-    </th>
-    
-    <th style="text-align: right;">
-      GByte/h
-    </th>
-    
-    <th style="text-align: right;">
-      GByte/day
-    </th>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      1
-    </td>
-    
-    <td style="text-align: right;">
-      0.5
-    </td>
-    
-    <td style="text-align: right;">
-      11
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      2
-    </td>
-    
-    <td style="text-align: right;">
-      0.9
-    </td>
-    
-    <td style="text-align: right;">
-      21
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      6
-    </td>
-    
-    <td style="text-align: right;">
-      2.6
-    </td>
-    
-    <td style="text-align: right;">
-      63
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      10
-    </td>
-    
-    <td style="text-align: right;">
-      4.4
-    </td>
-    
-    <td style="text-align: right;">
-      106
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      40
-    </td>
-    
-    <td style="text-align: right;">
-      17.6
-    </td>
-    
-    <td style="text-align: right;">
-      422
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="text-align: right;">
-      50
-    </td>
-    
-    <td style="text-align: right;">
-      22.0
-    </td>
-    
-    <td style="text-align: right;">
-      528
-    </td>
-  </tr>
-</table>
+| Upload Speed Mbit/s | GByte/h | GByte/day |
+| -------------------:| -------:| ---------:|
+|                   1 |     0.5 |        11 |
+|                   2 |     0.9 |        21 |
+|                   6 |     2.6 |        63 |
+|                  10 |     4.4 |       106 |
+|                  40 |    17.6 |       422 |
+|                  50 |    22.0 |       528 |
 
 The actual upload speed depends on several factors:
 

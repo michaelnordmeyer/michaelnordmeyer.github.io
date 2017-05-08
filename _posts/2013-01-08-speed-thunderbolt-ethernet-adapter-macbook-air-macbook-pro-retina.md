@@ -32,73 +32,14 @@ To test real-wold performance I copied a 800 MB file. Because of the large file 
 
 ## Speed Comparison
 
-<table>
-  <tr>
-    <td>
-      <strong>Connection</strong>
-    </td>
-    
-    <td>
-      <strong>MacBook Air</strong>
-    </td>
-    
-    <td>
-      <strong>MacBook Pro</strong>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wireless 802.11n (300 Mbit/s)
-    </td>
-    
-    <td>
-      16 MByte/s down<br> 20 MByte/s up
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wireless 802.11ac (867 Mbit/s)
-    </td>
-    
-    <td>
-      20 MByte/s down<br> 30 MByte/s up
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wired Thunderbolt Gigabit Adapter (1,000 Mbit/s)
-    </td>
-    
-    <td>
-      78-88 MByte/s
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wired Gigabit Ethernet (1,000 Mbit/s)
-    </td>
-    
-    <td>
-    </td>
-    
-    <td>
-      75-80 MByte/s
-    </td>
-  </tr>
-</table>
+| **Connection**                                   | **MacBook Air** | **MacBook Pro** |
+| ------------------------------------------------ | --------------- | --------------- |
+| Wireless 802.11n (300 Mbit/s)                    | 16 MByte/s down
+                                                     20 MByte/s up   |                 |
+| Wireless 802.11ac (867 Mbit/s)                   | 20 MByte/s down
+                                                     30 MByte/s up   |                 |
+| Wired Thunderbolt Gigabit Adapter (1,000 Mbit/s) | 78-88 MByte/s   |                 |
+| Wired Gigabit Ethernet (1,000 Mbit/s)            |                 | 75-80 MByte/s   |
 
 ## Conclusion
 

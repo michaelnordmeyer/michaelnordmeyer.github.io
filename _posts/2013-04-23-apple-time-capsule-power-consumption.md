@@ -12,63 +12,11 @@ tags:
 ---
 I tested both the Apple AirPort Time Capsule 802.11n 4th generation and the Time Capsule 802.11ac 5th gen. The wireless power consumption of the Time Capsule 2 TB is as follows:
 
-<table style="width: auto;">
-  <tr>
-    <th>
-      Usage Pattern
-    </th>
-    
-    <th style="text-align: right;">
-      802.11n 4th Gen.
-    </th>
-    
-    <th style="text-align: right;">
-      802.11ac 5th Gen.
-    </th>
-  </tr>
-  
-  <tr>
-    <td>
-      Idle (no wireless traffic)
-    </td>
-    
-    <td style="text-align: right;">
-      11W
-    </td>
-    
-    <td style="text-align: right;">
-      10W
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wireless traffic (copying a large file)
-    </td>
-    
-    <td style="text-align: right;">
-      13W
-    </td>
-    
-    <td style="text-align: right;">
-      11W
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Time Machine Backup
-    </td>
-    
-    <td style="text-align: right;">
-      16W
-    </td>
-    
-    <td style="text-align: right;">
-      16W
-    </td>
-  </tr>
-</table>
+| Usage Pattern                           | 802.11n 4th Gen. | 802.11ac 5th Gen. |
+| --------------------------------------- | ----------------:| -----------------:|
+| Idle (no wireless traffic)              |              11W |               10W |
+| Wireless traffic (copying a large file) |              13W |               11W |
+| Time Machine Backup                     |              16W |               16W |
 
 The 802.11ac consumes a little less power than to the older model. Idle and wireless traffic of the 5th gen. Time Capsule sometimes reads 8W and 9W respectively. Then they went back to 10W and 11W without increased device usage (I used a 24/7 visible monitor, see below). I was able to reduce the consumption to the lower levels by restarting the Time Capsule, but it didn’t take long for the consumption to go back up again. It might be the internal fan turning on.
 
