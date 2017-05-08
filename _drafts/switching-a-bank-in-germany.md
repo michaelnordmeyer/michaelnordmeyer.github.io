@@ -30,6 +30,6 @@ Needing the BIC (Swift code)
 
 Not allowing to create a new one to replace the old. You have to change the old one, which isn't obvious. After erroneously creating the new one, the old on cannot be deleted without a proper indication why. Changing the old one doesn't work because you already use the new account data for the newly creating one. So you have to delete the new one first and then change the old one. A proper workflow would have helped.
 
-But most people, especially software developers, have a hard time creating software which really is helpful. They think <em>you</em> have to work the software.
+But most people, especially software developers, have a hard time creating software which really is helpful. They think _you_ have to work the software.
 
 The process of changing all those accounts isn't hard. But because of my many Internet accounts it took a couple of hours. No wonder nobody wants to switch banks. Some use only Paypal to not expose credit cards or to only have to change it in one place.

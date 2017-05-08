@@ -24,6 +24,6 @@ On the two days over I’ve been to session like:
   * Creating a start-up: Do’s and Don’ts
   * Search engine optimization
 
-Because about all people were native German speakers the sessions have been in German as well. If you speak German and are interested in some impressions of this [BarCamp](https://en.wikipedia.org/wiki/BarCamp) tune in to [mogulus](https://original.livestream.com/barcamphannover) (the introduction of attendees live streamed video recorded with notebook webcams) or <del>qik</del> (live streamed video recorded on mobiles right at the beginning of the after party, not available anymore).
+Because about all people were native German speakers the sessions have been in German as well. If you speak German and are interested in some impressions of this [BarCamp](https://en.wikipedia.org/wiki/BarCamp) tune in to [mogulus](https://original.livestream.com/barcamphannover) (the introduction of attendees live streamed video recorded with notebook webcams) or ~~qik~~ (live streamed video recorded on mobiles right at the beginning of the after party, not available anymore).
 
 I’m looking forward to the following [BarCamps in Germany and Europe this year](http://barcamp.org/).
