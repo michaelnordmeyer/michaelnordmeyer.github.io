@@ -28,11 +28,11 @@ feed:
 # jekyll-seo-tag
 twitter:
   username: mnordmeyer
-facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
-logo: /assets/your-company-logo.png
+# facebook:
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
+# logo: /assets/your-company-logo.png
 social:
   name: Michael Nordmeyer
   links:
@@ -48,9 +48,9 @@ clicky:
   url: "https://michaelnordmeyer.com/c.js"
   site_id: 101044344
 
-piwik:
-  url: "https://stats.michaelnordmeyer.com/"
-  site_id: 1
+# piwik:
+#   url: "https://stats.michaelnordmeyer.com/"
+#   site_id: 1
 
 defaults:
   -
