@@ -1,7 +1,7 @@
 ---
 title: Running your iPhone or iPad without iCloud on iOS
 date: 2014-11-09T13:36:25+00:00
-excerpt: "It's possible, but not feasible anymore, because Apple removed the ability to sync locally over Wi-Fi."
+excerpt: It's possible, but not feasible anymore, because Apple removed the ability to sync locally over Wi-Fi.
 layout: post
 permalink: /running-iphone-ipad-without-icloud-ios
 categories:

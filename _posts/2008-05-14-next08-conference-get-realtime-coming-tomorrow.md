@@ -1,7 +1,7 @@
 ---
-title: 'next08 Conference “get realtime” Coming Tomorrow'
+title: next08 Conference “get realtime” Coming Tomorrow
 date: 2008-05-14T17:25:39+00:00
-excerpt: "Awaiting the next08 conference. It's going to be exciting."
+excerpt: Awaiting the next08 conference. It's going to be exciting.
 layout: post
 permalink: /next08-conference-get-realtime-coming-tomorrow
 categories:

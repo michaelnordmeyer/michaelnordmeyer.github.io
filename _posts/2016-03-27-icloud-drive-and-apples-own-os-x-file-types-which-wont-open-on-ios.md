@@ -1,7 +1,7 @@
 ---
-title: 'iCloud Drive and Apple’s Own OS X File Types, Which Won’t Open on iOS'
+title: iCloud Drive and Apple’s Own OS X File Types, Which Won’t Open on iOS
 date: 2016-03-27T17:07:44+00:00
-excerpt: "It's definitely reasonable to have a personal or private iOS-only setup. You just have to be aware some OS X files won't open on iOS."
+excerpt: It's definitely reasonable to have a personal or private iOS-only setup. You just have to be aware some OS X files won't open on iOS.
 layout: post
 permalink: /icloud-drive-and-apples-own-os-x-file-types-which-wont-open-on-ios
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Opt Out of Interest-Based Ads on Google
 date: 2014-11-16T00:26:16+00:00
-excerpt: "Google's collection of interest-based data is pervasive. It won't hurt to opt out and have peace of mind."
+excerpt: Google's collection of interest-based data is pervasive. It won't hurt to opt out and have peace of mind.
 layout: post
 permalink: /opt-out-interest-based-ads-google
 categories:

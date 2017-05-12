@@ -1,7 +1,7 @@
 ---
 title: Cool Blogging and Twitter Comedy
 date: 2008-11-06T21:20:27+00:00
-excerpt: "It's easy to make fun of the early usages of Twitter."
+excerpt: It's easy to make fun of the early usages of Twitter.
 layout: post
 permalink: /cool-blogging-and-twitter-comedy
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 'WordPress’ Built-In Visual Editor Doesn’t Like Safari'
+title: WordPress’ Built-In Visual Editor Doesn’t Like Safari
 date: 2008-01-26T16:58:45+00:00
 excerpt: The trouble of using a less-supported browser.
 layout: post

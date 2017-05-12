@@ -1,7 +1,7 @@
 ---
 title: Why I Switched Back From Markdown to Visual Editor on WordPress
 date: 2016-12-25T14:17:00+00:00
-excerpt: "I was an early adopter of Markdown. Now I use WordPress' visual editor exclusively again with great results and don't miss Markdown a bit."
+excerpt: I was an early adopter of Markdown. Now I use WordPress' visual editor exclusively again with great results and don't miss Markdown a bit.
 layout: post
 permalink: /switched-back-markdown-visual-editor-wordpress
 categories:

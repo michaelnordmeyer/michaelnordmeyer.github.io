@@ -1,6 +1,6 @@
 ---
 title: WordPress Wants to be Like Tumblr
-excerpt: 'WordPress copies Tumblr with limited success. WordPress is still complicated, Tumblr so much easier.'
+excerpt: WordPress copies Tumblr with limited success. WordPress is still complicated, Tumblr so much easier.
 categories:
   - Web
 tags:

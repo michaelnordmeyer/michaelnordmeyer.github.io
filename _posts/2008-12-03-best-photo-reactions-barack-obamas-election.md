@@ -1,5 +1,5 @@
 ---
-title: 'Best Photo of the Reactions to Barack Obama’s Election'
+title: Best Photo of the Reactions to Barack Obama’s Election
 date: 2008-12-03T12:57:00+00:00
 excerpt: Just perfect.
 layout: post

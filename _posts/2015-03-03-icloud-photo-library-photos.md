@@ -1,7 +1,7 @@
 ---
-title: 'iCloud Photo Library & Photos'
+title: iCloud Photo Library & Photos
 date: 2015-03-03T21:46:19+00:00
-excerpt: "iCloud Photo Library is still in beta but works reliably. It's a much more convenient way to manage your photos you took with your iPhone or iPad."
+excerpt: iCloud Photo Library is still in beta but works reliably. It's a much more convenient way to manage your photos you took with your iPhone or iPad.
 layout: post
 permalink: /icloud-photo-library-photos
 image: /images/2015/03/iCloud-Photo-Library.png

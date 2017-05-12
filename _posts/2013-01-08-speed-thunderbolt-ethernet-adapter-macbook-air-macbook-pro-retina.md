@@ -1,7 +1,7 @@
 ---
 title: Speed of Thunderbolt Ethernet Adapter for MacBook Air and MacBook Pro Retina
 date: 2013-01-08T22:49:52+00:00
-excerpt: "Speed comparison of Apple's Thunderbolt gigabit ethernet adapter vs. wired gigabit ethernet and wireless ethernet."
+excerpt: Speed comparison of Apple's Thunderbolt gigabit ethernet adapter vs. wired gigabit ethernet and wireless ethernet.
 layout: post
 permalink: /speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina
 redirect_from: /speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina/

@@ -1,5 +1,5 @@
 ---
-title: 'Fast Gigabit Wireless with 802.11ac & 802.11ad and Its Problems'
+title: Fast Gigabit Wireless with 802.11ac & 802.11ad and Its Problems
 date: 2013-01-08T21:46:05+00:00
 excerpt: Ein Blick in die Zukunft des kabellosen Netzwerks.
 layout: post

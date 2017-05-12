@@ -1,5 +1,5 @@
 ---
-title: Apple Logins: iTunes Store, iBooks Store, macOS App Store and iCloud
+title: 'Apple Logins: iTunes Store, iBooks Store, macOS App Store and iCloud'
 categories:
   - Miscellaneous
 tags:

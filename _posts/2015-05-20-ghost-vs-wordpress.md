@@ -1,7 +1,7 @@
 ---
 title: The State of Ghost vs. WordPress
 date: 2015-05-20T11:38:00+00:00
-excerpt: "I do like the concept of Ghost, but I'm not committing to a product where I'm missing important features compared to WordPress."
+excerpt: I do like the concept of Ghost, but I'm not committing to a product where I'm missing important features compared to WordPress.
 layout: post
 permalink: /ghost-vs-wordpress
 categories:

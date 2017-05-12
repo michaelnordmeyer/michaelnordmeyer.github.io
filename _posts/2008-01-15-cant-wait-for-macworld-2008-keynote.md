@@ -1,5 +1,5 @@
 ---
-title: 'Can’t Wait for MacWorld 2008 Keynote'
+title: Can’t Wait for MacWorld 2008 Keynote
 date: 2008-01-15T01:44:57+00:00
 excerpt: Eagerly waiting for the Apple keynote.
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: 'Aktuelle Web-Tauglichkeit von “qualitäts”-journalistischen Artikeln — eine Kurzanalyse'
+title: Aktuelle Web-Tauglichkeit von “qualitäts”-journalistischen Artikeln — eine Kurzanalyse
 date: 2010-04-22T12:22:31+00:00
 excerpt: Journalistische Publikationen können oder wollen nicht verlinken, obwohl sie die Inhalte selbst nur zusammengeklaubt haben.
 layout: post

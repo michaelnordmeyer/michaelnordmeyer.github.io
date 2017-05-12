@@ -1,7 +1,7 @@
 ---
 title: Using Tumblr to Take Back the Internet
 date: 2016-02-12T17:58:17+00:00
-excerpt: 'Some time ago I took back the Internet to own my data. I cross-posted status updates, links, images & videos from Tumblr to Facebook & Twitter.'
+excerpt: Some time ago I took back the Internet to own my data. I cross-posted status updates, links, images & videos from Tumblr to Facebook & Twitter.
 layout: post
 permalink: /using-tumblr-take-back-internet
 categories:

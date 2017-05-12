@@ -1,7 +1,7 @@
 ---
-title: 'Vodafone Germany’s Mobile Internet Sucks'
+title: Vodafone Germany’s Mobile Internet Sucks
 date: 2008-01-07T01:36:58+00:00
-excerpt: "How to ef-up your user's mobile Internet connection."
+excerpt: How to ef-up your user's mobile Internet connection.
 layout: post
 permalink: /vodafone-germanys-mobile-internet-sucks
 categories:

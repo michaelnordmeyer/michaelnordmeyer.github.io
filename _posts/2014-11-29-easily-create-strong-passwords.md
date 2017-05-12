@@ -1,7 +1,7 @@
 ---
 title: How to Easily Create Strong Passwords
 date: 2014-11-29T17:08:40+00:00
-excerpt: "Strong passwords are important because your personal data is important. I'm going to show that everybody can have strong passwords easily without forgetting them."
+excerpt: Strong passwords are important because your personal data is important. I'm going to show that everybody can have strong passwords easily without forgetting them.
 layout: post
 permalink: /easily-create-strong-passwords
 categories:

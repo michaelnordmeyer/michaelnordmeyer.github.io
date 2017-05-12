@@ -1,5 +1,5 @@
 ---
-title: Secury Your Accounts: App Connect Links
+title: 'Secury Your Accounts: App Connect Links'
 categories:
   - Web
 ---
