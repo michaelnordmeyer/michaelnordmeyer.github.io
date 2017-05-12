@@ -1,4 +1,6 @@
 ---
 title: Home
-redirect_from: /blog/
+redirect_from:
+  - /blog/
+  - /archives
 ---
