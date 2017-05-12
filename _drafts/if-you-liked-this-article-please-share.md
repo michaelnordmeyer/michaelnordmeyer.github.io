@@ -1,9 +1,9 @@
 ---
 title: If you liked this article, please share it on del.icio.us, StumbleUpon or on Digg. I’d appreciate it. :)
 categories:
-  - 'Miscellaneous'
+  - Miscellaneous
 tags:
-  - 'Blogging'
+  - Blogging
 ---
 Create a static page where selected posts to a topic a listed and link to it in the navigation.
 

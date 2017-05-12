@@ -2,10 +2,10 @@
 title: Thoughts on My Personal Relation with Facebook
 excerpt: 'I took a hiatus from Facebook. Even after pruning my feed it wasn't serving me anymore. Then I realized why Facebook is detrimental to my sanity.'
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Facebook'
-  - 'Social Media'
+  - Facebook
+  - Social Media
 ---
 Three days ago I took a hiatus from Facebook. I've pruned my feed for the last couple of weeks to get rid of stories which were not serving me: mostly click-bait and shallow or funny videos and animated GIFs. These only create value for those who publish those but not for me. My attention is limited and every click or tap on one of those items will bring-in even more of those. Conveniently Facebook provides “Hide all from…” to remove those sources.
 

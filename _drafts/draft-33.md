@@ -1,7 +1,7 @@
 ---
 title: Encrypted vs. Unencrypted Speed of Time Capsule Backup
 categories:
-  - 'Technology'
+  - Technology
 ---
 encrypted (333 GB)
 Needing backup: 302,76 + 1,15 = 303,91 GB

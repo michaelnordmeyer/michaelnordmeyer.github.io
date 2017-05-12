@@ -1,10 +1,10 @@
 ---
 title: Why I Prefer WordPress Over Squarespace 7
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'WordPress'
+  - Blogging
+  - WordPress
 ---
 * Have to have “blog” or another moniker in the URL
 * Blog posts don't have a trailing slash in the URL

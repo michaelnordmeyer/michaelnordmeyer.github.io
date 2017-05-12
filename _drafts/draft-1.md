@@ -1,9 +1,9 @@
 ---
 title: WordPress Tuning and Monitoring
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'WordPress'
+  - WordPress
 ---
 In MySQL "show status" eingeben
 tuning_primer.sh

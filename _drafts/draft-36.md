@@ -1,10 +1,10 @@
 ---
 title: Comments and SEO
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'SEO'
+  - Blogging
+  - SEO
 ---
 Pro:
 

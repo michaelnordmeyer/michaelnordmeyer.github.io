@@ -1,11 +1,11 @@
 ---
 title: iOS Apps Whose Data Is Not Backed Up
 categories:
-  - 'Apple'
+  - Apple
 tags:
-  - 'Backup'
-  - 'iCloud'
-  - 'iOS'
+  - Backup
+  - iCloud
+  - iOS
 ---
 You can create two kinds of iOS backups:
 

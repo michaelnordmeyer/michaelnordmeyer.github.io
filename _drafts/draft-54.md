@@ -1,13 +1,13 @@
 ---
 title: Spotify Connect on iPhone with B&O A9
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'AirPlay'
-  - 'iOS'
-  - 'iPhone'
-  - 'Spotify'
-  - 'Spotify Connect'
+  - AirPlay
+  - iOS
+  - iPhone
+  - Spotify
+  - Spotify Connect
 ---
 ## Pro
 

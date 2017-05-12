@@ -1,10 +1,10 @@
 ---
 title: Common macOS Things That Don’t Work on iOS
 categories:
-  - 'Apple'
+  - Apple
 tags:
-  - 'iOS'
-  - 'macOS'
+  - iOS
+  - macOS
 ---
 * Paketmarken von DHL drucken
 * Refining search on eBay for merchant vs. private sellers

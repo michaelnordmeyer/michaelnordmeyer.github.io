@@ -1,10 +1,10 @@
 ---
 title: iCloud Keychain
 categories:
-  - 'Apple'
+  - Apple
 tags:
-  - 'iCloud'
-  - 'Security'
+  - iCloud
+  - Security
 ---
 * 1Password oder Lastpass – allerdings gegen Gebühr
 * Doch die Keychain hat gegenüber herkömmlichen Passwort-Safes zwei entscheidende Vorteile: Sie beschränkt sich nicht auf Passwörter etwa für Internet Accounts sondern speichert alle Arten von Geheimnissen von E-Mail-, WLAN- oder VPN-Passwörtern bis hin zu Kreditkartendaten, Schlüsseln und App-spezifischen Tokens aller Art.

@@ -1,7 +1,7 @@
 ---
 title: Changing from Country-specific iTunes Store to US Store
 categories:
-  - 'Apple'
+  - Apple
 ---
 * You have to use a US address
 * You have to use a US phone number. Even after creating an account you cannot change to a non-US number.

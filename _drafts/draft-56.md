@@ -1,14 +1,14 @@
 ---
 title: Cutting (V)DSL or Cable Internet Landline, Using LTE/4G-Only
 categories:
-  - 'Miscellaneous'
+  - Miscellaneous
 tags:
-  - 'Cable'
-  - 'DSL'
-  - 'Internet'
-  - 'LTE'
-  - 'Mobile'
-  - 'YouTube'
+  - Cable
+  - DSL
+  - Internet
+  - LTE
+  - Mobile
+  - YouTube
 ---
 LINK TO DATA USAGE POST
 

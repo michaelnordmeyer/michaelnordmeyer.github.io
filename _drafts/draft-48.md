@@ -1,10 +1,10 @@
 ---
 title: MacBook 12″ Retina vs. iPad Pro 12.9″ & 9.7″ vs. iPad Air 2 + Keyboard
 categories:
-  - 'Apple'
+  - Apple
 tags:
-  - 'iPad'
-  - 'MacBook'
+  - iPad
+  - MacBook
 ---
 Because most people think of the iPad Pro as a notebook replacement, I want to compare three ultra-light devices to show that it’s not easy to replace: the 12″ MacBook Retina, the iPad Pro 12.9″ and 9.7″, and the iPad Air 2. I use external keyboards for both iPads, because having one means I'm much more productive, even though I quite like the on-screen keyboard. I don't write about the Apple Pencil and the obvious benefits for artistic use cases, because the MacBook as a notebook can't act as a drawing board. So if you think about getting the iPad Pro because of the Apple Pencil, well, there’s no other option than to just get the iPad Pro.
 

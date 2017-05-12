@@ -1,6 +1,6 @@
 ---
 title: YouTube Manage Channels
 categories:
-  - 'Miscellaneous'
+  - Miscellaneous
 ---
 https://support.google.com/youtube/answer/3046356

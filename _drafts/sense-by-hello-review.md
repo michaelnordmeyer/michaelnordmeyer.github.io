@@ -1,10 +1,10 @@
 ---
 title: Hello Sense Review
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'Health'
-  - 'Quantify Yourself'
+  - Health
+  - Quantify Yourself
 ---
 [Hello](https://hello.is) started a very successful [Kickstarter campaign for Sense](https://www.kickstarter.com/projects/hello/sense-know-more-sleep-better) in July of 2014. It went viral and got a lot of positive press and feedback. One month later, they successfully raised $2,410,741 USD from 19,349 backers on August 22nd, 2014. My credit card was charged on the same day.
 

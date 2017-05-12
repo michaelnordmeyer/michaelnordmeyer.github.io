@@ -1,9 +1,9 @@
 ---
 title: Minimal Blogs
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
+  - Blogging
 ---
 ## Hosted
 

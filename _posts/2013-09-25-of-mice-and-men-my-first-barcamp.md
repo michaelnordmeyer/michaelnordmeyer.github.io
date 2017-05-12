@@ -1,5 +1,5 @@
 ---
-title: 'Of Mice and Men: My first BarCamp'
+title: 'Of Mice and Men: My First BarCamp'
 date: 2013-09-25T20:35:34+00:00
 excerpt: "BarCamps are awesome and here's why."
 layout: post

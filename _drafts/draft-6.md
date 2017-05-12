@@ -1,11 +1,11 @@
 ---
 title: Tumblr vs. WordPress
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'Tumblr'
-  - 'WordPress'
+  - Blogging
+  - Tumblr
+  - WordPress
 ---
 # Tumblr iOS App
 

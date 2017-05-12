@@ -1,14 +1,14 @@
 ---
 title: Opcaching
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'Apache'
-  - 'APC'
-  - 'Digital Ocean'
-  - 'Nginx'
-  - 'Opcaching'
-  - 'WordPress'
+  - Apache
+  - APC
+  - Digital Ocean
+  - Nginx
+  - Opcaching
+  - WordPress
 ---
 Cheap and Fast VPS Server for WordPress
 

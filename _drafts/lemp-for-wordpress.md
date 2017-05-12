@@ -1,7 +1,7 @@
 ---
 title: LEMP for WordPress
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'WordPress'
+  - WordPress
 ---

@@ -1,9 +1,9 @@
 ---
 title: Different Productivity Techniques
 categories:
-  - 'Miscellaneous'
+  - Miscellaneous
 tags:
-  - 'Lifestyle'
+  - Lifestyle
 ---
 * Mind Like Water
 * Pomodoro

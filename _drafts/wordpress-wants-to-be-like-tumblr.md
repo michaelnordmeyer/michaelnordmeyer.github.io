@@ -2,10 +2,10 @@
 title: WordPress Wants to be Like Tumblr
 excerpt: 'WordPress copies Tumblr with limited success. WordPress is still complicated, Tumblr so much easier.'
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Tumblr'
-  - 'WordPress'
+  - Tumblr
+  - WordPress
 ---
 Tumblr has been a success. It’s easy to use and free. Many non-technical people prefer it over hosting their own WordPress. But even free hosted WordPress on WordPress.com is too complicated. So Wordpress has to be supercharged.
 

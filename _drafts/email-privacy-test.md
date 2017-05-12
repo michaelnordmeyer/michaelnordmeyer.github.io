@@ -1,6 +1,6 @@
 ---
 title: Email Privacy Test
 categories:
-  - 'Technology'
+  - Technology
 ---
 See files in #action

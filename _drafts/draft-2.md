@@ -1,10 +1,10 @@
 ---
 title: WordPress 3.0 SEO-tauglich gestalten - On Page Optimierung
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'WordPress'
+  - Blogging
+  - WordPress
 ---
 On Page Optimierung
 

@@ -1,9 +1,9 @@
 ---
 title: Vergleich iTunes Match und Google Play
 categories:
-  - 'Google Play'
-  - 'iTunes Match'
-  - 'Miscellaneous'
+  - Google Play
+  - iTunes Match
+  - Miscellaneous
 ---
 http://arstechnica.com/gadgets/2013/01/throwdown-itunes-match-vs-amazon-cloud-player-vs-google-music/
 

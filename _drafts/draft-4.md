@@ -1,11 +1,11 @@
 ---
 title: WordPress wie Tumblr als Tumblelog nutzen
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'Tumblr'
-  - 'WordPress'
+  - Blogging
+  - Tumblr
+  - WordPress
 ---
 Die hier genannten Beispiele funktionieren nur mit einem selbst-gehostetem [WordPress](https://wordpress.org/), nicht mit WordPress.com, da dort keine Plugins installierbar sind. Die Ausnahme stellt zurzeit das WordPress Theme Twenty Twelve und ein paar andere dar (siehe unten).
 

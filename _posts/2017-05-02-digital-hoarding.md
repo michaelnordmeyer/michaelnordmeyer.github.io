@@ -5,7 +5,7 @@ layout: post
 permalink: /digital-hoarding
 excerpt: Sometimes I wonder if I sport a behaviour called digital hoarding.
 categories:
-  - 'Miscellaneous'
+  - Miscellaneous
 tags:
   - Personal
 ---

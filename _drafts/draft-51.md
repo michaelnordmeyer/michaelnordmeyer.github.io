@@ -1,13 +1,13 @@
 ---
 title: Managing and Maintaining Mobile Devices
 categories:
-  - 'Technology'
+  - Technology
 tags:
-  - 'Apple'
-  - 'iPad'
-  - 'iPhone'
-  - 'Mac'
-  - 'macOS'
+  - Apple
+  - iPad
+  - iPhone
+  - Mac
+  - macOS
 ---
 The most computing-related maintenance work I have nowadays is maintaining my mobile devices and their sync and cloud status. I have an iPhone 6 64 GB, an iPad Air 2 128 GB and a MacBook Retina 12" 512 GB.
 

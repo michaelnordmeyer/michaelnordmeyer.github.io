@@ -1,9 +1,9 @@
 ---
 title: Strong and Application-specific Passwords
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Security'
+  - Security
 ---
 How to be secure in layman’s terms.
 

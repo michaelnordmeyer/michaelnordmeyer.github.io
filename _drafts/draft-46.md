@@ -1,10 +1,10 @@
 ---
 title: Acceptable Ads and Misguided Choices by Content Blocker Developers
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Advertisement'
-  - 'iOS'
+  - Advertisement
+  - iOS
 ---
 Ads by e.g. “The Deck” cannot be blocked, because some iOS app developers deliberately allow them (e.g. 1Blocker). That’s wrong and a misguided choice by the developers. It’s the user’s choice what kind of apps are acceptable, not the developer’s. Even though The Deck’s ads don't track users and are not intrusive.
 

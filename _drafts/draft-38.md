@@ -1,9 +1,9 @@
 ---
 title: Apple iTunes iCloud Download Limitation
 categories:
-  - 'Apple'
+  - Apple
 tags:
-  - 'iCloud'
+  - iCloud
 ---
 > This device is already associated with an Apple ID. If you download past purchases with your Apple ID, you cannot auto-download or download past purchases with a different Apple ID for 90 days.
 

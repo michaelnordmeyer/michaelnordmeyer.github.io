@@ -1,10 +1,10 @@
 ---
 title: Why I Prefer WordPress Over Ghost
 categories:
-  - 'Web'
+  - Web
 tags:
-  - 'Blogging'
-  - 'WordPress'
+  - Blogging
+  - WordPress
 ---
 * Only tags. Categories have to be converted to tags first.
 * No media import. Has to be uploaded manually or use Cloudinary.
