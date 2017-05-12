@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+.post-list > h2 { margin-bottom: 5px; }
+
 table {
   border-collapse: collapse;
   margin: 0 0 15px;
