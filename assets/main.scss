@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.post-list > h2 { margin-bottom: 5px; }
-
 table {
   border-collapse: collapse;
   margin: 0 0 15px;
@@ -29,6 +27,10 @@ video {
 
 figure img { margin: 0 auto; }
 figcaption { text-align: center; }
+
+.post-list > h2 { margin-bottom: 5px; }
+
+.post-image { margin-bottom: 15px; }
 
 .social-media-list .icon { padding-right: 8px; }
 
