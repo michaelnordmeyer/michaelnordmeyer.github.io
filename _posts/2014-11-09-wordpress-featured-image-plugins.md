@@ -1,7 +1,7 @@
 ---
 title: WordPress Featured Image Plugins
 date: 2014-11-09T13:02:03+00:00
-excerpt: WordPress has a cool feature: featured images. Here are some plugins which make the use of featured images even better.
+excerpt: 'WordPress has a cool feature: featured images. Here are some plugins which make the use of featured images even better.'
 layout: post
 permalink: /wordpress-featured-image-plugins
 categories:
