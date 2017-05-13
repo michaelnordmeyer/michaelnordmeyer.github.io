@@ -1,5 +1,5 @@
 ---
-title: Conversations in Context of Racism and How To Avoid Mutual Frustration
+title: Conversations in Context of Racism and How to Avoid Mutual Frustration
 date: 2012-03-06T09:37:00+00:00
 excerpt: A primer how to deal with ill communication.
 layout: post

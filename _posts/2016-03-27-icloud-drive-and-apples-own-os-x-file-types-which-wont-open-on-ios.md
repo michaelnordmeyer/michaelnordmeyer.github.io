@@ -34,7 +34,7 @@ If you manage to sync all your files from OS X to iCloud, you might not be able 
 
 **.textClipping**. Selected text that was dragged to e.g. the desktop. Solution? Maybe, I never used text clippings to begin with.
 
-## How To Handle Unreadable Files
+## How to Handle Unreadable Files
 
 I used spotlight to find all file types which are not suitable for iOS and either converted them or just deleted them. You won’t believe the file cruft which gathered over the years. If the files are in an old file format it’s very likely I didn’t use them in a long time. If converting doesn’t work saving them as PDF might be the last hope to have at least a readable copy. And some files already have outlived their purpose. I just delete them.
 
