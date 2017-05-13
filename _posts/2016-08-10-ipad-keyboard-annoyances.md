@@ -24,6 +24,8 @@ Using Spotlight on an iPad with a physical keyboard by hitting command+space is 
 
 ## Bluetooth losing connection
 
-On keyboards which use Bluetooth to connect to iPads — that means all keyboards but the Smart Keyboards — there are intermittent connection drops which make it an awkward typing experience. Typed characters appear delayed on the screen. Especially using the arrow or delete keys are awkward in this moment as you never know If of you hit the keys a sufficient number of times or even more.
+On keyboards which use Bluetooth to connect to iPads — that means all keyboards but the Smart Keyboard — there are intermittent connection drops which make it an awkward typing experience. Typed characters appear on the screen delayed. Especially using the arrow or delete keys are awkward in this moment as you never know if you hit the keys a sufficient number of times or more.
+
+## Solutions
 
 The first two points can be addressed by Apple in a future iOS update. The last one probably not. Bluetooth has always been unreliable for me since — I don’t know — the first time I used it over 15 years ago? I don’t expect it to change anytime in the future.
