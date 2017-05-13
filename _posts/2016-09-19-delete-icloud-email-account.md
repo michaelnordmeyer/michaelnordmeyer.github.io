@@ -11,7 +11,7 @@ tags:
   - Email
   - iCloud
 ---
-To make things clear I’m not writing about _deleting_ an iCloud email account _from_ an iOS device or Mac, but deleting the whole account altogether. Look here for [_removing_ an iCloud email account _from_ a device](https://support.apple.com/en-us/HT201419).
+To make things clear I’m not writing about _deleting_ an iCloud email account _from_ an iOS device or Mac, but deleting the whole account altogether. Look here for [_removing_ an iCloud email account _from_ a device](https://support.apple.com/en-us/HT201419). Read on for how to delete an iCloud email account altogether.
 
 iCloud accounts have often been used as the Apple ID for Apple services like iTunes Store or iOS App Store. Deleting an iCloud account would mean a user couldn’t login anymore and purchased items like movies, TV shows, eBooks and apps wouldn’t be accessible anymore.
 
