@@ -4,6 +4,7 @@ date: 2010-01-26T20:40:00+00:00
 excerpt: Architecture to dream about.
 layout: post
 permalink: /unbelievably-beautiful-short-film
+redirect_from: /unbelievably-beautiful-short-film/
 categories:
   - Miscellaneous
 tags:

@@ -4,6 +4,7 @@ date: 2015-08-14T13:57:58+00:00
 excerpt: OnePlus is quite popular among Android enthusiasts, because they build high-end phones at 2/3 of the price of a comparable Samsung, Sony or HTC.
 layout: post
 permalink: /oneplus-2-specs-available-storage-dual-sim-slot
+redirect_from: /oneplus-2-specs-available-storage-dual-sim-slot/
 categories:
   - Technology
 tags:

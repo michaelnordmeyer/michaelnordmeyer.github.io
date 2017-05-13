@@ -4,6 +4,7 @@ date: 2008-05-15T12:51:54+00:00
 excerpt: A short review of elevator pitches at next08.
 layout: post
 permalink: /kick-off-elevator-pitch-at-next08
+redirect_from: /kick-off-elevator-pitch-at-next08/
 categories:
   - Events
 tags:
