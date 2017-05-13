@@ -4,6 +4,7 @@ date: 2012-01-05T20:01:00+00:00
 excerpt: Awesome video showing pointillist art.
 layout: post
 permalink: /3-2-million-dots-210-hours
+redirect_from: /post/15356606370/3-2-million-dots-210-hours/
 categories:
   - Miscellaneous
 tags:
