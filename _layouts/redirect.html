@@ -28,7 +28,7 @@
           </header>
 
           <div class="post-content">
-            <a href="{{ page.redirect.to }}">Click here if you are not being redirected.</a>
+            <a href="{{ page.redirect.to | relative_url }}">Click here if you are not being redirected.</a>
             <script>location="{{ page.redirect.to | relative_url }}"</script>
           </div>
 
