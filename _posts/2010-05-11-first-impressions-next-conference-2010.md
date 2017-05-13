@@ -1,7 +1,7 @@
 ---
 title: First Impressions from NEXT Conference 2010
 date: 2010-05-11T18:31:32+00:00
-excerpt: How does next conference do in Berlin after moving away from Hamburg?
+excerpt: How does NEXT conference do in Berlin after moving away from Hamburg?
 layout: post
 permalink: /first-impressions-next-conference-2010
 image: /images/2010/05/nextconference.jpg
