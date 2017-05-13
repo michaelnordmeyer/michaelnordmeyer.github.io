@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
-
+{% include reading-time.html %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -21,7 +17,7 @@ layout: default
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}
-        • Reading time: {{ minutes }}</p>
+        • Reading time: {{ minutes }} minute{% if minutes > 1 %}s{% endif %}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
