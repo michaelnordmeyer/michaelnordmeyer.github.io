@@ -37,9 +37,11 @@ There are some pitfalls when it comes to data usage. Data charges can add up qui
   * **Location data**. Location data uses a very small amount. See above if you use maps.
   * **Background updates**. In general they don’t use a lot of data if the app is conscious about data usage.
 
-## Things Eating Your Data Allowance You Don’t Know Of
+## Things Eating Your Data Allowance You Don’t Know of
 
   * **Automatic app updates**. Automatic app updates run in the background on iOS and, if enabled, on macOS. They only run on Wi-Fi, but Macs can be tethered and won’t know about the phone using mobile data. Updates on iOS are much more frequent. It’s also likely that most people have more iOS apps than macOS apps, because they are cheaper and big companies have to have mobile apps, but get away with having just a website on desktop, like Facebook. An average non-gaming iOS app may be 50 MB in size, gaming apps are in the hundreds of megabytes. Some apps like Facebook, Facebook Messenger or TripAdvisor for example are updated every two weeks. And they are 80–100 MB in size. At least iOS only downloads changes and not the whole app again.
   * **Podcast subscriptions**. If you enabled automatic downloads of new podcast episodes on mobile and didn’t restrict it to only download on Wi-Fi, you may download a lot of data. This depends on the amount of subscriptions and updates to those. Podcasts use a quarter to half of what music uses. But they are much longer than the average song.
+
+## Bottom Line
 
 The bottom line is simple: Video, music streaming and app updates use the most data. The rest depends on your usage pattern and frequency. This is no surprise, but sometimes it’s hard to understand for what the data has been used for. And hopefully in the near future mobile data plans will have much more data included for a reasonable price. Then only video and excessive music streaming will be an issue.
