@@ -4,7 +4,9 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <img class="post-image" src="{{ page.image }}">
+  {% if page.image %}
+    <img class="post-image" src="{{ page.image }}" alt="Header image">
+  {% endif %}
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
