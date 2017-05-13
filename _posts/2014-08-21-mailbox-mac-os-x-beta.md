@@ -4,6 +4,7 @@ date: 2014-08-21T13:46:24+00:00
 excerpt: The Mailbox iOS app everybody loves gets a OS X companion app. It's still in beta and you need beta invites. Beta invites for Mailbox are very cool betacoins.
 layout: post
 permalink: /mailbox-mac-os-x-beta
+redirect_from: /mailbox-mac-os-x-beta/
 categories:
   - Apple
 tags:
