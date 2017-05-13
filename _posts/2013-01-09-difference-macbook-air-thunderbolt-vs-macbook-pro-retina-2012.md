@@ -4,6 +4,7 @@ date: 2013-01-09T00:00:42+00:00
 excerpt: Das 2012 MacBook Air ist mittlerweile fast so gut wie ein MacBook Pro Retina, abgesehen von der Retina-Auflösung. Finde heraus, warum.
 layout: post
 permalink: /difference-macbook-air-thunderbolt-vs-macbook-pro-retina-2012
+redirect_from: /difference-macbook-air-thunderbolt-vs-macbook-pro-retina-2012/
 lang: de
 categories:
   - Apple

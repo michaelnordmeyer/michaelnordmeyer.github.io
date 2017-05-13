@@ -4,6 +4,7 @@ date: 2013-02-21T17:19:00+00:00
 excerpt: Infinite Scrolling hat viele Nachteile, aber nur wenig Vorteile.
 layout: post
 permalink: /infinite-scrolling-is-evil
+redirect_from: /infinite-scrolling-is-evil/
 lang: de
 categories:
   - Web

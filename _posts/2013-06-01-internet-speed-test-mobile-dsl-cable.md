@@ -4,6 +4,7 @@ date: 2013-06-01T13:39:45+00:00
 excerpt: Ein schneller und einfacher Weg herauszufinden, wie schnell die Internet-Verbindung ist. Mobile Nutzer sollten dabei den Datenverbrauch kennen.
 layout: post
 permalink: /internet-speed-test-mobile-dsl-cable
+redirect_from: /internet-speed-test-mobile-dsl-cable/
 lang: de
 categories:
   - Web

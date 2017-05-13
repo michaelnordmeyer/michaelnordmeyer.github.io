@@ -4,6 +4,7 @@ date: 2012-12-16T23:39:57+00:00
 excerpt: A kindle e-book purchased and downloaded doesn't mean you own it. Amazon can remove content from your devices without notice and close your user account.
 layout: post
 permalink: /amazon-kindle-e-book-backup
+redirect_from: /amazon-kindle-e-book-backup/
 image: /images/2012/12/Kindle.jpg
 categories:
   - Technology
