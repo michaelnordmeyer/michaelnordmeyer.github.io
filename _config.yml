@@ -41,8 +41,6 @@ social:
     - https://www.linkedin.com/in/michaelnordmeyer
     - https://github.com/michaelnordmeyer
 #    - https://www.xing.com/profile/Michael_Nordmeyer
-#    - https://plus.google.com/+BenBalter
-#    - https://keybase.io/michaelnordmeyer
 
 clicky:
   url: "https://michaelnordmeyer.com/c.js"
@@ -52,18 +50,18 @@ clicky:
 #   url: "https://stats.michaelnordmeyer.com/"
 #   site_id: 1
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts # posts, pages, drafts
-    values:
-      layout: default
-      author: Michael Nordmeyer
-  -
-    scope:
-      path: "projects"
-      type: "pages"
-    values:
-      layout: "project"
-      author: "Mr. Hyde"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: posts # posts, pages, drafts
+#     values:
+#       layout: default
+#       author: Michael Nordmeyer
+#   -
+#     scope:
+#       path: "projects"
+#       type: "pages"
+#     values:
+#       layout: "project"
+#       author: "Mr. Hyde"
