@@ -4,6 +4,9 @@ date: 2013-02-21T15:03:24+00:00
 excerpt: Crossposting vermindert die Informationsdichte und vermüllt die Feeds.
 layout: post
 permalink: /social-medias-worst-habit-crossposting
+redirect_from:
+  - /2013/02/social-media-als-informationskiller-crossposting/
+  - /social-medias-worst-habit-crossposting/
 lang: de
 categories:
   - Web

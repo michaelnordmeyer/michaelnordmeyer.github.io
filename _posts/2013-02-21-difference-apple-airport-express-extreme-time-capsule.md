@@ -7,6 +7,7 @@ permalink: /difference-apple-airport-express-extreme-time-capsule
 redirect_from:
   - /2013/02/unterschied-apple-airport-express-vs-airport-extreme-vs-time-capsule/
   - /unterschied-apple-airport-express-vs-airport-extreme-vs-time-capsule/
+  - /2013/02/difference-apple-airport-express-airport-extreme-time-capsule/
   - /difference-apple-airport-express-airport-extreme-time-capsule/
   - /difference-apple-airport-express-airport-extreme-time-capsule
   - /difference-apple-airport-express-extreme-time-capsule/

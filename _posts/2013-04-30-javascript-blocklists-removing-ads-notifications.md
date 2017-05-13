@@ -4,7 +4,10 @@ date: 2013-04-30T13:36:01+00:00
 excerpt: The poor man's ad blocker and tracking blocker.
 layout: post
 permalink: /javascript-blocklists-removing-ads-notifications
-redirect_from: /2013/04/javascript-blocklisten-fuer-besseres-surfen/
+redirect_from:
+  - /2013/04/javascript-blocklisten-fuer-besseres-surfen/
+  - /2013/04//javascript-blocklists-removing-ads-notifications/
+  - /javascript-blocklists-removing-ads-notifications/
 categories:
   - Web
 tags:
