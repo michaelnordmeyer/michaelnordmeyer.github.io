@@ -27,6 +27,6 @@ Installing Gmail gives the option to remove a login from the account settings pa
 
 To remove a login tap _Accounts_ > _Edit_ > _Remove_ for all the logins you want to remove. Removing a Google login from one app deletes it for all installed Google apps on this device.
 
-The same goes for Google Drive, Google Hangouts and Google Calendar. These apps can manage accounts more thoroughly than the rest of the Google apps. Maybe Google will enhance the other apps as well in the future.
+The same goes for Google Drive, Google Hangouts and Google Calendar. These apps can manage accounts more thoroughly than the rest of the Google apps. Maybe Google will enhance the other apps in the future as well.
 
 It took me some time to figure this out as I didn’t have one of those apps installed on my devices. The Google apps I used and where I wanted to get rid of the accounts don’t have this ability.
