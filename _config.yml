@@ -11,8 +11,8 @@ minima:
   date_format: "%Y-%m-%d"
 
 title: Michael Nordmeyer
-description: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker (sencha)."
-#description: 'Agile Project Management & Development'
+description: 'Agile Project Management & Development'
+bio: "Freelance developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker (sencha)."
 
 author: Michael Nordmeyer
 #email: michael@michaelnordmeyer.com
@@ -26,6 +26,7 @@ feed:
   path: /feed
 
 # jekyll-seo-tag
+title_separator: " • "
 twitter:
   username: mnordmeyer
 # facebook:
