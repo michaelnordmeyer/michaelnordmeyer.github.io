@@ -18,9 +18,9 @@ It’s the first year that [next conference](https://nextconf.eu/) is taking pla
 
 Of all the talks I listened to Ola Ahlvarsson’s “Inside the Head of an Entrepreneur” was the best by far. His main point:
 
-> “Entrepreneurs want to do, not to be!” Ola Ahlvarsson [#next10](https://twitter.com/search?q=%23next10)
-> 
-> — Michael Nordmeyer (@mnordmeyer) [May 11, 2010](https://twitter.com/mnordmeyer/statuses/13791338476)
+<q>‘Entrepreneurs want to do, not to be!’ Ola Ahlvarsson [#next10](https://twitter.com/search?q=%23next10)</q>
+
+— <cite>[Michael Nordmeyer (@mnordmeyer)](https://twitter.com/mnordmeyer/statuses/13791338476)</cite>
 
 Ahlvarsson described thinking and working habits of serial entrepreneurs:
 

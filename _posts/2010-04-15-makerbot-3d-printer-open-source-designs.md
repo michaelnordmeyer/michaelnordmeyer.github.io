@@ -11,7 +11,7 @@ tags:
   - Conference
   - re:publica
 ---
-> Earl Grey, hot.
+<q>Earl Grey, hot.</q>
 
 This quote is known to all “[Star Trek – The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)” fans, spoken by Captain Jean-Luc Picard while ordering a replicated tea.
 

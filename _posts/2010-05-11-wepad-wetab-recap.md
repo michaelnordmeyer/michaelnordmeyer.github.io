@@ -35,7 +35,7 @@ Klar, die preissensitive Zielgruppe bevorzugt es genau umgekehrt. Aber diese ent
 
 WePad ist passé. [WeTab](http://www.wetab.mobi/) heißt das Baby jetzt. Begründung?
 
-> Um unser Produkt am internationalen Markt für Tablet-Computer noch deutlicher abzugrenzen, ändern wir mit Wirkung ab heute den Produktnamen unseres Tablet-Computers in WeTab.
+<q>Um unser Produkt am internationalen Markt für Tablet-Computer noch deutlicher abzugrenzen, ändern wir mit Wirkung ab heute den Produktnamen unseres Tablet-Computers in WeTab.</q>
 
 **Schwach. Sehr schwach sogar.** Durch Nutzung des generelleren Begriffs Tablet anstelle Pads hat sich der Hersteller nicht wirklich abgegrenzt. Diese Gerätekategorie ist zudem durch in der Form und Funktion deutlich unterschiedliche Geräte schon besetzt: Konventionelle Notebooks, die ein drehbares und klappbares Display haben, welches mit einem Stift bedient werden kann und Handschriftenerkennung beherrscht. Zumindest mit der Windows Tablet-PC Edition.
 
@@ -52,7 +52,7 @@ Warum? Wie oben schon geschrieben: **Apple frönt dem Credo “weniger ist mehr�
 <figure>
   <img title="WeTab mit Thumb Bar" src="https://michaelnordmeyer.com/images/2010/05/WeTab-thumbbar-660x421.jpg" alt="WeTab mit Thumb Bar" width="740" height="472" srcset="https://michaelnordmeyer.com/images/2010/05/WeTab-thumbbar-660x421.jpg 660w, https://michaelnordmeyer.com/images/2010/05/WeTab-thumbbar-300x191.jpg 300w, https://michaelnordmeyer.com/images/2010/05/WeTab-thumbbar-768x490.jpg 768w, https://michaelnordmeyer.com/images/2010/05/WeTab-thumbbar.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
   <figcaption>WeTab mit Thumb Bar, © Sebastian Knoth 2010</figcaption>
-</figure> 
+</figure>
 
 Das ist einfach ein Schritt zurück und erinnert an die Funktionstasten, die seit Urzeiten PC-Tastaturen zieren. Dieses konventionelle und für diese Geräteklasse veraltete Bedienkonzept wird trotzdem weiterhin von der eher [technisch orientierten Zielgruppe favorisiert](https://www.heise.de/newsticker/meldung/Das-WePad-gibt-es-wirklich-987307.html).
 
@@ -75,7 +75,7 @@ Die Einfachheit und Direktheit des iPads bei gleichzeitiger größerer Darstellu
 <figure>
   <img title="Casual Surfing mit dem iPad" src="https://michaelnordmeyer.com/images/2010/05/mlb_hero_20100403.jpg" alt="Casual Surfing mit dem iPad" width="541" height="420" srcset="https://michaelnordmeyer.com/images/2010/05/mlb_hero_20100403.jpg 541w, https://michaelnordmeyer.com/images/2010/05/mlb_hero_20100403-300x233.jpg 300w" sizes="(max-width: 541px) 85vw, 541px">
   <figcaption>Casual Surfing mit dem iPad, © Apple, Inc.</figcaption>
-</figure> 
+</figure>
 
 Ein Notebook oder Netbook funktioniert nur im Sitzen gut. Ein iPad hingegen auch in jeder Position auf dem Sofa. Das Internet ist ein integraler Bestandteil des Lebens geworden. Ein iPad fügt sich perfekt in diese “gemütliche Welt” ein. Die Teilnahme an Social Networks wird angenehm direkter. Das wird normalsterbliche ansprechen.
 
