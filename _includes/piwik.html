@@ -7,7 +7,7 @@
     var u='{{ site.piwik.url }}';
     _paq.push(['setTrackerUrl', u+'p.php']);
     _paq.push(['setSiteId', {{ site.piwik.site_id }}]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.defer=true; g.src=u+'p.js'; s.parentNode.insertBefore(g,s);
+    var d=document, p=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    p.async=true; p.defer=true; p.src=u+'p.js'; s.parentNode.insertBefore(p,s);
     })();
   </script>
