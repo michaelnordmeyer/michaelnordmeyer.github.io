@@ -4,9 +4,6 @@ date: 2010-05-11T12:13:04+00:00
 excerpt: Nach der desaströsen Premiere des iPad-Konkurrenten WeTab versuchte Neofonie noch zu retten, was zu retten ist. Vergeblich.
 layout: post
 permalink: /wepad-wetab-recap
-redirect_from:
-  - /2010/05/wepad-wetab-recap/
-  - /wepad-wetab-recap/
 image: /images/2010/05/WeTab-widgets.jpg
 lang: de
 categories:

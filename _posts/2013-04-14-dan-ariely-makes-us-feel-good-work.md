@@ -4,7 +4,6 @@ date: 2013-04-14T08:41:29+00:00
 excerpt: A video about meaningful work compared to sisyphean work in the workplace.
 layout: post
 permalink: /dan-ariely-makes-us-feel-good-work
-redirect_from: /dan-ariely-makes-us-feel-good-work/
 categories:
   - Miscellaneous
 tags:

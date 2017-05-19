@@ -4,7 +4,6 @@ date: 2008-02-26T23:35:55+00:00
 excerpt: My first BarCamp — an awesome experience.
 layout: post
 permalink: /barcamp-hannover-2008
-redirect_from: /barcamp-hannover-2008/
 categories:
   - Events
 tags:

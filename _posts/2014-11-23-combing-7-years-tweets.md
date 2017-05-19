@@ -4,7 +4,6 @@ date: 2014-11-23T19:09:04+00:00
 excerpt: Twitter extended its search to include all tweets ever tweeted and not only old tweets from the last two weeks.
 layout: post
 permalink: /combing-7-years-tweets
-redirect_from: /combing-7-years-tweets/
 categories:
   - Web
 tags:

@@ -4,7 +4,6 @@ date: 2014-12-03T21:19:58+00:00
 excerpt: It's the third time I couldn't download my Facebook data. It never worked even once. Retrying doesn't help. It's useless.
 layout: post
 permalink: /downloading-facebook-data-ever-work
-redirect_from: /downloading-facebook-data-ever-work/
 categories:
   - Web
 tags:

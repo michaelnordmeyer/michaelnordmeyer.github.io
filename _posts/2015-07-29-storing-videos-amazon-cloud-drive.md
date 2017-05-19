@@ -4,7 +4,6 @@ date: 2015-07-29T19:54:46+00:00
 excerpt: Amazon Cloud Drive has unlimited storage for $60 a year. Thats quite a bargain. But there are limits, especially for streaming video.
 layout: post
 permalink: /storing-videos-amazon-cloud-drive
-redirect_from: /storing-videos-amazon-cloud-drive/
 categories:
   - Web
 tags:

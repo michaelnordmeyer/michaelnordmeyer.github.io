@@ -4,7 +4,6 @@ date: 2016-02-02T15:55:32+00:00
 excerpt: I'm cutting down on external input like Social Media, RSS, YouTube and the Internet in general for a month to gain time and mental space.
 layout: post
 permalink: /30-day-challenge-no-social-media-no-online-video
-redirect_from: /30-day-challenge-no-social-media-no-online-video/
 categories:
   - Miscellaneous
 tags:

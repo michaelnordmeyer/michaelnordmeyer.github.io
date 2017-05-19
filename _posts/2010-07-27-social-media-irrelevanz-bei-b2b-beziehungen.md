@@ -4,9 +4,7 @@ date: 2010-07-27T12:00:29+00:00
 excerpt: Brauchen B2B-Beziehungen Social Media oder sind diese in diesem Kontext irrelevant?
 layout: post
 permalink: /social-media-irrelevanz-bei-b2b-beziehungen
-redirect_from:
-  - /2010/07/social-media-irrelevanz-bei-b2b-beziehungen/
-  - /social-media-irrelevanz-bei-b2b-beziehungen/
+redirect_from: /2010/07/social-media-irrelevanz-bei-b2b-beziehungen/
 image: /images/2010/07/conversation-1200x734.jpg
 lang: de
 categories:

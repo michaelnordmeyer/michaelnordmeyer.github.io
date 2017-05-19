@@ -4,7 +4,6 @@ date: 2008-10-29T22:07:00+00:00
 excerpt: Watching TED videos for educational purposes.
 layout: post
 permalink: /watching-ted-videos
-redirect_from: /watching-ted-videos/
 categories:
   - Miscellaneous
 ---
