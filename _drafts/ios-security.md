@@ -5,7 +5,7 @@ Turn on
 
 * “a” to erase all data on your phone after 10 unsuccessful passcode inputs
 
-Don't
+don’t
 
 * Do not make your secondary password-reset account accessible on your iPhone. Otherwise the thief gets the password recovery email directly on the stolen phone.
 

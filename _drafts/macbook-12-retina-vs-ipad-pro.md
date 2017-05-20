@@ -6,11 +6,11 @@ tags:
   - iPad
   - MacBook
 ---
-Because most people think of the iPad Pro as a notebook replacement, I want to compare three ultra-light devices to show that it’s not easy to replace: the 12″ MacBook Retina, the iPad Pro 12.9″ and 9.7″, and the iPad Air 2. I use external keyboards for both iPads, because having one means I'm much more productive, even though I quite like the on-screen keyboard. I don't write about the Apple Pencil and the obvious benefits for artistic use cases, because the MacBook as a notebook can't act as a drawing board. So if you think about getting the iPad Pro because of the Apple Pencil, well, there’s no other option than to just get the iPad Pro.
+Because most people think of the iPad Pro as a notebook replacement, I want to compare three ultra-light devices to show that it’s not easy to replace: the 12″ MacBook Retina, the iPad Pro 12.9″ and 9.7″, and the iPad Air 2. I use external keyboards for both iPads, because having one means I’m much more productive, even though I quite like the on-screen keyboard. I don’t write about the Apple Pencil and the obvious benefits for artistic use cases, because the MacBook as a notebook can’t act as a drawing board. So if you think about getting the iPad Pro because of the Apple Pencil, well, there’s no other option than to just get the iPad Pro.
 
-## The iPad Pro 12.9" – A Humongous Tablet
+## The iPad Pro 12.9˝ – A Humongous Tablet
 
-While it’s true the iPad Pro has a larger screen, in my opinion this larger screen is only helpful if running two apps side by side. But because of the size you can't call the iPad Pro a tablet anymore. It’s so huge I rather want to put it down on a table. It feels more like a notebook than a tablet. The screen is exactly twice the size of a normal non-mini iPad. You can put two iPads next to each other and you get about the size of an iPad Pro.
+While it’s true the iPad Pro has a larger screen, in my opinion this larger screen is only helpful if running two apps side by side. But because of the size you can’t call the iPad Pro a tablet anymore. It’s so huge I rather want to put it down on a table. It feels more like a notebook than a tablet. The screen is exactly twice the size of a normal non-mini iPad. You can put two iPads next to each other and you get about the size of an iPad Pro.
 
 ### Keyboard – Virtual and Physical
 
@@ -22,7 +22,7 @@ The iPad Air 2 feels like a true tablet, which you can easily hold and operate w
 
 ### Keyboard – Virtual and Physical
 
-The on-screen keyboard is okay for me. I can type on it at fast speed using four to six fingers. The only downer is the large amount of screen space the keyboard uses: 50 %. This doesn't leave much space for the actual text I'm writing. The external keyboard is fine. It’s not full size, but it has all the keys a normal keyboard has like number keys and a couple of other keys which are not directly accessible on the virtual keyboard without switching. I work faster on it than on the on-screen keyboard, especially if I need to edit the text. The cursor keys and the word navigation is quite convenient. Especially the custom keys for task switching, home and search make me much more productive.
+The on-screen keyboard is okay for me. I can type on it at fast speed using four to six fingers. The only downer is the large amount of screen space the keyboard uses: 50 %. This doesn’t leave much space for the actual text I’m writing. The external keyboard is fine. It’s not full size, but it has all the keys a normal keyboard has like number keys and a couple of other keys which are not directly accessible on the virtual keyboard without switching. I work faster on it than on the on-screen keyboard, especially if I need to edit the text. The cursor keys and the word navigation is quite convenient. Especially the custom keys for task switching, home and search make me much more productive.
 
 ## Comparison of Technical Data
 
@@ -30,13 +30,13 @@ All measurements done with European duckheads. For the cellular versions add 150
 
 | Model                       | Screen [inch] | Price [€] | Weight of device only [g (Pound)] | Weight incl. power adapter etc. [g] | Including |
 | --------------------------- | -------------:| ---------:| ---------------------------------:| -----------------------------------:| --------- |
-| MacBook 12" 256 GB          |          12.0 |     1,450 |                            920 () |                               1,077 | power adapter 109g, USB-C cable 48g (MacBook 907g) |
-| iPad Pro 12.9" 256 GB Wi-Fi |          12.9 |     1,300 |                            713 () |                               1,150 | power adapter 12W 77g, Lightning cable 42g, Smart Keyboard 318g (Smart Cover 176g) |
-| iPad Pro 9.7" 256 GB Wi-Fi  |           9.7 |     1,070 |                        437 (0.96) |                                 748 | power adapter 12W 77g, Lightning cable 16g, Smart Keyboard 218g |
+| MacBook 12˝ 256 GB          |          12.0 |     1,450 |                            920 () |                               1,077 | power adapter 109g, USB-C cable 48g (MacBook 907g) |
+| iPad Pro 12.9˝ 256 GB Wi-Fi |          12.9 |     1,300 |                            713 () |                               1,150 | power adapter 12W 77g, Lightning cable 42g, Smart Keyboard 318g (Smart Cover 176g) |
+| iPad Pro 9.7˝ 256 GB Wi-Fi  |           9.7 |     1,070 |                        437 (0.96) |                                 748 | power adapter 12W 77g, Lightning cable 16g, Smart Keyboard 218g |
 | iPad Air 2 128 GB Wi-Fi     |           9.7 |       673 |                        437 (0.96) |                                 924 | power adapter 12W 77g, Lightning cable 16g, Smart Cover 79g, Logitech Ultrathin keyboard 315g |
 | iPad Air 2 128 GB Wi-Fi     |           9.7 |       629 |                        437 (0.96) |                                 804 | power adapter 12W 77g, Lightning cable 16g, Smart Cover 79g, Logitech Keys-To-Go keyboard and charging cable 195g |
 
-iPads don't need a full-body case my opinion. If you put them separate from other stuff in a bag within a separate compartment it should be fine. The iPad Pro’s screen is sufficiently protected by the Smart Keyboard, which also doubles as a stand. And the MacBook’s screen is protected when the lid is closed and it brings its own stand. The screen of the iPad Air 2 is a little bit protected with the magnetically attached Ultrathin keyboard, but it comes off easily. And it needs a stand. So I use a Smart Cover for protection and as a stand and take it off when I use the keyboard. The Logitech Keys-To-Go fabric keyboard weighs 195 g including charging cable vs. 315 g for the Ultrathin. You can save 120 g while having a detached keyboard.
+iPads don’t need a full-body case my opinion. If you put them separate from other stuff in a bag within a separate compartment it should be fine. The iPad Pro’s screen is sufficiently protected by the Smart Keyboard, which also doubles as a stand. And the MacBook’s screen is protected when the lid is closed and it brings its own stand. The screen of the iPad Air 2 is a little bit protected with the magnetically attached Ultrathin keyboard, but it comes off easily. And it needs a stand. So I use a Smart Cover for protection and as a stand and take it off when I use the keyboard. The Logitech Keys-To-Go fabric keyboard weighs 195 g including charging cable vs. 315 g for the Ultrathin. You can save 120 g while having a detached keyboard.
 
 ## Conclusion
 

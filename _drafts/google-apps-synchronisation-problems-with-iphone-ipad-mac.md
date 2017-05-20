@@ -8,7 +8,7 @@ tags:
   - iPhone
   - Mac
 ---
-[Google Sync (ActiveSync): Known Limitations](https://support.google.com/a/users/answer/139635) The iPhone can synchronize up to 3 email address. Phone number synchronization is limited to 2 Home numbers, 1 Home Fax, 1 Mobile, 1 Pager, 3 Work (one will be labeled 'Company Main') and one Work Fax number. At this time Google Sync does not support custom “From:” addresses. The iPhone doesn't reflect the attendee status (Yes/No/Maybe) of guests in the user interface of the Calendar application. Google Sync provides a hint in the form of a checkmark in front of a guest’s first name. Exchange Die hier beschriebenen Probleme treten auch mit GoogleMail und dem normalen Google Kalender auf und nicht nur mit Google Apps.
+[Google Sync (ActiveSync): Known Limitations](https://support.google.com/a/users/answer/139635) The iPhone can synchronize up to 3 email address. Phone number synchronization is limited to 2 Home numbers, 1 Home Fax, 1 Mobile, 1 Pager, 3 Work (one will be labeled ‘Company Main’) and one Work Fax number. At this time Google Sync does not support custom “From:” addresses. The iPhone doesn’t reflect the attendee status (Yes/No/Maybe) of guests in the user interface of the Calendar application. Google Sync provides a hint in the form of a checkmark in front of a guest’s first name. Exchange Die hier beschriebenen Probleme treten auch mit GoogleMail und dem normalen Google Kalender auf und nicht nur mit Google Apps.
 
 ## Limitierungen
 

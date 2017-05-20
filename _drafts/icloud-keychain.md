@@ -23,6 +23,6 @@ tags:
 
 **Can Apple recover my iCloud Security Code?**
 
-<q>No. If you enter your iCloud Security Code incorrectly too many times, you can't use that iCloud Keychain. You can [contact Apple Support](http://www.apple.com/support/icloud/contact/), who can help verify your identity so that you can try to enter your iCloud Security Code again. After a number of incorrect attempts, your iCloud Keychain is removed from Apple’s servers, and you'll need to set up iCloud Keychain again.</q>
+<q>No. If you enter your iCloud Security Code incorrectly too many times, you can’t use that iCloud Keychain. You can [contact Apple Support](http://www.apple.com/support/icloud/contact/), who can help verify your identity so that you can try to enter your iCloud Security Code again. After a number of incorrect attempts, your iCloud Keychain is removed from Apple’s servers, and you’ll need to set up iCloud Keychain again.</q>
 
-<q>On macOS, if you used Keychain Access to reset your macOS Keychain, macOS will delete your iCloud Keychain items. Try choosing Keychain Access > Keychain First Aid to verify and repair keychain settings and permissions. If that doesn't help, set up iCloud Keychain again. If you need to reset your macOS Keychain again, temporarily disable iCloud Keychain in iCloud Preferences before resetting your macOS Keychain.</q>
+<q>On macOS, if you used Keychain Access to reset your macOS Keychain, macOS will delete your iCloud Keychain items. Try choosing Keychain Access > Keychain First Aid to verify and repair keychain settings and permissions. If that doesn’t help, set up iCloud Keychain again. If you need to reset your macOS Keychain again, temporarily disable iCloud Keychain in iCloud Preferences before resetting your macOS Keychain.</q>

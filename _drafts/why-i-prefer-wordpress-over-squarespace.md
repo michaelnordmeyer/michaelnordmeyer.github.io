@@ -7,12 +7,12 @@ tags:
   - WordPress
 ---
 * Have to have “blog” or another moniker in the URL
-* Blog posts don't have a trailing slash in the URL
+* Blog posts don’t have a trailing slash in the URL
 * Awkward editor for creating blog posts
 * Settings are nested deeply
 * Everything feels slow
-* Images don't have the domain name in the URL but Squarespace’s domain name
-* Category don't have proper URLs but are searches and therefore ugly ?category=[categoryname]
+* Images don’t have the domain name in the URL but Squarespace’s domain name
+* Category don’t have proper URLs but are searches and therefore ugly ?category=[categoryname]
 
 ## I Like
 

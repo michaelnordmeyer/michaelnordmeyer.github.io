@@ -38,7 +38,7 @@ https://major.io/2007/08/08/mysqls-query-cache-explained/
     runtime variables effects performance visit:
     http://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html
     Visit http://www.mysql.com/products/enterprise/advisors.html
-    for info about MySQL’s Enterprise Monitoring and Advisory Service
+    for info about MySQL's Enterprise Monitoring and Advisory Service
     
     SLOW QUERIES
     The slow query log is NOT enabled.

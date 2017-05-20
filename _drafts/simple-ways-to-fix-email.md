@@ -5,7 +5,7 @@ categories:
 tags:
   - Email
 ---
-Today emails are more of a conversation than a letter. That’s why it’s not a good idea to treat each email separately. Instead a conversational timeline like messaging apps use is more appropriate. To all email haters: Face it, you need to have some sort of identification handle and you need some way to digitally communicate with people you don't have any sort of relationship before starting to communicate.
+Today emails are more of a conversation than a letter. That’s why it’s not a good idea to treat each email separately. Instead a conversational timeline like messaging apps use is more appropriate. To all email haters: Face it, you need to have some sort of identification handle and you need some way to digitally communicate with people you don’t have any sort of relationship before starting to communicate.
 
 ## The Identification Handle
 

@@ -10,7 +10,7 @@ On Page Optimierung
 
 Erst den Artikel-Namen, dann Blognamen als Titel verwenden.
 Von 2010 schon unterstützt.
-wp_title('»', true, 'right');
+wp_title('•', true, 'right');
 (header.php)
 
 H1-H6 korrekt anwenden. Also Stylesheet ändern und nicht eine andere Schrift nehmen, nur weil die Größe nicht passt. z.B.: h2 { font-size: 120%; }

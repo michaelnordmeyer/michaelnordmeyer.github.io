@@ -24,4 +24,4 @@ I use plugins for Chrome [Chrome JavaScript blacklist by Jiayong Ou](https://chr
 
 Just copy and paste this list into the text field of the respective plugin and you are all set.
 
-If you have some block-worthy scripts to share please [drop me an email](/about/).
+If you have some block-worthy scripts to share please [tell me on Twitter](https;//twitter.com/mnordmeyer).
