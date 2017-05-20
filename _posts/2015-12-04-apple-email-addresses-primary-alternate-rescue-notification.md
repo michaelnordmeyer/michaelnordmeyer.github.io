@@ -29,6 +29,6 @@ Rescue email addresses are used for accessing your Apple ID when the primary one
 
 This address is only used for notification purposes if you have two-factor authentication enabled and don’t have a rescue email address.
 
-If you get the error <q>Your new Apple ID cannot be the same as your notification email address</q> it means that these have to be different email addresses. All those addresses can be changed when [managing your Apple ID](https://appleid.apple.com/account/manage).
+If you get the error <q>Your new Apple ID cannot be the same as your notification email address</q> it means that these have to be different email addresses. The point of the notification email address is to be different than the normal one for security reasons. All those addresses can be changed when [managing your Apple ID](https://appleid.apple.com/account/manage).
 
 Apple has a [thorough explanation](https://support.apple.com/en-us/HT201356) in their knowledge base for these different types of email addresses.
