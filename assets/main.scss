@@ -28,16 +28,20 @@ video {
 figure img { margin: 0 auto; }
 figcaption { text-align: center; }
 
+/* Custom CSS based on Minima */
+
 .post-list > li > h2 { margin-bottom: 1px; }
 .post-link { line-height: 1.3em; }
 .post-image { margin-bottom: 15px; }
 
-.social-media-list .icon { padding-right: 8px; }
-
-/* Custom CSS based on Minima */
 .footer-col-1,
 .footer-col-2,
 .footer-col-3 { width: calc(100% - (30px / 2)); }
+
+footer > h2 > a,
+footer > h2 > a:visited { color: #424242; }
+
+.social-media-list .icon { padding-right: 8px; }
 
 /* >= 440px (440/16) */
 @media screen and (min-width: 27.5em) {
