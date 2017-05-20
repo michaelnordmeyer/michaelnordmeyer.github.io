@@ -1,7 +1,7 @@
 ---
 title: 'MacBook Air 2010 and MacBook Pro: Differences and Omissions'
 date: 2011-02-15T20:27:21+00:00
-excerpt: Warum ein MacBook Air ein MacBook Pro nur fast ersetzen kann.
+excerpt: Warum ein MacBook Air ein MacBook Pro _fast_ ersetzen kann.
 layout: post
 permalink: /macbook-air-2010-macbook-pro-differences-omissions
 image: /images/2011/02/MacBookAir2010.jpg
