@@ -26,9 +26,9 @@ If a post on your blog becomes incredibly popular and starts to rank for a nice 
 * send an e-mail to everyone who linked to your old post that you’ve updated and * improved on your old post
 * wait for the links to come in, again;
 * rank even higher for your desired term as you’ve now got:
-    * more control over the keyword density
-    * even more links pointing at the article
-    * the ability to keep updating the article as you see fit to improve on it’s content and ranking
+  * more control over the keyword density
+  * even more links pointing at the article
+  * the ability to keep updating the article as you see fit to improve on it’s content and ranking
 
 Some among you will say: I could have 301 redirected the old post to the new one with the same effect. True. Except: you’d lose the comments on the old post, which is in my opinion a sign of disrespect to people who took the time to comment, and 301 redirects take quite a bit of time sometimes. Of course you should treat this technique with care, and not abuse it to rank other products, but I think it can be done in everyone’s benefit.
 

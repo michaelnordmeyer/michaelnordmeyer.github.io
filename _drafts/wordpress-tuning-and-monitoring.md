@@ -38,7 +38,7 @@ Mounting a filesystem with the noatime option disables the storage of informatio
 
 We tested this method with an ext3 filesystem on SATA disks, generating 15 articles in one folder of an eZ Publish installation with 900.000 objects. We ran the test 3 times and recorded the average time:
 
-    * Before noatme: 1.333 sec MySQL queries
-    * After noatme: 1.262 sec MySQL queries
+  * Before noatme: 1.333 sec MySQL queries
+  * After noatme: 1.262 sec MySQL queries
 
 While this setting does not seem to generate a significant performance improvement (about a 5.3 % increase in MySQL processing time), we only did the test with concurrency of 1. If you increase the number of concurrent users the improvement should be more noticeable, as there will be fewer writes to the filesystem.

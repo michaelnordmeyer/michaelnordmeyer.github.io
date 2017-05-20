@@ -41,7 +41,7 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 ~~**Die Financial Times Deutschland**~~ verlinkt nicht. Zumindest nicht auf dem Inhalt des Artikels zuträglichen Informationen. Sondern nur auf Aktienkurse der erwähnten Unternehmen. _Nein wirklich, das ist überaus hilfreich._ (**Update**: Die Financial Times Deutschland hat ihren Betrieb mittlerweile eingestellt.)
 
-[**Times Online**](http://www.thetimes.co.uk/tto/technology/article2484322.ece) verlinkt gar nicht. Nicht mal eine Link-Box irgendwo auf der Seite, welcher die zum Artikel weiterführenden Links beinhaltet. Inhaltlich haben sie die Aussage der Löschverfügungen nur auf Großbritannien beschränkt und kaum ins Verhältnis zu den anderen Ländern gesetzt.
+[**Times Online**](http://www.thetimes.co.uk/tto/technology/article2484322.ece) verlinkt gar nicht. Nicht mal eine Link-Box irgendwo auf der Seite, welche die zum Artikel weiterführenden Links beinhaltet. Inhaltlich haben sie die Aussage der Löschverfügungen nur auf Großbritannien beschränkt und kaum ins Verhältnis zu anderen Ländern gesetzt.
 
 ## Warum wird nicht verlinkt?
 
