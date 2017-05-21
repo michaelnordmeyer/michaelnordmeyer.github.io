@@ -21,7 +21,7 @@ Ages ago, when Textpattern was in its infancies, I was shure I would use either 
 I was a newbie regarding blogging software and server configuration at this time. Installation took me for
 
   * [WordPress](https://wordpress.org/): about 5—10 minutes. Quite easy, no hassles.
-  * [Textpattern](http://textpattern.com/): about the same as for WordPress
+  * [Textpattern](https://textpattern.com/): about the same as for WordPress
   * [Movable Type](https://movabletype.org/): about 45 minutes while dying with pain
 
 So, no Movable Type for me.
@@ -30,11 +30,11 @@ Movable Type probably has changed since then, but they still rely on their found
 
 Coming back to WordPress. Because Movable Type was out and I wasn’t willing to pay for a blogging software — there are some nice commercial ones — I opted for WordPress because of the wealth of themes and plugins. I would probably have chosen Textpattern over WordPress because I _really_ like the beauty of reduced design and typography which was the main feature of Textpattern. Also Textpattern used [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)), a built-in web text generator which lets you style your text in less awkward ways then html.
 
-On WordPress I use [Markdown](http://daringfireball.net/projects/markdown/), which is a similar generator and available as a WordPress plug-in.
+On WordPress I use [Markdown](https://daringfireball.net/projects/markdown/), which is a similar generator and available as a WordPress plug-in.
 
 But there’s one thing which would let me drop WordPress: PHP.
 
-WordPress is built with PHP. PHP applications tend to be more of a security issue for internet servers than other comparable solutions. Therefore I really would like to shut down [PHP](http://php.net/) on my server to avoid security holes. Okay, some people will hate me for writing this.
+WordPress is built with PHP. PHP applications tend to be more of a security issue for internet servers than other comparable solutions. Therefore I really would like to shut down [PHP](https://secure.php.net/) on my server to avoid security holes. Okay, some people will hate me for writing this.
 
 If I’ll get my stuff together I may switch to an all [Ruby](https://www.ruby-lang.org/) version running a self-built blog using [Ruby on Rails](http://rubyonrails.org/).
 
