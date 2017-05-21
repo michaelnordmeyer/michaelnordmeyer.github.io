@@ -25,12 +25,12 @@ video {
 	vertical-align: middle;
 }
 
-figure img { display: block; margin: 0 auto; }
+figure img { margin: 0 auto; }
 figcaption { text-align: center; }
 
 /* Custom CSS based on Minima */
 
-.aligncenter { margin: 0 auto; }
+.aligncenter { display: block; margin: 0 auto; }
 
 .post-list > li > h2 { margin-bottom: 1px; }
 .post-link { line-height: 1.3em; }
