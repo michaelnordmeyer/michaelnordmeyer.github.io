@@ -36,6 +36,6 @@ But there’s one thing which would let me drop WordPress: PHP.
 
 WordPress is built with PHP. PHP applications tend to be more of a security issue for internet servers than other comparable solutions. Therefore I really would like to shut down [PHP](http://php.net/) on my server to avoid security holes. Okay, some people will hate me for writing this.
 
-If I’ll get my stuff together I may change to an all [Ruby](https://www.ruby-lang.org/) version running [Ruby on Rails](http://rubyonrails.org/) for a coming web application of mine. The blog will also be built on Ruby / RoR.
+If I’ll get my stuff together I may switch to an all [Ruby](https://www.ruby-lang.org/) version running a self-built blog using [Ruby on Rails](http://rubyonrails.org/).
 
 We’ll see.
