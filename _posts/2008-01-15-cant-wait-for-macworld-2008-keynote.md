@@ -15,7 +15,7 @@ I’m eagerly awaiting the MacWorld keynote on Tuesday. I tend to skip most of t
 
 Either the rumors are vage and incomplete and therefore just useless, or the rumors are valid and cover all the details, which _seriously_ spoil the fun watching the keynote. I’ll never forgive me for having a peak at the Canadian Time magazine cover the day before the keynote in (wait a sec, hmm…) 2002 to get a first glimpse at the new iMac (flat panel, Luxo).
 
-Even if you are not an Apple fan or don’t plan on buying new stuff, a Steve Jobs keynote is always fun and enlighting. If you have ever been bored to death by some cheesy PowerPoint slide show displayed by an even more boring presenter, _please_, do yourself a favor and watch Steve Jobs giving a keynote.
+Even if you are not an Apple fan or don’t plan on buying new stuff, a Steve Jobs keynote is always fun and enlightening. If you have ever been bored to death by some cheesy PowerPoint slideshow displayed by an even more boring presenter, _please_, do yourself a favor and watch Steve Jobs giving a keynote.
 
 _OK, so what would I like to have on tuesday evening?_
   
