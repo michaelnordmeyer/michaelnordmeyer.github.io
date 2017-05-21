@@ -4,7 +4,9 @@ date: 2013-01-08T21:46:05+00:00
 excerpt: Ein Blick in die Zukunft des kabellosen Netzwerks.
 layout: post
 permalink: /fast-gigabit-wireless-802-11ac-802-11ad-problems
-redirect_from: /2013/01/schnelles-gigabit-wlan-mit-802-11ac-802-11ad-und-deren-probleme/
+redirect_from:
+  - /2013/01/schnelles-gigabit-wlan-mit-802-11ac-802-11ad-und-deren-probleme/
+  - /fast-gigabit-wireless-802-11ac-802-11ad-problems/
 lang: de
 categories:
   - Technology
