@@ -14,7 +14,7 @@ It’s the third time I couldn’t download my Facebook data. It never worked ev
 
 It’s fast and easy to start the process and wait for an email with the download notification. Unfortunately I never get one. I only get emails confirming the failure of the export 48 hours later: “Please retry your Facebook download.”
 
-<q>We’re sorry. Something went wrong and we weren’t able to put together a copy of your Facebook data. Please start the process again by visiting your account settings and clicking ‘Download a copy of your Facebook data.’</q>
+> We’re sorry. Something went wrong and we weren’t able to put together a copy of your Facebook data. Please start the process again by visiting your account settings and clicking ‘Download a copy of your Facebook data.’
 
 Great. This didn’t help at all. To answer my own question I asked in the headline: not for me.
 

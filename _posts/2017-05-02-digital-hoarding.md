@@ -11,7 +11,7 @@ tags:
 ---
 Sometimes I wonder if I sport a behaviour called digital hoarding.
 
-<q>Digital hoarding (also known as e-hoarding) is excessive acquisition and reluctance to delete electronic material no longer valuable to the user.</q>
+> Digital hoarding (also known as e-hoarding) is excessive acquisition and reluctance to delete electronic material no longer valuable to the user.
 
 — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Digital_hoarding)</cite>
 

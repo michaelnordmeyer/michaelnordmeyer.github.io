@@ -31,7 +31,7 @@ Klar, die preissensitive Zielgruppe bevorzugt es genau umgekehrt. Aber diese ent
 
 WePad ist passé. [WeTab](http://www.wetab.mobi/) heißt das Baby jetzt. Begründung?
 
-<q>Um unser Produkt am internationalen Markt für Tablet-Computer noch deutlicher abzugrenzen, ändern wir mit Wirkung ab heute den Produktnamen unseres Tablet-Computers in WeTab.</q>
+> Um unser Produkt am internationalen Markt für Tablet-Computer noch deutlicher abzugrenzen, ändern wir mit Wirkung ab heute den Produktnamen unseres Tablet-Computers in WeTab.
 
 **Schwach. Sehr schwach sogar.** Durch Nutzung des generelleren Begriffs Tablet anstelle Pads hat sich der Hersteller nicht wirklich abgegrenzt. Diese Gerätekategorie ist zudem durch in der Form und Funktion deutlich unterschiedliche Geräte schon besetzt: Konventionelle Notebooks, die ein drehbares und klappbares Display haben, welches mit einem Stift bedient werden kann und Handschriftenerkennung beherrscht. Zumindest mit der Windows Tablet-PC Edition.
 

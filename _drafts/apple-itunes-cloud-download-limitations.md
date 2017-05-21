@@ -5,7 +5,7 @@ categories:
 tags:
   - iCloud
 ---
-<q>This device is already associated with an Apple ID. If you download past purchases with your Apple ID, you cannot auto-download or download past purchases with a different Apple ID for 90 days.</q>
+> This device is already associated with an Apple ID. If you download past purchases with your Apple ID, you cannot auto-download or download past purchases with a different Apple ID for 90 days.
 
 Auto-download not only means automatic downloading of on other devices purchased stuff, but also re-download on the same device if it was deleted.
 

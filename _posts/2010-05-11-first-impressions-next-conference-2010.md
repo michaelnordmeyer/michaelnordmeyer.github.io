@@ -14,11 +14,9 @@ tags:
 ---
 It’s the first year that [next conference](https://nextconf.eu/) is taking place in Berlin at [Station Berlin](https://www.station-berlin.de/). The people of Hamburg, were the conference was taking place the years before, weren’t happy about that, because SinnerSchrader has it’s headquarters in Hamburg and the city is also famous for it’s strong media and publishing businesses. Hamburg is _the_ media capital of Germany.
 
-Of all the talks I listened to Ola Ahlvarsson’s “Inside the Head of an Entrepreneur” was the best by far. His main point:
+Of all the talks I listened to Ola Ahlvarsson’s <cite>Inside the Head of an Entrepreneur</cite> was the best by far. His main point:
 
-<blockquote cite="https://twitter.com/mnordmeyer/statuses/13791338476">‘Entrepreneurs want to do, not to be!’ Ola Ahlvarsson</blockquote>
-
-<q>‘Entrepreneurs want to do, not to be!’ Ola Ahlvarsson [#next10](https://twitter.com/search?q=%23next10)</q>
+> ‘Entrepreneurs want to do, not to be!’ Ola Ahlvarsson [#next10](https://twitter.com/search?q=%23next10)
 
 — <cite>[Michael Nordmeyer (@mnordmeyer)](https://twitter.com/mnordmeyer/statuses/13791338476)</cite>
 
