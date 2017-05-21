@@ -8,6 +8,6 @@ categories:
   - Image
   - Miscellaneous
 ---
-<img src="/images/2012/11/Gillmor-Gang-Recording-Setup.jpg" alt="Gillmor Gang Recording Setup" width="638" height="357" srcset="/images/2012/11/Gillmor-Gang-Recording-Setup.jpg 638w, /images/2012/11/Gillmor-Gang-Recording-Setup-300x168.jpg 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
+![Gillmor Gang Recording Setup](/images/2012/11/Gillmor-Gang-Recording-Setup.jpg){: .aligncenter }
 
 Quite a setup.
