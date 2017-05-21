@@ -36,11 +36,11 @@ A video of his next09 talks “Sharing Creativity – Great Conductors of the Ag
 
 Here are some photos of the next10 event:
 
-![](/images/2010/IMG_0223.jpg)
+![Lunch](/images/2010/IMG_0223.jpg "Lunch")
 
-![](/images/2010/IMG_0224.jpg)
+![Waiting in line for lunch](/images/2010/IMG_0224.jpg "Waiting in line for lunch")
 
-![](/images/2010/IMG_0227.jpg)
+![Chill-out zone](/images/2010/IMG_0227.jpg "Chill-out zone")
 
 ![Dumbed-down presentations](/images/2010/IMG_0229.jpg "Dumbed-down presentations")
 
@@ -56,7 +56,7 @@ Here are some photos of the next10 event:
 
 ![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](/images/2010/IMG_0257.jpg "Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”")
 
-![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab even his employees.](/images/2010/IMG_0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab even his employees.")
+![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.](/images/2010/IMG_0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.")
 
 ![A crowded WePad booth](/images/2010/IMG_0260.jpg "A crowded WePad booth")
 
@@ -66,6 +66,6 @@ Here are some photos of the next10 event:
 
 ![Stefana Broadbent of University College London](/images/2010/IMG_0262.jpg "Stefana Broadbent of University College London")
 
-![Stefana Broadbent and Stowe Boyd are moderated by Ola Ahlvarsson](/images/2010/IMG_0264.jpg "Stefana Broadbent and Stowe Boyd are moderated by Ola Ahlvarsson")
+![Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson](/images/2010/IMG_0264.jpg "Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson")
 
 ![Jemima Gibbons about Social Leadership](/images/2010/IMG_0266.jpg "Jemima Gibbons about Social Leadership")
