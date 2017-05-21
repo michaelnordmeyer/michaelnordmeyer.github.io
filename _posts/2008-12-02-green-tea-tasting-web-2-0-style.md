@@ -33,14 +33,14 @@ The test process is easy. You have to assign marks for four different areas:
 
 <figure>
   <img title="Dry tea leaves" src="/images/2008/12/img_9238.jpg" alt="Dry tea leaves: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="137" srcset="/images/2008/12/img_9238.jpg 480w, /images/2008/12/img_9238-300x86.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
-  <figcaption>Dry tea leaves: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)</figcaption>
+  <figcaption>Dry tea leaves (left to right): Cui Feng, Xiang Cha, Green Monkey, Snow Buds</figcaption>
 </figure>
 
 You need a little bit of practice to infuse and steep four teas at the same time if you don’t have enough tea strainers. These green teas should only steep for two minutes which makes it quite hard to do it in time.
 
 <figure>
   <img title="Infusion in the cup" src="/images/2008/12/img_9240.jpg" alt="Infusion in the cup: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="196" srcset="/images/2008/12/img_9240.jpg 480w, /images/2008/12/img_9240-300x123.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
-  <figcaption>Infusion in the cup: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)</figcaption>
+  <figcaption>Infusion in the cup (left to right): Cui Feng, Xiang Cha, Green Monkey, Snow Buds</figcaption>
 </figure>
 
 My favorite is “Green Monkey”. Good looks and great taste.
