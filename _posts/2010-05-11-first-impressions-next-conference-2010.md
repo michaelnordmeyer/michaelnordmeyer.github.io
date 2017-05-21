@@ -11,7 +11,6 @@ tags:
   - Conference
   - Internet
   - NEXT Conference
-  - Video
 ---
 It’s the first year that [next conference](https://nextconf.eu/) is taking place in Berlin at [Station Berlin](https://www.station-berlin.de/). The people of Hamburg, were the conference was taking place the years before, weren’t happy about that, because SinnerSchrader has it’s headquarters in Hamburg and the city is also famous for it’s strong media and publishing businesses. Hamburg is _the_ media capital of Germany.
 

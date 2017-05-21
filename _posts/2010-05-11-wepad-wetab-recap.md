@@ -14,7 +14,6 @@ tags:
   - iOS
   - iPad
   - iPhone
-  - Video
 ---
 Nach einer [desaströsen Premiere](https://www.handelsblatt.com/technik/gadgets/ipad-konkurrent-blogger-entlarven-wepad-fake/3410480.html) versuchte [Neofonie](https://www.neofonie.de/), oder besser gesagt die ~~WePad GmbH~~ [WeTab GmbH](http://www.wetab.mobi/), noch zu retten, was zu retten ist, und präsentierte diesmal keine Videos, die in einer Endlosschleife unter Windows 7 laufen, sondern die aktuelle WeTab-Software.
 

@@ -10,7 +10,6 @@ categories:
 tags:
   - Community
   - Social Media
-  - Video
 ---
 Charming as ever [EPIC FU](http://epicfu.com/) talks about “community building”. EPIC FU is a web show about geek culture, is cut for very fast pace and covers contemporary topics about lifestyle, geek culture and the internet. It’s made for people in the mid-twenties.
 

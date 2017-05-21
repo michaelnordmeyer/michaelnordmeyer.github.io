@@ -10,7 +10,6 @@ categories:
 tags:
   - Conference
   - re:publica
-  - Video
 ---
 **I attend an internet and online conference and I’m offline**. Too bad. An underpowered republica wireless network and totally non-working 3G, because about 70% of all attendees use iPhones and therefore are on the same T-Mobile network.
 
