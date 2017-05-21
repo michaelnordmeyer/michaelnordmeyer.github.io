@@ -29,7 +29,7 @@ Ein Beispiel: Ich habe die Netzwerk-Updates bei LinkedIn per RSS-Feed abonniert,
 
 Das war einmal. Obwohl ich meinen LinkedIn-Account mit ca. 300 Kontakten im Vergleich zu meinem XING-Account sehr stiefmütterlich behandle, bekomme ich pro Tag deutlich mehr als 1000 Status-Updates. Und es sind die gleichen Tweets, die auch schon auf XING, Facebook und (logischer Weise) auf Twitter und anderen Plattformen erschienen sind. Dafür kann ich die wichtigen Updates nicht mehr wahrnehmen, weil sie einfach unter gehen. Um im Kontext des Begriffes Social Media zu bleiben: **Dieses Verhalten (Crossposting) ist asozial, stiehlt mir meine Zeit und macht die von mir genutzten Plattformen kaputt.**
 
-Leider hat LinkedIn keinen separaten RSS-Feed für durch Aktivitäten auf der Plattform ausgelöste Status-Updates. **Über “Manage Updates by Type” lässt sich dieser Wust nur unzureichend eindämmen.** Leider Settings, die nicht jeder findet. (=> Settings > Home Page Settings > Network Updates > Manage Updates by Type > Changes to your connections’ status)
+Leider hat LinkedIn keinen separaten RSS-Feed für durch Aktivitäten auf der Plattform ausgelöste Status-Updates. **Über „Manage Updates by Type” lässt sich dieser Wust nur unzureichend eindämmen.** Leider Settings, die nicht jeder findet. (=> Settings > Home Page Settings > Network Updates > Manage Updates by Type > Changes to your connections’ status)
 
 ## Wie geht es besser? Wie poste ich richtig?
 
@@ -37,7 +37,7 @@ Im Prinzip genauso so, wie es diese Experten und Berater Ihren (potentiellen) Ku
 
 Auch wenn es Informationen beruflicher Art sind, wie Links zu interessanten Artikeln anderer, passen diese je nach Plattform meiner Meinung nach nur bedingt. Was passt sind die selbst erzeugten Inhalte. Leider ist es schwierig, selbst eigenen Content zu erzeugen, für den sich auch andere interessieren.
 
-Wenn man schon mit fremden Inhalten glänzen möchte, dann sollte man wenigstens den fremden Link durch eine eigene Einschätzung anreichern. Ansonsten verkommt man zur Linkschleuder, von denen es schon viel zu viele gibt. **Social Media ist mehr, als die “persönliche Marke” nach vorne zu bringen.**
+Wenn man schon mit fremden Inhalten glänzen möchte, dann sollte man wenigstens den fremden Link durch eine eigene Einschätzung anreichern. Ansonsten verkommt man zur Linkschleuder, von denen es schon viel zu viele gibt. **Social Media ist mehr, als die „persönliche Marke” nach vorne zu bringen.**
 
 ## Was ich mir von Plattform-Betreibern wünsche
 
