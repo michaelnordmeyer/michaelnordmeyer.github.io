@@ -11,13 +11,11 @@ tags:
   - Conference
   - re:publica
 ---
-> Earl Grey, hot.
-
-This quote is known to all “[Star Trek – The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)” fans, spoken by Captain Jean-Luc Picard while ordering a replicated tea.
+<q>Earl Grey, hot.</q> This quote is known to all “[Star Trek – The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)” fans, spoken by Captain Jean-Luc Picard while ordering a replicated tea.
 
 This kind of impression made the [MakerBot](https://www.makerbot.com/) on me.
 
-In his talk [“MakerBot: The Robot that Sharing Built – The Open Source Personal Fabrication Revolution”](http://archiv.re-publica.de/2011/12/04/the-open-source-personal-fabrication-revolution/) at re:publica 2010 [Bre Pettis](http://brepettis.com/) talks about technology and how open-source will create a plethora of creative produces.
+In his talk <cite>[“MakerBot: The Robot that Sharing Built – The Open Source Personal Fabrication Revolution”](http://archiv.re-publica.de/2011/12/04/the-open-source-personal-fabrication-revolution/)</cite> at re:publica 2010 [Bre Pettis](http://brepettis.com/) talks about technology and how open-source will create a plethora of creative produces.
 
 A MakerBot is an inexpensive 3D printer (from $750), which uses very cheap plastic as printing material. The 3D objects which can be printed and replicated are fist-sized. The 3D models can be up- or downloaded for free on [Thingiverse](https://www.thingiverse.com/), MakerBot’s 3D printer community. The models can be edited using free software. A lot of people are inspired by the models they download and start improving them to subsequently upload them again. A win for everybody.
 
