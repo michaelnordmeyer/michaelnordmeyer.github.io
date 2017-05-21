@@ -21,7 +21,7 @@ Long story short, here’s the list of the services I used. The asterisk marks n
 
 ## URL Shortener
 
-  * [tinyurl.com](http://tinyurl.com/)
+  * [tinyurl.com](https://tinyurl.com/)
   * [is.gd](https://is.gd/)
   * _[tr.im](https://tr.im/)*_
   * _[idek.net](http://idek.net/)*_
@@ -31,8 +31,8 @@ Long story short, here’s the list of the services I used. The asterisk marks n
 
 ## Image Services
 
-  * [twitpic.com](http://twitpic.com/)
-  * [yfrog.com](http://yfrog.com/)
+  * [twitpic.com](https://web.archive.org/web/20141017012344/https://twitpic.com/)
+  * [yfrog.com](https://web.archive.org/web/20141123011404/http://yfrog.com/)
   * _[picplz.com](https://web.archive.org/web/20120809064740/http://picplz.com/)*_
 
 I most often used bit.ly / j.mp and Twitpic.

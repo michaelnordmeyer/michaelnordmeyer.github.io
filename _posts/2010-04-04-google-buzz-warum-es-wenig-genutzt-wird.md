@@ -18,7 +18,7 @@ tags:
 
 Ein Echtzeitstrom mit kurzen Informationshäppchen. Das können andere besser. Reduziert auf das Wichtigste ist [Twitter](https://twitter.com/) der Platzhirsch, für erweiterte Inhalte [Facebook](https://www.facebook.com/). Und meine Freunde sind auch schon da.
 
-Daran sind auch schon andere gescheitert, wie z.B. [Plurk](http://www.plurk.com/), die eine grafisch opulente Version von Twitter erstellen wollten.
+Daran sind auch schon andere gescheitert, wie z.B. [Plurk](https://www.plurk.com/), die eine grafisch opulente Version von Twitter erstellen wollten.
 
 ## Google Buzz macht es nicht einfacher
 
@@ -45,7 +45,7 @@ Da Googles vornehmlich eine Werbeinfrastruktur betreibt und nur nebenbei eine We
 
 ## Wie kann Google die Attraktivität von Buzz erhöhen?
 
-Gute Frage! Noch ein neues “**realtime information network**“, [wie Twitter sich selbst bezeichnet](http://web.archive.org/web/20100612044257/https://twitter.com/about), braucht eigentlich keiner. Will jemand alle seine Dienste aggregieren können, bietet sich [FriendFeed](http://www.friendfeed.com/) an.
+Gute Frage! Noch ein neues “**realtime information network**“, [wie Twitter sich selbst bezeichnet](https://web.archive.org/web/20100612044257/https://twitter.com/about), braucht eigentlich keiner. Will jemand alle seine Dienste aggregieren können, bietet sich [FriendFeed](https://web.archive.org/web/20150401034632/http://www.friendfeed.com/) an.
 
 Google kann auf Dauer in diesem Bereich nur konkurrenzfähig werden, wenn sie direkt mit Facebook konkurrieren. Denn Facebook hat nicht nur FriendFeed gekauft, sondern spricht auch sehr erfolgreich alle nicht-technischen und nicht-Internet-affinen Nutzer an. Facebook wird zum Nabel des Sozialen Internets. Das ist Google mit keinem Dienst außer der Suchmaschine und Google Maps gelungen. **Dienste, wo sie deutlich besser als andere sind**. Buzz ist nur ein einfacher Abklatsch. Aber Google weiß das auch.
 

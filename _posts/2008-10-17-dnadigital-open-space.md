@@ -10,7 +10,7 @@ tags:
   - BarCamp
   - Conference
 ---
-I’m attending [DNAdigital](http://www.dnadigital.de/) (post in German) [Open Space](https://en.wikipedia.org/wiki/Open_Space) preparation day today.
+I’m attending [DNAdigital](https://web.archive.org/web/20160401152900/http://www.dnadigital.de/) (post in German) [Open Space](https://en.wikipedia.org/wiki/Open_Space) preparation day today.
 
 This preparation day is meant to be kind of a trial or rehearsal for the final Open Space on 2008-11-03, where selected “digital natives” talk to selected CXOs to give these a chance to experience firsthand how young people think about technology.
 
@@ -20,6 +20,6 @@ At the same time CXOs are able to explain to digital natives what kind of challe
 
 This is not to be mistaken for a career day of some sort but more of a way of bridging the gap between older and younger folks with respect of cutting edge digital technology to create a paradigm shift.
 
-The days results are going to be in the [DNAdigital Wiki](http://www.dnadigital.de/networks/wiki/index.wiki) (post in German), while the discussions will be streamed live.
+The days results are going to be in the [DNAdigital Wiki](https://web.archive.org/web/20160401151700/http://www.dnadigital.de/networks/wiki/index.wiki) (post in German), while the discussions will be streamed live.
 
 Also [David Weinberger](https://en.wikipedia.org/wiki/David_Weinberger), co-author of the [Cluetrain Manifesto](https://en.wikipedia.org/wiki/Cluetrain_Manifesto), will be giving a live video interview.

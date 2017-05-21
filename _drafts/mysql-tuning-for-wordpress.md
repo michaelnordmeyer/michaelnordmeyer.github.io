@@ -16,7 +16,7 @@ The lock contention problems would still be an issue, but you would see the limi
 
 `SHOW VARIABLES LIKE 'query_cache_*'`
 
-http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html
+https://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html
 https://major.io/2007/08/08/mysqls-query-cache-explained/
 
     $ tuning-primer.sh

@@ -18,7 +18,7 @@ You need multiple SIMs for that, if you have multiple devices. Notebooks and des
 
 But there’s a trend for average people to not buy computers anymore. Why should they if they have a perfectly fine smartphone or tablet? Especially for young people it seems more reasonable to buy and expensive smartphone and use the saved money from not buying a computer. Or buying a comparatively inexpensive tablet when compared to a notebook of the same quality.
 
-The money which has been saved by cancelling DSL, cable or satellite can be used to get a better LTE plan. And over time the plans for LTE will be much cheaper and have more data included while the flat-rate plans of wired Internet can’t get much cheaper. [AT&T is testing 5G in 2016](http://about.att.com/story/unveils_5g_roadmap_including_trials.html), which is supposed to be 10–100 times faster than 4G LTE.
+The money which has been saved by cancelling DSL, cable or satellite can be used to get a better LTE plan. And over time the plans for LTE will be much cheaper and have more data included while the flat-rate plans of wired Internet can’t get much cheaper. [AT&T is testing 5G in 2016](https://about.att.com/story/unveils_5g_roadmap_including_trials.html), which is supposed to be 10–100 times faster than 4G LTE.
 
 ## What About Wi-Fi?
 

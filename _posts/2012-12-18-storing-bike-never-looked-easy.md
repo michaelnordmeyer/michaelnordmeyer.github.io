@@ -7,7 +7,7 @@ permalink: /storing-bike-never-looked-easy
 categories:
   - Miscellaneous
 ---
-Introducing [Tîan](http://mikili.de/products/tian/tian-weiss-eiche/ "tian"). Storing a bike never looked so easy. Tîan is an amazingly minimalist storage rack for bicycles. Functional meets beautiful.
+Introducing [Tîan](https://mikili.de/products/tian/tian-weiss-eiche/ "tian"). Storing a bike never looked so easy. Tîan is an amazingly minimalist storage rack for bicycles. Functional meets beautiful.
 
 ![Tian rack with bike front view](https://michaelnordmeyer.com/images/2012/12/Tian-Front.jpg)
 

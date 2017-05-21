@@ -13,7 +13,7 @@ tags:
   - German
   - Internet
 ---
-Einfach mal so wegen eines aus [Online-Sicht sehr rückständigen Artikels](http://www.thetimes.co.uk/tto/technology/article2484322.ece), der heute veröffentlicht wurde, habe ich mich daran erinnert, dass ich darüber schon länger mal schreiben wollte: **Die unterbleibende Verlinkung in online veröffentlichten Artikeln des “Qualitäts”-Journalismus**.
+Einfach mal so wegen eines aus [Online-Sicht sehr rückständigen Artikels](https://www.thetimes.co.uk/article/britain-heads-googles-european-censorship-list-t5s3xgwphdh), der heute veröffentlicht wurde, habe ich mich daran erinnert, dass ich darüber schon länger mal schreiben wollte: **Die unterbleibende Verlinkung in online veröffentlichten Artikeln des “Qualitäts”-Journalismus**.
 
 Viele reden darüber, viele schreiben und schrieben darüber, manche haben es schon aufgegeben. **Große Zeitungen verlinken nicht gerne**.
 
@@ -27,7 +27,7 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 [**Die Zeit**](http://www.zeit.de/digital/datenschutz/2010-04/google-government-requests) verlinkt viel und gut. Auch die Analyse der Daten ist ganz gut. Nur… Zensur ist etwas anderes. Gemeinhin versteht man unter [Zensur](https://de.wikipedia.org/wiki/Zensur_(Informationskontrolle)) Vorzensur. Nachträgliches Entfernen kann Nachzensur sein, muss aber nicht.
 
-[**Der Spiegel**](http://www.spiegel.de/netzwelt/netzpolitik/google-statistik-wie-die-deutschen-zensur-vizeweltmeister-wurden-a-690278.html) verlinkt den Original-Artikel und hat sogar einen Screenshot von der Karte integriert. Inhaltlich sehr ausführlich und voll beim Thema bleibend. Sehr gute Analyse, aber nur einen Link.
+[**Der Spiegel**](https://www.spiegel.de/netzwelt/netzpolitik/google-statistik-wie-die-deutschen-zensur-vizeweltmeister-wurden-a-690278.html) verlinkt den Original-Artikel und hat sogar einen Screenshot von der Karte integriert. Inhaltlich sehr ausführlich und voll beim Thema bleibend. Sehr gute Analyse, aber nur einen Link.
 
 ## The Bad
 
@@ -41,7 +41,7 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 ~~**Die Financial Times Deutschland**~~ verlinkt nicht. Zumindest nicht auf dem Inhalt des Artikels zuträglichen Informationen. Sondern nur auf Aktienkurse der erwähnten Unternehmen. _Nein wirklich, das ist überaus hilfreich._ (**Update**: Die Financial Times Deutschland hat ihren Betrieb mittlerweile eingestellt.)
 
-[**Times Online**](http://www.thetimes.co.uk/tto/technology/article2484322.ece) verlinkt gar nicht. Nicht mal eine Link-Box irgendwo auf der Seite, welche die zum Artikel weiterführenden Links beinhaltet. Inhaltlich haben sie die Aussage der Löschverfügungen nur auf Großbritannien beschränkt und kaum ins Verhältnis zu anderen Ländern gesetzt.
+[**Times Online**](https://www.thetimes.co.uk/article/britain-heads-googles-european-censorship-list-t5s3xgwphdh) verlinkt gar nicht. Nicht mal eine Link-Box irgendwo auf der Seite, welche die zum Artikel weiterführenden Links beinhaltet. Inhaltlich haben sie die Aussage der Löschverfügungen nur auf Großbritannien beschränkt und kaum ins Verhältnis zu anderen Ländern gesetzt.
 
 ## Warum wird nicht verlinkt?
 

@@ -12,17 +12,17 @@ tags:
   - macOS
   - WordPress
 ---
-I bought [<cite>Desk</cite>](https://desk.pm/) because I wanted to get an undistracted writing experience and some Markdown for good measure. Unfortunately <cite>Desk</cite> is too buggy to provide this yet.
+I bought [Desk](https://desk.pm/) because I wanted to get an undistracted writing experience and some Markdown for good measure. Unfortunately Desk is too buggy to provide this yet.
 
 #### Update
 
 _This is a living post, meaning I’m going to update it if new versions of Desk are going to be released._ (Desk 1.2 and 1.3 fix some problems. Strikethrough text has been fixed.)
 
-While it’s possible to use an editor like [<cite>Byword</cite>](https://itunes.apple.com/us/app/byword/id420212497?mt=12), [<cite>iA Writer</cite>](https://itunes.apple.com/us/app/ia-writer/id439623248?mt=12), [<cite>WriteRoom</cite>](https://itunes.apple.com/us/app/writeroom/id417967324?mt=12) or [<cite>OmmWriter Dāna II</cite>](https://itunes.apple.com/us/app/ommwriter-dana-ii/id412347921?mt=12) providing this experience, I didn’t want to manually copy and paste the post in the end into <cite>WordPress</cite> running in a browser.
+While it’s possible to use an editor like [Byword](https://itunes.apple.com/us/app/byword/id420212497?mt=12), [iA Writer](https://itunes.apple.com/us/app/ia-writer/id439623248?mt=12), [WriteRoom](https://itunes.apple.com/us/app/writeroom/id417967324?mt=12) or [OmmWriter Dāna II](https://itunes.apple.com/us/app/ommwriter-dana-ii/id412347921?mt=12) providing this experience, I didn’t want to manually copy and paste the post in the end into WordPress running in a browser.
 
-I have an old license for [<cite>MarsEdit</cite>](https://www.red-sweater.com/marsedit/), but I never liked the writing experience. It even felt old-fashioned when I bought it in 2006 as a bundle license with <cite><a href="http://www.netnewswireapp.com/">NetNewsWire</a></cite>, an RSS reader from the same indie developer.
+I have an old license for [MarsEdit](https://www.red-sweater.com/marsedit/), but I never liked the writing experience. It even felt old-fashioned when I bought it in 2006 as a bundle license with [NetNewsWire](http://www.netnewswireapp.com/), an RSS reader from the same indie developer.
 
-I have the habit to focus on the bad stuff, because the good stuff is covered in the App’s description and [the mood video](https://vimeo.com/105360935) pretty well. So don’t get me wrong ([Hi John](https://john.do/shitty-2/ "The developer of Desk writing about harsh feelings when receiving strong critique.")) because <cite>Desk</cite> has a lot of promise. I use <cite>Desk 1.1</cite> with <cite>WordPress 4.1</cite> in WYSIWYG mode.
+I have the habit to focus on the bad stuff, because the good stuff is covered in the App’s description and [the mood video](https://vimeo.com/105360935) pretty well. So don’t get me wrong ([Hi John](https://john.do/shitty-2/ "The developer of Desk writing about harsh feelings when receiving strong critique.")) because Desk has a lot of promise. I use Desk 1.1 with WordPress 4.1 in WYSIWYG mode.
 
 ## What’s Good
 
@@ -34,7 +34,7 @@ These features would be convenient and match WordPress features. But I only use 
 
   * ~~Scheduled publishing for posting in the future. E.g. write two posts at once but publish them on different days.~~
   * ~~Post formats like post, link or video.~~ Post formats text (standard), image, quote and link are supported. Video, audio, gallery, chat, aside and status are not. Personally, I only miss video and gallery.
-  * Media settings like ~~captions~~, titles, alt text. Maybe link to and sizes. Have a look at the media upload dialog of <cite>WordPress</cite> to know what I mean.
+  * Media settings like ~~captions~~, titles, alt text. Maybe link to and sizes. Have a look at the media upload dialog of WordPress to know what I mean.
   * Excerpts, especially if you use WordPress SEO to use special excerpts for SEO purposes.
   * Auto-completion of tags.
   * Only the last eight published posts are visible and editable. Using Desk on an established blog makes it impossible to edit old posts. So Desk cannot be a one stop solution and you still have to use WordPress in your browser.
@@ -49,7 +49,7 @@ Small bugs and user experience annoyances.
   * The “Good Job” confirmation dialog after updating a draft. How many times do I have to click `OK`? And does the `Update Post` sidebar slides away automatically? No. I also have to dismiss it. That makes four clicks for updating a post. Meh!
   * Full screen mode is ~~useless~~ not very useful. ~~The margins are to narrow which means the lines are getting too long. And that is on a MacBook Air 13”.~~ The text ist scaled automatically, which means the type is getting very large. Way to large for my taste. On a 27” display it’s a joke. So the only way to get a less distracting writing experience is to hide all other windows and having a desktop without any icons on it and a hidden dock.
   * ~~The preview mode is quite ugly. No margins and a line-height which is too small.~~ Previews are okay now. But I would prefer to see a real preview like I get when using WordPress directly to see the applied theme.
-  * ~~Drafts created in <cite>WordPress</cite> won’t show paragraphs in <cite>Desk</cite>. It’s just a long continous flow of text and you have to re-enter paragraph breaks.~~
+  * ~~Drafts created in WordPress won’t show paragraphs in Desk. It’s just a long continous flow of text and you have to re-enter paragraph breaks.~~
   * It’s cumbersome to change settings for a draft or post before posting. You have to use
 
 ## What’s Seriously Wrong
@@ -64,4 +64,4 @@ Broken stuff. The bad ones.
   * ~~Adding text before the first header is not possible if the header is the first line. Hitting enter won’t create a new line.~~
   * Deleting styled elements like unordered lists or headers by selecting a couple of line and hitting backspace deletes this elements, but sometime there’s some funny cursor movement involved after deleting.
 
-All this makes using <cite>Desk</cite> a very unsatisfying experience. From a user’s perspective using stock <cite>WordPress</cite> in a browser is a much better experience. Which is a pity because I really like the approach John, the developer, is taking with <cite>Desk</cite>. ~~But I’m tempted to return the app even though I bought it at 50% off.~~
+All this makes using Desk a very unsatisfying experience. From a user’s perspective using stock WordPress in a browser is a much better experience. Which is a pity because I really like the approach John, the developer, is taking with Desk. ~~But I’m tempted to return the app even though I bought it at 50% off.~~

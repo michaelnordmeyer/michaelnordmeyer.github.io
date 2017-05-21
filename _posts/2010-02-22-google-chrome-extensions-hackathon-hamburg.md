@@ -11,7 +11,7 @@ tags:
   - Google
   - Hackathon
 ---
-Tomorrow I’m attending [Google Chrome Extensions Hackathon](https://sites.google.com/site/gchromeevent/home) in Hamburg. [Martin Thielecke](https://www.mthie.com/) (post in German) told me today at [Web Monday Hamburg](http://webmontag.de/location/hamburg/index) (post in German) at [Gloria](https://www.yelp.com/biz/gloria-hamburg-2) about it. Oh my, there are way too many events out there.
+Tomorrow I’m attending [Google Chrome Extensions Hackathon](https://sites.google.com/site/gchromeevent/home) in Hamburg. [Martin Thielecke](https://www.mthie.com/) (post in German) told me today at [Web Monday Hamburg](http://www.webmontag-hamburg.de/) (post in German) at [Gloria](https://www.yelp.com/biz/gloria-hamburg-2) about it. Oh my, there are way too many events out there.
 
 “Google Chrome Extensions Event & Hackathon Roadshow” is touring Germany and having three official events in Hamburg, Düsseldorf and Munich, while there are a couple of unofficial ones organized by local [GTUGs](https://developers.google.com/groups/directory/). GTUGs are [“Google Technology User Groups”](https://developers.google.com/groups/directory/), of which there are 10 in Germany.
 

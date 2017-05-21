@@ -16,6 +16,6 @@ The last couple of month (or years?) the WordPress iOS app didn’t change much,
 
 But it took almost a year, if I recall correctly, to get some of the features into the official WordPress app. Changes were slow and the app always felt and still feels somewhat unfinished. Given the importance of mobile and the growing pressure from Tumblr and Medium it seems unwise have the iOS app linger.
 
-The [sole developer of Poster](http://www.tomwitkin.com/projects#project-938), which led other iOS projects at WordPress, went working for Apple in the meantime.
+The [sole developer of Poster](https://web.archive.org/web/20161107110343/http://www.tomwitkin.com/projects), which led other iOS projects at WordPress, went working for Apple in the meantime.
 
 That’s why I ask myself: Is the WordPress iOS app still relevant for WordPress or is it going to be replaced soon?

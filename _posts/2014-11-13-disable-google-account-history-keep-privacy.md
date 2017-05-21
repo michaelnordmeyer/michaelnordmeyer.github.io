@@ -49,4 +49,4 @@ Disabling histories in your Google account will not prevent Google from gatherin
 
 **With histories enabled, Google will keep these records indefinitely; with it disabled, they will be partially anonymized after 18 months.**
 
-All of this can change for the worse if Google changes it’s [privacy policy](http://www.google.com/policies/privacy/) again.
+All of this can change for the worse if Google changes it’s [privacy policy](https://www.google.com/policies/privacy/) again.

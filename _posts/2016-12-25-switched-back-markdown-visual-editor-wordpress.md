@@ -10,13 +10,13 @@ tags:
   - Blogging
   - WordPress
 ---
-I was an [early adopter](https://michaelnordmeyer.com/why-i-chose-wordpress-thoughts-from-wordcamp-08) of [Markdown](http://daringfireball.net/projects/markdown/). Markdown is a straight-forward way to write HTML without having to drown in tag soup.
+I was an [early adopter](https://michaelnordmeyer.com/why-i-chose-wordpress-thoughts-from-wordcamp-08) of [Markdown](https://daringfireball.net/projects/markdown/). Markdown is a straight-forward way to write HTML without having to drown in tag soup.
 
 ## The Problem with Markdown in WordPress
 
 Markdown is more of an afterthought in WordPress. It has been officially supported when WordPress was more than eight years old. Because of the way WordPress stores Markdown in the database (attribute `post_content_filtered` in table `wp_posts`) it is more of a hack. It should be stored in the canonical place in the database (attribute `post_content` in table `wp_posts`). But in there there’s only HTML, which gets updated automatically when the post is saved.
 
-I use a WordPress plugin called [Broken Link Checker](https://wordpress.org/plugins/broken-link-checker/) to check for broken links on my site. If the plugin finds those links, I can easily correct broken links on the Broken Link Checker result screen. This is much easier than to open the post in a new tab, finding the link in the text, edit and subsequently save it. The only problem is that Broken Link Checker only knows about `post_content` and edits the HTML stored in there. Which means the Markdown is gone afterwards. ([More very technical details](http://wordpress.stackexchange.com/questions/113387/when-is-the-post-content-filtered-column-in-database-cleared-by-wordpress))
+I use a WordPress plugin called [Broken Link Checker](https://wordpress.org/plugins/broken-link-checker/) to check for broken links on my site. If the plugin finds those links, I can easily correct broken links on the Broken Link Checker result screen. This is much easier than to open the post in a new tab, finding the link in the text, edit and subsequently save it. The only problem is that Broken Link Checker only knows about `post_content` and edits the HTML stored in there. Which means the Markdown is gone afterwards. ([More very technical details](https://wordpress.stackexchange.com/questions/113387/when-is-the-post-content-filtered-column-in-database-cleared-by-wordpress))
 
 But being WordPress there are plugins which can convert your HTML posts to Markdown. But they also have to store it in the wrong place. So the cycle repeats.
 

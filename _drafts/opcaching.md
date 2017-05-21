@@ -46,7 +46,7 @@ nginx
 worker_rlimit_nofile=
 
 https://www.ruby-forum.com/topic/2730615
-http://www.mervine.net/performance-testing-with-httperf
+https://www.mervine.net/performance-testing-with-httperf
 httperf test pipelining. https://en.wikipedia.org/wiki/Httperf
 httperf --num-conns=50 --num-calls=1000 --server=michaelnordmeyer.com
 siege
