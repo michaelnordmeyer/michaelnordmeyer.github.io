@@ -7,6 +7,7 @@ permalink: /infographic-limping-middle-class
 categories:
   - Miscellaneous
 tags:
+  - Image
   - Infographic
 ---
 ![The limping middle class](https://static01.nyt.com/images/2011/04/opinion/04reich-graphic/04reich-graphic-popup.jpg "The limping middle class")
