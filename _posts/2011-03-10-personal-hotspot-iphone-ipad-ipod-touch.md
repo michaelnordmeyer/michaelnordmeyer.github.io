@@ -4,7 +4,7 @@ date: 2011-03-10T18:02:52+00:00
 excerpt: Das iPhone als Hotspot nutzen, um mobiles Internet auf dem Computer zu haben.
 layout: post
 permalink: /personal-hotspot-iphone-ipad-ipod-touch
-image: /images/2011/03/Personal-Hotspot-iOS4.3.jpg
+image: /images/2011/Personal-Hotspot-iOS4.3.jpg
 lang: de
 categories:
   - Apple

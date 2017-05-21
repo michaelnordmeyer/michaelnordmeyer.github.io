@@ -4,7 +4,7 @@ date: 2008-01-26T15:05:52+00:00
 excerpt: WordPress and BarCamps are cool. A WordCamp is the perfect symbiosis.
 layout: post
 permalink: /wordcamp-08-in-hamburg
-image: /images/2008/01/WordCamp-08-Discussion.jpg
+image: /images/2008/WordCamp-08-Discussion.jpg
 categories:
   - Events
 tags:

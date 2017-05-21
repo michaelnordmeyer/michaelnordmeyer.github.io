@@ -4,7 +4,7 @@ date: 2008-12-01T20:17:43+00:00
 excerpt: "An unmistakable sign that you made it: you're mocked by the Simpsons."
 layout: post
 permalink: /simpsons-mock-apple
-image: /images/2008/12/Apple-Staff-Mob.jpg
+image: /images/2008/Apple-Staff-Mob.jpg
 categories:
   - Apple
 tags:

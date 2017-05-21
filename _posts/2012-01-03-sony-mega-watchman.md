@@ -10,6 +10,6 @@ tags:
   - Gadget
   - Image
 ---
-![Sony Mega Watchman](/images/2012/01/Sony-Mega-Watchman.jpg)
+![Sony Mega Watchman](/images/2012/Sony-Mega-Watchman.jpg)
 
 A call from the ’80s.

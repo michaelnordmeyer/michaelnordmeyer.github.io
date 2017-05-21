@@ -4,7 +4,7 @@ date: 2010-04-14T18:01:42+00:00
 excerpt: I attend an internet & online conference and I'm offline. Underpowered republica wireless network & totally non-working 3G keeps me offline.
 layout: post
 permalink: /republica-2010-modern-technology-failure
-image: /images/2010/04/republica-2010-Panel.jpg
+image: /images/2010/republica-2010-Panel.jpg
 categories:
   - Events
 tags:

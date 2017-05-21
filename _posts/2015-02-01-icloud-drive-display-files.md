@@ -5,7 +5,7 @@ excerpt: If iCloud Drive on iOS doesn't display any files or the folders are emp
 layout: post
 permalink: /icloud-drive-display-files
 redirect_from: /icloud-drive-display-files/
-image: /images/2015/02/iOS-8-iCloud-Drive.png
+image: /images/2015/iOS-8-iCloud-Drive.png
 categories:
   - Apple
 tags:

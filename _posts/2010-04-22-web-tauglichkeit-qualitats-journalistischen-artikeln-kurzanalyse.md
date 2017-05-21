@@ -5,7 +5,7 @@ excerpt: Journalistische Publikationen können oder wollen nicht verlinken, obwo
 layout: post
 permalink: /web-tauglichkeit-qualitats-journalistischen-artikeln-kurzanalyse
 redirect_from: /blog/2010/04/aktuelle-web-tauglichkeit-von-qualitats-journalistischen-artikeln-–-eine-kurzanalyse/
-image: /images/2010/04/Google-Government-Requests.jpg
+image: /images/2010/Google-Government-Requests.jpg
 lang: de
 categories:
   - Web

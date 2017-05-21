@@ -4,7 +4,7 @@ date: 2008-01-15T01:44:57+00:00
 excerpt: Eagerly waiting for the Apple keynote.
 layout: post
 permalink: /cant-wait-for-macworld-2008-keynote
-image: /images/2008/01/Apple-Keynote.jpg
+image: /images/2008/Apple-Keynote.jpg
 categories:
   - Apple
 tags:
