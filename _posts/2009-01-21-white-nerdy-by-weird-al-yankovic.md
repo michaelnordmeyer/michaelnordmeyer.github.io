@@ -11,4 +11,4 @@ tags:
 ---
 <iframe src="https://player.vimeo.com/video/752979?color=ffffff" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-<q>[White & Nerdy](https://vimeo.com/752979)</q>
+<cite>[White & Nerdy](https://vimeo.com/752979)</cite>
