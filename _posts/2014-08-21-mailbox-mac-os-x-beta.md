@@ -17,11 +17,11 @@ The [Mailbox iOS app everybody loves](https://itunes.apple.com/us/app/mailbox/id
 
 You are supposed to drop your personal coin into the beta can. While being dropped into it makes a metal sound like a coin dropping in a can. Quite cool!
 
-<img src="/images/2014/08/mailbox-mac-os-x-beta-can.png" alt="Mailbox Mac OS X Beta Can" width="434" height="596" srcset="/images/2014/08/mailbox-mac-os-x-beta-can.png 434w, /images/2014/08/mailbox-mac-os-x-beta-can-218x300.png 218w" sizes="(max-width: 434px) 85vw, 434px">
+![Mailbox Mac OS X Beta Can](/images/2014/08/mailbox-mac-os-x-beta-can.png){: .aligncenter }
 
 The app itself is like the original iOS app quite minimal. It’s exactly what you would expect if you liked the iOS app in the first place. Swipe gestures work the same and have the same functionality. No surprises here.
 
-<img src="/images/2014/08/mailbox-mac-os-x-beta-app-window-660x414.png" alt="Mailbox Mac OS X Beta App Window" width="740" height="464" srcset="/images/2014/08/mailbox-mac-os-x-beta-app-window-660x414.png 660w, /images/2014/08/mailbox-mac-os-x-beta-app-window-300x188.png 300w, /images/2014/08/mailbox-mac-os-x-beta-app-window-768x482.png 768w, /images/2014/08/mailbox-mac-os-x-beta-app-window.png 1239w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
+![Mailbox Mac OS X Beta App Window](/images/2014/08/mailbox-mac-os-x-beta-app-window-660x414.png){: .aligncenter }
 
 Both are still limited to Google or iCloud email accounts. More alternatives are supposed to come in the future.
 
