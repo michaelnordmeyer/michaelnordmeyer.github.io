@@ -50,7 +50,7 @@ Here are some photos of the next10 event:
 
 ![Networking](/images/2010/IMG_0240.jpg "Networking")
 
-![Busy note taking to Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/IMG_0244.jpg "Busy note taking to Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”")
+![Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/IMG_0244.jpg "Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”")
 
 ![Smartphone distraction](/images/2010/IMG_0250.jpg "Smartphone distraction")
 
