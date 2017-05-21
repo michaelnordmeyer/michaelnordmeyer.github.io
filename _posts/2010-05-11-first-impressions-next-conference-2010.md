@@ -30,7 +30,7 @@ A very unconventional but highly recommended talk is [Itay Talgam](http://www.ta
 
 <iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=885184" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-A video of his next09 talks “Sharing Creativity – Great Conductors of the Age of the Net” is also available online:
+A video of his next09 talks <cite>Sharing Creativity – Great Conductors of the Age of the Net</cite> is also available online:
 
 <iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=923266" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
