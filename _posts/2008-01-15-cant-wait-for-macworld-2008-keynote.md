@@ -23,7 +23,7 @@ Of course a new notebook.
 
 _What kind of notebook?_
   
-Hm, still can’t make up my mind. Either a fancy new MacBook Pro or an ultra-light MacBook with 3G mobile wireless built in.
+Hmm, still can’t make up my mind. Either a fancy new MacBook Pro or an ultra-light MacBook with 3G mobile wireless built in.
 
 An ultra-light would be cool but I think I will miss my internal optical drive. And for proper work I need more pixels on screen than an ultra-light will provide.
 
