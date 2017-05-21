@@ -26,7 +26,7 @@ Ahlvarsson described thinking and working habits of serial entrepreneurs:
 
 [Dennis Crowley](http://denniscrowley.com/), co-founder of location service [FourSquare](https://foursquare.com/) ~~is speaking tomorrow~~ (he has pneumonia and won’t come), and media strategist [Brian Solis](http://www.briansolis.com/) will give a talk to which I’m looking forward to.
 
-A very unconventional but highly recommended talk is [Itay Talgam](http://www.talgam.com/), an israelian conductor, who is very successful using his “maestro program” to foster team building in enterprise companies. He talked about “Culture Changers: Great Conductors’ Art of Rehearsing”:
+A very unconventional but highly recommended talk is [Itay Talgam](http://www.talgam.com/), an israelian conductor, who is very successful using his “maestro program” to foster team building in enterprise companies. He talked about <cite>Culture Changers: Great Conductors’ Art of Rehearsing</cite>:
 
 <iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=885184" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
