@@ -45,12 +45,8 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 ## Warum wird nicht verlinkt?
 
-<q>Leser würden unsere Seite verlassen.</q>
+<q>Leser würden unsere Seite verlassen.</q> Tausendmal gehört, tausendmal geärgert. **Das Web, wie der Name schon impliziert, lebt von Links. Ohne Links kein Web.** Ohne Links kommen weniger Menschen auf die Seiten.
 
-Tausendmal gehört, tausendmal geärgert. **Das Web, wie der Name schon impliziert, lebt von Links. Ohne Links kein Web.** Ohne Links kommen weniger Menschen auf die Seiten.
-
-<q>Links stören den Lesefluss.</q>
-
-Menschen können sich sehr gut anpassen. Sie sind es seit 15 Jahren gewöhnt, Links in Online-Texten vorzufinden. **Nein, Links stören den Lesefluss nicht wirklich. Im Gegenteil. Sie halten wichtige weiterführende Informationen vor.**
+<q>Links stören den Lesefluss.</q> Menschen können sich sehr gut anpassen. Sie sind es seit 15 Jahren gewöhnt, Links in Online-Texten vorzufinden. **Nein, Links stören den Lesefluss nicht wirklich. Im Gegenteil. Sie halten wichtige weiterführende Informationen vor.**
 
 Diese Argumente gegen Verlinkungen im Text taugen nichts.
