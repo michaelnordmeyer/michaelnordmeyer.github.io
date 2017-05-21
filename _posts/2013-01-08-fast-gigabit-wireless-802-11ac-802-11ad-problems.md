@@ -14,7 +14,7 @@ tags:
   - German
   - Wireless
 ---
-Der aktuelle WLAN-Standard 802.11n, der zwischen 130 und 450 Mbit/s schafft, und zurzeit in allen besseren Geräten verbaut wird, ist eigentlich schnell genug für Full HD Video Streaming und auch [deutlich schneller als kabelgebundenes Ethernet mit 100 Mbit/s](https://michaelnordmeyer.com/speed-macbook-air-usb-ethernet-adapter).
+Der aktuelle WLAN-Standard 802.11n, der zwischen 130 und 450 Mbit/s schafft, und zurzeit in allen besseren Geräten verbaut wird, ist eigentlich schnell genug für Full HD Video Streaming und auch [deutlich schneller als kabelgebundenes Ethernet mit 100 Mbit/s](/speed-macbook-air-usb-ethernet-adapter).
 
 Für alle, die weniger an den technischen Details der WLAN-Technologien interessiert sind, bietet das unten stehende Fazit ein gute Zusammenfassung.
 

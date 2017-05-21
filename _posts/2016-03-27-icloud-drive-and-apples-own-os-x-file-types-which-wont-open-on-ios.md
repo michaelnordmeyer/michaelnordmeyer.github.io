@@ -17,7 +17,7 @@ Unfortunately if you want to transition to an iOS-only computing live, [like som
 
 ## iCloud To the Rescue!
 
-Well, it would be funny if not iCloud sometimes seem to be the one which has to be rescued from itself, because it managed to not sync your files, not downloading it for viewing or even [doesn’t display them at all](https://michaelnordmeyer.com/icloud-drive-display-files) on iOS devices.
+Well, it would be funny if not iCloud sometimes seem to be the one which has to be rescued from itself, because it managed to not sync your files, not downloading it for viewing or even [doesn’t display them at all](/icloud-drive-display-files) on iOS devices.
 
 After the disaster the document picker on iOS 8 was—_always_ crashing—with iOS 9 there’s thankfully an iCloud Drive app, so you have easy access to your files. The current state is that it works okay, but sometimes you have to reboot your device to make iCloud Drive download files again.
 

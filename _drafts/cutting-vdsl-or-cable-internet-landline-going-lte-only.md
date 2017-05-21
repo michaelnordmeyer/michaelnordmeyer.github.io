@@ -36,6 +36,6 @@ Well, that’s unfortunate. You can only choose between the options you have ava
 
 ## The Big Stepping Stone: Video
 
-Video uses a lot of data. It’s the arch-enemy of mobile data. But over time, they will become friends. If you [cut the cord](https://michaelnordmeyer.com/cord-cutting-just-do-it) you can’t watch as much video as you might would have otherwise. A flat-rate and an infinite amount of movies, TV shows and YouTube videos on the Internet can lead to a couch potato habit. There’s always a video after a click or tap which detracts you from live.
+Video uses a lot of data. It’s the arch-enemy of mobile data. But over time, they will become friends. If you [cut the cord](/cord-cutting-just-do-it) you can’t watch as much video as you might would have otherwise. A flat-rate and an infinite amount of movies, TV shows and YouTube videos on the Internet can lead to a couch potato habit. There’s always a video after a click or tap which detracts you from live.
 
 Personally I cut down on Internet video, because it took way too much time in my life and distracted me. But I’m still bullish on YouTube. I think will be one of the top three places where people will spend their media and therefore spare time.

@@ -10,7 +10,7 @@ tags:
   - Blogging
   - WordPress
 ---
-I was an [early adopter](https://michaelnordmeyer.com/why-i-chose-wordpress-thoughts-from-wordcamp-08) of [Markdown](https://daringfireball.net/projects/markdown/). Markdown is a straight-forward way to write HTML without having to drown in tag soup.
+I was an [early adopter](/why-i-chose-wordpress-thoughts-from-wordcamp-08) of [Markdown](https://daringfireball.net/projects/markdown/). Markdown is a straight-forward way to write HTML without having to drown in tag soup.
 
 ## The Problem with Markdown in WordPress
 

@@ -55,6 +55,6 @@ Abwarten und Tee trinken. Mein 2009er MacBook Pro läuft gut und ich brauche zur
 
 #### Update
 
-Ich habe jetzt auch das [2011er MacBook Air mit dem MacBook Pro verglichen](https://michaelnordmeyer.com/difference-macbook-air-thunderbolt-vs-macbook-pro-2011).
+Ich habe jetzt auch das [2011er MacBook Air mit dem MacBook Pro verglichen](/difference-macbook-air-thunderbolt-vs-macbook-pro-2011).
 
 <small>(Foto: [Mario Yang](https://www.flickr.com/photos/marioyang/5180938229/), [cc by-nc-sa 2.0, bestimmte Rechte vorbehalten](https://creativecommons.org/licenses/by-nc-sa/2.0/))</small>

@@ -12,7 +12,7 @@ tags:
   - Mac
   - Wireless
 ---
-Many people still need a wired network (LAN) connection, because wireless networks (WLANs) are not allowed at their workplace. [The MacBook Air using the USB ethernet adapter is slow](https://michaelnordmeyer.com/speed-macbook-air-usb-ethernet-adapter). Slower than using wireless.
+Many people still need a wired network (LAN) connection, because wireless networks (WLANs) are not allowed at their workplace. [The MacBook Air using the USB ethernet adapter is slow](/speed-macbook-air-usb-ethernet-adapter). Slower than using wireless.
 
 Because Apple doesn’t sell a USB 3 ethernet adapter the only alternative is a [Thunderbolt ethernet adapter](https://www.apple.com/shop/product/MD463LL/A/thunderbolt-to-gigabit-ethernet-adapter), if you want high speed transfers. The same is true for the new MacBook Pro Retina, which also don’t have a wired ethernet port anymore.
 

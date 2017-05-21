@@ -12,7 +12,7 @@ You can create two kinds of iOS backups:
 1.  A local backup on your computer using iTunes
 2.  A remote backup in iCloud
 
-But these backups don’t have the same kind of data. My iCloud iPhone backup is about 0.8 GB in size while the iTunes backup is 1.7 GB. If [iCloud Photo Library](https://michaelnordmeyer.com/icloud-photo-library-photos) is not used, the camera roll is also locally backed-up to iTunes. Almost everything not stored in iCloud.
+But these backups don’t have the same kind of data. My iCloud iPhone backup is about 0.8 GB in size while the iTunes backup is 1.7 GB. If [iCloud Photo Library](/icloud-photo-library-photos) is not used, the camera roll is also locally backed-up to iTunes. Almost everything not stored in iCloud.
 
 * Mail
 * Kindle

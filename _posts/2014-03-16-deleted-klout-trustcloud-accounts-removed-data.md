@@ -10,9 +10,9 @@ tags:
   - Privacy
   - Social Media
 ---
-These scores may be useful (the TrustCloud one much more than the Klout one), but in the process these sites have to gather a lot of public and private data across different networks on my behalf. Otherwise they obviously wouldn’t be able calculate a score. This creates [serious privacy issues](https://michaelnordmeyer.com/klout-clever-way-collecting-user-data).
+These scores may be useful (the TrustCloud one much more than the Klout one), but in the process these sites have to gather a lot of public and private data across different networks on my behalf. Otherwise they obviously wouldn’t be able calculate a score. This creates [serious privacy issues](/klout-clever-way-collecting-user-data).
 
-While the scores are opaque and nobody knows if the scoring is reasonable or not, at least the TrustCloud one has a real benefit. If you create a new account on a site which needs a certain level of trust between users for making the whole idea work, a TrustCloud account can help. Think accommodation like AirBnB, tasks like TaskRabbit or projects like Elance. Klout hasn’t much benefit for the user, but a lot for Klout. They get all the user’s data while the user only gets a vanity number to show off. Even [Klout perks are problematic](https://michaelnordmeyer.com/klout-clever-way-collecting-user-data).
+While the scores are opaque and nobody knows if the scoring is reasonable or not, at least the TrustCloud one has a real benefit. If you create a new account on a site which needs a certain level of trust between users for making the whole idea work, a TrustCloud account can help. Think accommodation like AirBnB, tasks like TaskRabbit or projects like Elance. Klout hasn’t much benefit for the user, but a lot for Klout. They get all the user’s data while the user only gets a vanity number to show off. Even [Klout perks are problematic](/klout-clever-way-collecting-user-data).
 
 ## Account Deletion
 
