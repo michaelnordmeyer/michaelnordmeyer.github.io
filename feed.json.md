@@ -15,7 +15,7 @@ sitemap: false
   "icon": "{{ site.url }}/favicon.ico",
   "expired": false,
   "items": [
-{% for post in site.posts %}
+{% for post in site.posts limit 20 %}
     {
       "id": "{{ post.id }}",
       "title": {{ post.title | smartify | jsonify }},
