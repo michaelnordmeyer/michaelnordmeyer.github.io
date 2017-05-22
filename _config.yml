@@ -3,7 +3,7 @@ gems:
 #  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-sitemap
+#  - jekyll-sitemap
 
 # https://github.com/jekyll/minima#customization
 theme: minima
