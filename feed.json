@@ -14,7 +14,7 @@ sitemap: false
   },
   "icon": "https://michaelnordmeyer.com/favicon.ico",
   "expired": false,
-  "items": [{% for post in site.posts limit 20 %}
+  "items": [{% for post in site.posts limit:20 %}
     {
       "id": "{{ post.id }}",
       "url": "https://michaelnordmeyer.com{{ post.url }}",
