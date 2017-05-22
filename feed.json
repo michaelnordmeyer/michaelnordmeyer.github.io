@@ -21,7 +21,7 @@ sitemap: false
       "title": {{ post.title | smartify | jsonify }},
       "date_published": "{{ post.date }}",
       "summary": {% if post.excerpt %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},
-      "content_html": {{ post.content | jsonify }},
+      "content_html": {{ post.content | jsonify }}
     }{% unless forloop.last == true %},{% endunless %}{% endfor %}
   ]
 }
