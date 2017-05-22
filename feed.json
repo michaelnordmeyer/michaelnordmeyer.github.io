@@ -14,8 +14,7 @@ sitemap: false
   },
   "icon": "https://michaelnordmeyer.com/favicon.ico",
   "expired": false,
-  "items": [
-{% for post in site.posts limit 20 %}
+  "items": [{% for post in site.posts limit 20 %}
     {
       "id": "{{ post.id }}",
       "url": "https://michaelnordmeyer.com{{ post.url }}",
@@ -23,7 +22,6 @@ sitemap: false
       "date_published": "{{ post.date }}"
       "summary": {% if post.excerpt %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},
       "content_html": {{ post.content | jsonify }},
-    }{% unless forloop.last == true %},{% endunless %}
-{% endfor %}
+    }{% unless forloop.last == true %},{% endunless %}{% endfor %}
   ]
 }
