@@ -1,6 +1,6 @@
 # https://pages.github.com/versions/
 gems:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
