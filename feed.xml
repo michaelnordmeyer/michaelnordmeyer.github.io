@@ -39,8 +39,8 @@ sitemap: false
       <link href="https://michaelnordmeyer.com{{ post.url | relative_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
-      <id>{{ post.id | absolute_url | xml_escape }}</id>
-      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[{{ post.content | strip }}]]></content>
+      <id>https://michaelnordmeyer.com{{ post.id | relativee_url | xml_escape }}</id>
+      <content type="html" xml:base="https://michaelnordmeyer.com{{ post.url | relativee_url | xml_escape }}"><![CDATA[{{ post.content | strip }}]]></content>
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
       {% assign post_author = site.data.authors[post_author] | default: post_author %}
