@@ -6,19 +6,19 @@ sitemap: false
 {
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.name | smartify | jsonify }},
-  "home_page_url": "{{ site.url }}/",
-  "feed_url": "{{ site.url }}/feed.json",
+  "home_page_url": "https://michaelnordmeyer.com/",
+  "feed_url": "https://michaelnordmeyer.com/feed.json",
   "author": {
     "name": "{{ site.author }}",
     "url": "https://keybase.io/michaelnordmeyer"
   },
-  "icon": "{{ site.url }}/favicon.ico",
+  "icon": "https://michaelnordmeyer.com/favicon.ico",
   "expired": false,
   "items": [
 {% for post in site.posts limit 20 %}
     {
       "id": "{{ post.id }}",
-      "url": "{{ site.url }}{{ post.url }}",
+      "url": "https://michaelnordmeyer.com{{ post.url }}",
       "title": {{ post.title | smartify | jsonify }},
       "date_published": "{{ post.date }}"
       "summary": {% if post.excerpt %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},
