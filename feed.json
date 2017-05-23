@@ -6,7 +6,7 @@ sitemap: false
 {
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.name | smartify | jsonify }},
-  "description": {{ site.description | smartify | jsonify }},
+  "description": {{ site.description | smartify }},
   "home_page_url": "https://michaelnordmeyer.com/",
   "feed_url": "https://michaelnordmeyer.com/feed.json",
   "icon": "https://michaelnordmeyer.com/favicon.ico",
@@ -24,7 +24,7 @@ sitemap: false
       "date_published": "{{ post.date }}",
       "summary": {% if post.excerpt %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},{% if post.image %}
       "image": "{{ post.image }}",{% endif %}
-      "content_html": {{ post.content | jsonify }}
+      "content_html": {{ post.content | smartify | jsonify }}
     }{% unless forloop.last == true %},{% endunless %}{% endfor %}
   ]
 }
