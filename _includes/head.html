@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
-  <title>{{ page.title | append: " • " | append: site.name | smartify | escape }}</title>
-  <meta property="og:title" content="{{ page.title | append: " • " | append: site.name | smartify | escape }}">
+  <title>{{ page.title | append: " • " | append: site.title | smartify | escape }}</title>
+  <meta property="og:title" content="{{ page.title | append: " • " | append: site.title | smartify | escape }}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:locale" content="{{ page.lang | replace:'-','_' }}">
   <meta name="description" content="{{ page.excerpt | smartify }}">
