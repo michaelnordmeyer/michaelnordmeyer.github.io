@@ -7,7 +7,7 @@
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
   <title>{{ page.title | append: " • " | append: site.title | smartify | escape }}</title>
-  <meta property="og:title" content="{{ page.title | append: " • " | append: site.title | smartify | escape }}">
+  <meta property="og:title" content="{{ page.title | smartify | escape }}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang | replace:'-','_' }}{% else %}{{ site.lang | replace:'-','_' }}{% endif %}">
   <meta name="description" content="{{ page.excerpt | smartify }}">
@@ -34,7 +34,7 @@
   <meta name="twitter:creator" content="@{{ site.twitter.username | replace:"@","" }}">
 {% if page.date %}
   <script type="application/ld+json">
-    {"@context":"http://schema.org","@type":"BlogPosting","headline":"{{ site.title | smartify }}","author":{"@type":"Person","name":"{{ site.author }}"},"datePublished":"{{ page.date | date_to_xmlschema }}","{{ page.date | date_to_xmlschema }}","description":"{{ page.excerpt | smartify }}","mainEntityOfPage":{"@type":"WebPage","@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"},"url":"https://michaelnordmeyer.com{{ page.url | relative_url }}"}
+    {"@context":"http://schema.org","@type":"BlogPosting","headline":"{{ page.title | smartify }}","author":{"@type":"Person","name":"{{ site.author }}"},"datePublished":"{{ page.date | date_to_xmlschema }}","{{ page.date | date_to_xmlschema }}","description":"{{ page.excerpt | smartify }}","mainEntityOfPage":{"@type":"WebPage","@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"},"url":"https://michaelnordmeyer.com{{ page.url | relative_url }}"}
   </script>
 {% endif %}
 </head>
