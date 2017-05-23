@@ -33,15 +33,8 @@
   <meta name="twitter:site" content="@{{ site.twitter.username | replace:"@","" }}">
   <meta name="twitter:creator" content="@{{ site.twitter.username | replace:"@","" }}">
 {% if page.date %}
-<!-- page -->
   <script type="application/ld+json">
     {"@context":"http://schema.org","@type":"BlogPosting","headline":"{{ site.title | smartify }}","author":{"@type":"Person","name":"{{ site.author }}"},"datePublished":"{{ page.date | date_to_xmlschema }}","{{ page.date | date_to_xmlschema }}","description":"{{ page.excerpt | smartify }}","mainEntityOfPage":{"@type":"WebPage","@id":"https://michaelnordmeyer.com{{ post.url | relative_url }}"},"url":"https://michaelnordmeyer.com{{ post.url | relative_url }}"}
-  </script>
-{% endif %}
-{% if post.date %}
-<!-- post -->
-  <script type="application/ld+json">
-    {"@context":"http://schema.org","@type":"BlogPosting","headline":"{{ site.title | smartify }}","author":{"@type":"Person","name":"{{ site.author }}"},"datePublished":"{{ post.date | date_to_xmlschema }}","{{ post.date | date_to_xmlschema }}","description":"{{ post.excerpt | smartify }}","mainEntityOfPage":{"@type":"WebPage","@id":"https://michaelnordmeyer.com{{ post.url | relative_url }}"},"url":"https://michaelnordmeyer.com{{ post.url | relative_url }}"}
   </script>
 {% endif %}
 </head>
