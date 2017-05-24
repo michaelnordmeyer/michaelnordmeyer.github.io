@@ -11,9 +11,9 @@ tags:
 ---
 [Great advise for creating a product](http://paraschopra.com/blog/entrepreneurship/webapp-is-not-going-to-make-money.htm) (web app) on the web, which is supposed to make money:
 
-Go with the market-first approach (as opposed to idea-first approach). If you are confident that you will be able to make a good enough product/prototype, I suggest taking the following approach:
+Go with the market-first approach as opposed to idea-first approach. If you are confident that you will be able to make a good enough product/prototype, I suggest taking the following approach:
 
   * Find an industry (ideally, an old fashioned one) where people are making money
-  * Find the single differentiator which will put your app apart in the already established industry (read or research what pain points are still not addressed by top 3 solutions)
-  * Make a web app, market it, refine it based on feedback, monetize the app
-  * Slowly incorporate all standard features expected out of a solution in that industry so you can shoot to be a market leader
+  * Find the single differentiator which will put your app apart in the already established industry (read or research what pain points are still not addressed by the top 3 solutions)
+  * Make a web app, market it, refine it based on feedback, and monetize the app
+  * Slowly incorporate all standard features expected from a solution in that industry so you can shoot to becoming a market leader
