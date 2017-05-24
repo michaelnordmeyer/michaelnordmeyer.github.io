@@ -7,7 +7,7 @@
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
   <link type="application/json" rel="alternate" href="https://michaelnordmeyer.com/feed.json" title="{{ site.title | escape }}">
-  <title>{% if page.title %}{{ page.title | append: " • " | append: site.title | smartify | escape }}{% else %}{{ site.title | append: " • " | append: site.description | smartify | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | append: " • " | append: site.title | smartify | escape }}{% else %}{{ site.title | append: " • " | append: site.description | smartify }}{% endif %}</title>
   <meta property="og:title" content="{{ page.title | smartify | escape }}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang | replace:'-','_' }}{% else %}{{ site.lang | replace:'-','_' }}{% endif %}">
