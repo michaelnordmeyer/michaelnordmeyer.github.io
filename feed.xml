@@ -11,9 +11,9 @@ sitemap: false
   <id>https://michaelnordmeyer.com/</id>
 
   {% if site.title %}
-    <title type="html">{{ site.title | smartify | xml_escape }}</title>
+    <title type="html">{{ site.title | xml_escape }}</title>
   {% elsif site.name %}
-    <title type="html">{{ site.name | smartify | xml_escape }}</title>
+    <title type="html">{{ site.name | xml_escape }}</title>
   {% endif %}
 
   {% if site.description %}
