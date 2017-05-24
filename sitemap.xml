@@ -34,7 +34,7 @@ sitemap: false
   {% assign static_files = page.static_files | where_exp:'page','page.sitemap != false' | where_exp:'page','page.name != "404.html"' %}
   {% for file in static_files %}
     <url>
-      <loc>https://michaelnordmeyer.com{{ file.path | relativee_url | xml_escape }}</loc>
+      <loc>https://michaelnordmeyer.com{{ file.path | relative_url | xml_escape }}</loc>
       <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
     </url>
   {% endfor %}

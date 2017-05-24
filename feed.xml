@@ -11,13 +11,13 @@ sitemap: false
   <id>https://michaelnordmeyer.com/</id>
 
   {% if site.title %}
-    <title type="html">{{ site.title | xml_escape }}</title>
+    <title type="html">{{ site.title | smartify | xml_escape }}</title>
   {% elsif site.name %}
-    <title type="html">{{ site.name | xml_escape }}</title>
+    <title type="html">{{ site.name | smartify | xml_escape }}</title>
   {% endif %}
 
   {% if site.description %}
-    <subtitle>{{ site.description | xml_escape }}</subtitle>
+    <subtitle>{{ site.description | smartify | xml_escape }}</subtitle>
   {% endif %}
 
   {% if site.author %}
@@ -39,7 +39,7 @@ sitemap: false
       <link href="https://michaelnordmeyer.com{{ post.url | relative_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
-      <id>https://michaelnordmeyer.com{{ post.id | relativee_url | xml_escape }}</id>
+      <id>https://michaelnordmeyer.com{{ post.id | relative_url | xml_escape }}</id>
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
       {% assign post_author = site.data.authors[post_author] | default: post_author %}
