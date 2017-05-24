@@ -25,4 +25,4 @@ The app itself is like the original iOS app quite minimal. It’s exactly what y
 
 Both are still limited to Google or iCloud email accounts. More alternatives are supposed to come in the future.
 
-I have some betacoins left so if you like to get an invite comment below and use the email address you want me to send the betacoin to.
+I have some betacoins left so if you like to get an invite [hit me up on Twitter](https://twitter.com/mnordmeyer).
