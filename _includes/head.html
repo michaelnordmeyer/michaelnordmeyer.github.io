@@ -11,8 +11,8 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: " • " | append: site.title | smartify | escape }}{% else %}{{ site.title | append: " • " | append: site.description | smartify }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang | replace:'-','_' }}{% else %}{{ site.lang | replace:'-','_' }}{% endif %}">
-  <meta name="description" content="{{ page.excerpt | smartify }}">
-  <meta property="og:description" content="{{ page.excerpt | smartify }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
   <link rel="canonical" href="https://michaelnordmeyer{{ page.url | relative_url }}">
   <meta property="og:url" content="https://michaelnordmeyer{{ page.url | relative_url }}">
   <meta property="og:site_name" content="{{ site.title | smartify }}">
