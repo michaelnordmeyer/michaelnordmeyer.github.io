@@ -7,8 +7,8 @@
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
   <link type="application/json" rel="alternate" href="{{ "/feed.json" | relative_url }}" title="{{ site.title | escape }}">
-  <title>{% if page.title %}{{ page.title | append: " • " | append: site.title | smartify | escape }}{% else %}{{ site.title | append: " • " | append: site.description | smartify }}{% endif %}</title>
-  <meta property="og:title" content="{% if page.title %}{{ page.title | append: " • " | append: site.title | smartify | escape }}{% else %}{{ site.title | append: " • " | append: site.description }}{% endif %}">
+  <title>{% if page.title %}{{ page.title | append: " • " | append: site.title }}{% else %}{{ site.title | append: " • " | append: site.description }}{% endif %}</title>
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: " • " | append: site.title }}{% else %}{{ site.title | append: " • " | append: site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang | replace:'-','_' }}{% else %}{{ site.lang | replace:'-','_' }}{% endif %}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
