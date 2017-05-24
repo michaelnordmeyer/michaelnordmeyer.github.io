@@ -21,7 +21,7 @@ A MakerBot is an inexpensive 3D printer (from $750), which uses very cheap plast
 
 Two days ago they **sold the 1001st MakerBot**, which are built in Brooklyn, New York City.
 
-#### MakerBot Allows Semi-Teleportation
+## MakerBot Allows Semi-Teleportation
 
 What sounds like science fiction is actually quite real. Not in the movie sense but still. Bre Petis told a story about him riding the New York City subway to a demonstration of the Makerbot. He got a notification on his phone about an upload to thingiverse. He checked it out and [it was a whistle](https://www.thingiverse.com/thing:1046).
 

@@ -57,3 +57,4 @@ tags:
 ## Self-hosted
 
 ### [Ghost](https://ghost.org/)
+### [Jekyll](https://jekyllrb.com/)
