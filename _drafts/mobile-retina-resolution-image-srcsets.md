@@ -57,8 +57,8 @@ Duplicate resolutions have been removed.
 Duplicate resolutions have been removed.
 
 
-For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`. That is 8 variants in total for Adnroid devices.
+For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`. That is 8 variants in total.
 
-For iPhones portait `srcset` candidate resolutions would be `320×`, `375×`, `414×`, `640×`, `750×`, `828×`, and `1242×`. The corresponding landscape `srcset` would be `480×`, `568×`, `667×`, `736×`, `960×`, `1136×`, `1334×`, `1472×`, and `2208×`. That is 16 variants in total for iPhones.
+For iPhones portait `srcset` candidate resolutions would be `320×`, `375×`, `414×`, `640×`, `750×`, `828×`, and `1242×`. The corresponding landscape `srcset` would be `480×`, `568×`, `667×`, `736×`, `960×`, `1136×`, `1334×`, `1472×`, and `2208×`. That is 16 variants in total.
 
 Looks like the number of supported resolutions for each platform has been switched. Years ago it was the other way round.
