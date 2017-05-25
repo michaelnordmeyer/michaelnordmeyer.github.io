@@ -31,7 +31,7 @@ The people of PaintCode have a great overview showing graphically [how these res
 
 ## Which Image Sizes to Support High-Res Retina Screens
 
-To support high-resolution retina screens we need a version with the highest x-factor for the specific device. QuadHD devices need a 4× image, HD devices a 2× one. And if you want to be pixel-perfect, you also have to support both portait and landscape modes. By that I don't mean the image dimensions but the way people hold their phones.
+To support high-resolution retina screens we need a version with the highest x-factor for the specific device. Current Android devices need 2×, 3×, and 4× images, iPhones 2× and 3× ones. And if you want to be pixel-perfect, you also have to support both portait and landscape modes. By that I don't mean the image dimensions but the way people hold their phones.
 
 ### Portrait Mode
 
@@ -57,4 +57,8 @@ Duplicate resolutions have been removed.
 Duplicate resolutions have been removed.
 
 
-For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`.
+For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`. That is 8 variants in total for Adnroid devices.
+
+For iPhones portait `srcset` candidate resolutions would be `320×`, `375×`, `414×`, `640×`, `750×`, `828×`, and `1242×`. The corresponding landscape `srcset` would be `480×`, `568×`, `667×`, `736×`, `960×`, `1136×`, `1334×`, `1472×`, and `2208×`. That is 16 variants in total for iPhones.
+
+Looks like the number of supported resolutions for each platform has been switched. Years ago it was the other way round.
