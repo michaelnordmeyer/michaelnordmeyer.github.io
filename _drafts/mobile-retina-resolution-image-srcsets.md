@@ -12,7 +12,7 @@ tags:
 ---
 ## Overview of Most Common Mobile Device Resolutions
 
-Mobile devices have physical screens resolutions which are not advertised to browsers. Instead the 1× resolutions is. Here's an overview of the relationship between physical and virtual (calculated) resolutions for the most common mobile devices.
+Mobile devices have physical screens resolutions which are not advertised to browsers. Instead the 1× resolutions is. Here's an overview of the relationship between physical and virtual (calculated) resolutions for most common mobile devices.
 
 | Device         | Screen Res. |    1×   |    2×    |    3×     |    4×     |
 |----------------|:-----------:|:-------:|:--------:|:---------:|:---------:|
@@ -25,7 +25,7 @@ Mobile devices have physical screens resolutions which are not advertised to bro
 | iPhone 4.7˝    |   750×1334  | 375×667 | 750×1334 |    n/a    |    n/a    |
 | iPhone 5.5˝<sup>1</sup>|  1080×1920  | 414×736 | 828×1472 | 1242×2208 |    n/a    |
 
-<sup>1</sup>: 1242×2208 is downsampled to 1080×1920 and therefor not pixel-perfect
+<sup>1</sup> 1242×2208 is downsampled to 1080×1920 and therefor not pixel-perfect
 
 The people of PaintCode have a great overview showing graphically [how these resolutions are related](https://www.paintcodeapp.com/news/iphone-6-screens-demystified).
 
