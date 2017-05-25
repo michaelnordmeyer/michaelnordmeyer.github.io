@@ -56,6 +56,7 @@ Duplicate resolutions have been removed.
 
 Duplicate resolutions have been removed.
 
+## SRCSET Candidate Resolutions
 
 For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`. That is 8 variants in total.
 
