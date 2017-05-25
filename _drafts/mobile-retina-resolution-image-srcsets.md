@@ -35,26 +35,26 @@ To support high-resolution retina screens we need a version with the highest x-f
 
 ### Portrait Mode
 
-| Device      | Screen Res. |   1×  |   2×  |   3×   |   4×   |
-|-------------|:-----------:|:-----:|:-----:|:------:|:------:|
-| Android     |  1440×2560  | 360×? | 720×? | 1080×? | 1440×? |
-| iPhone 4.0˝ |   640×1136  | 320×? | 640×? |   n/a  |   n/a  |
-| iPhone 4.7˝ |   750×1334  | 375×? | 750×? |   n/a  |   n/a  |
-| iPhone 5.5˝ |  1080×1920  | 414×? | 828×? | 1242×? |   n/a  |
+| Device      | Screen Res. |  1×  |  2×  |  3×   |  4×   |
+|-------------|:-----------:|:----:|:----:|:-----:|:-----:|
+| Android     |  1440×2560  | 360× | 720× | 1080× | 1440× |
+| iPhone 4.0˝ |   640×1136  | 320× | 640× |  n/a  |  n/a  |
+| iPhone 4.7˝ |   750×1334  | 375× | 750× |  n/a  |  n/a  |
+| iPhone 5.5˝ |  1080×1920  | 414× | 828× | 1242× |  n/a  |
 
 Duplicate resolutions have been removed.
 
 ### Landscape Mode
 
-| Device      | Screen Res. |  1×   |   2×   |   3×   |   4×   |
-|-------------|:-----------:|:-----:|:------:|:------:|:------:|
-| Android     |  1440×2560  | ?×640 | ?×1280 | ?×1920 | ?×2560 |
-| iPhone 3.5˝ |   640×960   | ?×480 | ?×960  |   n/a  |   n/a  |
-| iPhone 4.0˝ |   640×1136  | ?×568 | ?×1136 |   n/a  |   n/a  |
-| iPhone 4.7˝ |   750×1334  | ?×667 | ?×1334 |   n/a  |   n/a  |
-| iPhone 5.5˝ |  1080×1920  | ?×736 | ?×1472 | ?×2208 |   n/a  |
+| Device      | Screen Res. |  1×  |  2×   |  3×   |  4×   |
+|-------------|:-----------:|:----:|:-----:|:-----:|:-----:|
+| Android     |  1440×2560  | ×640 | ×1280 | ×1920 | ×2560 |
+| iPhone 3.5˝ |   640×960   | ×480 | ×960  |  n/a  |  n/a  |
+| iPhone 4.0˝ |   640×1136  | ×568 | ×1136 |  n/a  |  n/a  |
+| iPhone 4.7˝ |   750×1334  | ×667 | ×1334 |  n/a  |  n/a  |
+| iPhone 5.5˝ |  1080×1920  | ×736 | ×1472 | ×2208 |  n/a  |
 
 Duplicate resolutions have been removed.
 
 
-For Android devices portait `srcset` candidate resolutions would be `360×?`, `720×?`, `1080×?`, and `1440×?`. The corresponding landscape `srcset` would be `?×640`, `?×1280`, `?×1920`, and `?×2560`.
+For Android devices portait `srcset` candidate resolutions would be `360×`, `720×`, `1080×`, and `1440×`. The corresponding landscape `srcset` would be `×640`, `×1280`, `×1920`, and `×2560`.
