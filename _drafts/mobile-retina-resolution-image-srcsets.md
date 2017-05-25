@@ -31,7 +31,7 @@ The people of PaintCode have a great overview showing graphically [how these res
 
 ## Which Image Sizes to Support High-Res Retina Screens
 
-To support high-res retina screens we need a version with the highest x-factor for the specific device. QuadHD devices need a 4× image, HD devices a 2× one. And if you want to be pixel-perfect, you also have to support both portait and landscape modes. By that I don't mean the image dimensions but the way people hold their phones.
+To support high-resolution retina screens we need a version with the highest x-factor for the specific device. QuadHD devices need a 4× image, HD devices a 2× one. And if you want to be pixel-perfect, you also have to support both portait and landscape modes. By that I don't mean the image dimensions but the way people hold their phones.
 
 ### Portrait Mode
 
