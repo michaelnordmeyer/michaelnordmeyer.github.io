@@ -29,7 +29,7 @@ Da diese Demos nur vor einem großen Publikum vor Ort möglich waren, damit die 
 Die neuen zu erwartenden Produkte wurden heute wie damals anhand der durchschnittlichen Tage einer Produktversion bestimmt. Dafür gibt es entsprechende Seiten mit [Apple Buyer’s Guides](https://buyersguide.macrumors.com/), die diese Infos bereit halten und teilweise vom Kauf entsprechender Produkte abraten, da mit hoher Wahrscheinlichkeit neue Revisionen ins Haus stehen.
 
 <figure>
-  <img title="WWDC 2006 Developers Check-In" src="/images/2010/Apple-WWDC-2006-Developers-Check-In-660x424.jpg" alt="WWDC 2006 Developers Check-In" width="740" height="475" srcset="/images/2010/06/Apple-WWDC-2006-Developers-Check-In-660x424.jpg 660w, /images/2010/06/Apple-WWDC-2006-Developers-Check-In-300x193.jpg 300w, /images/2010/06/Apple-WWDC-2006-Developers-Check-In-768x494.jpg 768w, /images/2010/06/Apple-WWDC-2006-Developers-Check-In.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
+  <img title="WWDC 2006 Developers Check-In" src="/images/2010/Apple-WWDC-2006-Developers-Check-In-660x424.jpg" alt="WWDC 2006 Developers Check-In" width="740" height="475" srcset="/images/2010/Apple-WWDC-2006-Developers-Check-In-660x424.jpg 660w, /images/2010/Apple-WWDC-2006-Developers-Check-In-300x193.jpg 300w, /images/2010/Apple-WWDC-2006-Developers-Check-In-768x494.jpg 768w, /images/2010/Apple-WWDC-2006-Developers-Check-In.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
   <figcaption>Schlangen am Check-In Counter der WWDC2006</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Diese wurden, so sie denn in einem frühem Stadium waren, mehrere Monate nicht a
 Durch das iPhone und das iPad sind wesentlich mehr Entwickler an der WWDC interessiert, sodass dieses Jahr der Fokus hauptsächlich auf dem App Universe liegen wird. Und trotz der kurzfristigen Ankündigung und fehlender Early Bird Tarife war die **WWDC 2010 innerhalb von acht Tagen ausverkauft**, und das bei Preisen von 1.200 Euro pro Ticket. Sonst hatte es Wochen bis Monate gedauert, bis alle Karten weg waren. Anscheinend schicken auch wieder größere Firmen Ihre Mitarbeiter nach San Francisco.
 
 <figure>
-  <img title="WWDC 2006 Schlange stehen" src="/images/2010/Apple-WWDC-2006-Schlange-stehen-660x398.jpg" alt="WWDC 2006 Schlange stehen" width="740" height="446" srcset="/images/2010/06/Apple-WWDC-2006-Schlange-stehen-660x398.jpg 660w, /images/2010/06/Apple-WWDC-2006-Schlange-stehen-300x181.jpg 300w, /images/2010/06/Apple-WWDC-2006-Schlange-stehen-768x464.jpg 768w, /images/2010/06/Apple-WWDC-2006-Schlange-stehen.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
+  <img title="WWDC 2006 Schlange stehen" src="/images/2010/Apple-WWDC-2006-Schlange-stehen-660x398.jpg" alt="WWDC 2006 Schlange stehen" width="740" height="446" srcset="/images/2010/Apple-WWDC-2006-Schlange-stehen-660x398.jpg 660w, /images/2010/Apple-WWDC-2006-Schlange-stehen-300x181.jpg 300w, /images/2010/Apple-WWDC-2006-Schlange-stehen-768x464.jpg 768w, /images/2010/Apple-WWDC-2006-Schlange-stehen.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
   <figcaption>In der Keynote-Schlange der WWDC 2006 stehen</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Genauere Zahlen wird Steve Jobs präsentieren, der es sich nicht nehmen lässt, 
 Und was das iPhone 4G noch für Überraschungen bereit halten wird, wird sich wohl auch auf der WWDC aufklären. Wegen ausgesprochener Urlaubsverbote für AT&T-Mitarbeiter in den USA und T-Mobile-Mitarbeiter in Deutschland wird die letzte Juni-Woche als möglicher iPhone 4G Release-Termin kolportiert. Es gibt zwar Unmengen von Fotos der möglichen neuen iPhone-Generation, aber Apple hat immer mehrere funktionierende Prototypen zur Auswahl, bevor sie sich letztendlich für ein Gerät entscheiden.
 
 <figure>
-  <img title="mobile.me" src="/images/2010/mobileme.png" alt="mobile.me" width="528" height="288" srcset="/images/2010/06/mobileme.png 528w, /images/2010/06/mobileme-300x164.png 300w" sizes="(max-width: 528px) 85vw, 528px">
+  <img title="mobile.me" src="/images/2010/mobileme.png" alt="mobile.me" width="528" height="288" srcset="/images/2010/mobileme.png 528w, /images/2010/mobileme-300x164.png 300w" sizes="(max-width: 528px) 85vw, 528px">
   <figcaption>Das von vielen als teuer empfundene mobile.me</figcaption>
 </figure>
 
