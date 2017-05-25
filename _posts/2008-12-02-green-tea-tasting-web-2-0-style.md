@@ -18,7 +18,7 @@ Pure Tea is an online tea company from [Lüneburg, Germany](https://en.wikipedia
 The names of the teas are on the packaging. This will inevitably lead to a preselection. Who wants to drink “Cui Feng” or “Xiang Cha” if you can drink “Green Monkey” or “Snow Buds”?
 
 <figure>
-  <img title="Different teas" src="/images/2008/img_9236.jpg" alt="Different teas" width="480" height="187" srcset="/images/2008/img_9236.jpg 480w, /images/2008/img_9236-300x117.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
+  <img title="Different teas" src="/images/2008/img_9236.jpg" alt="Different teas" width="480" height="187">
   <figcaption>Different teas</figcaption>
 </figure>
 
