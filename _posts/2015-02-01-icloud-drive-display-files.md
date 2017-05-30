@@ -1,10 +1,9 @@
 ---
-title: How to get iCloud Drive to Display Files
+title: How to Get iCloud Drive to Display Files
 date: 2015-02-01T21:29:48+00:00
 excerpt: If iCloud Drive on iOS doesn't display any files or the folders are empty (0 items) even though there should be some files, then there is an easy solution.
 layout: post
 permalink: /icloud-drive-display-files
-redirect_from: /icloud-drive-display-files/
 image: /images/2015/iOS-8-iCloud-Drive.png
 categories:
   - Apple
