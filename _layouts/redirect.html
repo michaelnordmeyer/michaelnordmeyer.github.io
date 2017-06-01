@@ -13,7 +13,8 @@
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
-    <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="Michael Nordmeyer">
+    <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
+    <link type="application/json" rel="alternate" href="{{ "/feed.json" | relative_url }}" title="{{ site.title | escape }}">
   </head>
   <body>
 
