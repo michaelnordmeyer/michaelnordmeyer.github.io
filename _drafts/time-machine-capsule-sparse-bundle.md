@@ -9,4 +9,6 @@ categories:
 tags:
   - Backup
 ---
+## Possible Data Corruption
+
 If a sparse bundle is corrupted, the whole backup is unreadable. Every file, every day of backup to the beginning. A sparse bundle is a file, which can be mounted to the filesystem and acts a drive to store data.
