@@ -4,7 +4,6 @@ date: 2015-11-07T21:40:34+00:00
 excerpt: Apple iBooks highlights are sometimes ommited from export without notification and are in the wrong order, which is quite uncool.
 layout: post
 permalink: /why-apple-ibooks-highlighting-sucks
-redirect_from: /why-apple-ibooks-highlighting-sucks/
 categories:
   - Apple
 tags:

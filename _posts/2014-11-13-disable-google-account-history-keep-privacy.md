@@ -4,7 +4,6 @@ date: 2014-11-13T10:40:38+00:00
 excerpt: If you are interested in keeping your privacy and use Google products it's highly recommended to disable your Google account history.
 layout: post
 permalink: /disable-google-account-history-keep-privacy
-redirect_from: /disable-google-account-history-keep-privacy/
 categories:
   - Web
 tags:
