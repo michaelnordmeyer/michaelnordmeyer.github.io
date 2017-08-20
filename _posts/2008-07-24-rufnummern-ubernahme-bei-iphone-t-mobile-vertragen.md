@@ -1,7 +1,7 @@
 ---
 title: Rufnummern-Übernahme bei iPhone-T-Mobile-Verträgen
 date: 2008-07-24T19:00:00+00:00
-excerpt: If you are interested in keeping your privacy and use Google products it’s highly recommended to disable your Google account history.
+excerpt: Wie man eine spätere Übernahme von alten Rufnummern bei schon laufenden Neu-Verträgen mit neuer Rufnummer durchführt.
 layout: post
 permalink: /rufnummern-ubernahme-bei-iphone-t-mobile-vertragen
 redirect_from: /blog/2008/07/rufnummern-ubernahme-bei-iphone-t-mobile-vertragen/
