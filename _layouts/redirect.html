@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Redirect from {{ page.redirect.from | relative_url }} to {{ page.redirect.to | relative_url }}</title>
+    <title>Redirect from {{ page.redirect.from | relative_url }} to {{ page.redirect.to | absolute_url }}</title>
     <meta name="description" content="Redirect page">
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
