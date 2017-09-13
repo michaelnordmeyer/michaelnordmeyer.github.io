@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     <meta name="robots" content="noindex,follow">
-    <meta http-equiv="refresh" content="0; url={{ page.redirect.to | relative_url }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect.to | absolute_url }}">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,8 +29,8 @@
           </header>
 
           <div class="post-content">
-            <a href="{{ page.redirect.to | relative_url }}">Click here if you are not being redirected.</a>
-            <script>location="{{ page.redirect.to | relative_url }}"</script>
+            <a href="{{ page.redirect.to | absolute_url }}">Click here if you are not being redirected.</a>
+            <script>location="{{ page.redirect.to | absolute_url }}"</script>
           </div>
 
         </article>
