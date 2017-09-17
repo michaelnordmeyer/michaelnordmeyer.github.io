@@ -4,6 +4,7 @@ date: 2015-01-30T01:42:49+00:00
 excerpt: I bought Desk because I wanted to get an undistracted writing experience and some Markdown for good measure. Unfortunately Desk is too buggy to provide this yet.
 layout: post
 permalink: /blogging-app-desk-looks-cool-behaves-badly
+redirect_from: /blogging-app-desk-looks-cool-behaves-badly/
 categories:
   - Technology
 tags:
