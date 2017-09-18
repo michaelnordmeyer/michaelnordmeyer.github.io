@@ -9,4 +9,5 @@ categories:
   - Events
 tags:
   - BarCamp
+  - German
 ---
