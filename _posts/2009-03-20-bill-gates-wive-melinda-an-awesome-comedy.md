@@ -1,5 +1,5 @@
 ---
-title: Bill Gates Wive Melinda — An Awesome Comedy
+title: Bill Gates’ Wive Melinda — An Awesome Comedy
 date: 2009-03-20T19:59:30+00:00
 excerpt: Melinda Gates videoblogs about not being allowed to use Apple devices.
 layout: post
