@@ -32,7 +32,7 @@ figcaption { text-align: center; }
 
 .aligncenter { display: block; margin: 0 auto; }
 
-header h1 { margin-bottom: 0; }
+header > div > h1 { margin-bottom: 0; }
 
 .post-list > li > h2 { margin-bottom: 1px; }
 .post-link { line-height: 1.3em; }
