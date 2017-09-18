@@ -4,6 +4,7 @@ date: 2017-06-11T12:00:00+00:00
 excerpt: ""
 layout: post
 permalink: /storing-videos-in-icloud-drive-ios-11
+redirect_from: /storing-videos-in-icloud-drive-on-ios
 categories:
   - Apple
 tags:
