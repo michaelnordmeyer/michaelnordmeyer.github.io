@@ -2,27 +2,23 @@
 layout: default
 ---
 
-<div class="home">
+<h3 class="page-heading">Posts</h3>
 
-  <h3 class="page-heading">Posts</h3>
-  
-  {{ content }}
+{{ content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        
-        <p>{{ post.excerpt | escape }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      
+      <p>{{ post.excerpt | escape }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
-  <p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed" | relative_url }}">via RSS feed</a> or <a href="{{ "/feed.json" | relative_url }}">via JSON feed</a></p>
-
-</div>
+<p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed" | relative_url }}">via RSS feed</a> or <a href="{{ "/feed.json" | relative_url }}">via JSON feed</a></p>
