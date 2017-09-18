@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h3 class="page-heading">Posts</h3>
   
   {{ content }}
 
@@ -23,6 +23,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed" | relative_url }}">via RSS feed</a></p>
+  <p class="rss-subscribe">Subscribe to updates <a href="{{ "/feed" | relative_url }}">via RSS feed</a> or <a href="{{ "/feed.json" | relative_url }}">via JSON feed</a></p>
 
 </div>
