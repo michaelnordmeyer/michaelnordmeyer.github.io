@@ -13,9 +13,9 @@ Strong passwords are important because your personal data is important. I’m go
 
 ## Password Basics
 
-You shouldn’t use the same [password](https://en.wikipedia.org/wiki/Password "Wikpedia: Password") for different accounts, even if the password is sufficiently strong. If one account gets hacked and somebody gets ahold of your password, all your other accounts are wide open.
+You should never use the same [password](https://en.wikipedia.org/wiki/Password "Wikpedia: Password") for different accounts, even if the password is sufficiently strong. If one account gets hacked and somebody gets ahold of your password, all your other accounts are wide open.
 
-If this happens you’re in for a lot of work because you have to change the password for all these accounts. It’s better to invest just a little more in the beginning.
+If this happens you’re in for a lot of work because you have to change the password for all your accounts. It’s better to invest just a little more in the beginning.
 
 ## What Are Passwords Made Of?
 
@@ -31,19 +31,19 @@ A more detailed explanation of [weak passwords is on Wikipedia](https://en.wikip
 
 ## Passphrases and not Passwords
 
-It’s better to use a [passphrase](https://en.wikipedia.org/wiki/Passphrase "Wikipedia: Passphrase"). _strongpassphrasesaregood_ is better than _strongpassword_. But the same which applies to passwords also applies to passphrases: no personal information and no common words.
+It’s better to use a [passphrase](https://en.wikipedia.org/wiki/Passphrase "Wikipedia: Passphrase"). _strongpassphrasesaregood_ is better than _strongpassword_. But the same which applies to passwords also applies to passphrases: no personal information and no common phrases.
 
 ## How Long Should a Password or Passphrase Be?
 
-Having at least 10 characters is crucial. 15 to 20 characters is much better if you want to stay future proof. Passphrase tend to be even longer.
+Having at least 10 characters is crucial. 15 to 20 characters is much better if you want to stay future proof. Passphrases tend to be even longer.
 
 What is secure now won’t be secure in 5 or 10 years. If somebody saved your undecryptable data now they will be able to decrypt it after those years.
 
 While you don’t know what happens to your data in the future I guess you very much don’t like to see your personal data being widely available to everybody as long as you live. So better make sure your passphrase stays safe for a very long time.
 
-## How to Memorize Strong Passphrases
+## How to Memorize Strong Passwords or Passphrases
 
-You don’t. It’s not feasible to remember a sufficiently strong passphrase which tends to be very long. There are exceptions (Diceware, see below) but the best idea is to use long and completely random passphrases and store those in a password manager.
+You don’t. It’s not feasible to remember a large number of sufficiently strong password which tends to be very long. There are exceptions (Diceware, see below) but the best idea is to use long and completely random passphrases and store those in a password manager.
 
 ## Password Managers
 
@@ -67,16 +67,18 @@ This generates 10 random passwords with the length of 20, the output is one pass
 
 ## Don’t Use Password Generating Websites
 
-Don’t use a website to generate the passwords for you for free. You want secure passwords and don’t know if the people running the server either store the generated passwords for hacking attacks or if somebody is intercepting the generated passwords because the connection to the server is not secure.
+Never use a website to generate the passwords for you for free. You want secure passwords and don’t know if the people running the server either store the generated passwords for hacking attacks or if somebody is intercepting the generated passwords because the connection to the server is not secure.
+
+Always create them on your personal devices.
 
 ## Use Diceware If You Are Human
 
-Of course techies are also human but this is a very non-technical approach. I like it very much. [Diceware](https://en.wikipedia.org/wiki/Diceware "Wikipedia: Diceware") means rolling five dice six times and picking the correspondent six words from a list. The passphrase will consist of these six words separated by spaces. There are lists for [English](http://world.std.com/~reinhold/diceware.wordlist.asc) and other languages.
+Of course techies are also human but this is a very non-technical approach. I like it very much. [Diceware](https://en.wikipedia.org/wiki/Diceware "Wikipedia: Diceware") means rolling five dice six times and picking the corresponding six words from a list. The passphrase will consist of these six words separated by spaces. There are lists for [English](http://world.std.com/~reinhold/diceware.wordlist.asc) and other languages.
 
-Passphrases created with dice are safe because even though the word lists are known the choosing of the words from these lists are completely random. A random passphrase of the same length would have more strength but the whole point of diceware is having safe and memorable passphrases.
+Passphrases created with dice are safe because even though the word lists are known the chosen words from these lists are completely picked by random. A random passphrase of the same length would have more strength but the whole point of diceware is having safe _and_ memorable passphrases.
 
 ## Conclusion
 
-Passphrases made from dice can be remembered quite easily. You should use these for those passphrase which you cannot store in a safe password manager. Like the passphrase for manager itself.
+Passphrases made by dice can be remembered quite easily. You should use these for those passphrase which you cannot store in a safe password manager. Like the passphrase for the manager itself.
 
-For everything else you should use a password manager and use one distinct random passphrase for every account and store it in your manager exclusively.
+For everything else you should use a password manager and use a distinct random passphrase for every account and store it in your manager exclusively.
