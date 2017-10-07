@@ -49,13 +49,13 @@ You don’t. It’s not feasible to remember a large number of sufficiently stro
 
 Password managers are safe storage applications which specialize in passwords and other secrets. Generally they don’t store large documents but only small amounts of information.
 
-Popular password managers are [1Password](https://1password.com/ "Password Manager for Mac, iOS, Windows and Android"), [KeePassX](https://www.keepassx.org/ "Open-source Cross Platform Password Manager") or [LastPass](https://lastpass.com/ "Online Password Storage"). There are a lot more lesser known. I recommend local applications over web services like LastPass, which store your passphrases on their servers where you have less control and needs a lot of trust.
+Popular password managers are [1Password](https://1password.com/ "Password Manager for Mac, iOS, Windows and Android"), [KeePassX](https://www.keepassx.org/ "Open-source Cross-Platform Password Manager") or [LastPass](https://lastpass.com/ "Online Password Storage"). There are a lot more lesser known. I recommend local applications over web services like LastPass, which store your passphrases on their servers where you have less control and needs a lot of trust.
 
 To save a password you create a login item having your username, passphrase and the URL of the website if it’s a website. Using your manager you can log in by automatically filling in your username and password and initiating the login. Depending on the manager this works on desktop and mobile, because the passphrases are synced between your devices.
 
-Password managers do also generate strong passphrases for you and store them automatically as login items.
+Password managers do also generate strong passphrases for you and store them automatically as login items, which can be filled-in automatically.
 
-I use 1Password on my Mac, iPhone and iPad and I’m very satisfied with the experience. It’s the first app I install on all those devices.
+I use 1Password on my Mac, iPhone and iPad and I’m very satisfied with the experience. It’s the first app I install on all those devices whenever I get a new one.
 
 ## Generate In Bulk If You Are a Techie
 
@@ -73,7 +73,7 @@ Always create them on your personal devices.
 
 ## Use Diceware If You Are Human
 
-Of course techies are also human but this is a very non-technical approach. I like it very much. [Diceware](https://en.wikipedia.org/wiki/Diceware "Wikipedia: Diceware") means rolling five dice six times and picking the corresponding six words from a list. The passphrase will consist of these six words separated by spaces. There are lists for [English](http://world.std.com/~reinhold/diceware.wordlist.asc) and other languages.
+Of course techies are also human but this is a very non-technical approach. I like it very much. [Diceware](https://en.wikipedia.org/wiki/Diceware "Wikipedia: Diceware") means rolling five dice and picking the corresponding word from a list using the five-digit number. The passphrase should consist of at least six words separated by spaces or another character like a hyphen. There are lists for [English](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) and other languages.
 
 Passphrases created with dice are safe because even though the word lists are known the chosen words from these lists are completely picked by random. A random passphrase of the same length would have more strength but the whole point of diceware is having safe _and_ memorable passphrases.
 
@@ -82,3 +82,5 @@ Passphrases created with dice are safe because even though the word lists are kn
 Passphrases made by dice can be remembered quite easily. You should use these for those passphrase which you cannot store in a safe password manager. Like the passphrase for the manager itself.
 
 For everything else you should use a password manager and use a distinct random passphrase for every account and store it in your manager exclusively.
+
+And to increase security even more you should use [two-factor or multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication).
