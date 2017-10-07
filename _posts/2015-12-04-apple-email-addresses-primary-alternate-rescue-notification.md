@@ -3,7 +3,8 @@ title: 'Apple ID Email Addresses: Primary, Alternate, Rescue and Notification'
 date: 2015-12-04T13:00:05+00:00
 excerpt: There are different email addresses you can add to an Apple ID. Here are the different types in a nutshell.
 layout: post
-permalink: /apple-email-addresses-primary-alternate-rescue-notification
+permalink: /apple-id-email-addresses-primary-alternate-rescue-notification
+redirect_from: /apple-email-addresses-primary-alternate-rescue-notification
 categories:
   - Apple
 tags:

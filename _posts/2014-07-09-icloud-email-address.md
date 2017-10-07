@@ -1,9 +1,10 @@
 ---
-title: 'iCloud Email Address: Change, Merge, Delete'
+title: 'iCloud Email Address: How To Change, Merge, Move, Delete'
 date: 2014-07-09T20:00:06+00:00
-excerpt: Changing, deleting or merging iCloud email addresses is tricky, because Apple doesn't allow to merge accounts. These are your options.
+excerpt: Changing, merging, moving or deleting iCloud email addresses is tricky, because Apple doesn't allow to merge accounts. These are your options.
 layout: post
-permalink: /icloud-email-address
+permalink: /icloud-email-address-change-merge-move-delete
+redirect_from: /icloud-email-address
 categories:
   - Apple
 tags:
@@ -18,11 +19,17 @@ I have a couple of Apple accounts. Some are quite old (mac.com, me.com), some ar
 
 You cannot change an iCloud email address without deleting the Apple account it belongs to, because this email address is the Apple ID for this account.
 
-This means you have to create a new account and transfer all data from the old to the new account.
+This means you have to create a new account and manually transfer all data from the old to the new account.
 
 ## Merging an iCloud Email Address
 
 You cannot merge an iCloud email address into another account, because this email address is the Apple ID for this account and can’t be separated.
+
+Even after deleting the Apple account you cannot re-use this email address, because it was already taken (by yourself). Apple doesn’t release email addresses even after a long time like others do.
+
+## Moving an iCloud Email Address
+
+You cannot move an iCloud email address to another account, because this email address is the Apple ID for this account and can’t be separated. Moving would also mean to delete the old email in the account the email is moved to which is not possible.
 
 Even after deleting the Apple account you cannot re-use this email address, because it was already taken (by yourself). Apple doesn’t release email addresses even after a long time like others do.
 
@@ -42,8 +49,12 @@ Email aliases are forever tied to the account that created them. It cannot later
 
 ## Moving iCloud Data to a New Account
 
-If you want to change accounts you have to move your iCloud data. There are many ways to do this and many places where the data is stored and accessed. So be careful to save and backup everything before you delete your old account.
+If you want to change accounts you have to manually move your iCloud data. There are many ways to do this and many places where the data is stored and accessed. So be careful to save and backup everything before you delete your old account.
 
 ## Device Limits for Creating iCloud Accounts
 
 Each device can only create three iCloud accounts, after which you can only re-use one of the previously created accounts or create a new one on another iOS device or Mac (OS X Lion or newer).
+
+## Apple ID Email Adresses
+
+Your Apple account has to have an email address used as a username to access it. Additionally this account can have different email address like a [primary, alternate, rescue or notification email address for your Apple ID](/apple-id-email-addresses-primary-alternate-rescue-notification).
