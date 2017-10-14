@@ -1,9 +1,10 @@
 ---
-title: Storing Videos in iCloud Drive on iOS
+title: Storing Videos on iCloud Drive on iOS
 date: 2016-03-24T13:56:37+00:00
 excerpt: After 1.5 years iCloud Drive works reliably. But because of the intricacies of iOS data storage it's not straight forward to use.
 layout: post
-permalink: /storing-videos-in-icloud-drive-on-ios
+permalink: /storing-videos-on-icloud-drive-on-ios
+redirect_from: /storing-videos-in-icloud-drive-on-ios
 categories:
   - Apple
 tags:

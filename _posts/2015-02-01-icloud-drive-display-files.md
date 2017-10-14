@@ -15,7 +15,7 @@ If iCloud Drive on iOS does not display any files or the folders are empty (0 it
 
 ## Opening Files Using the Document Picker
 
-If you use the document picker on iOS to select files from iCloud Drive, depending on the circumstances it takes a while for the files to show up. Be patient and keep the document picker open for a while and make sure the device doesn’t auto-lock itself. After a while the items should be displayed and you can select and open them.
+If you use the document picker on iOS to select files from iCloud Drive — depending on the circumstances — it takes a while for the files to show up. Be patient and keep the document picker open for a while and make sure the device doesn’t auto-lock itself. After a while the items should be displayed and you can select and open them.
 
 ## Opening Recently Copied or Moved Files
 
