@@ -12,7 +12,7 @@ tags:
 ---
 I’m cutting some slack and have reduced my main consulting work to 80%. That means one day off a week to get into some new technology. Staying on the edge requires some effort.
 
-Fortunately on the same day I will regularly be at home is the [OpenCoffee Club in Hamburg](http://www.hamburg-startups.de/), a weekly or bi-weekly gathering of developers and entrepreneurs of the Web 2.0 community in Hamburg. It takes place at a local Starbucks at Neuer Jungfernstieg 5. Although I prefer [Balzac Coffee](http://www.balzaccoffee.com/) because of the much better coffee, free wireless is hard to beat.
+Fortunately on the same day I will regularly be at home is the [OpenCoffee Club in Hamburg](http://www.hamburg-startups.de/), a weekly or bi-weekly gathering of developers and entrepreneurs of the Web 2.0 community in Hamburg. It takes place at a local Starbucks at Neuer Jungfernstieg 5. Although I prefer [Balzac Coffee](https://www.balzaccoffee.com/) because of the much better coffee, free wireless is hard to beat.
 
 Everybody is free to come. No admission, no registration. Share the love.
 

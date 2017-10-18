@@ -16,7 +16,7 @@ tags:
   - Mac
   - Wireless
 ---
-The MacBook Air is reduced to the essentials to get a small, light, ultra-portable and sexy computer. The [USB Ethernet adapter](http://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) (100 Mbit/s, $30 extra) is Apple’s option for people who need to connect to networks or the Internet using a cable. If only it would be faster.
+The MacBook Air is reduced to the essentials to get a small, light, ultra-portable and sexy computer. The [USB Ethernet adapter](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) (100 Mbit/s, $30 extra) is Apple’s option for people who need to connect to networks or the Internet using a cable. If only it would be faster.
 
 Unfortunately some companies still think wireless networking is insecure so you have to use an old-fashioned cable. When using this adapter in the company I was working at, I realized that the computer wasn’t as fast as before when accessing the network. The obvious reason is the maximum speed the adapter is capable of: 100 Mbit/s. This Fast Ethernet speed is outdated for some years. Gigabit Ethernet is the current standard and is 10 times as fast (1,000 Mbit/s).
 

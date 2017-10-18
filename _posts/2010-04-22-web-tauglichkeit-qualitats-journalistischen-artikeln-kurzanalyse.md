@@ -31,7 +31,7 @@ Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen 
 
 ## The Bad
 
-[**Die Süddeutsche**](http://www.sueddeutsche.de/digital/google-statistik-zu-behoerdeneingriffen-deutschland-loescht-gerne-1.936251) verlinkt zwar den Original-Artikel, verarbeitet aber kaum Informationen aus diesem, außer die Aussagekraft in Frage zu stellen und schweift nach der Hälfte des Artikels ab, sodass die Überschrift des Artikels nicht wirklich etwas mit dem Inhalt zu tun hat.
+[**Die Süddeutsche**](https://www.sueddeutsche.de/digital/google-statistik-zu-behoerdeneingriffen-deutschland-loescht-gerne-1.936251) verlinkt zwar den Original-Artikel, verarbeitet aber kaum Informationen aus diesem, außer die Aussagekraft in Frage zu stellen und schweift nach der Hälfte des Artikels ab, sodass die Überschrift des Artikels nicht wirklich etwas mit dem Inhalt zu tun hat.
 
 #### Update
 

@@ -9,7 +9,7 @@ categories:
 tags:
   - Entrepreneurship
 ---
-[Great advise for creating a product](http://paraschopra.com/blog/entrepreneurship/webapp-is-not-going-to-make-money.htm) (web app) on the web, which is supposed to make money:
+[Great advise for creating a product](https://paraschopra.com/blog/entrepreneurship/webapp-is-not-going-to-make-money.htm) (web app) on the web, which is supposed to make money:
 
 Go with the market-first approach as opposed to idea-first approach. If you are confident that you will be able to make a good enough product/prototype, I suggest taking the following approach:
 

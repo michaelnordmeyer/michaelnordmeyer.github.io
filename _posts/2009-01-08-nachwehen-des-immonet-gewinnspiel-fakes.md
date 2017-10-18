@@ -17,7 +17,7 @@ Da ich sicher gehen wollte, ob meine Vermutungen korrekt sind, habe ich bei Dr. 
 
 Daher habe ich meinen [Tweet zur Ankündigung des Beitrages](https://twitter.com/mnordmeyer/status/1099535552) auch erst einen Tag später gezwitschert.
 
-Leider hat meine Reichweite nicht ausgereicht, sodass andere wie z.B. PR Blogger Klaus Eck <a href="http://pr-blogger.de/2009/01/07/corporate-blogging-mal-ganz-anders/" rel="nofollow">noch einen Tag später in der Annahme darüber schreiben</a>, es handele sich um eine Aktion von Immonet. Herr Eck betreibt ein Blog, welches sich mit Corporate Web2.0 auseinander setzt und schrieb auch aus dieser Warte über das vermeintliche Gewinnspiel von Immonet. Im Gegensatz dazu hatte der gemeine Blogger natürlich nur seinen iPod im Visier, während Herr Eck beruflich Firmen in Belangen des Internets berät. Nun ja, jeder hat seine eigene Agenda.
+Leider hat meine Reichweite nicht ausgereicht, sodass andere wie z.B. PR Blogger Klaus Eck <a href="https://pr-blogger.de/2009/01/07/corporate-blogging-mal-ganz-anders/" rel="nofollow">noch einen Tag später in der Annahme darüber schreiben</a>, es handele sich um eine Aktion von Immonet. Herr Eck betreibt ein Blog, welches sich mit Corporate Web2.0 auseinander setzt und schrieb auch aus dieser Warte über das vermeintliche Gewinnspiel von Immonet. Im Gegensatz dazu hatte der gemeine Blogger natürlich nur seinen iPod im Visier, während Herr Eck beruflich Firmen in Belangen des Internets berät. Nun ja, jeder hat seine eigene Agenda.
 
 Mittlerweile gibt es eine <a href="http://immonet.finden-sie-hier.de/blog/richtigstellung-dies-ist-nicht-das-immonet-blog/" rel="nofollow">Richtigstellung bei Finden-Sie-Hier</a>, die endlich darauf hinweist, dass deren Aktion nicht von Immonet selbst kam.
 

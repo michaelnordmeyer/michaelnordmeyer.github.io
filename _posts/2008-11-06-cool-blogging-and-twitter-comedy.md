@@ -10,6 +10,6 @@ tags:
   - Blogging
   - Video
 ---
-Covering the US election ’08 comedians Colbert and Stewart make fun of blogging and twitter. **Very funny**.
+Covering the US election ’08 comedians Colbert and Stewart make fun of blogging and twitter. **Very funny**. (Flash required)
 
-<iframe src="http://media.mtvnservices.com/embed/mgid:cms:video:thedailyshow.com:209518" width="740" height="416" frameborder="0"></iframe>
+<iframe src="https://media.mtvnservices.com/embed/mgid:cms:video:thedailyshow.com:209518" width="740" height="416" frameborder="0"></iframe>

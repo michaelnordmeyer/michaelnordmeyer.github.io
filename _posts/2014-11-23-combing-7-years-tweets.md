@@ -17,22 +17,22 @@ I realized I [used many different services](https://twitter.com/search?q=from%3A
 
 Then I wanted to know what kind of different services I used and make a list. Probably a crazy and time-wasting idea. I’m going to file this under “shit you do because you can”. Those kind of services are now built-in to Twitter.
 
-Long story short, here’s the list of the services I used. The asterisk marks non-operational services.
+Long story short, here’s the list of the services I used. The asterisk denote non-operational services.
 
 ## URL Shortener
 
   * [tinyurl.com](https://tinyurl.com/)
   * [is.gd](https://is.gd/)
-  * _[tr.im](https://tr.im/)*_
-  * _[idek.net](http://idek.net/)*_
-  * _[3.ly](http://3.ly/)*_
+  * [tr.im](https://tr.im/)
+  * _[idek.net](https://web.archive.org/web/20160331025346/http://idek.net/)*_
+  * _[3.ly](http://www.3.ly/)*_
   * [bit.ly](https://bitly.com/) (and j.mp, which is bit.ly under a cooler name)
   * [ow.ly](http://ow.ly/url/shorten-url)
 
 ## Image Services
 
-  * [twitpic.com](https://web.archive.org/web/20141017012344/https://twitpic.com/)
-  * [yfrog.com](https://web.archive.org/web/20141123011404/http://yfrog.com/)
+  * _[twitpic.com](https://web.archive.org/web/20141017012344/https://twitpic.com/)*_
+  * _[yfrog.com](https://web.archive.org/web/20141123011404/http://yfrog.com/)*_
   * _[picplz.com](https://web.archive.org/web/20120809064740/http://picplz.com/)*_
 
 I most often used bit.ly / j.mp and Twitpic.

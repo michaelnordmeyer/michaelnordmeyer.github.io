@@ -20,6 +20,6 @@ Getestet werden kann mit einem normalen Browser. Für den mobilen Benchmark gibt
 
 Ein Geschwindigkeitstest mit [Speedtest.net](https://www.speedtest.net/) überträgt für Dwonload und Upload jeweils 20 Sekunden lang Daten. Bei einer LTE-Verbindung mit maximal 300 MBit/s können das im Idealfall bis zu **750 MB an Daten** sein, je nachdem wie schnell die Verbindung ist. Leute mit geringem vertraglichen (mobilen) Inklusiv-Datenvolumen der Flatrate sollten genau überlegen, wann und wie oft sie den Test ausführen.
 
-Auch nur im Browser und damit ohne App kann man mit [SpeedOf.Me](http://speedof.me/) testen. Übertragen werden insgesamt 68 MB, egal wie gut der Empfang ist.
+Auch nur im Browser und damit ohne App kann man mit [SpeedOf.Me](https://speedof.me/) testen. Übertragen werden insgesamt 68 MB, egal wie gut der Empfang ist.
 
 In meinen Test mit verschiedenen Benchmark-Anbietern war Speedtest immer **sehr genau** bei gleichzeitig sehr anwenderfreundlicher Bedienung, zumal es mobile Apps gibt. Als Maßstab diente der Test der [Initiative Netzqualität](https://breitbandmessung.de/startseite/) der Bundesnetzagentur.

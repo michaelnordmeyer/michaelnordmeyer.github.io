@@ -32,7 +32,7 @@ Buzz zeigt Updates in meiner Gmail-Inbox an. In meiner Inbox! Die ist schon voll
 
 Die Anmutung einer Software, Web-Applikation oder Web-Dienstes – nämlich das Design und die Optik, die Bedienungsphilosophie und der Workflow sowie das Bedienungserlebnis – bestimmen vornehmlich und nachhaltig die Akzeptanz und die Bedienhäufigkeit durch die Nutzer.
 
-Googles Design war bei der Gestaltung der Suchseite richtungsweisend und wurde meiner Meinung nach erst vor kurzem durch [Bing](https://www.bing.com/) vom Thron gestoßen. Doch das ist eine andere Geschichte. Aber so angenehm zurückhaltend, fast spartanisch die Suchseite von Google ist, so unangenehm zu bedienen sind die anderen Dienste von Google. Ganz deutlich merkt man hier die Hand der hauptsächlich aus Technikern bestehende Google-Belegschaft, [die schon gestandene Designer zum Verzweifeln gebracht hat](http://stopdesign.com/archive/2009/03/20/goodbye-google.html).
+Googles Design war bei der Gestaltung der Suchseite richtungsweisend und wurde meiner Meinung nach erst vor kurzem durch [Bing](https://www.bing.com/) vom Thron gestoßen. Doch das ist eine andere Geschichte. Aber so angenehm zurückhaltend, fast spartanisch die Suchseite von Google ist, so unangenehm zu bedienen sind die anderen Dienste von Google. Ganz deutlich merkt man hier die Hand der hauptsächlich aus Technikern bestehende Google-Belegschaft, [die schon gestandene Designer zum Verzweifeln gebracht hat](https://stopdesign.com/archive/2009/03/20/goodbye-google.html).
 
 ## Warum entwickelte Google dann Buzz?
 

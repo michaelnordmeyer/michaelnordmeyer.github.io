@@ -11,7 +11,7 @@ tags:
   - Conference
   - Development
 ---
-This is the presentation I used for a session at [BarCamp London 7](http://barcamplondon.org/) (BCL7) about [oEmbed](http://oembed.com/), “a format for allowing an embedded representation of a URL on third party sites” Providers will return structured data as a response to be easily processed and displayed on your site.
+This is the presentation I used for a session at [BarCamp London 7](http://barcamplondon.org/) (BCL7) about [oEmbed](https://oembed.com/), “a format for allowing an embedded representation of a URL on third party sites” Providers will return structured data as a response to be easily processed and displayed on your site.
 
 WordPress 2.9 and others will use this API.
 
