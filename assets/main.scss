@@ -4,6 +4,12 @@
 
 @import "{{ site.theme }}";
 
+/* SVG icon sizes because Github Pages minima is still on 2.11 */
+.svg-icon {
+  width: 16px;
+  height: 16px;
+}
+
 table {
   border-collapse: collapse;
   margin: 0 0 15px;
