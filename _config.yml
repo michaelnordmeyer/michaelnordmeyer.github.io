@@ -20,7 +20,7 @@ github_username: michaelnordmeyer
 twitter_username: mnordmeyer
 linkedin_username: michaelnordmeyer
 xing_username: Michael_Nordmeyer
-rss: RSS Feed
+#rss: RSS Feed
 
 header_pages:
   - about.md
