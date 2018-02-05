@@ -37,13 +37,6 @@ feed:
 
 # jekyll-seo-tag
 title_separator: " • "
-twitter:
-  username: mnordmeyer
-# facebook:
-#   app_id: 1234
-#   publisher: 1234
-#   admins: 1234
-# logo: /assets/your-company-logo.png
 social:
   name: Michael Nordmeyer
   links:
@@ -52,6 +45,13 @@ social:
     - https://www.linkedin.com/in/michaelnordmeyer
     - https://github.com/michaelnordmeyer
 #    - https://www.xing.com/profile/Michael_Nordmeyer
+twitter:
+  username: mnordmeyer
+# facebook:
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
+# logo: /assets/your-company-logo.png
 
 clicky:
   url: "https://michaelnordmeyer.com/c.js"
