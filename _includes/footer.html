@@ -6,31 +6,7 @@
 
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
-          <ul class="social-media-list">
-            {% if site.twitter_username %}
-            <li>
-              {% include icon-twitter.html username=site.twitter_username %}
-            </li>
-            {% endif %}
-
-            {% if site.linkedin_username %}
-            <li>
-              {% include icon-linkedin.html username=site.linkedin_username %}
-            </li>
-            {% endif %}
-
-            {% if site.xing_username %}
-            <li>
-              {% include icon-xing.html username=site.xing_username %}
-            </li>
-            {% endif %}
-
-            {% if site.github_username %}
-            <li>
-              {% include icon-github.html username=site.github_username %}
-            </li>
-            {% endif %}
-          </ul>
+          {% include social.html %}
         </div>
 
         <div class="footer-col footer-col-2">
@@ -42,8 +18,9 @@
 
   </footer>
 {% if jekyll.environment == 'production' and site.clicky %}
-  {% include clicky.html %}
   {% if my_page.title and my_page.title == "Not found" %}
-    {% include clicky-404.html %}
+    {% include clicky.html %}
+  {% else %}
+    {% include clicky.html %}
   {% endif %}
 {% endif %}
