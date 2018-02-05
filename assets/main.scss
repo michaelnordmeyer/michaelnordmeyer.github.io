@@ -47,11 +47,13 @@ footer h2 > a,
 footer h2 > a:visited { color: #424242; }
 
 /* SVG icon sizes because Github Pages minima is still on 2.11 */
-.social-media-list > .svg-icon {
-  width: 17px;
-  height: 17px;
-  padding-right: 2px;
-  fill: #828282;
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #{$grey-color};
+  padding-right: 5px;
+  vertical-align: text-top;
 }
 
 /* >= 440px (440/16) */
