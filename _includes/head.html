@@ -36,7 +36,7 @@
 {% endif %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace:"@","" }}">
   <meta name="twitter:creator" content="@{{ site.twitter.username | replace:"@","" }}">
-{% if xxxpage.date %}
+{% if page.date %}
   <script type="application/ld+json">
     {"@context":"http://schema.org","@type":"BlogPosting","headline":"{{ page.title | smartify }}","author":{"@type":"Person","name":"{{ site.author }}"},"datePublished":"{{ page.date | date_to_xmlschema }}","{{ page.date | date_to_xmlschema }}","description":"{{ page.excerpt | smartify }}","mainEntityOfPage":{"@type":"WebPage","@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"},"url":"https://michaelnordmeyer.com{{ page.url | relative_url }}"}
   </script>
