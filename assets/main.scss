@@ -4,13 +4,6 @@
 
 @import "{{ site.theme }}";
 
-/* SVG icon sizes because Github Pages minima is still on 2.11 */
-.svg-icon {
-  width: 17px;
-  height: 17px;
-  fill: #828282;
-}
-
 table {
   border-collapse: collapse;
   margin: 0 0 15px;
@@ -53,7 +46,13 @@ header > div > h1 { margin-bottom: 0; }
 footer h2 > a,
 footer h2 > a:visited { color: #424242; }
 
-.social-media-list .icon { padding-right: 8px; }
+/* SVG icon sizes because Github Pages minima is still on 2.11 */
+.social-media-list > .svg-icon {
+  width: 17px;
+  height: 17px;
+  padding-right: 2px;
+  fill: #828282;
+}
 
 /* >= 440px (440/16) */
 @media screen and (min-width: 27.5em) {
