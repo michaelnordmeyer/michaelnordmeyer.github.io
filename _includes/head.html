@@ -40,18 +40,22 @@
   <script type="application/ld+json">{
     "@context":"http://schema.org",
     "@type":"BlogPosting",
+    "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}",
     "headline":"{{ page.title | smartify }}",
+    "datePublished":"{{ page.date | date_to_xmlschema }}",
     "author":{
       "@type":"Person",
       "name":"{{ site.author }}"
     },
-    "datePublished":"{{ page.date | date_to_xmlschema }}",
     "description":"{{ page.excerpt | smartify }}",
     "mainEntityOfPage":{
       "@type":"WebPage",
       "@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"
     },
-    "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}"
+    "publisher":{
+      "@type":"Person",
+      "name":"{{ site.author }}"
+    }
   }</script>
 {% endif %}
 {% if paginator.previous_page %}
