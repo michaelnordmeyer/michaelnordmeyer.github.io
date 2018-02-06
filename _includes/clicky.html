@@ -1,9 +1,11 @@
   <script>
-    var clicky_site_ids=clicky_site_ids || [];
-    clicky_site_ids.push({{ site.clicky.site_id }});
-    (function() {
-      var d=document, s=d.createElement('script');
-      s.async=true; s.defer=true; s.src='{{ site.clicky.url }}';
-      (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
-    })();
+//    if (!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+      var clicky_site_ids=clicky_site_ids || [];
+      clicky_site_ids.push({{ site.clicky.site_id }});
+      (function() {
+        var d=document, s=d.createElement('script');
+        s.async=true; s.defer=true; s.src='{{ site.clicky.url }}';
+        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+      })();
+//    }
   </script>
