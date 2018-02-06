@@ -64,7 +64,7 @@ Bernard Lietaer sprach über Währungssysteme, die nicht ausgestandene Finanzkri
 
 <iframe src="https://www.youtube-nocookie.com/embed/nORI8r3JIyw" width="740" height="408" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-Tim Behnkes Talk “Wie das Internet zur Verbesserung von Lebensbedingungen beiträgt” ist keine Überraschung für Internet-affine Menschen, allerdings war es eine schöne Rede des [betterplace](https://www.betterplace.org/de/)-Gründers mit guten Folien.
+Tim Behnkes Talk “Wie das Internet zur Verbesserung von Lebensbedingungen beiträgt” ist keine Überraschung für Internet-affine Menschen, allerdings war es eine schöne Rede des [betterplace](https://www.betterplace.org/)-Gründers mit guten Folien.
 
 <iframe src="https://www.youtube-nocookie.com/embed/T4_daGa3zMU" width="740" height="408" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

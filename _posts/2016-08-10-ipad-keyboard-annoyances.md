@@ -10,7 +10,7 @@ tags:
   - iOS
   - iPad
 ---
-I have a couple of grudges when it comes to using physical keyboards on iPad running iOS 9. Be it [Apple’s Smart Keyboard](https://www.apple.com/smart-keyboard/) or third-party keyboards like Logitech’s [UltraThin](https://www.logitech.com/en-us/product/ultrathin-keyboard-ipad) or [Keys-To-Go](https://www.logitech.com/en-us/product/keys-to-go).
+I have a couple of grudges when it comes to using physical keyboards on iPad running iOS 9. Be it [Apple’s Smart Keyboard](https://www.apple.com/smart-keyboard/) or third-party keyboards like Logitech’s [UltraThin](https://web.archive.org/web/20170729194041/https://www.logitech.com/en-us/product/ultrathin-keyboard-ipad) or [Keys-To-Go](https://www.logitech.com/en-us/product/keys-to-go).
 
 I’m much faster when using physical keyboards on iPad. Especially the 9.7″ iPads, where there’s no number row. But some things are a major bummer.
 

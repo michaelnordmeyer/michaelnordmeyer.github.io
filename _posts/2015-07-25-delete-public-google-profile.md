@@ -19,4 +19,4 @@ Because you just created the Google+ profile, you don’t have to worry about th
 
 But check twice if the YouTube channel which is going to be deleted isn’t your private channel. This may happen because Google automatically linked your YouTube channel to your Google+ profile. The linking and handling of YouTube channels and Google+ pages is quite convoluted.
 
-If you already had a Google+ profile and want to keep the connections, you cannot transfer the Google+ circles to a different Google account. It was possible in the past, but unfortunately [Google shut it down](https://support.google.com/plus/answer/1716102?hl=en&topic=2400106).
+If you already had a Google+ profile and want to keep the connections, you cannot transfer the Google+ circles to a different Google account. It was possible in the past, but unfortunately [Google shut it down](https://web.archive.org/web/20160423122604/https://support.google.com/plus/answer/1716102?hl=en&topic=2400106).

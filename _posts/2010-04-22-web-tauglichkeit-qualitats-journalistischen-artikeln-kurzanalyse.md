@@ -19,7 +19,7 @@ Viele reden darüber, viele schreiben und schrieben darüber, manche haben es sc
 
 ## Ein aktueller Stand
 
-Wegen [Googles aktueller Veröffentlichung von Regierungsanfragen zu Internetseitenlöschungen](https://www.google.com/transparencyreport/removals/government/), die sie im zweiten Halbjahr 2009 bekommen haben, fiel mir diese Unsitte der ausbleibenden Verlinkung besonders auf. **Denn ohne die interaktive Karte ist der Artikel nur halb so viel wert.**
+Wegen [Googles aktueller Veröffentlichung von Regierungsanfragen zu Internetseitenlöschungen](https://transparencyreport.google.com/government-removals/), die sie im zweiten Halbjahr 2009 bekommen haben, fiel mir diese Unsitte der ausbleibenden Verlinkung besonders auf. **Denn ohne die interaktive Karte ist der Artikel nur halb so viel wert.**
 
 Ich habe nicht den Anspruch, einen umfassenden Vergleich anzustellen. Nur wegen des inhaltlich interessanten Themas und der interaktiven Karte, die auf jeden Fall verlinkt werden sollte, hat dieser Artikel eine Existenzberechtigung. Von im Artikel eingefügte Bilder will ich gar nicht erst reden.
 

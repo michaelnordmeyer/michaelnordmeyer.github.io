@@ -10,11 +10,11 @@ tags:
   - Google
   - Privacy
 ---
-If you are interested in keeping your privacy and use Google products it’s a good idea to disable your [Google account history](https://www.google.com/settings/accounthistory). To view your history you have to be logged-in.
+If you are interested in keeping your privacy and use Google products it’s a good idea to disable your [Google account history](https://myaccount.google.com/activitycontrols). To view your history you have to be logged-in.
 
 On the account history page you are able to view and disable several histories Google is automatically keeping. These histories allow Google to tailor their ad displays to better suit your interests. As a result you get _more relevant_ ads displayed while surfing the web.
 
-While this sounds not bad **these histories are actually a track record of your behavior**. If you value your privacy it’s recommended to minimize any tracking. All of this data is shared within Google i.e. your search behavior is linked to your YouTube behavior. Here are some direct links for viewing your histories. All of them are also on your [Google account history](https://www.google.com/settings/accounthistory).
+While this sounds not bad **these histories are actually a track record of your behavior**. If you value your privacy it’s recommended to minimize any tracking. All of this data is shared within Google i.e. your search behavior is linked to your YouTube behavior. Here are some direct links for viewing your histories. All of them are also on your [Google account history](https://myaccount.google.com/activitycontrols).
 
 ## [Google Search History](https://history.google.com/history)
 
@@ -32,7 +32,7 @@ YouTube’s search history doesn’t have much user-value because the watch hist
 
 While YouTube’s watch history has some value to find this particular video from last week which you want to show to somebody but don’t remember the name you might want to disable this if you are privacy-sensitive.
 
-## [Settings for Interest-Based Ads](https://www.google.com/settings/ads)
+## [Settings for Interest-Based Ads](https://adssettings.google.com/authenticated)
 
 This is the core of Google’s ad display technology. If you don’t want Google to know about your interests and habits to create a huge personal profile about you it’s time to turn it off. You don’t have any control about future applications of this data and might not like the consequences.
 
