@@ -12,7 +12,7 @@ tags:
 ---
 [Apple Music](https://www.apple.com/music/) and [iTunes Match](https://www.apple.com/itunes/itunes-match/) have overlapping features which makes them confusing. I explain why it’s reasonable to have both.
 
-Apple has a [detailed explanation](https://support.apple.com/en-us/HT204962) of the differences between Apple Music and iTunes Match in regard to your music library, but they can be summed up more easily.
+Apple has a [detailed explanation](https://web.archive.org/web/20161015165546/https://support.apple.com/en-us/HT204962) of the differences between Apple Music and iTunes Match in regard to your music library, but they can be summed up more easily.
 
 iTunes Match matches your songs’ [acoustic fingerprint](https://en.wikipedia.org/wiki/Acoustic_fingerprint) against Apple’s Music catalog to find the perfect match while Apple Music only matches against your song’s details (such as name, artist, album). This means iTunes might choose a different version or recording of some of your songs instead of your original ones.
 

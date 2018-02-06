@@ -13,7 +13,7 @@ tags:
 ---
 Tomorrow I’m attending [Google Chrome Extensions Hackathon](https://sites.google.com/site/gchromeevent/home) in Hamburg. [Martin Thielecke](https://www.mthie.com/) (post in German) told me today at [Web Monday Hamburg](http://www.webmontag-hamburg.de/) (post in German) at [Gloria](https://www.yelp.com/biz/gloria-hamburg-2) about it. Oh my, there are way too many events out there.
 
-“Google Chrome Extensions Event & Hackathon Roadshow” is touring Germany and having three official events in Hamburg, Düsseldorf and Munich, while there are a couple of unofficial ones organized by local [GTUGs](https://developers.google.com/groups/directory/). GTUGs are [“Google Technology User Groups”](https://developers.google.com/groups/directory/), of which there are 10 in Germany.
+“Google Chrome Extensions Event & Hackathon Roadshow” is touring Germany and having three official events in Hamburg, Düsseldorf and Munich, while there are a couple of unofficial ones organized by local [GTUGs](https://meetup.com/pro/gdg). GTUGs are [“Google Technology User Groups”](https://meetup.com/pro/gdg), of which there are 10 in Germany.
 
 This [hackathon](https://en.wikipedia.org/wiki/Hackathon) will beheld during a GTUG battle, where you can win a lot of Google swag like a couple of Nexus Ones, notebook sleeves and backpacks.
 

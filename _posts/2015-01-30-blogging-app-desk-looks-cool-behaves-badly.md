@@ -19,7 +19,7 @@ I bought [Desk](https://desk.pm/) because I wanted to get an undistracted writin
 
 _This is a living post, meaning I’m going to update it if new versions of Desk are going to be released._ (Desk 1.2 and 1.3 fix some problems. Strikethrough text has been fixed.)
 
-While it’s possible to use an editor like [Byword](https://itunes.apple.com/us/app/byword/id420212497?mt=12), [iA Writer](https://itunes.apple.com/us/app/ia-writer/id439623248?mt=12), [WriteRoom](https://itunes.apple.com/us/app/writeroom/id417967324?mt=12) or [OmmWriter Dāna II](https://itunes.apple.com/us/app/ommwriter-dana-ii/id412347921?mt=12) providing this experience, I didn’t want to manually copy and paste the post in the end into WordPress running in a browser.
+While it’s possible to use an editor like [Byword](https://itunes.apple.com/us/app/byword/id420212497?mt=12), [iA Writer](https://itunes.apple.com/us/app/ia-writer/id775737590?mt=12), [WriteRoom](https://itunes.apple.com/us/app/writeroom/id417967324?mt=12) or [OmmWriter Dāna II](https://itunes.apple.com/us/app/ommwriter-dana-ii/id412347921?mt=12) providing this experience, I didn’t want to manually copy and paste the post in the end into WordPress running in a browser.
 
 I have an old license for [MarsEdit](https://www.red-sweater.com/marsedit/), but I never liked the writing experience. It even felt old-fashioned when I bought it in 2006 as a bundle license with [NetNewsWire](http://www.netnewswireapp.com/), an RSS reader from the same indie developer.
 

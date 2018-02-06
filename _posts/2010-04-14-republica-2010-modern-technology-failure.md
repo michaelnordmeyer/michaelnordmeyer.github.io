@@ -15,10 +15,10 @@ tags:
 
 It’s nearly impossible to load the conference’s online schedule to learn about sessions and workshops. Even downloading an .ical file to my iPhone to save it in a local calendar doesn’t really work because there are way too many parallel tracks on the calendar. The entries are too small to be legible.
 
-[A Twitter revolution without revolutionaries](http://archiv.re-publica.de/2011/12/04/a-twitter-revolution-without-revoluationaries/): An interesting topic in a tightly packed auditorium. But I need Internet. I’m leaving and keep searching…
+[A Twitter revolution without revolutionaries](https://re-publica.com/en/session/twitter-revolution-without-revoluationaries): An interesting topic in a tightly packed auditorium. But I need Internet. I’m leaving and keep searching…
 
 The session I enjoyed most is [Sascha Pallenberg’s](https://twitter.com/sascha_p) “Blogs monetarisieren, aber wie”, blog monetization, obviously in German. As most of the talks at republica are.
 
 <iframe src="https://www.youtube-nocookie.com/embed/5QcgsnTY1bk" width="740" height="534" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-It was good day on the #rp10. Minus the missing internet.
+It was good day on the #rp10. Except the missing internet.

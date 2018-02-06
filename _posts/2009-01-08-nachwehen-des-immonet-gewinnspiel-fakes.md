@@ -21,7 +21,7 @@ Leider hat meine Reichweite nicht ausgereicht, sodass andere wie z.B. PR Blogger
 
 Mittlerweile gibt es eine <a href="http://immonet.finden-sie-hier.de/blog/richtigstellung-dies-ist-nicht-das-immonet-blog/" rel="nofollow">Richtigstellung bei Finden-Sie-Hier</a>, die endlich darauf hinweist, dass deren Aktion nicht von Immonet selbst kam.
 
-Manche Blogger haben nicht aufgepasst, fühlen sich aber trotzdem wegen [prominenter](https://www.immobilienportale.com/20091271-kritik-am-immonet-aktionsblog/) [Gemeinschaft](http://corporate-blog-studie.de/2009/01/das-vermeintliche-immonet-corporate-blog/) gut aufgehoben. Na, wenn es schon die Experten nicht merken…
+Manche Blogger haben nicht aufgepasst, fühlen sich aber trotzdem wegen [prominenter](https://www.immobilienportale.com/20091271-kritik-am-immonet-aktionsblog/) [Gemeinschaft](https://web.archive.org/web/20090213083504/http://corporate-blog-studie.de/2009/01/das-vermeintliche-immonet-corporate-blog/) gut aufgehoben. Na, wenn es schon die Experten nicht merken…
 
 Warum schreibe ich das Ganze? Will ich mich irgendwie abheben? Umm, nö.
 
