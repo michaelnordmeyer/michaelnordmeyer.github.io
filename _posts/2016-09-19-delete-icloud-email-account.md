@@ -14,4 +14,4 @@ To make things clear I’m not writing about _deleting_ an iCloud email account 
 
 iCloud accounts have often been used as the Apple ID for Apple services like iTunes Store or iOS App Store. Deleting an iCloud account would mean a user couldn’t login and purchased items like movies, TV shows, eBooks and apps wouldn’t be accessible anymore.
 
-Maybe customers losing access to purchased goods is a risk Apple doesn’t want to take, so they disallow deleting an iCloud email account. But there are some options to [handle an iCloud email address](/icloud-email-address) which may help to circumvent any inconveniences stemming from not being able to delete the account.
+Maybe customers losing access to purchased goods is a risk Apple doesn’t want to take, so they disallow deleting an iCloud email account. But there are some options to [handle an iCloud email address](/icloud-email-address-change-merge-move-delete) which may help to circumvent any inconveniences stemming from not being able to delete the account.
