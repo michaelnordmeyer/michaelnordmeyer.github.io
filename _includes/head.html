@@ -39,7 +39,11 @@
 {% if page.date %}
   <script type="application/ld+json">{
     "@context":"http://schema.org",
+    {% if page.layout == page %}
+    "@type":"WebPage",
+    {% else %}
     "@type":"BlogPosting",
+    {% endif %}
     "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}",
     "headline":"{{ page.title | smartify }}",
     "datePublished":"{{ page.date | date_to_xmlschema }}",
@@ -62,7 +66,7 @@
     },
     "mainEntityOfPage":{
       "@type":"WebPage",
-      "@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"
+      "@id":"https://michaelnordmeyer.com/"
     },
     "publisher":{
       "@type":"Organization",
