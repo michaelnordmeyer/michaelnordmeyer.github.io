@@ -35,7 +35,7 @@ lang: en
 feed:
   path: /feed
 
-# jekyll-seo-tag
+## jekyll-seo-tag
 title_separator: " • "
 social:
   name: Michael Nordmeyer
@@ -53,6 +53,7 @@ twitter:
 #   admins: 1234
 # logo: /assets/your-company-logo.png
 
+## Analytics
 clicky:
   url: "https://michaelnordmeyer.com/c.js"
   site_id: 101044344
