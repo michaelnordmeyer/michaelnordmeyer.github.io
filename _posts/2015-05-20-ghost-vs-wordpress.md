@@ -13,7 +13,7 @@ tags:
 ---
 After two years in, [Ghost is taking a look back](https://blog.ghost.org/year-2/). They are profitable and show how they spent their money. It’s a long but very good read.
 
-What I consider epic is the [publicly available revenue data](https://ghost.baremetrics.com/) of hosted Ghost, which is called [Ghost(Pro)](https://ghost.org/pricing/), and the rest of the non-profit company that the Ghost Foundation is.
+What I consider epic is the [publicly available revenue data](https://ghost.org/about/#metrics) of hosted Ghost, which is called [Ghost(Pro)](https://ghost.org/pricing/), and the rest of the non-profit company that the Ghost Foundation is.
 
 I do like the concept of Ghost, but I’m not committing to an “unfinished” product, where I’m missing important features compared to WordPress. Comparing WordPress to Ghost is a little bit unfair, because WordPress exists so much longer and has a huge plugin repository. So I tested some versions over time but never made the jump from WordPress to Ghost.
 

@@ -26,4 +26,8 @@ So iTunes Match is the choice if you want to have your meticulously built music 
 
 Apple-Music-only is for people who don’t have an extensive library of rare music and are fine with conveniently getting the Apple music catalog as it is.
 
-[iTunes Match](https://www.apple.com/itunes/itunes-match/) is $25 a year (~$2 a month), [Apple Music](https://www.apple.com/music/) is $9.99 a month ($119.88 a year) or $14.99 ($179.88 a year) for families of up to six people sharing the same credit card.
+[iTunes Match](https://web.archive.org/web/20160829040842/https://www.apple.com/itunes/itunes-match/) is $25 a year (~$2 a month), [Apple Music](https://www.apple.com/music/) is $9.99 a month ($119.88 a year) or $14.99 ($179.88 a year) for families of up to six people sharing the same credit card.
+
+#### Update
+
+It seems Apple has retired iTunes Match in favor of Apple Music. While I'm still able to restart my canceled iTUnes Match subscription, there doesn't seem to be a way to start a new subscription for first-timers.
