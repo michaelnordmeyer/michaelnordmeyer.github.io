@@ -21,7 +21,7 @@ You are supposed to drop your personal coin into the beta can. While being dropp
 
 The app itself is like the original iOS app quite minimal. It’s exactly what you would expect if you liked the iOS app in the first place. Swipe gestures work the same and have the same functionality. No surprises here.
 
-![Mailbox Mac OS X Beta App Window](/images/2014/mailbox-mac-os-x-beta-app-window-660x414.png){: .aligncenter }
+![Mailbox Mac OS X Beta App Window](/images/2014/mailbox-mac-os-x-beta-app-window.png){: .aligncenter }
 
 Both are still limited to Google or iCloud email accounts. More alternatives are supposed to come in the future.
 
