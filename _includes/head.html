@@ -59,7 +59,9 @@
         "https://www.twitter.com/mnordmeyer"
       ]
     },
+    {% if page.excerpt %}
     "description":"{{ page.excerpt | smartify }}",
+    {% endif %}
     {% if post.image %}
     "image":{
     	"@type":"ImageObject",
