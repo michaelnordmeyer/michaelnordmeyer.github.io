@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" itemscope itemtype="https://schema.org/Blog">
   {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
@@ -32,8 +32,8 @@ layout: default
   {% endif %}
 
   <p>
-    <form method="get" id="search" action="https://duckduckgo.com/">
-      <input type="text" name="q" maxlength="255" placeholder="Search&hellip;">
+    <form method="get" id="search" action="https://duckduckgo.com/" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+      <input type="search" name="q" maxlength="255" placeholder="Search&hellip;" itemprop="query-input">
       <input type="hidden" name="sites" value="michaelnordmeyer.com">
       <input type="hidden" name="k7" value="w">
       <input type="hidden" name="k8" value="#111111">

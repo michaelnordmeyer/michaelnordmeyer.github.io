@@ -6,7 +6,7 @@
       <h1><a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
   
       {% if page_paths %}
-      <nav class="site-nav">
+      <nav class="site-nav" aria-label="Navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
         <input type="checkbox" id="nav-trigger" class="nav-trigger">
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -22,7 +22,7 @@
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a itemprop="url" class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
