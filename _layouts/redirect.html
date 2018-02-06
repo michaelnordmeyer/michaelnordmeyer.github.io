@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    <meta name="robots" content="noindex,follow">
     <meta http-equiv="refresh" content="0; url={{ page.redirect.to | absolute_url }}">
+    <meta name="robots" content="noindex,follow">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +11,10 @@
     <title>Redirect from {{ page.redirect.from | relative_url }} to {{ page.redirect.to | absolute_url }}</title>
     <meta name="description" content="Redirect page">
 
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="Shortcut Icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
-    <link type="application/atom+xml" rel="alternate" href="{{ "/feed" | relative_url }}" title="{{ site.title | escape }}">
-    <link type="application/json" rel="alternate" href="{{ "/feed.json" | relative_url }}" title="{{ site.title | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="Shortcut Icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ '/feed' | relative_url }}" title="{{ site.title | escape }}">
+    <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
   </head>
   <body>
 
