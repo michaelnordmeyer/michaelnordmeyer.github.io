@@ -39,7 +39,7 @@
 {% if page.date %}
   <script type="application/ld+json">{
     "@context":"http://schema.org",
-    {% if page.layout == page %}
+    {% if page.layout == 'page' %}
     "@type":"WebPage",
     {% else %}
     "@type":"BlogPosting",
