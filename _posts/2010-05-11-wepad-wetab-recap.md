@@ -54,7 +54,7 @@ Das ist einfach ein Schritt zurück und erinnert an die Funktionstasten, die sei
 
 ## Keinesfalls wird es einfach sein
 
-Durch den offiziellen [“Jailbreak”](https://de.wikipedia.org/wiki/Jailbreak#iPhone_Dev_Team), den das WeTab ab Werk mitbringt, können Entwickler und auch Anwender direkt auf das Betriebssystem (Linux) durchgreifen und Einstellungen vornehmen. Das bedeutet, dass es Unmengen von Anwendungen, Anleitungen und How Tos geben wird, die diese Tipps, Tricks und Tweaks zum Inhalte haben werden. Nutzer werden über entsprechende Tablet-Portale oder Google auf solche Seiten stoßen.
+Durch den offiziellen [“Jailbreak”](https://de.wikipedia.org/wiki/Jailbreak), den das WeTab ab Werk mitbringt, können Entwickler und auch Anwender direkt auf das Betriebssystem (Linux) durchgreifen und Einstellungen vornehmen. Das bedeutet, dass es Unmengen von Anwendungen, Anleitungen und How Tos geben wird, die diese Tipps, Tricks und Tweaks zum Inhalte haben werden. Nutzer werden über entsprechende Tablet-Portale oder Google auf solche Seiten stoßen.
 
 Die beim iPad und iPhone vorhandene Einfachheit wird durch solche Inhalte massiv torpediert und verwirrt und verunsichert die technisch weniger versierten Nutzer, welche die eigentliche Zielgruppe dieser Gerätekategorie darstellen.
 

@@ -9,7 +9,7 @@ categories:
 tags:
   - Social Media
 ---
-A friend of mine ([@moeffju](https://twitter.com/moeffju "@moeffju on Twitter")) [quit Twitter recently](https://moeffju.net/blog/twitter-breakup "quit Twitter recently"). I think this is not unreasonable if you think about how Twitter wants to change itself to monetize better. Because every move they make is making Twitter worse for most of the heavier users. I’m sympathetic to his move although his reasons where different.
+A friend of mine ([@moeffju](https://twitter.com/moeffju "@moeffju on Twitter")) [quit Twitter recently](https://moeffju.net/blog/twitter-breakup/ "quit Twitter recently"). I think this is not unreasonable if you think about how Twitter wants to change itself to monetize better. Because every move they make is making Twitter worse for most of the heavier users. I’m sympathetic to his move although his reasons where different.
 
 But I also noticed that in international technology circles many people use their Twitter username as the _only_ digitally means of identification or connection.
 
