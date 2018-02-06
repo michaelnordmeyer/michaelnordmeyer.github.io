@@ -4,7 +4,8 @@ date: 2014-07-09T20:00:06+00:00
 excerpt: Changing, merging, moving or deleting iCloud email addresses is tricky, because Apple doesn't allow to merge accounts. These are your options.
 layout: post
 permalink: /icloud-email-address-change-merge-move-delete
-redirect_from: /icloud-email-address
+redirect_from:
+  - /icloud-email-address
 categories:
   - Apple
 tags:
