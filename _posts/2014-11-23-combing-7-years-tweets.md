@@ -27,7 +27,7 @@ Long story short, here’s the list of the services I used. The asterisk denote 
   * _[idek.net](https://web.archive.org/web/20160331025346/http://idek.net/)*_
   * _[3.ly](http://www.3.ly/)*_
   * [bit.ly](https://bitly.com/) (and j.mp, which is bit.ly under a cooler name)
-  * [ow.ly](http://ow.ly/url/shorten-url)
+  * [ow.ly](https://hootsuite.com/pages/owly)
 
 ## Image Services
 

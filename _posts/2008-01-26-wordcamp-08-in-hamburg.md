@@ -15,6 +15,6 @@ tags:
 ---
 This weekend is the WordCamp 08 in Hamburg, Germany. A gathering of Germany’s bloggers having a focus on WordPress, the ubiquitous blogging software.
 
-There are session about blogging and politics, blogging and law or developing secure WordPress plugins for example. Even a local politician, [Michael Neumann](http://www.neumann-hamburg.de/), who is in his mid-thirties, is talking about his experience about officially blogging as a politician and the feedback he is getting from mainstream media and lobbyists.
+There are session about blogging and politics, blogging and law or developing secure WordPress plugins for example. Even a local politician, [Michael Neumann](https://web.archive.org/web/20080222055247/http://www.neumann-hamburg.de/wordpress/), who is in his mid-thirties, is talking about his experience about officially blogging as a politician and the feedback he is getting from mainstream media and lobbyists.
 
 About 160 people have registered for WordCamp 08.
