@@ -39,10 +39,10 @@
 {% if page.date %}
   <script type="application/ld+json">{
     "@context":"http://schema.org",
-    {% if page.layout == 'page' %}
-    "@type":"WebPage",
-    {% else %}
+    {% if page.layout == 'post' %}
     "@type":"BlogPosting",
+    {% else %}
+    "@type":"WebPage",
     {% endif %}
     "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}",
     "headline":"{{ page.title | smartify }}",
@@ -60,10 +60,12 @@
       ]
     },
     "description":"{{ page.excerpt | smartify }}",
+    {% if post.image %}
     "image":{
     	"@type":"ImageObject",
-    	"url":"https://michaelnordmeyer.com/favicon.ico"
+    	"url":"https://michaelnordmeyer.com//images/{{ post.image }}"
     },
+    {% endif %}
     "mainEntityOfPage":{
       "@type":"WebPage",
       "@id":"https://michaelnordmeyer.com/"
