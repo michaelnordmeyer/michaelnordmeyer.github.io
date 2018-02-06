@@ -12,7 +12,7 @@ tags:
   - Affiliate Marketing
   - German
 ---
-Seit heute 16:30 gibt es ein <a href="http://immonet.finden-sie-hier.de/blog/gewinnspiel/" rel="nofollow">Immonet-Gewinnspiel</a>.
+Seit heute 16:30 gibt es ein <a href="https://web.archive.org/web/20090119064030/http://immonet.finden-sie-hier.de/blog/gewinnspiel/" rel="nofollow">Immonet-Gewinnspiel</a>.
 
 Allerdings nicht von <a href="https://www.immonet.de/" rel="nofollow">Immonet</a>.
 
@@ -26,7 +26,7 @@ Nur – keiner der verlinkenden Blogger scheint bemerkt zu haben, dass das Gewin
 
 _Das_ ist schlimm.
 
-Die reine <a href="http://immonet.finden-sie-hier.de/" rel="nofollow">Immobilien-Suche</a> der <a href="http://finden-sie-hier.de/impressum/" rel="nofollow">Finden-Sie-Hier-Betreiber</a> sieht aus, als wäre das Immonet-Portal einfach direkt übernommen worden. Kein Re-Branding. Das kann Immonet so wollen, halte ich aber für sehr unwahrscheinlich. Normale Internet-Nutzer würden vielleicht denken, sie wären auf der Immonet-Site.
+Die reine <a href="https://web.archive.org/web/20081206182201/http://finden-sie-hier.de/" rel="nofollow">Immobilien-Suche</a> der <a href="https://web.archive.org/web/20080925063050/http://finden-sie-hier.de/impressum/" rel="nofollow">Finden-Sie-Hier-Betreiber</a> sieht aus, als wäre das Immonet-Portal einfach direkt übernommen worden. Kein Re-Branding. Das kann Immonet so wollen, halte ich aber für sehr unwahrscheinlich. Normale Internet-Nutzer würden vielleicht denken, sie wären auf der Immonet-Site.
 
 ~~So, jetzt noch warten, bis die ersten 100 Blogger die Sache verlinkt haben, damit ich nicht auch dazu gehöre.~~ Mit den manuell in die Kommentare gesetzten Links sollten es jetzt wohl genug sein.
 
