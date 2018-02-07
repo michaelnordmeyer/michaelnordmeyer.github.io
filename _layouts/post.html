@@ -2,20 +2,20 @@
 layout: default
 ---
 {% include reading-time.html %}
-<article class="post h-entry" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="post h-entry">
 
   <header class="post-header">
   {% if page.image %}
-    <img class="post-image" src="{{ page.image }}" alt="Header image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <img class="post-image" src="{{ page.image }}" alt="Header image">
   {% endif %}
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        • <span><span class="p-author h-card">{{ page.author }}</span></span>
       {% endif %}
         • Reading time: {{ minutes }} minute{% if minutes > 1 %}s{% endif %}</p>
   </header>
