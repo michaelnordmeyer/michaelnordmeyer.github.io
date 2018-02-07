@@ -36,17 +36,20 @@
 {% endif %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace:'@','' }}">
   <meta name="twitter:creator" content="@{{ site.twitter.username | replace:'@','' }}">
-{% if page.date %}
   <script type="application/ld+json">{
     "@context":"https://schema.org",
     {% if page.layout == 'post' %}
     "@type":"BlogPosting",
-    {% else %}
+    {% else if page.layout == 'page' %}
     "@type":"WebPage",
+    {% else %}
+    "@type":"Blog",
     {% endif %}
     "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}",
     "headline":"{{ page.title | smartify }}",
+    {% if page.date %}
     "datePublished":"{{ page.date | date_to_xmlschema }}",
+    {% endif %}
     "author":{
       "@type":"Person",
       "name":"{{ site.author }}",
@@ -65,13 +68,15 @@
     {% if post.image %}
     "image":{
     	"@type":"ImageObject",
-    	"url":"https://michaelnordmeyer.com//images/{{ post.image }}"
+    	"url":"https://michaelnordmeyer.com/images/{{ post.image }}"
     },
     {% endif %}
+    {% if page.layout == 'post' or page.layout == 'page' %}
     "mainEntityOfPage":{
       "@type":"WebPage",
       "@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"
     },
+    {% endif %}
     "publisher":{
       "@type":"Organization",
       "name":"Michael Nordmeyer",
@@ -94,7 +99,6 @@
       "query-input": "required"
     }
   }</script>
-{% endif %}
 {% if paginator.previous_page %}
   <link rel="prev" href="https://michaelnordmeyer.com{{ paginator.previous_page_path | relative_url }}">
 {% endif %}
