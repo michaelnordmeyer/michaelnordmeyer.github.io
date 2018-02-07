@@ -25,6 +25,8 @@
             <a itemprop="url" class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
+          <a itemprop="url" class="page-link" href="{{ '/feed' | relative_url }}">RSS Feed</a>
+          <a itemprop="url" class="page-link" href="{{ '/feed.json' | relative_url }}">JSON Feed</a>
         </div>
       </nav>
       {% endif %}
