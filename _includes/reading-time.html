@@ -1,4 +1,4 @@
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
-{% assign minutes = 1 %}
+  {% assign minutes = 1 %}
 {% endif %}
