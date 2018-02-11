@@ -17,7 +17,7 @@ I’ve been to the [European Ruby Camp](http://2014.eurucamp.org/ "European Ruby
 
 Some “hip” websites having their focus on user communication like messaging or some form of feed also only use the Twitter username (I cannot remember the sites off the top of my head).
 
-I also used a couple of iOS apps–which are not Twitter apps–where usernames starting with an @ are automatically linked to Twitter.
+I also used a couple of iOS apps – which are not Twitter apps – where usernames starting with an @ are automatically linked to Twitter.
 
 ## Am I Also Quitting Twitter?
 
