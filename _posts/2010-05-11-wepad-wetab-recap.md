@@ -19,11 +19,11 @@ Nach einer [desaströsen Premiere](https://www.handelsblatt.com/technik/gadgets/
 
 Leider hat der Geschäftsführer der Neofonie Hoffer von Ankershoffen auch diesmal nicht ganz begriffen, dass er sich mit Apple und insbesondere Steve Jobs messen muss. Eine Präsentation muss großartig sein, um neben diesem bestehen zu können. Statt einer gut strukturierten Präsentation gab es nur eine Aneinanderreihung von Features, die vorgestellt wurden:
 
-<iframe src="https://www.youtube-nocookie.com/embed/ZGxRQvc67mE" width="740" height="408" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/ZGxRQvc67mE" width="740" height="408" frameborder="0" allowfullscreen></iframe>
 
 Tenor der ganzen Präsentation war die größere Flexibilität und Freiheit, die das WeTab bieten soll. Und natürlich Flash. Also ganz konventionelles Feature-Listing. Ich habe mehr als Du, also ist mein Produkt besser. Hat ja schon beim iPhone nicht funktioniert. Viele Käufer wollen “besser”, was aber nicht unbedingt “mehr” heißt.
 
-<iframe src="https://www.youtube-nocookie.com/embed/w2jd7zoxky0" width="740" height="408" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/w2jd7zoxky0" width="740" height="408" frameborder="0" allowfullscreen></iframe>
 
 Klar, die preissensitive Zielgruppe bevorzugt es genau umgekehrt. Aber diese entspricht nicht der Zielgruppe Apples. Deren Ziel ist es, ein möglichst einfaches und elegantes Produkt zu entwickeln. Es gilt das Credo “weniger ist mehr”.
 

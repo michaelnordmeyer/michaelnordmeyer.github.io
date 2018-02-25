@@ -15,12 +15,12 @@ tags:
 ---
 One of the reasons the Simpsons are cool are their contemporary references. This time they mock Apple:
 
-<iframe src="https://www.youtube-nocookie.com/embed/7L2fsubA2-c" width="740" height="555" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/7L2fsubA2-c" width="740" height="555" frameborder="0" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube-nocookie.com/embed/CZGIn9bpALo" width="740" height="555" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/CZGIn9bpALo" width="740" height="555" frameborder="0" allowfullscreen></iframe>
 
 Unfortunately a few seconds are missing between the second and third part. Lisa gets a huge box from “Mapple” delivered. She is quite excited but only gets an incredible long “MyBill” invoice for $1,200, because she downloaded 1212 songs.
 
-<iframe src="https://www.youtube-nocookie.com/embed/WL2l_Q1AR_Q" width="740" height="555" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/WL2l_Q1AR_Q" width="740" height="555" frameborder="0" allowfullscreen></iframe>
 
 Via [fscklog.com](http://www.fscklog.com/2008/12/the-simpsons---ein-besuch-im-mapple-store-video.html) (post in German)

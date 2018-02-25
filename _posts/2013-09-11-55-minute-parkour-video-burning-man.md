@@ -11,6 +11,6 @@ tags:
   - Parkour
   - Video
 ---
-<iframe src="https://www.youtube-nocookie.com/embed/QH09YCtpKaw" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/QH09YCtpKaw" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 Great 55 min. parkour video about moving your body and expressing yourself in your environment without limitation. Some of the parkour was done at Burning Man.

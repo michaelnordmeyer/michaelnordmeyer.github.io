@@ -9,6 +9,6 @@ categories:
 tags:
   - Video
 ---
-<iframe src="https://player.vimeo.com/video/4246943?color=ffffff" width="740" height="555" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://player.vimeo.com/video/4246943?color=ffffff" width="740" height="555" frameborder="0" allowfullscreen></iframe>
 
 [Seth Godin at Gel 2006](https://vimeo.com/4246943)

@@ -9,7 +9,7 @@ categories:
 tags:
   - Video
 ---
-<iframe src="https://player.vimeo.com/video/11886557?color=ffffff" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://player.vimeo.com/video/11886557?color=ffffff" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 [iPad + Velcro](https://vimeo.com/11886557)
 
