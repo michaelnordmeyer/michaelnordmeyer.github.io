@@ -4,6 +4,7 @@ date: 2014-08-21T16:23:02+00:00
 excerpt: I stopped using a couple of very popular services for a variety of reasons, mainly ethical ones, because I want to be in charge of my own digital life.
 layout: post
 permalink: /quitting-google-whatsapp-buzzfeed-huffpost
+redirect_from: /quitting-google-whatsapp-buzzfeed-huffpost/
 categories:
   - Web
 tags:

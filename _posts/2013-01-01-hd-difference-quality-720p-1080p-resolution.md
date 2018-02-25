@@ -4,7 +4,9 @@ date: 2013-01-01T12:00:07+00:00
 excerpt: The difference in quality is less than you think when watching from the sofa.
 layout: post
 permalink: /hd-difference-quality-720p-1080p-resolution
-redirect_from: /2013/01/hd-qualitats-unterschied-von-720p-und-1080p/
+redirect_from:
+  - /2013/01/hd-difference-quality-720p-1080p-resolution/
+  - /2013/01/hd-qualitats-unterschied-von-720p-und-1080p/
 categories:
   - Technology
 tags:

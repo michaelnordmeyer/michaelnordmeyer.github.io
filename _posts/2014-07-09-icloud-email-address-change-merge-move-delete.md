@@ -6,6 +6,7 @@ layout: post
 permalink: /icloud-email-address-change-merge-move-delete
 redirect_from:
   - /icloud-email-address
+  - /icloud-email-address/
 categories:
   - Apple
 tags:
