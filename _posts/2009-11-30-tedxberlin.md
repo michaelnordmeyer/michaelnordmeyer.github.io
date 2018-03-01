@@ -32,11 +32,11 @@ Einige besondere Reden möchte ich hier aus der Masse der interessanten Reden be
 
 [Jill Bolte Taylor’s “Stroke of Insight”](https://www.ted.com/talks/jill_bolte_taylor_s_powerful_stroke_of_insight): eine Hirnforscherin, die am eigenen Leib einen Hirnschlag erlebt und diesen während und nach Eintritt wissenschaftlich aus erster Hand erforschen will:
 
-<iframe src="https://embed.ted.com/talks/jill_bolte_taylor_s_powerful_stroke_of_insight" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/UyyjU8fzEYU" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 [Daniel Goleman’s “Why Aren’t We All Good Samaritans”](https://www.ted.com/talks/daniel_goleman_on_compassion): Goleman, Autor des Buchs “Emotionale Intelligenz”, spricht über Mitgefühl:
 
-<iframe src="https://embed.ted.com/talks/daniel_goleman_on_compassion" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/r3wyCxHtGd0" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 ## Meine Favoriten vor Ort
 
@@ -44,15 +44,15 @@ Meine Favoriten waren David Logan “On Tribal Leadership”, Pattie Maes “Six
 
 [Hans Rosling erzählt in “The Best Stats You’ve Ever Seen”](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen) über extrem interessant visualisierte und vor allem animierte Statistiken, wie sich z.B. Gesundheit, Bildung und Reichtum in der Welt in den letzten 50 Jahren bezogen auf Länder und Kontinente verschoben haben. Aber in einer unglaublich lebhaften, lustigen und mitreißenden Art, dass bei so einem Dozenten Statistik zum Lieblingsfach eines jeden Studenten werden würde. Absolute Empfehlung.
 
-<iframe src="https://embed.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/usdJgEwMinM" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 [Pattie Maes stellt den sechsten Sinn vor](https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense). Im Prinzip ein multi-touch Lichttisch ohne Lichttisch. Das Bild wird durch eine vor der Brust hängende Kamera auf jede Oberfläche projiziert. Bedient wird das Ganze mit den Fingern in der Luft, die per Farbmarkierungen durch die vor der Brust hängende Projektions- bzw. Kameraeinheit erfasst werden.
 
-<iframe src="https://embed.ted.com/talks/pattie_maes_demos_the_sixth_sense" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/nZ-VjUKAsao" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 [David Logan erleuchtete uns mit “Tribal Leadership”](https://www.ted.com/talks/david_logan_on_tribal_leadership) und stellte sehr plastisch die fünf verschiedenen Stufen der Tribes dar, mit denen eine Klassifizierung von menschlichen Verhaltensweisen und Lebenseinstellungen vorgenommen wird. Eine interessante Einordnung vom Gesellschaftsfeind bis zum Weltveränderer.
 
-<iframe src="https://embed.ted.com/talks/david_logan_on_tribal_leadership" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/xTkKSJSqU-I" width="740" height="416" frameborder="0" allowfullscreen></iframe>
 
 ## Die live gegeben Talks
 
