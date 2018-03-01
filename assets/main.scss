@@ -47,6 +47,10 @@ footer h2 > a,
 footer h2 > a:visited { color: #424242; }
 footer input[type="search"] { width: 100%; font-size: 1em; }
 
+@media screen and (min-width: 481px) {
+  footer input[type="search"] { width: 50%; }
+}
+
 /* SVG icon sizes because Github Pages minima is still on 2.11 */
 .svg-icon {
   width: 16px;
