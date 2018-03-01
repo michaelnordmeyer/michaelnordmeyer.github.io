@@ -136,6 +136,8 @@
         div.appendChild(frame);
       }
     }
-    reframe('iframe');
+    window.onload = function() {
+      reframe('iframe');
+    }
   </script>
 </head>
