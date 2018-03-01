@@ -136,9 +136,9 @@
         div.appendChild(frame);
       }
     }
-    // window.onload = function() {
-    //   reframe('iframe');
-    // }
+    window.onload = function() {
+      reframe('iframe');
+    }
     // https://github.com/dollarshaveclub/reframe.js
     function noframe(target, container) {
       let frames = (typeof target === 'string') ? document.querySelectorAll(target) : target;
@@ -181,8 +181,8 @@
         styles.maxWidth = '100%';
       }
     }
-    window.onload = function() {
-      noframe('iframe');
-    }
+    // window.onload = function() {
+    //   noframe('iframe');
+    // }
   </script>
 </head>
