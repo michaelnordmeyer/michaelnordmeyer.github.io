@@ -42,7 +42,7 @@ location ~ \.php$ {
 }
 ```
 
-Yours might look differently. I especially use a socket and not TCP to connect to PHP.
+Yours might look differently. I especially use a socket and not TCP to connect to PHP, because a socket is faster.
 
 Logging is disabled for this particular use case to keep the logs clean `(access_log off)`.
 
