@@ -22,7 +22,7 @@ For that to work we have to manually configure the web server which is running W
 
 ## nginx
 
-We have to set valid referrers for which we conveniently choose nginx’s `server_name` variable, which has to be manually set for every virtual host. This is most likely the domain name. In my case it’s `michaelnordmeyer.com`.
+We have to set `valid_referers` for which we conveniently choose nginx’s `server_name` variable, which has to be manually set for every virtual host. This is most likely the domain name. In my case it’s `michaelnordmeyer.com`.
 
 ```
 location ~ /wp-comments-post\.php$ {
