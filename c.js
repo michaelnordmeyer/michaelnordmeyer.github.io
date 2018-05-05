@@ -31,18 +31,17 @@ var mnstats_obj = mnstats_obj || (function() {
       }
     };
     this.base = function(type) {
-      var url = _self.domain + '/mnc?x';
+      var url = _self.domain + '/mnc';
       if (type == 'ping') return url;
-      url += "&lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
-      return url;
+      return url + "?lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
     };
     this.set_referrer = function() {
       var r = mnstats_custom.iframe ? top.document.referrer : document.referrer;
       r = r && r.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(r) ? '' : r) : '';
       if (r) {
-        _self.set_cookie('_referrer_og', r, 86400 * 90);
+        _self.set_cookie('_referrer', r, 86400 * 90);
       } else {
-        r = _self.get_cookie('_referrer_og');
+        r = _self.get_cookie('_referrer');
       }
       _self.ref = r;
     };
@@ -354,9 +353,4 @@ var mnstats_obj = mnstats_obj || (function() {
 var mnstats = mnstats_obj.getInstance();
 if (!window.mnstats_custom) var mnstats_custom = {};
 if (mnstats_custom.iframe && self == top) mnstats_custom.iframe = 0;
-if (window.mnstats_custom_session) mnstats_custom.session = mnstats_custom_session;
-if (mnstats_custom.session) mnstats_custom.visitor = mnstats_custom.session;
-if (mnstats_custom.no_cookies) mnstats_custom.cookies_disable = 1;
 mnstats_custom.async = 1;
-var _genericStats = mnstats,
-  _genericStatsCustom = mnstats_custom;
