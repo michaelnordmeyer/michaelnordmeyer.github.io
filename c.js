@@ -7,11 +7,8 @@ var clicky_obj = clicky_obj || (function() {
       site_ids = [],
       pageviews_fired = [],
       monitors = 0,
-      setup = 0,
-      ossassets = 0,
-      ossdata = 0;
-    this.domain = 'https://in.getclicky.com';
-    this.secure = 1;
+    setup = 0;
+    this.domain = 'http://goodyworks.com';
     this.site_id_exists = function(site_id) {
       for (var s in site_ids)
         if (site_ids[s] == site_id) return true;
@@ -50,9 +47,10 @@ var clicky_obj = clicky_obj || (function() {
       }
     };
     this.base = function(site_id_index, type) {
-      var url = _self.domain + '/in.php?site_id=' + site_ids[site_id_index];
+//      var url = _self.domain + '/in.php?site_id=' + site_ids[site_id_index];
+      var url = _self.domain + '/mnc?site_id=' + site_ids[site_id_index];
       if (type == 'ping') return url;
-      url += "&res=" + screen.width + "x" + screen.height + "&lang=" + (navigator.language || navigator.browserLanguage || 'en').substr(0, 2) + (_self.secure ? "&secure=1" : "") + _self.custom_data();
+      url += "&res=" + screen.width + "x" + screen.height + "&lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2) + _self.custom_data();
       return url;
     };
     this.custom_data = function() {
@@ -69,16 +67,6 @@ var clicky_obj = clicky_obj || (function() {
           if (temp) {
             data[key] = temp;
             _self.set_cookie('_custom_data_' + key, temp);
-          }
-        }
-        if (location.search.match(/utm_custom/)) {
-          temp = location.search.split('utm_custom[' + key + ']');
-          if (temp[1]) {
-            temp = temp[1].split('&')[0].split('=')[1];
-            if (temp) {
-              data[key] = temp;
-              _self.set_cookie('_custom_data_' + key, temp);
-            }
           }
         }
       }
@@ -105,9 +93,6 @@ var clicky_obj = clicky_obj || (function() {
         r = _self.get_cookie('_referrer_og');
       }
       _self.ref = r;
-      if (!_self.get_href().match(/utm_campaign/)) {
-        _self.utm = _self.get_cookie('_utm_og');
-      }
     };
     this.olark = function(s, v, c, do_pageview) {
       var o = s + ',' + v + ',' + c,
@@ -128,7 +113,7 @@ var clicky_obj = clicky_obj || (function() {
     };
     this.pageview = function(only_once, extra) {
       var href = _self.get_href();
-      _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(clicky_custom.title || window.clicky_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : '') + (_self.utm ? '&utm=' + _self.enc(_self.utm) : '') + (extra || ''), (only_once ? 1 : 0));
+      _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(clicky_custom.title || window.clicky_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : '') + (extra || ''), (only_once ? 1 : 0));
       for (var p = 0; p < site_ids.length; p++) {
         if (!_self.is_pageview_fired(site_ids[p])) {
           pageviews_fired.push(site_ids[p]);
@@ -143,9 +128,6 @@ var clicky_obj = clicky_obj || (function() {
           clicky_custom.title = top.document.title;
         }
         if (!href) href = location.pathname + location.search;
-        if (location.hash.match(/utm_campaign/i)) {
-          href = href + (location.search ? '&' : '?') + location.hash.substr(1);
-        }
       }
       return enc ? _self.enc(href) : href;
     };
@@ -272,7 +254,6 @@ var clicky_obj = clicky_obj || (function() {
       }
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
-      _self.utm = '';
       _self.ping_start();
     };
     this.inject = function(src, type) {
@@ -314,7 +295,7 @@ var clicky_obj = clicky_obj || (function() {
       setTimeout(_self.ping_set, 120000);
     };
     this.get_cookie = function(name) {
-      if (clicky_custom.sticky_data_disable && name.match(/^_(custom|utm|referrer)/)) return '';
+      if (clicky_custom.sticky_data_disable && name.match(/^_(custom|referrer)/)) return '';
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
         if (ca[i].match(new RegExp("\\b" + name + "="))) return decodeURIComponent(ca[i].split(name + '=')[1]);
@@ -322,7 +303,7 @@ var clicky_obj = clicky_obj || (function() {
       return '';
     };
     this.set_cookie = function(name, value, expires) {
-      if (clicky_custom.cookies_disable || (clicky_custom.sticky_data_disable && name.match(/^_(custom|utm|referrer)/))) return false;
+      if (clicky_custom.cookies_disable || (clicky_custom.sticky_data_disable && name.match(/^_(custom|referrer)/))) return false;
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
       var temp = name + "=" + _self.enc(value) + ";expires=" + ex.toGMTString() + ";path=/;";
