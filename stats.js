@@ -226,4 +226,4 @@ var stats_obj = stats_obj || (function() {
 })();
 if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
-window.addEventListener("unload", stats.ping_on_close(), false);
+window.addEventListener("unload", stats.ping_on_close, false);
