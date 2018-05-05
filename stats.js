@@ -22,12 +22,6 @@ var mnstats_obj = mnstats_obj || (function() {
       xhttp.open("GET", url, true);
       xhttp.send();
     };
-    this.base = function(type) {
-      console.log("Resolving base URL...");
-      var url = _self.domain + '/?stats';
-      if (type == 'ping') return url;
-      return url + "&lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
-    };
     this.set_referrer = function() {
       console.log("Setting referrer...");
       var r = mnstats_custom.iframe ? top.document.referrer : document.referrer;
@@ -155,7 +149,7 @@ var mnstats_obj = mnstats_obj || (function() {
           mnstats_custom.split = '';
         }
       }
-      _self.store(_self.base(type) + '&type=' + type + q + split + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + '');
+      _self.store(_self.domain + '?' + type + q + split + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + '');
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
