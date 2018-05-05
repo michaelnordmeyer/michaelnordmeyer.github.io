@@ -21,11 +21,23 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.start_monitors();
       _self.pageview(1);
     };
+    this.store(url) {
+      console.log("Storing...");
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+//        if (this.readyState == 4 && this.status == 200) {
+        if (this.readyState == 4) {
+         alert(this.statusText);
+        }
+      };
+      xhttp.open("GET", url, true);
+      xhttp.send();
+    };
     this.base = function(type) {
       console.log("Resolving base URL...");
-      var url = _self.domain + '/mnc';
+      var url = _self.domain + '/?mnc';
       if (type == 'ping') return url;
-      return url + "?lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
+      return url + "&lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
     };
     this.set_referrer = function() {
       console.log("Setting referrer...");
@@ -138,12 +150,12 @@ var mnstats_obj = mnstats_obj || (function() {
         q = temp;
         delete temp;
       }
-      var jsuid = '',
+      var uuid = '',
       split = '';
-      jsuid = _self.get_cookie('_jsuid');
-      if (!jsuid) {
-        _self.set_cookie('_jsuid', _self.randy());
-        jsuid = _self.get_cookie('_jsuid');
+      uuid = _self.get_cookie('_uuid');
+      if (!uuid) {
+        _self.set_cookie('_uuid', _self.randy());
+        uuid = _self.get_cookie('_uuid');
       }
       if (type != 'ping') {
         if (mnstats_custom.split) {
@@ -155,23 +167,23 @@ var mnstats_obj = mnstats_obj || (function() {
           mnstats_custom.split = '';
         }
       }
-      _self.inject(_self.base(type) + '&type=' + type + q + split + (jsuid ? '&jsuid=' + jsuid : '') + '&mime=js&x=' + Math.random() + '');
+      _self.store(_self.base(type) + '&type=' + type + q + split + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + '');
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
     };
-    this.inject = function(src) {
-      console.log("Injecting...");
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = src;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
-     };
-     this.ping = function() {
-       console.log("Pinging...");
-      _self.beacon('ping');
-    };
+    // this.inject = function(src) {
+    //   console.log("Injecting...");
+    //   var s = document.createElement('script');
+    //   s.type = 'text/javascript';
+    //   s.async = true;
+    //   s.src = src;
+    //   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+    //  };
+    //  this.ping = function() {
+    //    console.log("Pinging...");
+    //   _self.beacon('ping');
+    // };
     this.ping_set = function() {
       console.log("Setting ping...");
       var pingy = setInterval(_self.ping, 120000);
