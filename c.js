@@ -10,25 +10,16 @@ var mnstats_obj = mnstats_obj || (function() {
       setup = 1;
       setTimeout(_self.setup, 100);
     }
+    console.log("Ready")
     this.setup = function() {
+      console.log("Setting up...")
       if (!_self.get_cookie('_first_pageview')) {
         _self.set_referrer();
         _self.set_cookie('_first_pageview', 1, 600);
       }
       setTimeout(_self.advanced, 1000);
       _self.start_monitors();
-      if (!mnstats_custom.pageview_disable) {
-        if (window.olark && typeof(olark) == 'function') {
-          olark('api.boot.onIdentityReady', function(s, v, c) {
-            _self.olark(s, v, c, 1);
-          });
-          setTimeout(function() {
-            _self.pageview(1)
-          }, 2000);
-        } else {
-          _self.pageview(1);
-        }
-      }
+      _self.pageview(1);
     };
     this.base = function(type) {
       var url = _self.domain + '/mnc';
@@ -44,23 +35,6 @@ var mnstats_obj = mnstats_obj || (function() {
         r = _self.get_cookie('_referrer');
       }
       _self.ref = r;
-    };
-    this.olark = function(s, v, c, do_pageview) {
-      var o = s + ',' + v + ',' + c,
-        c = _self.get_cookie('mnstats_olark');
-      if (c && c == o) {
-        if (do_pageview) _self.pageview(1);
-        return;
-      } else {
-        if (c) _self.set_cookie('mnstats_olark', c, -3600);
-        _self.set_cookie('mnstats_olark', o, 600);
-        c = _self.get_cookie('mnstats_olark');
-      }
-      if (do_pageview) {
-        _self.pageview(1, '&olark=' + o);
-      } else if (c) {
-        _self.beacon('ping', '&olark=' + o);
-      }
     };
     this.pageview = function(only_once, extra) {
       var href = _self.get_href();
