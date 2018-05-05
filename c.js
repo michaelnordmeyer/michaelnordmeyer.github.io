@@ -22,11 +22,13 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.pageview(1);
     };
     this.base = function(type) {
+      console.log("Resolving base URL...")
       var url = _self.domain + '/mnc';
       if (type == 'ping') return url;
       return url + "?lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
     };
     this.set_referrer = function() {
+      console.log("Setting referrer...")
       var r = mnstats_custom.iframe ? top.document.referrer : document.referrer;
       r = r && r.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(r) ? '' : r) : '';
       if (r) {
@@ -37,11 +39,13 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.ref = r;
     };
     this.pageview = function(only_once, extra) {
+      console.log("Function pageview")
       var href = _self.get_href();
       _self.beacon('', '&title=' + _self.enc(mnstats_custom.title || window.mnstats_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : '') + (extra || ''), (only_once ? 1 : 0));
     };
     this.get_href = function(enc) {
-      var href = mnstats_custom.href || '';
+      console.log("Resolving href...")
+      var href = '';
       if (!href) {
         if (mnstats_custom.iframe) {
           href = top.location.pathname + top.location.search;
@@ -52,6 +56,7 @@ var mnstats_obj = mnstats_obj || (function() {
       return enc ? _self.enc(href) : href;
     };
     this.log = function(href, title, type) {
+      console.log("Logging...")
       if (type == 'pageview') href = href.replace(/^https?:\/\/([^\/]+)/i, '');
       var o = {
         'type': (type || 'click'),
@@ -100,16 +105,9 @@ var mnstats_obj = mnstats_obj || (function() {
         if (_self.debug) console.log(e);
       }
     };
-    this.doc_wh = function() {
-      var db = document.body,
-        de = document.documentElement;
-      return {
-        w: window.innerWidth || de.clientWidth || 1024,
-        h: Math.max(db.scrollHeight, db.offsetHeight, de.clientHeight, de.scrollHeight, de.offsetHeight)
-      }
-    };
     this.start_monitors = function() {
       if (!monitors) {
+        console.log("Starting monitors...")
         monitors = 1;
         if (_self.queue_ok()) {
           _self.queue_process();
@@ -128,6 +126,7 @@ var mnstats_obj = mnstats_obj || (function() {
       }
     };
     this.beacon = function(type, q, called_by_pageview) {
+      console.log("Firing beacon...")
       q = q || '';
       type = type || 'pageview';
       if (typeof q == 'object') {
@@ -162,6 +161,7 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.ping_start();
     };
     this.inject = function(src) {
+      console.log("Injecting...")
       var s = document.createElement('script');
       s.type = 'text/javascript';
       s.async = true;
@@ -169,9 +169,11 @@ var mnstats_obj = mnstats_obj || (function() {
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
      };
      this.ping = function() {
+      console.log("Pinging...")
       _self.beacon('ping');
     };
     this.ping_set = function() {
+      console.log("Setting ping...")
       var pingy = setInterval(_self.ping, 120000);
       setTimeout(function() {
         clearInterval(pingy);
@@ -179,6 +181,7 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.ping();
     };
     this.ping_start = function() {
+      console.log("Starting ping...")
       if (mnstats_custom.ping_disable || _self.pinging) return;
       _self.pinging = 1;
       _self.ps_stop = (mnstats_custom.timeout && mnstats_custom.timeout >= 5 && mnstats_custom.timeout <= 240) ? ((mnstats_custom.timeout * 60) - 120) + 5 : 485;
@@ -187,6 +190,7 @@ var mnstats_obj = mnstats_obj || (function() {
       setTimeout(_self.ping_set, 120000);
     };
     this.get_cookie = function(name) {
+      console.log("Getting cookie...")
       if (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/)) return '';
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
@@ -195,6 +199,7 @@ var mnstats_obj = mnstats_obj || (function() {
       return '';
     };
     this.set_cookie = function(name, value, expires) {
+      console.log("Setting cookie...")
       if (mnstats_custom.cookies_disable || (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/))) return false;
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
@@ -225,19 +230,24 @@ var mnstats_obj = mnstats_obj || (function() {
       }
     };
     this.download = function(e) {
+      console.log("Downloading...")
       _self.adv_log(e, "download");
     };
     this.outbound = function(e) {
+      console.log("Outbound...")
       _self.adv_log(e, "outbound");
     };
     this.click = function(e) {
+      console.log("Clicking...")
       _self.adv_log(e, "click");
     };
     this.adv_log = function(e, type) {
+      console.log("Logging adv...")
       var obj = _self.get_target(e);
       _self.log(_self.adv_href(obj), _self.adv_text(obj), type);
     };
     this.adv_text = function(e) {
+      console.log("Resolving adv text...")
       do {
         var txt = e.text ? e.text : e.innerText;
         if (txt) return txt;
@@ -249,6 +259,7 @@ var mnstats_obj = mnstats_obj || (function() {
       return "";
     };
     this.adv_href = function(e) {
+      console.log("Resolving adv href...")
       do {
         if (e.href && !e.src) return e.href;
         e = _self.get_parent(e);
@@ -256,15 +267,18 @@ var mnstats_obj = mnstats_obj || (function() {
       return "";
     };
     this.get_parent = function(e) {
+      console.log("Resolving parent...")
       return e.parentElement || e.parentNode;
     };
     this.get_target = function(e) {
+      console.log("Resolving target...")
       if (!e) var e = window.event;
       var t = e.target ? e.target : e.srcElement;
       if (t.nodeType && t.nodeType == 3) t = t.parentNode;
       return t;
     };
     this.advanced = function() {
+      console.log("Function advanced")
       var is_link = new RegExp("^(https?|ftp|telnet|mailto|tel):", "i");
       var is_link_internal = new RegExp("^https?:\/\/(.*)" + location.host.replace(/^www\./i, ""), "i");
       var is_download = new RegExp("\\.(7z|aac|apk|avi|cab|csv|dmg|doc(x|m|b)?|epub|exe|flv|gif|gz|jpe?g|js|m4a|mp(3|4|e?g)|mobi|mov|msi|ods|pdf|phps|png|ppt(x|m|b)?|rar|rtf|sea|sit|svgz?|tar|torrent|txt|vcf|wma|wmv|xls(x|m|b)?|xml|zip)$", "i");
