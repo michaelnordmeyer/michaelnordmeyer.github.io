@@ -180,7 +180,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.ping_set = function() {
       console.log("Setting ping...");
-      var pingy = setInterval(_self.ping, 120000);
+      var pingy = setInterval(_self.ping, 2 * 60 * 1000);
       setTimeout(function() {
         clearInterval(pingy);
       }, _self.ps_stop * 1000);
@@ -191,9 +191,9 @@ var mnstats_obj = mnstats_obj || (function() {
       if (mnstats_custom.ping_disable || _self.pinging) return;
       _self.pinging = 1;
       _self.ps_stop = (mnstats_custom.timeout && mnstats_custom.timeout >= 5 && mnstats_custom.timeout <= 240) ? ((mnstats_custom.timeout * 60) - 120) + 5 : 485;
-      setTimeout(_self.ping, 30000);
-      setTimeout(_self.ping, 60000);
-      setTimeout(_self.ping_set, 120000);
+      setTimeout(_self.ping, 30 * 1000);
+      setTimeout(_self.ping, 60 * 1000);
+      setTimeout(_self.ping_set, 2 * 60 * 1000);
     };
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
