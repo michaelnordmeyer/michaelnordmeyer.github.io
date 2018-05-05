@@ -223,3 +223,6 @@ var stats_obj = stats_obj || (function() {
 })();
 if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
+$(window).on('unload', function() {
+    navigator.sendBeacon(stats.domain + '/?closed&uid=' + stats.get_cookie('_uuid') + '&date=' + stats.encode(new Date().toISOString()));
+});
