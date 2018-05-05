@@ -207,7 +207,7 @@ var stats_obj = stats_obj || (function() {
       }
     };
     this.ping_on_close = function() {
-      navigator.sendBeacon(_self.domain + '/?pong&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
+      navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
     };
     if (!setup) {
       setup = 1;
