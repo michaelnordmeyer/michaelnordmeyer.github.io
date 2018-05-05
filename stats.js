@@ -52,8 +52,8 @@ var stats_obj = stats_obj || (function() {
           stats_custom.split = '';
         }
       }
-      _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + query + split + '');
-      // _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
+      // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
       _self.referrer = '';
       _self.ping_start();
     };
@@ -186,8 +186,8 @@ var stats_obj = stats_obj || (function() {
       }
     };
     this.ping_on_close = function() {
-      navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid'));
-      // navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
+      navigator.sendBeacon(_self.domain + '/?end=' + _self.get_cookie('_uid'));
+      // navigator.sendBeacon(_self.domain + '/?end&' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
     };
     this.setup = function() {
       console.log("Setting up...");
