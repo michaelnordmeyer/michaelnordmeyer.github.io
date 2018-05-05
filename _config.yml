@@ -54,9 +54,8 @@ twitter:
 # logo: /assets/your-company-logo.png
 
 ## Analytics
-clicky:
+stats:
   url: "https://michaelnordmeyer.com/c.js"
-  site_id: 101044344
 
 # piwik:
 #   url: "https://stats.michaelnordmeyer.com/"
