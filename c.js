@@ -187,7 +187,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
-      if (name.match(/^_(custom|referrer)/) return '';
+      if (name.match(/^_(custom|referrer)/)) return '';
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
         if (ca[i].match(new RegExp("\\b" + name + "="))) return decodeURIComponent(ca[i].split(name + '=')[1]);
