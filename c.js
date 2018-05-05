@@ -5,7 +5,7 @@ var mnstats_obj = mnstats_obj || (function() {
     var _self = this,
       monitors = 0,
       setup = 0;
-    this.domain = 'http://goodyworks.com';
+    this.domain = 'https://goodyworks.com';
     if (!setup) {
       setup = 1;
       setTimeout(_self.setup, 100);
