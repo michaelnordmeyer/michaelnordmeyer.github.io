@@ -69,19 +69,16 @@ var stats_obj = stats_obj || (function() {
     };
     this.pageview = function(only_once) {
       console.log("Register pageview...");
-      var url = _self.get_url();
-      _self.beacon('', '&url=' + _self.encode(url) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''), (only_once ? 1 : 0));
+      _self.beacon('', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''), (only_once ? 1 : 0));
     };
     this.get_url = function() {
       console.log("Resolving url...");
       var url = '';
-      if (!url) {
-        if (stats_custom.iframe) {
-          url = top.location.pathname + top.location.search;
-          stats_custom.title = top.document.title;
-        }
-        if (!url) url = location.pathname + location.search;
+      if (stats_custom.iframe) {
+        url = top.location.pathname + top.location.search;
+        stats_custom.title = top.document.title;
       }
+      if (!url) url = location.pathname + location.search;
       return url;
     };
     this.log = function(url, title, type) {
