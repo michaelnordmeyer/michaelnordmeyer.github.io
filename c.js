@@ -174,10 +174,10 @@ var mnstats_obj = mnstats_obj || (function() {
     //   s.src = src;
     //   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
     //  };
-    //  this.ping = function() {
-    //    console.log("Pinging...");
-    //   _self.beacon('ping');
-    // };
+    this.ping = function() {
+      console.log("Pinging...");
+      _self.beacon('ping');
+    };
     this.ping_set = function() {
       console.log("Setting ping...");
       var pingy = setInterval(_self.ping, 120000);
