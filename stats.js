@@ -2,7 +2,7 @@ var stats_obj = stats_obj || (function() {
   var instance = null;
 
   function _ins() {
-    var _self = this,
+    var _self = this;
     this.domain = 'https://stats.michaelnordmeyer.com';
     console.log("Ready");
     this.set_referrer = function() {
