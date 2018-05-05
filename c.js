@@ -39,10 +39,10 @@ var mnstats_obj = mnstats_obj || (function() {
       }
       _self.ref = r;
     };
-    this.pageview = function(only_once, extra) {
+    this.pageview = function(only_once) {
       console.log("Function pageview");
       var href = _self.get_href();
-      _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(mnstats_custom.title || window.mnstats_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : '') + (extra || ''), (only_once ? 1 : 0));
+      _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(mnstats_custom.title || window.mnstats_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : ''), (only_once ? 1 : 0));
     };
     this.get_href = function(enc) {
       console.log("Resolving href...");
