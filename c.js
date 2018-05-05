@@ -24,12 +24,6 @@ var mnstats_obj = mnstats_obj || (function() {
     this.store = function(url) {
       console.log("Storing...");
       var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-//        if (this.readyState == 4 && this.status == 200) {
-        if (this.readyState == 4) {
-         alert(this.statusText);
-        }
-      };
       xhttp.open("GET", url, true);
       xhttp.send();
     };
@@ -202,7 +196,7 @@ var mnstats_obj = mnstats_obj || (function() {
       setTimeout(_self.ping_set, 120000);
     };
     this.get_cookie = function(name) {
-      console.log("Getting cookie...");
+      console.log("Getting cookie " + name);
       if (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/)) return '';
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
@@ -211,7 +205,7 @@ var mnstats_obj = mnstats_obj || (function() {
       return '';
     };
     this.set_cookie = function(name, value, expires) {
-      console.log("Setting cookie...");
+      console.log("Setting cookie " + name);
       if (mnstats_custom.cookies_disable || (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/))) return false;
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
