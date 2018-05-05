@@ -133,7 +133,7 @@ var stats_obj = stats_obj || (function() {
     };
     this.setup = function() {
       console.log("Setting up...");
-      window.addEventListener("unload", stats.ping_on_close, false);
+      window.addEventListener("unload", _self.ping_on_close, false);
       if (!_self.get_cookie('_referrer')) {
         _self.set_referrer();
       }
