@@ -197,7 +197,7 @@ var stats_obj = stats_obj || (function() {
       _self.start_monitoring();
       _self.pageview(1);
     };
-    _self.setup();
+//    _self.setup();
   }
   return new function() {
     this.getInstance = function() {
