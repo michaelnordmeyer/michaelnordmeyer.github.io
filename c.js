@@ -21,7 +21,7 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.start_monitors();
       _self.pageview(1);
     };
-    this.store(url) {
+    this.store = function(url) {
       console.log("Storing...");
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
