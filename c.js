@@ -159,43 +159,33 @@ var mnstats_obj = mnstats_obj || (function() {
       type = type || 'pageview';
       if (typeof q == 'object') {
         if (q.type) type = q.type;
-        if (q.type == 'goal' && q.query) {
-          q = q.query;
-        } else {
-          var temp = '';
-          for (var i in q) {
-            if (i != 'type' && q.hasOwnProperty && q.hasOwnProperty(i)) temp += '&' + i + '=' + _self.enc(q[i]);
-          }
-          q = temp;
-          delete temp;
+        var temp = '';
+        for (var i in q) {
+          if (i != 'type' && q.hasOwnProperty && q.hasOwnProperty(i)) temp += '&' + i + '=' + _self.enc(q[i]);
         }
+        q = temp;
+        delete temp;
       }
       var jsuid = '',
-        goal = '',
-        split = '';
+      split = '';
       jsuid = _self.get_cookie('_jsuid');
       if (!jsuid) {
         _self.set_cookie('_jsuid', _self.randy());
         jsuid = _self.get_cookie('_jsuid');
       }
-      if (type != 'heatmap' && type != 'ping') {
+      if (type != 'ping') {
         if (mnstats_custom.split) {
           for (var i in mnstats_custom['split']) {
             if (mnstats_custom['split'].hasOwnProperty && mnstats_custom['split'].hasOwnProperty(i)) {
-              if (i == 'goal' && typeof mnstats_custom['split'].goal == 'object') {
-                for (var j = 0, l = mnstats_custom['split'].goal.length; j < l; j++) {
-                  split += '&split[goal][]=' + mnstats_custom.split.goal[j];
-                }
-              } else split += '&split[' + _self.enc(i) + ']=' + _self.enc(mnstats_custom.split[i]);
+              split += '&split[' + _self.enc(i) + ']=' + _self.enc(mnstats_custom.split[i]);
             }
           }
           mnstats_custom.split = '';
         }
       }
-      if (_self.get_cookie('no_trackyy')) continue;
-      if (_self.get_cookie('unpoco') && type != 'pageview') continue;
-      if (called_by_pageview && type == 'pageview') continue;
-      _self.inject(_self.base(type) + '&type=' + type + q + goal + split + (jsuid ? '&jsuid=' + jsuid : '') + (_self.get_cookie('unpoco') ? '&upset' : '') + (mnstats_custom.cookies_disable ? '&noc' : '') + '&mime=js&x=' + Math.random() + '');
+      if (!called_by_pageview || type != 'pageview') {
+        _self.inject(_self.base(type) + '&type=' + type + q + split + (jsuid ? '&jsuid=' + jsuid : '') + (mnstats_custom.cookies_disable ? '&noc' : '') + '&mime=js&x=' + Math.random() + '');
+    }
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
