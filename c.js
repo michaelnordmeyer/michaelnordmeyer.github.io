@@ -248,5 +248,4 @@ var mnstats_obj = mnstats_obj || (function() {
   }
 })();
 if (!window.mnstats_custom) var mnstats_custom = {};
-if (mnstats_custom.iframe && self == top) mnstats_custom.iframe = 0;
 var mnstats = mnstats_obj.getInstance();
