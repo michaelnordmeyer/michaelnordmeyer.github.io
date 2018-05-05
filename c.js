@@ -183,9 +183,9 @@ var mnstats_obj = mnstats_obj || (function() {
           mnstats_custom.split = '';
         }
       }
-      if (!called_by_pageview || type != 'pageview') {
+      if (called_by_pageview && type == 'pageview') {
         _self.inject(_self.base(type) + '&type=' + type + q + split + (jsuid ? '&jsuid=' + jsuid : '') + (mnstats_custom.cookies_disable ? '&noc' : '') + '&mime=js&x=' + Math.random() + '');
-    }
+      }
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
