@@ -46,12 +46,12 @@ var stats_obj = stats_obj || (function() {
         query = temp;
         delete temp;
       }
-      var uuid = '',
+      var uid = '',
       split = '';
-      uuid = _self.get_cookie('_uuid');
-      if (!uuid) {
-        _self.set_cookie('_uuid', _self.uuid());
-        uuid = _self.get_cookie('_uuid');
+      uid = _self.get_cookie('_uid');
+      if (!uid) {
+        _self.set_cookie('_uid', _self.uid());
+        uid = _self.get_cookie('_uid');
       }
       if (type != 'ping') {
         if (stats_custom.split) {
@@ -63,7 +63,7 @@ var stats_obj = stats_obj || (function() {
           stats_custom.split = '';
         }
       }
-      _self.store(_self.domain + '?' + type + (uuid ? '&uuid=' + uuid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
       _self.referrer = '';
       _self.ping_start();
     };
@@ -189,7 +189,7 @@ var stats_obj = stats_obj || (function() {
       if (location.hostname.match(/\./)) temp += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       document.cookie = temp;
     };
-    this.uuid = function() {
+    this.uid = function() {
       var i = 0;
       do {
         var random = Math.round(Math.random() * 4294967295);
