@@ -71,7 +71,7 @@ var mnstats_obj = mnstats_obj || (function() {
       if (!_self.queue_add(o)) _self.beacon(type, o);
     };
     this.queue_ok = function() {
-      return window.JSON && typeof JSON == 'object' && JSON.stringify && JSON.parse && !mnstats_custom.cookies_disable && !mnstats_custom.queue_disable && !window.Prototype;
+      return window.JSON && typeof JSON == 'object' && JSON.stringify && JSON.parse;
     };
     this.queue_add = function(o) {
       if (!_self.queue_ok()) return false;
@@ -117,7 +117,7 @@ var mnstats_obj = mnstats_obj || (function() {
           _self.queue_process();
           setInterval(_self.queue_process, 5000);
         }
-        if (!mnstats_custom.history_disable && window.history && window.history.pushState) {
+        if (window.history && window.history.pushState) {
           _self.pushState = history.pushState;
           history.pushState = function() {
             _self.pushState.apply(history, arguments);
@@ -178,16 +178,16 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.ping_start = function() {
       console.log("Starting ping...");
-      if (mnstats_custom.ping_disable || _self.pinging) return;
+      if (_self.pinging) return;
       _self.pinging = 1;
-      _self.ps_stop = (mnstats_custom.timeout && mnstats_custom.timeout >= 5 && mnstats_custom.timeout <= 240) ? ((mnstats_custom.timeout * 60) - 120) + 5 : 485;
+      _self.ps_stop = 485;
       setTimeout(_self.ping, 30 * 1000);
       setTimeout(_self.ping, 60 * 1000);
       setTimeout(_self.ping_set, 2 * 60 * 1000);
     };
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
-      if (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/)) return '';
+      if (name.match(/^_(custom|referrer)/) return '';
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
         if (ca[i].match(new RegExp("\\b" + name + "="))) return decodeURIComponent(ca[i].split(name + '=')[1]);
@@ -196,7 +196,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.set_cookie = function(name, value, expires) {
       console.log("Setting cookie " + name);
-      if (mnstats_custom.cookies_disable || (mnstats_custom.sticky_data_disable && name.match(/^_(custom|referrer)/))) return false;
+      if (name.match(/^_(custom|referrer)/)) return false;
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
       var temp = name + "=" + _self.enc(value) + ";expires=" + ex.toGMTString() + ";path=/;";
@@ -212,7 +212,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.pause = function(x) {
       var now = new Date();
-      var stop = now.getTime() + (x || mnstats_custom.timer || window.mnstats_pause_timer || 500);
+      var stop = now.getTime() + (x || window.mnstats_pause_timer || 500);
       while (now.getTime() < stop) var now = new Date();
     };
     this.enc = function(e) {
