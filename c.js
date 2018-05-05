@@ -182,12 +182,19 @@ var mnstats_obj = mnstats_obj || (function() {
           mnstats_custom.split = '';
         }
       }
+      _self.inject(_self.base(type) + '&type=' + type + q + split + (jsuid ? '&jsuid=' + jsuid : '') + '&mime=js&x=' + Math.random() + '');
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
     };
-    this.ping = function() {
-      if (window.NO_PINGY) return;
+    this.inject = function(src) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = src;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+     };
+     this.ping = function() {
       _self.beacon('ping');
     };
     this.ping_set = function() {
@@ -218,9 +225,7 @@ var mnstats_obj = mnstats_obj || (function() {
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
       var temp = name + "=" + _self.enc(value) + ";expires=" + ex.toGMTString() + ";path=/;";
-      if (mnstats_custom.cookie_domain) {
-        temp += 'domain=' + mnstats_custom.cookie_domain + ';';
-      } else if (location.hostname.match(/\./)) temp += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
+      if (location.hostname.match(/\./)) temp += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       document.cookie = temp;
     };
     this.randy = function() {
