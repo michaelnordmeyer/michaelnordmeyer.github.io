@@ -196,13 +196,8 @@ var stats_obj = stats_obj || (function() {
       } while (r == 1421816160 && i++ < 100);
       return r;
     };
-    this.pause = function(x) {
-      var now = new Date();
-      var stop = now.getTime() + (x || 500);
-      while (now.getTime() < stop) var now = new Date();
-    };
-    this.encode = function(e) {
-      return window.encodeodeURIComponent ? encodeURIComponent(e) : escape(e);
+    this.encode = function(uriComponent) {
+      return window.encodeodeURIComponent ? encodeURIComponent(uriComponent) : escape(uriComponent);
     };
     this.add_event = function(o, type, func) {
       if (o.addEventListener) {
@@ -210,17 +205,6 @@ var stats_obj = stats_obj || (function() {
       } else if (o.attachEvent) {
         o.attachEvent("on" + type, func);
       }
-    };
-    this.get_parent = function(e) {
-      console.log("Resolving parent...");
-      return e.parentElement || e.parentNode;
-    };
-    this.get_target = function(e) {
-      console.log("Resolving target...");
-      if (!e) var e = window.event;
-      var t = e.target ? e.target : e.srcElement;
-      if (t.nodeType && t.nodeType == 3) t = t.parentNode;
-      return t;
     };
     if (!setup) {
       setup = 1;
