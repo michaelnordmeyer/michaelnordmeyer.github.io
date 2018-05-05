@@ -6,10 +6,6 @@ var mnstats_obj = mnstats_obj || (function() {
       monitors = 0,
       setup = 0;
     this.domain = 'https://goodyworks.com';
-    if (!setup) {
-      setup = 1;
-      _self.setup();
-    }
     console.log("Ready");
     this.setup = function() {
       console.log("Setting up...");
@@ -236,6 +232,10 @@ var mnstats_obj = mnstats_obj || (function() {
       if (t.nodeType && t.nodeType == 3) t = t.parentNode;
       return t;
     };
+    if (!setup) {
+      setup = 1;
+      _self.setup();
+    }
   }
   return new function() {
     this.getInstance = function() {
