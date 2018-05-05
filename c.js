@@ -40,7 +40,7 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.ref = r;
     };
     this.pageview = function(only_once) {
-      console.log("Function pageview");
+      console.log("Register pageview...");
       var href = _self.get_href();
       _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(mnstats_custom.title || window.mnstats_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : ''), (only_once ? 1 : 0));
     };
