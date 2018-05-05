@@ -89,11 +89,11 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.queue_set(_self.queue_default());
     };
     this.queue_get = function() {
-      var q = _self.get_cookie('_eventqueue');
+      var q = _self.get_cookie('_events');
       return q ? JSON.parse(q) : _self.queue_default();
     };
     this.queue_set = function(q, ex) {
-      _self.set_cookie('_eventqueue', JSON.stringify(q), (ex || 600));
+      _self.set_cookie('_events', JSON.stringify(q), (ex || 600));
     };
     this.queue_default = function() {
       return {
