@@ -5,7 +5,7 @@ var mnstats_obj = mnstats_obj || (function() {
     var _self = this,
       monitors = 0,
       setup = 0;
-    this.domain = 'https://goodyworks.com';
+    this.domain = 'https://stats.michaelnordmeyer.com';
     console.log("Ready");
     this.setup = function() {
       console.log("Setting up...");
@@ -24,7 +24,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.base = function(type) {
       console.log("Resolving base URL...");
-      var url = _self.domain + '/?mnc';
+      var url = _self.domain + '/?stats';
       if (type == 'ping') return url;
       return url + "&lang=" + (navigator.language || navigator.browserLanguage || 'xx').substr(0, 2);
     };
