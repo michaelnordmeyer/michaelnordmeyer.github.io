@@ -206,6 +206,9 @@ var stats_obj = stats_obj || (function() {
         o.attachEvent("on" + type, func);
       }
     };
+    this.ping_on_close = function() {
+      navigator.sendBeacon(_self.domain + '/?pong&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
+    };
     if (!setup) {
       setup = 1;
       _self.setup();
@@ -223,6 +226,4 @@ var stats_obj = stats_obj || (function() {
 })();
 if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
-window.onunload = function() {
-    navigator.sendBeacon(stats.domain + '/?closed&uid=' + stats.get_cookie('_uuid') + '&date=' + stats.encode(new Date().toISOString()));
-};
+window.addEventListener("unload", stats.ping_on_close(), false);
