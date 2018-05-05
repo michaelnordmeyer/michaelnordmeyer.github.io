@@ -8,7 +8,7 @@ var mnstats_obj = mnstats_obj || (function() {
     this.domain = 'https://goodyworks.com';
     if (!setup) {
       setup = 1;
-      setTimeout(_self.setup, 100);
+      _self.setup();
     }
     console.log("Ready");
     this.setup = function() {
