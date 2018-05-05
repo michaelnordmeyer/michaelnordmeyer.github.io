@@ -212,7 +212,7 @@ var mnstats_obj = mnstats_obj || (function() {
     };
     this.pause = function(x) {
       var now = new Date();
-      var stop = now.getTime() + (x || window.mnstats_pause_timer || 500);
+      var stop = now.getTime() + (x || 500);
       while (now.getTime() < stop) var now = new Date();
     };
     this.enc = function(e) {
