@@ -3,7 +3,7 @@ var stats_obj = stats_obj || (function() {
 
   function _ins() {
     var _self = this,
-      monitors = 0,
+      monitoring = 0,
       setup = 0;
     this.domain = 'https://stats.michaelnordmeyer.com';
     console.log("Ready");
@@ -13,19 +13,19 @@ var stats_obj = stats_obj || (function() {
         _self.set_referrer();
         _self.set_cookie('_first_pageview', 1, 600);
       }
-      _self.start_monitors();
+      _self.start_monitoring();
       _self.pageview(1);
     };
     this.set_referrer = function() {
       console.log("Setting referrer...");
-      var r = stats_custom.iframe ? top.document.referrer : document.referrer;
-      r = r && r.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(r) ? '' : r) : '';
-      if (r) {
-        _self.set_cookie('_referrer', r, 86400 * 90);
+      var referrer = stats_custom.iframe ? top.document.referrer : document.referrer;
+      referrer = referrer && referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
+      if (referrer) {
+        _self.set_cookie('_referrer', referrer, 86400 * 90);
       } else {
-        r = _self.get_cookie('_referrer');
+        referrer = _self.get_cookie('_referrer');
       }
-      _self.ref = r;
+      _self.referrer = referrer;
     };
     this.store = function(url) {
       console.log("Storing...");
@@ -41,7 +41,7 @@ var stats_obj = stats_obj || (function() {
         if (query.type) type = query.type;
         var temp = '';
         for (var i in query) {
-          if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) temp += '&' + i + '=' + _self.enc(query[i]);
+          if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) temp += '&' + i + '=' + _self.encode(query[i]);
         }
         query = temp;
         delete temp;
@@ -57,39 +57,39 @@ var stats_obj = stats_obj || (function() {
         if (stats_custom.split) {
           for (var i in stats_custom['split']) {
             if (stats_custom['split'].hasOwnProperty && stats_custom['split'].hasOwnProperty(i)) {
-              split += '&split[' + _self.enc(i) + ']=' + _self.enc(stats_custom.split[i]);
+              split += '&split[' + _self.encode(i) + ']=' + _self.encode(stats_custom.split[i]);
             }
           }
           stats_custom.split = '';
         }
       }
       _self.store(_self.domain + '?' + type + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + query + split + '');
-      _self.ref = '';
+      _self.referrer = '';
       _self.ping_start();
     };
     this.pageview = function(only_once) {
       console.log("Register pageview...");
-      var href = _self.get_href();
-      _self.beacon('', '&href=' + _self.enc(href) + '&title=' + _self.enc(stats_custom.title || window.stats_page_title || document.title) + (_self.ref ? '&ref=' + _self.enc(_self.ref) : ''), (only_once ? 1 : 0));
+      var url = _self.get_url();
+      _self.beacon('', '&url=' + _self.encode(url) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''), (only_once ? 1 : 0));
     };
-    this.get_href = function(enc) {
-      console.log("Resolving href...");
-      var href = '';
-      if (!href) {
+    this.get_url = function() {
+      console.log("Resolving url...");
+      var url = '';
+      if (!url) {
         if (stats_custom.iframe) {
-          href = top.location.pathname + top.location.search;
+          url = top.location.pathname + top.location.search;
           stats_custom.title = top.document.title;
         }
-        if (!href) href = location.pathname + location.search;
+        if (!url) url = location.pathname + location.search;
       }
-      return enc ? _self.enc(href) : href;
+      return url;
     };
-    this.log = function(href, title, type) {
+    this.log = function(url, title, type) {
       console.log("Logging...");
-      if (type == 'pageview') href = href.replace(/^https?:\/\/([^\/]+)/i, '');
+      if (type == 'pageview') url = url.replace(/^https?:\/\/([^\/]+)/i, '');
       var o = {
         'type': (type || 'click'),
-        'href': href,
+        'url': url,
         'title': (title || '')
       };
       if (!_self.queue_add(o)) _self.beacon(type, o);
@@ -133,10 +133,10 @@ var stats_obj = stats_obj || (function() {
         if (_self.debug) console.log(e);
       }
     };
-    this.start_monitors = function() {
-      if (!monitors) {
-        console.log("Starting monitors...");
-        monitors = 1;
+    this.start_monitoring = function() {
+      if (!monitoring) {
+        console.log("Monitoring...");
+        monitoring = 1;
         if (_self.queue_ok()) {
           _self.queue_process();
           setInterval(_self.queue_process, 5000);
@@ -188,7 +188,7 @@ var stats_obj = stats_obj || (function() {
       if (name.match(/^_(custom|referrer)/)) return false;
       var ex = new Date;
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
-      var temp = name + "=" + _self.enc(value) + ";expires=" + ex.toGMTString() + ";path=/;";
+      var temp = name + "=" + _self.encode(value) + ";expires=" + ex.toGMTString() + ";path=/;";
       if (location.hostname.match(/\./)) temp += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       document.cookie = temp;
     };
@@ -204,8 +204,8 @@ var stats_obj = stats_obj || (function() {
       var stop = now.getTime() + (x || 500);
       while (now.getTime() < stop) var now = new Date();
     };
-    this.enc = function(e) {
-      return window.encodeURIComponent ? encodeURIComponent(e) : escape(e);
+    this.encode = function(e) {
+      return window.encodeodeURIComponent ? encodeURIComponent(e) : escape(e);
     };
     this.add_event = function(o, type, func) {
       if (o.addEventListener) {
