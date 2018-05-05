@@ -16,12 +16,6 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.start_monitors();
       _self.pageview(1);
     };
-    this.store = function(url) {
-      console.log("Storing...");
-      var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", url, true);
-      xhttp.send();
-    };
     this.set_referrer = function() {
       console.log("Setting referrer...");
       var r = mnstats_custom.iframe ? top.document.referrer : document.referrer;
@@ -32,6 +26,46 @@ var mnstats_obj = mnstats_obj || (function() {
         r = _self.get_cookie('_referrer');
       }
       _self.ref = r;
+    };
+    this.store = function(url) {
+      console.log("Storing...");
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET", url, true);
+      xhttp.send();
+    };
+    this.beacon = function(type, query, called_by_pageview) {
+      console.log("Firing beacon...");
+      query = query || '';
+      type = type || 'pageview';
+      if (typeof query == 'object') {
+        if (query.type) type = query.type;
+        var temp = '';
+        for (var i in query) {
+          if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) temp += '&' + i + '=' + _self.enc(query[i]);
+        }
+        query = temp;
+        delete temp;
+      }
+      var uuid = '',
+      split = '';
+      uuid = _self.get_cookie('_uuid');
+      if (!uuid) {
+        _self.set_cookie('_uuid', _self.randy());
+        uuid = _self.get_cookie('_uuid');
+      }
+      if (type != 'ping') {
+        if (mnstats_custom.split) {
+          for (var i in mnstats_custom['split']) {
+            if (mnstats_custom['split'].hasOwnProperty && mnstats_custom['split'].hasOwnProperty(i)) {
+              split += '&split[' + _self.enc(i) + ']=' + _self.enc(mnstats_custom.split[i]);
+            }
+          }
+          mnstats_custom.split = '';
+        }
+      }
+      _self.store(_self.domain + '?' + type + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + query + split + '');
+      _self.ref = '';
+      _self.ping_start();
     };
     this.pageview = function(only_once) {
       console.log("Register pageview...");
@@ -118,41 +152,6 @@ var mnstats_obj = mnstats_obj || (function() {
           });
         }
       }
-    };
-    this.beacon = function(type, q, called_by_pageview) {
-      console.log("Firing beacon...");
-      q = q || '';
-      type = type || 'pageview';
-      if (typeof q == 'object') {
-        if (q.type) type = q.type;
-        var temp = '';
-        for (var i in q) {
-          if (i != 'type' && q.hasOwnProperty && q.hasOwnProperty(i)) temp += '&' + i + '=' + _self.enc(q[i]);
-        }
-        q = temp;
-        delete temp;
-      }
-      var uuid = '',
-      split = '';
-      uuid = _self.get_cookie('_uuid');
-      if (!uuid) {
-        _self.set_cookie('_uuid', _self.randy());
-        uuid = _self.get_cookie('_uuid');
-      }
-      if (type != 'ping') {
-        if (mnstats_custom.split) {
-          for (var i in mnstats_custom['split']) {
-            if (mnstats_custom['split'].hasOwnProperty && mnstats_custom['split'].hasOwnProperty(i)) {
-              split += '&split[' + _self.enc(i) + ']=' + _self.enc(mnstats_custom.split[i]);
-            }
-          }
-          mnstats_custom.split = '';
-        }
-      }
-      _self.store(_self.domain + '?' + type + q + split + (uuid ? '&uuid=' + uuid : '') + '&random=' + Math.random() + '');
-      if (type == 'outbound' || type == 'download') _self.pause();
-      _self.ref = '';
-      _self.ping_start();
     };
     this.ping = function() {
       console.log("Pinging...");
