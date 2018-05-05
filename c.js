@@ -182,21 +182,9 @@ var mnstats_obj = mnstats_obj || (function() {
           mnstats_custom.split = '';
         }
       }
-      if (called_by_pageview && type == 'pageview') {
-        _self.inject(_self.base(type) + '&type=' + type + q + split + (jsuid ? '&jsuid=' + jsuid : '') + (mnstats_custom.cookies_disable ? '&noc' : '') + '&mime=js&x=' + Math.random() + '');
-      }
       if (type == 'outbound' || type == 'download') _self.pause();
       _self.ref = '';
       _self.ping_start();
-    };
-    this.inject = function(src, type) {
-      type = type || 'js';
-      if (type == 'js') {
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = src;
-      }(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
     };
     this.ping = function() {
       if (window.NO_PINGY) return;
