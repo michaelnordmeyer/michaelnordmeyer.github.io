@@ -3,19 +3,8 @@ var stats_obj = stats_obj || (function() {
 
   function _ins() {
     var _self = this,
-      monitoring = 0,
-      setup = 0;
     this.domain = 'https://stats.michaelnordmeyer.com';
     console.log("Ready");
-    this.setup = function() {
-      console.log("Setting up...");
-      if (!_self.get_cookie('_first_pageview')) {
-        _self.set_referrer();
-        _self.set_cookie('_first_pageview', 1, 600);
-      }
-      _self.start_monitoring();
-      _self.pageview(1);
-    };
     this.set_referrer = function() {
       console.log("Setting referrer...");
       var referrer = stats_custom.iframe ? top.document.referrer : document.referrer;
@@ -63,7 +52,8 @@ var stats_obj = stats_obj || (function() {
           stats_custom.split = '';
         }
       }
-      _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + query + split + '');
+      // _self.store(_self.domain + '?' + type + (uid ? '&uid=' + uid : '') + '&date=' + _self.encode(new Date().toISOString()) + query + split + '');
       _self.referrer = '';
       _self.ping_start();
     };
@@ -131,45 +121,34 @@ var stats_obj = stats_obj || (function() {
       }
     };
     this.start_monitoring = function() {
-      if (!monitoring) {
-        console.log("Monitoring...");
-        monitoring = 1;
-        if (_self.queue_ok()) {
-          _self.queue_process();
-          setInterval(_self.queue_process, 5000);
-        }
-        if (window.history && window.history.pushState) {
-          _self.pushState = history.pushState;
-          history.pushState = function() {
-            _self.pushState.apply(history, arguments);
-            setTimeout(_self.pageview, 250);
-          };
-          _self.add_event(window, 'popstate', function(e) {
-            if (e.state) setTimeout(_self.pageview, 250);
-          });
-        }
+      console.log("Monitoring...");
+      if (_self.queue_ok()) {
+        _self.queue_process();
+        setInterval(_self.queue_process, 5000);
+      }
+      if (window.history && window.history.pushState) {
+        _self.pushState = history.pushState;
+        history.pushState = function() {
+          _self.pushState.apply(history, arguments);
+          setTimeout(_self.pageview, 250);
+        };
+        _self.add_event(window, 'popstate', function(e) {
+          if (e.state) setTimeout(_self.pageview, 250);
+        });
       }
     };
-    this.ping = function() {
-      console.log("Pinging...");
-      _self.beacon('ping');
-    };
-    this.ping_set = function() {
-      console.log("Setting ping...");
-      var pingy = setInterval(_self.ping, 2 * 60 * 1000);
+    this.ping_start = function() {
+      console.log("Starting ping...");
+      _self.ps_stop = 600;
+      var pingy = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingy);
       }, _self.ps_stop * 1000);
       _self.ping();
     };
-    this.ping_start = function() {
-      console.log("Starting ping...");
-      if (_self.pinging) return;
-      _self.pinging = 1;
-      _self.ps_stop = 485;
-      setTimeout(_self.ping, 30 * 1000);
-      setTimeout(_self.ping, 60 * 1000);
-      setTimeout(_self.ping_set, 2 * 60 * 1000);
+    this.ping = function() {
+      console.log("Pinging...");
+      _self.beacon('ping');
     };
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
@@ -207,12 +186,18 @@ var stats_obj = stats_obj || (function() {
       }
     };
     this.ping_on_close = function() {
-      navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
+      navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid'));
+      // navigator.sendBeacon(_self.domain + '/?end&uid=' + _self.get_cookie('_uid') + '&date=' + _self.encode(new Date().toISOString()));
     };
-    if (!setup) {
-      setup = 1;
-      _self.setup();
-    }
+    this.setup = function() {
+      console.log("Setting up...");
+      if (!_self.get_cookie('_referrer')) {
+        _self.set_referrer();
+      }
+      _self.start_monitoring();
+      _self.pageview(1);
+    };
+    _self.setup();
   }
   return new function() {
     this.getInstance = function() {
