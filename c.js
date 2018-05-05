@@ -17,7 +17,6 @@ var mnstats_obj = mnstats_obj || (function() {
         _self.set_referrer();
         _self.set_cookie('_first_pageview', 1, 600);
       }
-      setTimeout(_self.advanced, 1000);
       _self.start_monitors();
       _self.pageview(1);
     };
@@ -81,7 +80,6 @@ var mnstats_obj = mnstats_obj || (function() {
       try {
         q.events.push(o);
       } catch (e) {
-        if (_self.debug) console.log(e);
         return false;
       }
       _self.queue_set(q);
@@ -166,14 +164,6 @@ var mnstats_obj = mnstats_obj || (function() {
       _self.ref = '';
       _self.ping_start();
     };
-    // this.inject = function(src) {
-    //   console.log("Injecting...");
-    //   var s = document.createElement('script');
-    //   s.type = 'text/javascript';
-    //   s.async = true;
-    //   s.src = src;
-    //   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
-    //  };
     this.ping = function() {
       console.log("Pinging...");
       _self.beacon('ping');
@@ -235,43 +225,6 @@ var mnstats_obj = mnstats_obj || (function() {
         o.attachEvent("on" + type, func);
       }
     };
-    this.download = function(e) {
-      console.log("Downloading...");
-      _self.adv_log(e, "download");
-    };
-    this.outbound = function(e) {
-      console.log("Outbound...");
-      _self.adv_log(e, "outbound");
-    };
-    this.click = function(e) {
-      console.log("Clicking...");
-      _self.adv_log(e, "click");
-    };
-    this.adv_log = function(e, type) {
-      console.log("Logging adv...");
-      var obj = _self.get_target(e);
-      _self.log(_self.adv_href(obj), _self.adv_text(obj), type);
-    };
-    this.adv_text = function(e) {
-      console.log("Resolving adv text...");
-      do {
-        var txt = e.text ? e.text : e.innerText;
-        if (txt) return txt;
-        if (e.alt) return e.alt;
-        if (e.title) return e.title;
-        if (e.src) return e.src;
-        e = _self.get_parent(e);
-      } while (e);
-      return "";
-    };
-    this.adv_href = function(e) {
-      console.log("Resolving adv href...");
-      do {
-        if (e.href && !e.src) return e.href;
-        e = _self.get_parent(e);
-      } while (e);
-      return "";
-    };
     this.get_parent = function(e) {
       console.log("Resolving parent...");
       return e.parentElement || e.parentNode;
@@ -282,49 +235,6 @@ var mnstats_obj = mnstats_obj || (function() {
       var t = e.target ? e.target : e.srcElement;
       if (t.nodeType && t.nodeType == 3) t = t.parentNode;
       return t;
-    };
-    this.advanced = function() {
-      console.log("Function advanced");
-      var is_link = new RegExp("^(https?|ftp|telnet|mailto|tel):", "i");
-      var is_link_internal = new RegExp("^https?:\/\/(.*)" + location.host.replace(/^www\./i, ""), "i");
-      var is_download = new RegExp("\\.(7z|aac|apk|avi|cab|csv|dmg|doc(x|m|b)?|epub|exe|flv|gif|gz|jpe?g|js|m4a|mp(3|4|e?g)|mobi|mov|msi|ods|pdf|phps|png|ppt(x|m|b)?|rar|rtf|sea|sit|svgz?|tar|torrent|txt|vcf|wma|wmv|xls(x|m|b)?|xml|zip)$", "i");
-      var a = document.getElementsByTagName("a");
-      for (var i = 0; i < a.length; i++) {
-        if (typeof(a[i].className) != 'string') continue;
-        if (a[i].className.match(/mnstats_log/i)) {
-          if (a[i].className.match(/mnstats_log_download/i)) {
-            _self.add_event(a[i], "mousedown", _self.download);
-          } else if (a[i].className.match(/mnstats_log_outbound/i)) {
-            _self.add_event(a[i], "mousedown", _self.outbound);
-          } else {
-            _self.add_event(a[i], "mousedown", _self.click);
-          }
-        } else {
-          if (mnstats_custom.outbound_disable || mnstats_custom.advanced_disable || window.mnstats_advanced_disable) continue;
-          if (is_link.test(a[i].href) && !a[i].className.match(/mnstats_ignore/i)) {
-            if (is_download.test(a[i].href)) {
-              _self.add_event(a[i], "mousedown", _self.download);
-            } else if (!is_link_internal.test(a[i].href)) {
-              _self.add_event(a[i], "mousedown", _self.outbound);
-            } else if (mnstats_custom.outbound_pattern) {
-              var p = mnstats_custom.outbound_pattern;
-              if (typeof p == 'object') {
-                for (var j = 0; j < p.length; j++) {
-                  if (_self.outbound_pattern_match(a[i].href, p[j])) {
-                    _self.add_event(a[i], "mousedown", _self.outbound);
-                    break;
-                  }
-                }
-              } else if (typeof p == 'string') {
-                if (_self.outbound_pattern_match(a[i].href, p)) _self.add_event(a[i], "mousedown", _self.outbound);
-              }
-            }
-          }
-        }
-      }
-    };
-    this.outbound_pattern_match = function(href, pattern) {
-      return RegExp(pattern.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&")).test(href);
     };
   }
   return new function() {
