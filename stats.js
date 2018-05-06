@@ -66,12 +66,12 @@ var stats_obj = stats_obj || (function() {
     
     this.ping_start = function() {
       console.log("Starting ping...");
-      _self.ps_stop = 600;
+      _self.ps_stop = 10 * 60 * 1000;
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingInterval);
         _self.beacon('maxping');
-      }, _self.ps_stop * 1000);
+      }, _self.ps_stop);
     };
     
     this.ping = function() {
