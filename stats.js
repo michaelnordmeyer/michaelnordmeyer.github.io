@@ -24,7 +24,7 @@ var stats_obj = stats_obj || (function() {
     this.pageview_date = '';
     
     this.set_referrer = function() {
-      console.log("Setting referrer...");
+      //console.log("Setting referrer...");
       var referrer = stats_custom.iframe ? top.document.referrer : document.referrer;
       referrer = referrer && referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
       if (referrer) {
@@ -36,17 +36,17 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.store = function(url) {
-      console.log("Storing...");
+      //console.log("Storing...");
       var xhttp = new XMLHttpRequest();
       xhttp.open("GET", url, true);
       xhttp.send();
     };
     
     this.beacon = function(type, query) {
-      console.log("Firing beacon...");
+      //console.log("Firing beacon...");
       query = query || '';
       if (typeof query == 'object') {
-        console.log("Query is object");
+        //console.log("Query is object");
         if (query.type) {
           type = query.type;
         }
@@ -62,25 +62,13 @@ var stats_obj = stats_obj || (function() {
       var uid = '',
       split = '';
       uid = _self.get_uid();
-      if (type != 'ping') {
-        if (stats_custom.split) {
-          for (var i in stats_custom['split']) {
-            if (stats_custom['split'].hasOwnProperty && stats_custom['split'].hasOwnProperty(i)) {
-              split += '&split[' + encodeURIComponent(i) + ']=' + encodeURIComponent(stats_custom.split[i]);
-            }
-          }
-          stats_custom.split = '';
-        }
-      }
-      console.log('Query: ' + query);
-      console.log('Split: ' + split);
-      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
-      // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + (_self.pageview_date ? ('&pageview_date=' + encodeURIComponent(_self.pageview_date)) : '') + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + '');
+      // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + (_self.pageview_date ? ('&pageview_date=' + encodeURIComponent(_self.pageview_date)) : '') + query + '');
       _self.referrer = '';
     };
 
     this.pageview = function() {
-      console.log("Register pageview...");
+      //console.log("Register pageview...");
       _self.pageview_date = new Date().toIsoString();
       _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
       // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
@@ -88,7 +76,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.ping_start = function() {
-      console.log("Starting ping...");
+      //console.log("Starting ping...");
       _self.ps_stop = 10 * 60 * 1000;
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
@@ -98,12 +86,12 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.ping = function() {
-      console.log("Pinging...");
+      //console.log("Pinging...");
       _self.beacon('ping');
     };
     
     this.get_url = function() {
-      console.log("Resolving url...");
+      //console.log("Resolving url...");
       var url = '';
       if (stats_custom.iframe) {
         url = top.location.pathname + top.location.search;
@@ -116,7 +104,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.get_cookie = function(name) {
-      console.log("Getting cookie " + name);
+      //console.log("Getting cookie " + name);
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
         if (ca[i].match(new RegExp("\\b" + name + "="))) {
@@ -127,7 +115,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.set_cookie = function(name, value, expires) {
-      console.log("Setting cookie " + name);
+      //console.log("Setting cookie " + name);
       var ex = new Date();
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
       var cookie = name + "=" + encodeURIComponent(value) + ";expires=" + ex.toGMTString() + ";path=/;";
@@ -167,7 +155,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.setup = function() {
-      console.log("Setting up...");
+      //console.log("Setting up...");
       if (!_self.get_cookie('_referrer')) {
         _self.set_referrer();
       }
