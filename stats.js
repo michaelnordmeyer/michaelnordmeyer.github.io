@@ -27,7 +27,6 @@ var stats_obj = stats_obj || (function() {
     this.beacon = function(type, query) {
       console.log("Firing beacon...");
       query = query || '';
-      type = type || 'pageview';
       if (typeof query == 'object') {
         if (query.type) type = query.type;
         var temp = '';
@@ -39,11 +38,7 @@ var stats_obj = stats_obj || (function() {
       }
       var uid = '',
       split = '';
-      uid = _self.get_cookie('_uid');
-      if (!uid) {
-        _self.set_cookie('_uid', _self.uid());
-        uid = _self.get_cookie('_uid');
-      }
+      uid = _self.get_uid();
       if (type != 'ping') {
         if (stats_custom.split) {
           for (var i in stats_custom['split']) {
@@ -57,10 +52,18 @@ var stats_obj = stats_obj || (function() {
       _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
       _self.referrer = '';
     };
-    
+
+    this.get_uid = function() {
+      var uid = _self.get_cookie('_uid');
+      if (!uid) {
+        _self.set_cookie('_uid', _self.create_uid());
+        uid = _self.get_cookie('_uid');
+      }
+      return uid;
+    };
     this.pageview = function() {
       console.log("Register pageview...");
-      _self.beacon('', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
+      _self.beacon('pageview', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
       _self.ping_start();
     };
     
@@ -109,7 +112,7 @@ var stats_obj = stats_obj || (function() {
       document.cookie = cookie;
     };
     
-    this.uid = function() {
+    this.create_uid = function() {
       var i = 0;
       do {
         var random = Math.round(Math.random() * 4294967295);
