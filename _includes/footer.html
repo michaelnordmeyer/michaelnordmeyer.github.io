@@ -23,8 +23,8 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 {% if jekyll.environment == 'production' and site.stats %}
   {% if my_page.title and my_page.title == "Not found" %}
-    {% include clicky.html %}
+    {% include stats.html %}
   {% else %}
-    {% include clicky.html %}
+    {% include stats.html %}
   {% endif %}
 {% endif %}
