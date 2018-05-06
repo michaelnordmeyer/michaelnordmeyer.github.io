@@ -81,7 +81,7 @@ var stats_obj = stats_obj || (function() {
     this.pageview = function() {
       console.log("Register pageview...");
       _self.pageview_date = new Date().toIsoString();
-      _self.beacon('pageview', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
+      _self.beacon('pgvw', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
       _self.ping_start();
     };
     
