@@ -55,7 +55,7 @@ var stats_obj = stats_obj || (function() {
           stats_custom.split = '';
         }
       }
-      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + pageview_date ? ('&pageview_date=' + _self.pageview_date) : '' + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + _self.pageview_date ? ('&pageview_date=' + _self.pageview_date) : '' + query + split + '');
       _self.referrer = '';
     };
 
