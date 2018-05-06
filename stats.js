@@ -28,10 +28,15 @@ var stats_obj = stats_obj || (function() {
       console.log("Firing beacon...");
       query = query || '';
       if (typeof query == 'object') {
-        if (query.type) type = query.type;
+        console.log("Query is object");
+        if (query.type) {
+          type = query.type;
+        }
         var temp = '';
         for (var i in query) {
-          if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) temp += '&' + i + '=' + _self.encode(query[i]);
+          if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) {
+            temp += '&' + i + '=' + _self.encode(query[i]);
+          }
         }
         query = temp;
         delete temp;
@@ -53,14 +58,6 @@ var stats_obj = stats_obj || (function() {
       _self.referrer = '';
     };
 
-    this.get_uid = function() {
-      var uid = _self.get_cookie('_uid');
-      if (!uid) {
-        _self.set_cookie('_uid', _self.create_uid());
-        uid = _self.get_cookie('_uid');
-      }
-      return uid;
-    };
     this.pageview = function() {
       console.log("Register pageview...");
       _self.beacon('pageview', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
@@ -90,7 +87,9 @@ var stats_obj = stats_obj || (function() {
         url = top.location.pathname + top.location.search;
         stats_custom.title = top.document.title;
       }
-      if (!url) url = location.pathname + location.search;
+      if (!url) {
+        url = location.pathname + location.search;
+      }
       return url;
     };
     
@@ -98,7 +97,9 @@ var stats_obj = stats_obj || (function() {
       console.log("Getting cookie " + name);
       var ca = document.cookie.split(';');
       for (var i = 0, l = ca.length; i < l; i++) {
-        if (ca[i].match(new RegExp("\\b" + name + "="))) return decodeURIComponent(ca[i].split(name + '=')[1]);
+        if (ca[i].match(new RegExp("\\b" + name + "="))) {
+          return decodeURIComponent(ca[i].split(name + '=')[1]);
+        }
       }
       return '';
     };
@@ -108,10 +109,21 @@ var stats_obj = stats_obj || (function() {
       var ex = new Date();
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
       var cookie = name + "=" + _self.encode(value) + ";expires=" + ex.toGMTString() + ";path=/;";
-      if (location.hostname.match(/\./)) cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
+      if (location.hostname.match(/\./)) {
+        cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
+      }
       document.cookie = cookie;
     };
     
+    this.get_uid = function() {
+      var uid = _self.get_cookie('_uid');
+      if (!uid) {
+        _self.set_cookie('_uid', _self.create_uid());
+        uid = _self.get_cookie('_uid');
+      }
+      return uid;
+    };
+
     this.create_uid = function() {
       var i = 0;
       do {
