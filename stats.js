@@ -4,6 +4,7 @@ var stats_obj = stats_obj || (function() {
   function _ins() {
     var _self = this;
     this.domain = 'https://stats.michaelnordmeyer.com';
+    this.pageview_date = '';
     
     this.set_referrer = function() {
       console.log("Setting referrer...");
@@ -54,12 +55,13 @@ var stats_obj = stats_obj || (function() {
           stats_custom.split = '';
         }
       }
-      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
+      _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + pageview_date ? ('&pageview_date=' + _self.pageview_date) : '' + query + split + '');
       _self.referrer = '';
     };
 
     this.pageview = function() {
       console.log("Register pageview...");
+      _self.pageview_date = new Date();
       _self.beacon('pageview', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
       _self.ping_start();
     };
