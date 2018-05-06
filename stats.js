@@ -4,6 +4,7 @@ var stats_obj = stats_obj || (function() {
   function _ins() {
     var _self = this;
     this.domain = 'https://stats.michaelnordmeyer.com';
+    
     this.set_referrer = function() {
       console.log("Setting referrer...");
       var referrer = stats_custom.iframe ? top.document.referrer : document.referrer;
@@ -15,12 +16,14 @@ var stats_obj = stats_obj || (function() {
       }
       _self.referrer = referrer;
     };
+    
     this.store = function(url) {
       console.log("Storing...");
       var xhttp = new XMLHttpRequest();
       xhttp.open("GET", url, true);
       xhttp.send();
     };
+    
     this.beacon = function(type, query) {
       console.log("Firing beacon...");
       query = query || '';
@@ -54,24 +57,29 @@ var stats_obj = stats_obj || (function() {
       _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
       _self.referrer = '';
     };
+    
     this.pageview = function() {
       console.log("Register pageview...");
       _self.beacon('', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
       _self.ping_start();
     };
+    
     this.ping_start = function() {
-      console.log("Starting ping...");
+      console.log("Start pinging...");
       _self.ps_stop = 600;
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingInterval);
+        _self.beacon('maxping');
       }, _self.ps_stop * 1000);
       _self.ping();
     };
+    
     this.ping = function() {
       console.log("Pinging...");
       _self.beacon('ping');
     };
+    
     this.get_url = function() {
       console.log("Resolving url...");
       var url = '';
@@ -82,6 +90,7 @@ var stats_obj = stats_obj || (function() {
       if (!url) url = location.pathname + location.search;
       return url;
     };
+    
     this.start_monitoring = function() {
       console.log("Monitoring...");
       if (window.history && window.history.pushState) {
@@ -95,6 +104,7 @@ var stats_obj = stats_obj || (function() {
         });
       }
     };
+    
     this.add_event = function(o, type, func) {
       if (o.addEventListener) {
         o.addEventListener(type, func, false);
@@ -102,6 +112,7 @@ var stats_obj = stats_obj || (function() {
         o.attachEvent("on" + type, func);
       }
     };
+    
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
       var ca = document.cookie.split(';');
@@ -110,6 +121,7 @@ var stats_obj = stats_obj || (function() {
       }
       return '';
     };
+    
     this.set_cookie = function(name, value, expires) {
       console.log("Setting cookie " + name);
       var ex = new Date();
@@ -118,6 +130,7 @@ var stats_obj = stats_obj || (function() {
       if (location.hostname.match(/\./)) cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       document.cookie = cookie;
     };
+    
     this.uid = function() {
       var i = 0;
       do {
@@ -125,12 +138,15 @@ var stats_obj = stats_obj || (function() {
       } while (random == 1421816160 && i++ < 100);
       return random;
     };
+    
     this.encode = function(uriComponent) {
       return window.encodeodeURIComponent ? encodeURIComponent(uriComponent) : escape(uriComponent);
     };
+    
     this.ping_on_close = function() {
       navigator.sendBeacon(_self.domain + '/?end=' + _self.get_cookie('_uid'));
     };
+    
     this.setup = function() {
       console.log("Setting up...");
       if (!_self.get_cookie('_referrer')) {
@@ -139,8 +155,10 @@ var stats_obj = stats_obj || (function() {
       // _self.start_monitoring();
       _self.pageview();
     };
+    
    _self.setup();
   }
+  
   return new function() {
     this.getInstance = function() {
       if (instance == null) {
@@ -151,6 +169,7 @@ var stats_obj = stats_obj || (function() {
     }
   }
 })();
+
 if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
 window.addEventListener("unload", stats.ping_on_close, false);
