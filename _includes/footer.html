@@ -22,7 +22,7 @@
   </footer>
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 {% if jekyll.environment == 'production' and site.stats %}
-  {% if my_page.title and my_page.title == 'Not found' %}
+  {% if page.title and page.title == 'Not found' %}
     {% include stats-404.html %}
   {% else %}
     {% include stats.html %}
