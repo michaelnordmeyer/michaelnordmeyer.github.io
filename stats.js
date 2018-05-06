@@ -91,7 +91,7 @@ var stats_obj = stats_obj || (function() {
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingInterval);
-        _self.beacon('maxping');
+        _self.beacon('mxpn');
       }, _self.ps_stop);
     };
     
