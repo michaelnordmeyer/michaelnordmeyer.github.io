@@ -91,28 +91,6 @@ var stats_obj = stats_obj || (function() {
       return url;
     };
     
-    this.start_monitoring = function() {
-      console.log("Monitoring...");
-      if (window.history && window.history.pushState) {
-        _self.pushState = history.pushState;
-        history.pushState = function() {
-          _self.pushState.apply(history, arguments);
-          setTimeout(_self.pageview, 250);
-        };
-        _self.add_event(window, 'popstate', function(e) {
-          if (e.state) setTimeout(_self.pageview, 250);
-        });
-      }
-    };
-    
-    this.add_event = function(o, type, func) {
-      if (o.addEventListener) {
-        o.addEventListener(type, func, false);
-      } else if (o.attachEvent) {
-        o.attachEvent("on" + type, func);
-      }
-    };
-    
     this.get_cookie = function(name) {
       console.log("Getting cookie " + name);
       var ca = document.cookie.split(';');
@@ -152,7 +130,6 @@ var stats_obj = stats_obj || (function() {
       if (!_self.get_cookie('_referrer')) {
         _self.set_referrer();
       }
-      // _self.start_monitoring();
       _self.pageview();
     };
     
