@@ -53,7 +53,7 @@ var stats_obj = stats_obj || (function() {
         var temp = '';
         for (var i in query) {
           if (i != 'type' && query.hasOwnProperty && query.hasOwnProperty(i)) {
-            temp += '&' + i + '=' + _self.encode(query[i]);
+            temp += '&' + i + '=' + encodeURIComponent(query[i]);
           }
         }
         query = temp;
@@ -66,7 +66,7 @@ var stats_obj = stats_obj || (function() {
         if (stats_custom.split) {
           for (var i in stats_custom['split']) {
             if (stats_custom['split'].hasOwnProperty && stats_custom['split'].hasOwnProperty(i)) {
-              split += '&split[' + _self.encode(i) + ']=' + _self.encode(stats_custom.split[i]);
+              split += '&split[' + encodeURIComponent(i) + ']=' + encodeURIComponent(stats_custom.split[i]);
             }
           }
           stats_custom.split = '';
@@ -75,15 +75,15 @@ var stats_obj = stats_obj || (function() {
       console.log('Query: ' + query);
       console.log('Split: ' + split);
       _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + split + '');
-      // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + (_self.pageview_date ? ('&pageview_date=' + _self.encode(_self.pageview_date)) : '') + query + split + '');
+      // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + (_self.pageview_date ? ('&pageview_date=' + encodeURIComponent(_self.pageview_date)) : '') + query + split + '');
       _self.referrer = '';
     };
 
     this.pageview = function() {
       console.log("Register pageview...");
       _self.pageview_date = new Date().toIsoString();
-      _self.beacon('pgvw', '&url=' + _self.encode(_self.get_url()) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
-      // _self.beacon('pgvw', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
+      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
+      // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
       _self.ping_start();
     };
     
@@ -130,7 +130,7 @@ var stats_obj = stats_obj || (function() {
       console.log("Setting cookie " + name);
       var ex = new Date();
       ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
-      var cookie = name + "=" + _self.encode(value) + ";expires=" + ex.toGMTString() + ";path=/;";
+      var cookie = name + "=" + encodeURIComponent(value) + ";expires=" + ex.toGMTString() + ";path=/;";
       if (location.hostname.match(/\./)) {
         cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       }
@@ -152,10 +152,6 @@ var stats_obj = stats_obj || (function() {
         var random = Math.round(Math.random() * 4294967295);
       } while (random == 1421816160 && i++ < 100);
       return random;
-    };
-    
-    this.encode = function(uriComponent) {
-      return window.encodeodeURIComponent ? encodeURIComponent(uriComponent) : escape(uriComponent);
     };
     
     this.ping_on_close = function() {
