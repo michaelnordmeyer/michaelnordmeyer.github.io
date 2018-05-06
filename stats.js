@@ -1,3 +1,20 @@
+Date.prototype.toIsoString = function() {
+  var tzo = -this.getTimezoneOffset();
+  var dif = tzo >= 0 ? '+' : '-';
+  var pad = function(num) {
+    var norm = Math.floor(Math.abs(num));
+    return (norm < 10 ? '0' : '') + norm;
+  };
+  return this.getFullYear() +
+    '-' + pad(this.getMonth() + 1) +
+    '-' + pad(this.getDate()) +
+    'T' + pad(this.getHours()) +
+    ':' + pad(this.getMinutes()) +
+    ':' + pad(this.getSeconds()) +
+    dif + pad(tzo / 60) +
+    ':' + pad(tzo % 60);
+}
+
 var stats_obj = stats_obj || (function() {
   var instance = null;
 
@@ -63,7 +80,7 @@ var stats_obj = stats_obj || (function() {
 
     this.pageview = function() {
       console.log("Register pageview...");
-      _self.pageview_date = new Date().toISOString();
+      _self.pageview_date = new Date().toIsoString();
       _self.beacon('pageview', '&url=' + _self.encode(_self.get_url()) + '&title=' + _self.encode(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + _self.encode(_self.referrer) : ''));
       _self.ping_start();
     };
@@ -143,6 +160,14 @@ var stats_obj = stats_obj || (function() {
       navigator.sendBeacon(_self.domain + '/?end=' + _self.get_cookie('_uid'));
     };
     
+    this.ping_on_visibilitychange = function() {
+      if (document.visibilityState !== 'visible') {
+        navigator.sendBeacon(_self.domain + '/?hid=' + _self.get_cookie('_uid'));
+      } else {
+        navigator.sendBeacon(_self.domain + '/?vis=' + _self.get_cookie('_uid'));
+      }
+    };
+    
     this.setup = function() {
       console.log("Setting up...");
       if (!_self.get_cookie('_referrer')) {
@@ -168,3 +193,4 @@ var stats_obj = stats_obj || (function() {
 if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
 window.addEventListener("unload", stats.ping_on_close, false);
+document.addEventListener("visibilitychange", stats.ping_on_visibilitychange, false);
