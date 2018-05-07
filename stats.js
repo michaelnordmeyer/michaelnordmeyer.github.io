@@ -91,11 +91,21 @@ var stats_obj = stats_obj || (function() {
       _self.pageview_date = new Date().toIsoString();
       _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + (referrer ? '&ref=' + encodeURIComponent(referrer) : '') + '&ua=' + encodeURIComponent(navigator.userAgent));
       // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (referrer ? '&ref=' + encodeURIComponent(referrer) : ''));
-      // _self.ping_start();
+      _self.ping_start();
+    };
+    
+    this.ping_on_close = function() {
+      navigator.sendBeacon(_self.domain + '/?end=' + _self.get_cookie('_uid'));
+    };
+    
+    this.ping_on_visibilitychange = function() {
+      navigator.sendBeacon(_self.domain + ((document.visibilityState !== 'visible') ? '/?hid=' : '/?vis=') + _self.get_cookie('_uid'));
     };
     
     this.ping_start = function() {
       //console.log("Starting ping...");
+      window.addEventListener("unload", _self.ping_on_close, false);
+      document.addEventListener("visibilitychange", _self.ping_on_visibilitychange, false);
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingInterval);
@@ -148,14 +158,6 @@ var stats_obj = stats_obj || (function() {
       return Math.floor((Math.random() * 9000000000) + 1000000000);
     };
     
-    this.ping_on_close = function() {
-      navigator.sendBeacon(_self.domain + '/?end=' + _self.get_cookie('_uid'));
-    };
-    
-    this.ping_on_visibilitychange = function() {
-      navigator.sendBeacon(_self.domain + ((document.visibilityState !== 'visible') ? '/?hid=' : '/?vis=') + _self.get_cookie('_uid'));
-    };
-    
     _self.pageview();
   }
   
@@ -171,5 +173,3 @@ var stats_obj = stats_obj || (function() {
 })();
 
 var stats = stats_obj.getInstance();
-window.addEventListener("unload", stats.ping_on_close, false);
-document.addEventListener("visibilitychange", stats.ping_on_visibilitychange, false);
