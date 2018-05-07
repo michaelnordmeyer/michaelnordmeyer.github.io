@@ -109,7 +109,8 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.get_url = function() {
-      return (location.pathname + location.search).substr(1);
+      var url = location.pathname + location.search;
+      return (url.startsWith('/') && url.length > 1) ? url.substr(1) : url;
     };
     
     this.get_cookie = function(name) {
