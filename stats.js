@@ -28,7 +28,7 @@ var stats_obj = stats_obj || (function() {
       //console.log("Setting referrer...");
       var referrer = document.referrer;
       referrer = referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
-      return referrerWithoutProtocol(referrer);
+      return _self.referrerWithoutProtocol(referrer);
     };
  
     this.referrerWithoutProtocol = function(url) {
