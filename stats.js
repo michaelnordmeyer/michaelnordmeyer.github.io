@@ -89,7 +89,7 @@ var stats_obj = stats_obj || (function() {
       //console.log("Register pageview...");
       var referrer = _self.get_referrer();
       _self.pageview_date = new Date().toIsoString();
-      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&ua=' + encodeURIComponent(navigator.userAgent) + (referrer ? '&ref=' + encodeURIComponent(referrer) : ''));
+      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + (referrer ? '&ref=' + encodeURIComponent(referrer) : '') + '&ua=' + encodeURIComponent(navigator.userAgent));
       // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (referrer ? '&ref=' + encodeURIComponent(referrer) : ''));
       // _self.ping_start();
     };
