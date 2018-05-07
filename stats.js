@@ -33,7 +33,10 @@ var stats_obj = stats_obj || (function() {
  
     this.referrerWithoutProtocol = function(url) {
       if (url.indexOf("://") > -1) {
-          return url.substr(url.indexOf("://") + "://".length);
+          var referrer = url.substr(url.indexOf("://") + "://".length);
+          if (referrer.indexOf('/') === referrer.lastIndexOf('/') && referrer.lastIndexOf('/') === referrer.length - 1) {
+            return referrer.substr(0, referrer.length - 1);
+          }
       }
       return url;
     }
