@@ -1,4 +1,4 @@
-// https://stackoverflow.com/questions/17415579/how-to-iso-8601-format-a-date-with-timezone-offset-in-javascript
+// https://stackoverflow.com/a/17415677/1543851
 Date.prototype.toIsoString = function() {
   var tzo = -this.getTimezoneOffset();
   var dif = tzo >= 0 ? '+' : '-';
@@ -24,17 +24,32 @@ var stats_obj = stats_obj || (function() {
     this.domain = 'https://stats.michaelnordmeyer.com';
     this.pageview_date = '';
     
-    this.set_referrer = function() {
+    this.get_referrer = function() {
       //console.log("Setting referrer...");
-      var referrer = stats_custom.iframe ? top.document.referrer : document.referrer;
-      referrer = referrer && referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
-      if (referrer) {
-        _self.set_cookie('_referrer', referrer, 86400 * 90);
-      } else {
-        referrer = _self.get_cookie('_referrer');
-      }
-      _self.referrer = referrer;
+      var referrer = document.referrer;
+      referrer = referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
+      return referrerWithoutProtocol(referrer);
     };
+ 
+    this.referrerWithoutProtocol = function(url) {
+      if (url.indexOf("://") > -1) {
+          return url.substr(url.indexOf("://") + "://".length);
+      }
+      return url;
+    }
+ 
+    this.extractHostname = function(url) {
+      // https://stackoverflow.com/a/23945027/1543851
+      var hostname;
+
+      if (url.indexOf("://") > -1) {
+          hostname = url.split('/')[2];
+      } else {
+          hostname = url.split('/')[0];
+      }
+
+      return hostname.split(':')[0];
+    }
     
     this.store = function(url) {
       //console.log("Storing...");
@@ -65,25 +80,24 @@ var stats_obj = stats_obj || (function() {
       uid = _self.get_uid();
       _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + query + '');
       // _self.store(_self.domain + '?' + type + (uid ? '=' + uid : '') + (_self.pageview_date ? ('&pageview_date=' + encodeURIComponent(_self.pageview_date)) : '') + query + '');
-      _self.referrer = '';
     };
 
     this.pageview = function() {
       //console.log("Register pageview...");
+      var referrer = _self.get_referrer();
       _self.pageview_date = new Date().toIsoString();
-      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&ua=' + encodeURIComponent(navigator.userAgent) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
-      // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
-      _self.ping_start();
+      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&ua=' + encodeURIComponent(navigator.userAgent) + (referrer ? '&ref=' + encodeURIComponent(referrer) : ''));
+      // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (referrer ? '&ref=' + encodeURIComponent(referrer) : ''));
+      // _self.ping_start();
     };
     
     this.ping_start = function() {
       //console.log("Starting ping...");
-      _self.ps_stop = 10 * 60 * 1000;
       var pingInterval = setInterval(_self.ping, 5 * 1000);
       setTimeout(function() {
         clearInterval(pingInterval);
         _self.beacon('mxpn');
-      }, _self.ps_stop);
+      }, 10 * 60 * 1000);
     };
     
     this.ping = function() {
@@ -92,24 +106,15 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.get_url = function() {
-      //console.log("Resolving url...");
-      var url = '';
-      if (stats_custom.iframe) {
-        url = top.location.pathname + top.location.search;
-        stats_custom.title = top.document.title;
-      }
-      if (!url) {
-        url = location.pathname + location.search;
-      }
-      return url;
+      return location.pathname + location.search;
     };
     
     this.get_cookie = function(name) {
       //console.log("Getting cookie " + name);
-      var ca = document.cookie.split(';');
-      for (var i = 0, l = ca.length; i < l; i++) {
-        if (ca[i].match(new RegExp("\\b" + name + "="))) {
-          return decodeURIComponent(ca[i].split(name + '=')[1]);
+      var cookies = document.cookie.split(';');
+      for (var i = 0, length = cookies.length; i < length; i++) {
+        if (cookies[i].match(new RegExp("\\b" + name + "="))) {
+          return decodeURIComponent(cookies[i].split(name + '=')[1]);
         }
       }
       return '';
@@ -117,9 +122,9 @@ var stats_obj = stats_obj || (function() {
     
     this.set_cookie = function(name, value, expires) {
       //console.log("Setting cookie " + name);
-      var ex = new Date();
-      ex.setTime(ex.getTime() + (expires || 20 * 365 * 86400) * 1000);
-      var cookie = name + "=" + encodeURIComponent(value) + ";expires=" + ex.toGMTString() + ";path=/;";
+      var expirationDate = new Date();
+      expirationDate.setTime(expirationDate.getTime() + (expires || 20 * 365 * 86400) * 1000);
+      var cookie = name + "=" + encodeURIComponent(value) + ";expires=" + expirationDate.toGMTString() + ";path=/;";
       if (location.hostname.match(/\./)) {
         cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
       }
@@ -136,11 +141,7 @@ var stats_obj = stats_obj || (function() {
     };
 
     this.create_uid = function() {
-      var i = 0;
-      do {
-        var random = Math.round(Math.random() * 4294967295);
-      } while (random == 1421816160 && i++ < 100);
-      return random;
+      return Math.floor((Math.random() * 9000000000) + 1000000000);
     };
     
     this.ping_on_close = function() {
@@ -148,22 +149,10 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.ping_on_visibilitychange = function() {
-      if (document.visibilityState !== 'visible') {
-        navigator.sendBeacon(_self.domain + '/?hid=' + _self.get_cookie('_uid'));
-      } else {
-        navigator.sendBeacon(_self.domain + '/?vis=' + _self.get_cookie('_uid'));
-      }
+      navigator.sendBeacon(_self.domain + ((document.visibilityState !== 'visible') ? '/?hid=' : '/?vis=') + _self.get_cookie('_uid'));
     };
     
-    this.setup = function() {
-      //console.log("Setting up...");
-      if (!_self.get_cookie('_referrer')) {
-        _self.set_referrer();
-      }
-      _self.pageview();
-    };
-    
-   _self.setup();
+    _self.pageview();
   }
   
   return new function() {
@@ -177,7 +166,6 @@ var stats_obj = stats_obj || (function() {
   }
 })();
 
-if (!window.stats_custom) var stats_custom = {};
 var stats = stats_obj.getInstance();
 window.addEventListener("unload", stats.ping_on_close, false);
 document.addEventListener("visibilitychange", stats.ping_on_visibilitychange, false);
