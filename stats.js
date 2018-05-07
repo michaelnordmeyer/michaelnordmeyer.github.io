@@ -1,3 +1,4 @@
+// https://stackoverflow.com/questions/17415579/how-to-iso-8601-format-a-date-with-timezone-offset-in-javascript
 Date.prototype.toIsoString = function() {
   var tzo = -this.getTimezoneOffset();
   var dif = tzo >= 0 ? '+' : '-';
@@ -70,7 +71,7 @@ var stats_obj = stats_obj || (function() {
     this.pageview = function() {
       //console.log("Register pageview...");
       _self.pageview_date = new Date().toIsoString();
-      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
+      _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&ua=' + encodeURIComponent(navigator.userAgent) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
       // _self.beacon('pgvw', '&url=' + encodeURIComponent(_self.get_url()) + '&title=' + encodeURIComponent(stats_custom.title || window.stats_page_title || document.title) + (_self.referrer ? '&ref=' + encodeURIComponent(_self.referrer) : ''));
       _self.ping_start();
     };
