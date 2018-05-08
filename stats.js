@@ -21,7 +21,7 @@ var stats_obj = stats_obj || (function() {
 
   function _ins() {
     var _self = this;
-    this.domain = 'https://stats.michaelnordmeyer.com';
+    this.domain = 'https://stats.michaelnordmeyer.com/';
     this.pageview_date = '';
     
     this.get_referrer = function() {
