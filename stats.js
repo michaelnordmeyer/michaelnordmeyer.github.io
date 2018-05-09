@@ -163,10 +163,6 @@ var stats_obj = stats_obj || (function() {
       return (window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1") ? true : false;
     }
     
-    this.geoIpLookup = function() {
-      // https://json.geoiplookup.io/
-    }
-    
     _self.pageview();
   }
   
