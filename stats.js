@@ -72,7 +72,7 @@ var stats_obj = stats_obj || (function() {
     
     this.resolveReferrer = function() {
       var referrer = document.referrer;
-      referrer = referrer.match(/^https?:/) ? (RegExp("^https?://.*\." + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
+      referrer = referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
       return _self.referrerWithoutProtocol(referrer);
     };
  
