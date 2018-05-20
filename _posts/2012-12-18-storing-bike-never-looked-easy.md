@@ -10,8 +10,8 @@ categories:
 ---
 Introducing [Tîan](https://mikili.de/products/tian/tian-weiss-eiche/ "tian"). Storing a bike never looked so easy. Tîan is an amazingly minimalist storage rack for bicycles. Functional meets beautiful.
 
-![Tian rack with bike front view](/images/2012/Tian-Front.jpg)
+![Tian rack with bike front view](/images/2012/tian-front.jpg)
 
-![Tian rack with bike side view](/images/2012/Tian-Side.jpg)
+![Tian rack with bike side view](/images/2012/tian-side.jpg)
 
-![Tian rack drawer](/images/2012/Tian-Drawer.jpg)
+![Tian rack drawer](/images/2012/tian-drawer.jpg)

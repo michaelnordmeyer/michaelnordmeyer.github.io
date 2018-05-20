@@ -32,14 +32,14 @@ The test process is easy. You have to assign marks for four different areas:
   4. The verdict: put it on sale or not?
 
 <figure>
-  <img title="Dry tea leaves" src="/images/2008/Dry-Tea-Leaves.jpg" alt="Dry tea leaves: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="137" srcset="/images/2008/Dry-Tea-Leaves.jpg 480w, /images/2008/Dry-Tea-Leaves-300x86.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
+  <img title="Dry tea leaves" src="/images/2008/dry-tea-leaves.jpg" alt="Dry tea leaves: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="137" srcset="/images/2008/dry-tea-leaves.jpg 480w, /images/2008/dry-tea-leaves-300x86.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
   <figcaption>Dry tea leaves (left to right): Cui Feng, Xiang Cha, Green Monkey, Snow Buds</figcaption>
 </figure>
 
 You need a little bit of practice to infuse and steep four teas at the same time if you don’t have enough tea strainers. These green teas should only steep for two minutes which makes it quite hard to do it in time.
 
 <figure>
-  <img title="Infusion in the cup" src="/images/2008/Infused-Tea-Leaves.jpg" alt="Infusion in the cup: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="196" srcset="/images/2008/Infused-Tea-Leaves.jpg 480w, /images/2008/Infused-Tea-Leaves-300x123.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
+  <img title="Infusion in the cup" src="/images/2008/infused-tea-leaves.jpg" alt="Infusion in the cup: Cui Feng, Xiang Cha, Green Monkey, Snow Buds (left to right)" width="480" height="196" srcset="/images/2008/infused-tea-leaves.jpg 480w, /images/2008/infused-tea-leaves-300x123.jpg 300w" sizes="(max-width: 480px) 85vw, 480px">
   <figcaption>Infusion in the cup (left to right): Cui Feng, Xiang Cha, Green Monkey, Snow Buds</figcaption>
 </figure>
 

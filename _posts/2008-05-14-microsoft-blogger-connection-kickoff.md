@@ -4,7 +4,7 @@ date: 2008-05-14T22:27:49+00:00
 excerpt: Microsoft is eager to get closer to bloggers and look more modern.
 layout: post
 permalink: /microsoft-blogger-connection-kickoff
-image: /images/2008/Microsoft-Blogger-Connection-Kick-off.jpg
+image: /images/2008/microsoft-blogger-connection-kick-off.jpg
 categories:
   - Events
 tags:

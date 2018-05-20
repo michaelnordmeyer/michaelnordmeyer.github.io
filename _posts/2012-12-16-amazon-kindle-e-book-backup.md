@@ -5,7 +5,7 @@ excerpt: A kindle e-book purchased and downloaded doesn't mean you own it. Amazo
 layout: post
 permalink: /amazon-kindle-e-book-backup
 redirect_from: /2012/12/amazon-kindle-e-book-backup/
-image: /images/2012/Kindle.jpg
+image: /images/2012/amazon-kindle.jpg
 categories:
   - Technology
 tags:

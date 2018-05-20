@@ -4,7 +4,7 @@ date: 2010-05-11T12:13:04+00:00
 excerpt: Nach der desaströsen Premiere des iPad-Konkurrenten WeTab versuchte Neofonie noch zu retten, was zu retten ist. Vergeblich.
 layout: post
 permalink: /wepad-wetab-recap
-image: /images/2010/WeTab-widgets.jpg
+image: /images/2010/wetab-widgets.jpg
 lang: de
 categories:
   - Apple
@@ -46,7 +46,7 @@ Die Vorstellung des WeTabs erfuhr eine breite Unterstützung durch die Presse. S
 Warum? Wie oben schon geschrieben: **Apple frönt dem Credo “weniger ist mehr”** und hat sehr erfolgreich das Interface so gut wie möglich von der Oberfläche verbannt und durch Gesten und [Multi-Touch](https://de.wikipedia.org/wiki/Multitouch) ersetzt. Das WeTab fügt genau diese wieder hinzu durch so genannte “Thumb Bars” an beiden Bildschirmseiten.
 
 <figure>
-  <img title="WeTab mit Thumb Bar" src="/images/2010/WeTab-thumbbar-660x421.jpg" alt="WeTab mit Thumb Bar" width="740" height="472" srcset="/images/2010/WeTab-thumbbar-660x421.jpg 660w, /images/2010/WeTab-thumbbar-300x191.jpg 300w, /images/2010/WeTab-thumbbar-768x490.jpg 768w, /images/2010/WeTab-thumbbar.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
+  <img title="WeTab mit Thumb Bar" src="/images/2010/wetab-thumbbar-660x421.jpg" alt="WeTab mit Thumb Bar" width="740" height="472" srcset="/images/2010/wetab-thumbbar-660x421.jpg 660w, /images/2010/wetab-thumbbar-300x191.jpg 300w, /images/2010/wetab-thumbbar-768x490.jpg 768w, /images/2010/wetab-thumbbar.jpg 848w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px">
   <figcaption>WeTab mit Thumb Bar, © Sebastian Knoth 2010</figcaption>
 </figure>
 

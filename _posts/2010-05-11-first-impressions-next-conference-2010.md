@@ -36,36 +36,36 @@ A video of his next09 talks <cite>Sharing Creativity – Great Conductors of the
 
 Here are some photos of the next10 event:
 
-![Lunch](/images/2010/IMG_0223.jpg "Lunch")
+![Lunch](/images/2010/img_0223.jpg "Lunch")
 
-![Waiting in line for lunch](/images/2010/IMG_0224.jpg "Waiting in line for lunch")
+![Waiting in line for lunch](/images/2010/img_0224.jpg "Waiting in line for lunch")
 
-![Chill-out zone](/images/2010/IMG_0227.jpg "Chill-out zone")
+![Chill-out zone](/images/2010/img_0227.jpg "Chill-out zone")
 
-![Dumbed-down presentations](/images/2010/IMG_0229.jpg "Dumbed-down presentations")
+![Dumbed-down presentations](/images/2010/img_0229.jpg "Dumbed-down presentations")
 
-![Peter Sunde presents Flattr](/images/2010/IMG_0235.jpg "Peter Sunde presents Flattr")
+![Peter Sunde presents Flattr](/images/2010/img_0235.jpg "Peter Sunde presents Flattr")
 
-![A notebook space](/images/2010/IMG_0239.jpg "A notebook space")
+![A notebook space](/images/2010/img_0239.jpg "A notebook space")
 
-![Networking](/images/2010/IMG_0240.jpg "Networking")
+![Networking](/images/2010/img_0240.jpg "Networking")
 
-![Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/IMG_0244.jpg "Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”")
+![Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/img_0244.jpg "Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”")
 
-![Smartphone distraction](/images/2010/IMG_0250.jpg "Smartphone distraction")
+![Smartphone distraction](/images/2010/img_0250.jpg "Smartphone distraction")
 
-![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](/images/2010/IMG_0257.jpg "Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”")
+![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](/images/2010/img_0257.jpg "Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”")
 
-![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.](/images/2010/IMG_0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.")
+![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.](/images/2010/img_0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.")
 
-![A crowded WePad booth](/images/2010/IMG_0260.jpg "A crowded WePad booth")
+![A crowded WePad booth](/images/2010/img_0260.jpg "A crowded WePad booth")
 
-![Brian Solis](/images/2010/IMG_0258.jpg "Brian Solis")
+![Brian Solis](/images/2010/img_0258.jpg "Brian Solis")
 
-![A panel](/images/2010/IMG_0259.jpg "A panel")
+![A panel](/images/2010/img_0259.jpg "A panel")
 
-![Stefana Broadbent of University College London](/images/2010/IMG_0262.jpg "Stefana Broadbent of University College London")
+![Stefana Broadbent of University College London](/images/2010/img_0262.jpg "Stefana Broadbent of University College London")
 
-![Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson](/images/2010/IMG_0264.jpg "Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson")
+![Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson](/images/2010/img_0264.jpg "Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson")
 
-![Jemima Gibbons about Social Leadership](/images/2010/IMG_0266.jpg "Jemima Gibbons about Social Leadership")
+![Jemima Gibbons about Social Leadership](/images/2010/img_0266.jpg "Jemima Gibbons about Social Leadership")

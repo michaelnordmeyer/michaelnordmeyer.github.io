@@ -8,6 +8,6 @@ categories:
   - Image
   - Miscellaneous
 ---
-![Gillmor Gang Recording Setup](/images/2012/Gillmor-Gang-Recording-Setup.jpg){: .aligncenter }
+![Gillmor Gang Recording Setup](/images/2012/gillmor-gang-recording-setup.jpg){: .aligncenter }
 
 Quite a setup.

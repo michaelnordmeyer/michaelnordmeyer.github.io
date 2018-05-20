@@ -5,7 +5,7 @@ excerpt: iCloud Photo Library is still in beta but works reliably. It's a much m
 layout: post
 permalink: /icloud-photo-library-photos
 redirect_from: /icloud-photo-library-photos/
-image: /images/2015/iCloud-Photo-Library.png
+image: /images/2015/icloud-photo-library.png
 categories:
   - Apple
 tags:

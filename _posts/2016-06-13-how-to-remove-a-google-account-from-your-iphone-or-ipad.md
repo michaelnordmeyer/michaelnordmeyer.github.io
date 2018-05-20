@@ -16,7 +16,7 @@ You know the problem. You used a Google account to login to some Google app on i
 
 Deleting all the Google apps won’t help either because reinstalling will surface the logins again. Most likely the account data is stored in Apple's iCloud keychain.
 
-That means the Google logins will persist for this iCloud login. Quite annoying especially if you don’t want to link different Goggle accounts because of privacy reasons. But there is an easy way to delete the stored Google logins.
+That means the Google logins will persist for this iCloud login. Quite annoying, especially if you don’t want to link different Goggle accounts because of privacy reasons. But there is an easy way to delete the stored Google logins.
 
 ## Installing Gmail
 

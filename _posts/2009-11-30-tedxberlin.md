@@ -4,7 +4,7 @@ date: 2009-11-30T21:57:18+00:00
 excerpt: Ein Bericht über die erste TEDx Deutschlands.
 layout: post
 permalink: /tedxberlin
-image: /images/2009/TEDxBerlin-2009.jpg
+image: /images/2009/tedxberlin-2009.jpg
 lang: de
 categories:
   - Events
