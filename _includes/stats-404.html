@@ -1,7 +1,9 @@
   <script>
 //    if (!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+    var url = "https://stats.michaelnordmeyer.com/?404=";
+    url = url.substring(1);
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "https://stats.michaelnordmeyer.com/?404=" + encodeURIComponent(location.pathname + location.search), true);
+    xhttp.open("GET", url + encodeURIComponent(location.pathname + location.search), true);
     xhttp.send();
 //    }
   </script>
