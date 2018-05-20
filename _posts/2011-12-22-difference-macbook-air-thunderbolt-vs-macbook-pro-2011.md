@@ -4,7 +4,7 @@ date: 2011-12-22T23:49:04+00:00
 excerpt: Ist ein 2011 MacBook Air gut genug, um ein MacBook Pro zu ersetzen? Lass es uns herausfinden.
 layout: post
 permalink: /difference-macbook-air-thunderbolt-vs-macbook-pro-2011
-image: /images/2011/macbookpro-macbookair2011.jpg
+image: /images/2011/macbook-pro-macbook-air-2011.jpg
 lang: de
 categories:
   - Apple
