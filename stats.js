@@ -21,16 +21,23 @@ var stats_obj = stats_obj || (function() {
     
     this.isHuman = function() {
       var userAgent = navigator.userAgent;
-      if (userAgent.includes('YandexBot') ||
-          userAgent.includes('JobborseBot')) {
-        return "false";
+      if (_self.isBot(userAgent)) {
+        return 'false';
       }
       var isHuman = _self.getCookie('_isHuman');
       if (!isHuman) {
-        _self.setCookie('_isHuman', "true");
+        _self.setCookie('_isHuman', 'true');
         isHuman = _self.getCookie('_isHuman');
       }
       return isHuman;
+    };
+    
+    this.isBot = function(userAgent) {
+      if (userAgent.includes('YandexBot') ||
+          userAgent.includes('JobborseBot')) {
+        return true;
+      }
+      return false;
     };
     
     this.getCookie = function(name) {
