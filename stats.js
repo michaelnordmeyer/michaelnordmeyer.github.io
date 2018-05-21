@@ -10,8 +10,8 @@ var stats_obj = stats_obj || (function() {
       if (_self.isHuman() === "true") {
         var referrer = _self.resolveReferrer();
         var query = '?url=' + encodeURIComponent(_self.getUrl());
-        query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         query += '&ua=' + _self.resolveUserAgent();
+        query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
