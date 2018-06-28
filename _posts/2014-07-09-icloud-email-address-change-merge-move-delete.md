@@ -17,7 +17,7 @@ I have a couple of Apple accounts. Some are quite old (mac.com, me.com), some ar
 
 **Note: Everything on this page is also applicable to old mac.com or me.com email addresses.**
 
-Moving personal data like emails, files, Safari bookmarks and photos is possible, but has to be done manually on a Mac. This post is about managing iCloud email addresses and iCloud email aliases.
+This post is about managing iCloud email addresses and iCloud email aliases. Moving personal data like emails, files, Safari bookmarks and photos is possible, but has to be done manually on a Mac. Third-party tools may help, but require the input of your Apple ID password. This is a security risk and should never be done.
 
 ## Changing an iCloud Email Address
 
