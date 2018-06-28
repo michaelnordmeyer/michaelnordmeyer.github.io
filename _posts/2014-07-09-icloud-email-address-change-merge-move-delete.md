@@ -17,6 +17,8 @@ I have a couple of Apple accounts. Some are quite old (mac.com, me.com), some ar
 
 **Note: Everything on this page is also applicable to old mac.com or me.com email addresses.**
 
+Moving personal data like emails, files, Safari bookmarks and photos is possible, but has to be done manually on a Mac. This post is about managing iCloud email addresses and iCloud email aliases.
+
 ## Changing an iCloud Email Address
 
 You cannot change an iCloud email address without deleting the Apple account it belongs to, because this email address is the Apple ID for this account.
@@ -43,7 +45,7 @@ There may be very old accounts (mac.com or me.com), where your Apple ID is your 
 
 Deleting an iCloud email account wasn't possible in the past but has been [made available by Apple](https://support.apple.com/en-us/HT208504) in May of 2018 to support the [European General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). This is mandatory for users in Europe, but Apple thankfully implemented those features for users world-wide.
 
-Deleting an iCloud account would mean a user cannot login anymore and purchased items like movies, TV shows, eBooks and apps for iOS and macOS wouldn’t be accessible anymore as well.
+Deleting an iCloud account would mean a user cannot login anymore and purchased items like movies, TV shows, eBooks and apps for iOS and macOS wouldn’t be accessible anymore as well. A deleted iCloud email address cannot be reused by anyone.
 
 ## Changing an iCloud Email Alias
 
