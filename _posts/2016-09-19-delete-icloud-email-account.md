@@ -10,8 +10,10 @@ tags:
   - Email
   - iCloud
 ---
-To make things clear I’m not writing about _deleting_ an iCloud email account _from_ an iOS device or Mac, but deleting the whole account altogether. Look here for [_removing_ an iCloud email account _from_ a device](https://support.apple.com/en-us/HT201419). Read on for how to delete an iCloud email account altogether.
+To make things clear I’m not writing about _deleting_ an iCloud email account _from_ an iOS device or Mac, but deleting the whole account altogether. Look here for [_removing_ an iCloud email account _from_ a device](https://support.apple.com/en-us/HT201419) without deleting the account. Read on for how to delete an iCloud email account altogether.
 
-iCloud accounts have often been used as the Apple ID for Apple services like iTunes Store or iOS App Store. Deleting an iCloud account would mean a user couldn’t login and purchased items like movies, TV shows, eBooks and apps wouldn’t be accessible anymore.
+iCloud accounts are the email address used as the Apple ID for Apple services like iTunes Store or iOS App Store. Deleting an iCloud account would mean a user cannot login anymore and purchased items like movies, TV shows, eBooks and apps for iOS and macOS wouldn’t be accessible anymore as well.
 
-Maybe customers losing access to purchased goods is a risk Apple doesn’t want to take, so they disallow deleting an iCloud email account. But there are some options to [handle an iCloud email address](/icloud-email-address-change-merge-move-delete) which may help to circumvent any inconveniences stemming from not being able to delete the account.
+Deleting an iCloud email account wasn't possible in the past but has been [made available by Apple](https://support.apple.com/en-us/HT208504) in May of 2018 to support the [European General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). This is mandatory for users in Europe, but Apple thankfully implemented those features for users world-wide.
+
+There are many options to [manage an iCloud email address](/icloud-email-address-change-merge-move-delete). Make sure to pick the right for your problem.

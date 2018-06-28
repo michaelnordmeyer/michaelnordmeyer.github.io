@@ -39,7 +39,11 @@ Even after deleting the Apple account you cannot re-use this email address, beca
 
 You cannot delete an iCloud email address without deleting the Apple account it belongs to, because this email address is the Apple ID for this account.
 
-There may be very old accounts (mac.com or me.com), where your Apple ID is your self-chosen username. Then you might have a chance. But if you change the username, you have to use an @iCloud.com email address.
+There may be very old accounts (mac.com or me.com), where your Apple ID is your self-chosen username. Then you might have a chance. But if you change the username, you have to use an @iCloud.com email address for the new user name.
+
+Deleting an iCloud email account wasn't possible in the past but has been [made available by Apple](https://support.apple.com/en-us/HT208504) in May of 2018 to support the [European General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). This is mandatory for users in Europe, but Apple thankfully implemented those features for users world-wide.
+
+Deleting an iCloud account would mean a user cannot login anymore and purchased items like movies, TV shows, eBooks and apps for iOS and macOS wouldn’t be accessible anymore as well.
 
 ## Changing an iCloud Email Alias
 
