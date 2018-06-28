@@ -47,7 +47,7 @@ You can [delete and recreate an iCloud email alias](https://support.apple.com/kb
 
 ## Moving an iCloud Email Alias to a Different Account
 
-Email aliases are forever tied to the account that created them. It cannot later be used to create a new iCloud account or transferred to another account.
+Email aliases are forever tied to the account that created them. An alias cannot later be used to create a new iCloud account or transferred to another account.
 
 ## Moving iCloud Data to a New Account
 
