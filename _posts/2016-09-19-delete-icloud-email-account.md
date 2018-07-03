@@ -1,6 +1,7 @@
 ---
 title: How to Delete an iCloud Email Account
-date: 2016-09-19T23:57:19+00:00
+date: 2018-05-25T12:00:01+00:00
+originaldate: 2016-09-19T23:57:19+00:00
 excerpt: Delete an iCloud email account altogether or delete an iCloud email account from an iOS device or Mac.
 layout: post
 permalink: /delete-icloud-email-account
