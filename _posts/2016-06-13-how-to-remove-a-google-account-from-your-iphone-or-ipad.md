@@ -1,7 +1,7 @@
 ---
 title: How to Remove a Google Account from Your iPhone or iPad
 date: 2016-06-13T13:00:23+00:00
-excerpt: Can't remove a Google login from your iOS device? Here's how to easily do it.
+excerpt: Can't remove or delete a Google login from your iOS device? Here's how to easily do it.
 layout: post
 permalink: /how-to-remove-a-google-account-from-your-iphone-or-ipad
 categories:
