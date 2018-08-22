@@ -12,11 +12,9 @@ tags:
   - iPad
   - iPhone
 ---
-You know the problem. You used a Google account to login to some Google app on iOS. Now you want to get rid of this login for some reason. Just logging out won’t help as the apps remember the used accounts.
+You used a Google account to login to some Google app on iOS and even after logging out of or deleting Google's apps the login prevails? Yes, Google's apps magically remember used accounts.
 
-Deleting all the Google apps won’t help either because reinstalling will surface the logins again. Most likely the account data is stored in Apple's iCloud keychain.
-
-That means the Google logins will persist for this iCloud login. Quite annoying, especially if you don’t want to link different Goggle accounts because of privacy reasons. But there is an easy way to delete the stored Google logins.
+Actually, it's not magic, but most likely the logins are stored in Apple's iCloud keychain. That means they will persist for this iCloud login and even appear on all devices where this iCloud user is logged in to. Quite annoying, especially if you don’t want to link different Google accounts because of privacy reasons. But there is an easy albeit not entirely obvious way to delete the stored Google logins.
 
 ## Installing Gmail
 
