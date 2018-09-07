@@ -115,7 +115,7 @@ var stats_obj = stats_obj || (function() {
     this.registerLinks = function() {
       var links = document.getElementsByTagName('a');
       for(var i = 0, length = links.length; i < length; i++) {
-//      	console.log(links[i]);	
+      	console.log(links[i].href);	
         if (links[i].href.startsWith("http")) {
       		links[i].onclick = function() {
         		alert("External Link");
