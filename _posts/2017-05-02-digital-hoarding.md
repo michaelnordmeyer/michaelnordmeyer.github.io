@@ -21,4 +21,4 @@ I have the habit of reading the easy things first and postpone the harder things
 
 Because I work in digital media and creating software, whatever I do is related to digital things. No escape. Information overload keeps getting higher and higher.
 
-I love computers and technology. But it doesn’t feel beneficial anymore to consume large amounts of information. At least I stopped using <a href="https://www.facebook.com/" ping="https://stats.michaelnordmeyer.com/?ping">Facebook</a>.
+I love computers and technology. But it doesn’t feel beneficial anymore to consume large amounts of information. At least I stopped using Facebook.
