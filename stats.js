@@ -111,6 +111,18 @@ var stats_obj = stats_obj || (function() {
     }
     
     _self.pageview();
+    
+    this.registerLinks = function() {
+      var links = document.getElementsByTagName('a');
+      for(var i = 0, length = links.length; i < length; i++) {
+//      	console.log(links[i]);	
+        if (links[i].href.startsWith("http")) {
+      		links[i].onclick = function() {
+        		alert("External Link");
+      		}
+        }
+      }
+    }
   }
   
   return new function() {
