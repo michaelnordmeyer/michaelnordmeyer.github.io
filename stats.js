@@ -10,7 +10,7 @@ var stats_obj = stats_obj || (function() {
       if (_self.isHuman() === "true") {
         var referrer = _self.resolveReferrer();
         var query = '?url=' + encodeURIComponent(_self.getUrl());
-        query += '&ua=' + _self.resolveUserAgent();
+        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
         var xhttp = new XMLHttpRequest();
@@ -21,10 +21,9 @@ var stats_obj = stats_obj || (function() {
     
     this.trackExternalLink = function(link) {
       if (_self.isHuman() === "true") {
-        var referrer = encodeURIComponent(_self.getUrl());
         var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + _self.resolveUserAgent();
-        query += '&ref=' + encodeURIComponent(referrer);
+        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
+        query += '&ref=' + encodeURIComponent(_self.getUrl());
         query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
@@ -87,7 +86,7 @@ var stats_obj = stats_obj || (function() {
           userAgent.includes('(X11')) {
         return "desktop"
       } else {
-        return encodeURIComponent(userAgent);
+        return userAgent;
 //        return "unknown";
       }
     };
