@@ -35,6 +35,7 @@ var stats_obj = stats_obj || (function() {
     this.isBot = function(userAgent) {
       if (userAgent == "" ||
           userAgent.includes('YandexBot') ||
+          userAgent.includes('e.ventures') ||
           userAgent.includes('JobborseBot')) {
         return true;
       }
