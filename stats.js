@@ -19,6 +19,19 @@ var stats_obj = stats_obj || (function() {
       }
     };
     
+    this.trackExternalLink = function(link) {
+      if (_self.isHuman() === "true") {
+        var referrer = encodeURIComponent(_self.getUrl());
+        var query = '?lnk=' + encodeURIComponent(link);
+        query += '&ua=' + _self.resolveUserAgent();
+        query += '&ref=' + encodeURIComponent(referrer);
+        query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
+        xhttp.send();
+      }
+    };
+    
     this.isHuman = function() {
       var userAgent = navigator.userAgent;
       if (_self.isBot(userAgent)) {
@@ -77,7 +90,7 @@ var stats_obj = stats_obj || (function() {
         return encodeURIComponent(userAgent);
 //        return "unknown";
       }
-    }
+    };
     
     this.resolveReferrer = function() {
       var referrer = document.referrer;
@@ -94,7 +107,7 @@ var stats_obj = stats_obj || (function() {
           return referrer;
       }
       return url;
-    }
+    };
     
     this.getUrl = function() {
       var url = location.pathname + location.search;
@@ -108,9 +121,7 @@ var stats_obj = stats_obj || (function() {
         navigator.doNotTrack === "yes" ||
         navigator.msDoNotTrack === "1"
       ) ? true : false;
-    }
-    
-    _self.pageview();
+    };
     
     this.registerLinks = function() {
       var links = document.getElementsByTagName('a');
@@ -118,11 +129,13 @@ var stats_obj = stats_obj || (function() {
       	console.log(links[i].href);	
         if (links[i].href.startsWith("http")) {
       		links[i].onclick = function() {
-        		alert("External Link");
+        		_self.trackExternalLink(this.href);
       		}
         }
       }
-    }
+    };
+    
+    _self.pageview();
   }
   
   return new function() {
@@ -132,7 +145,7 @@ var stats_obj = stats_obj || (function() {
         instance.constructor = null;
       }
       return instance;
-    }
+    };
   }
 })();
 
