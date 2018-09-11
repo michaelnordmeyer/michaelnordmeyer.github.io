@@ -48,7 +48,8 @@ var stats_obj = stats_obj || (function() {
       if (userAgent == "" ||
           userAgent.includes('YandexBot') ||
           userAgent.includes('e.ventures') ||
-          userAgent.includes('JobborseBot')) {
+          userAgent.includes('JobborseBot') ||
+          userAgent.includes('facebookexternalhit')) {
         return true;
       }
       return false;
