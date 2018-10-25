@@ -32,8 +32,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.isHuman = function() {
-      var userAgent = navigator.userAgent;
-      if (_self.isBot(userAgent)) {
+      if (_self.isBot(navigator.userAgent)) {
         return 'false';
       }
       var isHuman = _self.getCookie('_isHuman');
@@ -57,6 +56,9 @@ var stats_obj = stats_obj || (function() {
     
     this.getCookie = function(name) {
       var cookies = document.cookie.split(';');
+      if (cookies[0] === "") {
+        return '';
+      }
       for (var i = 0, length = cookies.length; i < length; i++) {
         if (cookies[i].match(new RegExp("\\b" + name + "="))) {
           return decodeURIComponent(cookies[i].split(name + '=')[1]);
@@ -66,26 +68,29 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.setCookie = function(name, value) {
-      var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure;";
-      if (location.hostname.match(/\./)) {
-        cookie += 'domain=.' + location.hostname.replace(/^www\./i, '') + ';';
-      }
+      var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure";
       document.cookie = cookie;
     };
     
     this.resolveUserAgent = function() {
       var userAgent = navigator.userAgent;
       if (userAgent.includes('(iPhone') ||
-          userAgent.includes('(iPod touch') ||
+          userAgent.includes('(iPod') ||
           (userAgent.includes('Android') && userAgent.includes('Mobile'))) {
         return "mobile";
-      } else if (userAgent.includes('(iPad') ||
+      } else if (
+          userAgent.includes('(iPad') ||
           userAgent.includes('Android')) {
         return "tablet"
-      } else if (userAgent.includes('(Macintosh') ||
+      } else if (
+          userAgent.includes('(Macintosh') ||
           userAgent.includes('(Windows') ||
           userAgent.includes('(X11')) {
         return "desktop"
+      } else if (
+          userAgent.includes('(PlayStation') ||
+          userAgent.includes('Xbox;')) {
+        return "console"
       } else {
         return userAgent;
 //        return "unknown";
