@@ -45,10 +45,11 @@ var stats_obj = stats_obj || (function() {
     
     this.isBot = function(userAgent) {
       if (userAgent == "" ||
-          userAgent.includes('YandexBot') ||
           userAgent.includes('e.ventures') ||
+          userAgent.includes('facebookexternalhit') ||
           userAgent.includes('JobborseBot') ||
-          userAgent.includes('facebookexternalhit')) {
+          userAgent.includes('woorank') ||
+          userAgent.includes('YandexBot')) {
         return true;
       }
       return false;
