@@ -31,6 +31,7 @@ User-agent: Traackr.com
 User-agent: Uptimebot
 User-agent: WASALive-Bot
 User-agent: WBSearchBot
+User-agent: woorank
 User-agent: wsr-agent
 User-agent: XoviBot
 Disallow: /
