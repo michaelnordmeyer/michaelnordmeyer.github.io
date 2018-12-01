@@ -9,7 +9,11 @@ var stats_obj = stats_obj || (function() {
     this.pageview = function() {
       if (_self.isHuman() === "true") {
         var referrer = _self.resolveReferrer();
-        var query = '?url=' + encodeURIComponent(_self.getUrl());
+        if (document.title === "Not Found") {
+          var query = '?404=' + encodeURIComponent(_self.getUrl());
+        } else {
+          var query = '?url=' + encodeURIComponent(_self.getUrl());
+        }
         query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');

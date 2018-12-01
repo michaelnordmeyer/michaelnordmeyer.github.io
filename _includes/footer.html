@@ -22,9 +22,5 @@
   </footer>
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 {% if jekyll.environment == 'production' and site.stats %}
-  {% if page.title and page.title == 'Not found' %}
-    {% include stats-404.html %}
-  {% else %}
-    {% include stats.html %}
-  {% endif %}
+  {% include stats.html %}
 {% endif %}
