@@ -104,14 +104,19 @@ var stats_obj = stats_obj || (function() {
     
     this.resolveReferrer = function() {
       var referrer = document.referrer;
-      referrer = referrer.match(/^https?:/) ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer) ? '' : referrer) : '';
-      return _self.referrerWithoutProtocol(referrer);
+      referrer = referrer.match(/^https?:/)
+        ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer)
+          ? ''
+          : referrer)
+        : '';
+      return _self.removeProtocolFromUrl(referrer);
     };
  
-    this.referrerWithoutProtocol = function(url) {
+    this.removeProtocolFromUrl = function(url) {
       if (url.indexOf("://") > -1) {
           var referrer = url.substr(url.indexOf("://") + "://".length);
           if (referrer.indexOf('/') == referrer.lastIndexOf('/') && referrer.lastIndexOf('/') == referrer.length - 1) {
+            // Only remove the / after TLD if it's the last character
             return referrer.substr(0, referrer.length - 1);
           }
           return referrer;
