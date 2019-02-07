@@ -16,7 +16,6 @@ var stats_obj = stats_obj || (function() {
         }
         query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
-        query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
         xhttp.send();
@@ -28,7 +27,6 @@ var stats_obj = stats_obj || (function() {
         var query = '?lnk=' + encodeURIComponent(link);
         query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += '&ref=' + encodeURIComponent(_self.getUrl());
-        query += (_self.hasDoNotTrackEnabled() ? '&dnt=1' : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
         xhttp.send();
@@ -128,16 +126,7 @@ var stats_obj = stats_obj || (function() {
       var url = location.pathname + location.search;
       return (url.startsWith('/') && url.length > 1) ? url.substr(1) : "homepage";
     };
-    
-    this.hasDoNotTrackEnabled = function() {
-      return (
-        window.doNotTrack === "1" ||
-        navigator.doNotTrack === "1" ||
-        navigator.doNotTrack === "yes" ||
-        navigator.msDoNotTrack === "1"
-      ) ? true : false;
-    };
-    
+        
     this.registerLinks = function() {
       var links = document.getElementsByTagName('a');
       for(var i = 0, length = links.length; i < length; i++) {
