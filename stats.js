@@ -14,7 +14,11 @@ var stats_obj = stats_obj || (function() {
         } else {
           var query = '?url=' + encodeURIComponent(_self.getUrl());
         }
-        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
+        var userAgent += _self.resolveUserAgent();
+        if (userAgent.includes("Googlebot")) {
+          return;
+        }
+        query += '&ua=' + encodeURIComponent(userAgent);
         query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
@@ -25,7 +29,11 @@ var stats_obj = stats_obj || (function() {
     this.trackExternalLink = function(link) {
       if (_self.isHuman() === "true") {
         var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
+        var userAgent += _self.resolveUserAgent();
+        if (userAgent.includes("Googlebot")) {
+          return;
+        }
+        query += '&ua=' + encodeURIComponent(userAgent);
         query += '&ref=' + encodeURIComponent(_self.getUrl());
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
