@@ -14,11 +14,7 @@ var stats_obj = stats_obj || (function() {
         } else {
           var query = '?url=' + encodeURIComponent(_self.getUrl());
         }
-        var userAgent += _self.resolveUserAgent();
-        if (userAgent.includes("Googlebot")) {
-          return;
-        }
-        query += '&ua=' + encodeURIComponent(userAgent);
+        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
@@ -29,11 +25,7 @@ var stats_obj = stats_obj || (function() {
     this.trackExternalLink = function(link) {
       if (_self.isHuman() === "true") {
         var query = '?lnk=' + encodeURIComponent(link);
-        var userAgent += _self.resolveUserAgent();
-        if (userAgent.includes("Googlebot")) {
-          return;
-        }
-        query += '&ua=' + encodeURIComponent(userAgent);
+        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
         query += '&ref=' + encodeURIComponent(_self.getUrl());
         var xhttp = new XMLHttpRequest();
         xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
@@ -57,6 +49,7 @@ var stats_obj = stats_obj || (function() {
       if (userAgent == "" ||
           userAgent.includes('e.ventures') ||
           userAgent.includes('facebookexternalhit') ||
+          userAgent.includes('Googlebot') ||
           userAgent.includes('JobborseBot') ||
           userAgent.includes('woorank') ||
           userAgent.includes('YandexBot')) {
