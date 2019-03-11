@@ -74,7 +74,7 @@ var stats_obj = stats_obj || (function() {
     };
     
     this.setCookie = function(name, value) {
-      var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure";
+      var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure;samesite";
       document.cookie = cookie;
     };
     
