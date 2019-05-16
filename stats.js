@@ -63,7 +63,7 @@ var botCheckerObject = botCheckerObject || (function() {
 
 var botChecker = botCheckerObject.getInstance();
 
-if (botChecker.isHuman() === "true") {
+if (botChecker.isHuman() === 'true') {
   var statsObject = statsObject || (function() {
     var instance = null;
 
@@ -71,20 +71,20 @@ if (botChecker.isHuman() === "true") {
       var self = this;
     
       this.pageview = function() {
-        if (document.title === "Not Found") {
-          var query = '?404=' + encodedUrl;
+        if (document.title === 'Not Found') {
+          var query = '?404=' + self.encodedUrl;
         } else {
-          var query = '?url=' + encodedUrl;
+          var query = '?url=' + self.encodedUrl;
         }
-        query += '&ua=' + encodedUserAgent;
-        query += (encodedReferrer ? '&ref=' + encodedReferrer : '');
+        query += '&ua=' + self.encodedUserAgent;
+        query += (self.encodedReferrer ? '&ref=' + self.encodedReferrer : '');
         self.saveStats(query);
       };
     
       this.trackExternalLink = function(link) {
         var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + encodedUserAgent;
-        query += '&ref=' + encodedUrl;
+        query += '&ua=' + self.encodedUserAgent;
+        query += '&ref=' + self.encodedUrl;
         self.saveStats(query);
       };
     
@@ -151,8 +151,8 @@ if (botChecker.isHuman() === "true") {
         for(var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
             var statsLink = 'https://stats.michaelnordmeyer.com/?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            statsLink += '&ua=' + encodedUserAgent;
-            statsLink += '&ref=' + encodedUrl;
+            statsLink += '&ua=' + self.encodedUserAgent;
+            statsLink += '&ref=' + self.encodedUrl;
             links[i].setAttribute('ping', statsLink);
             // links[i].addEventListener('click', self.trackExternalLink(links[i].href));
             // links[i].onclick = function() {
