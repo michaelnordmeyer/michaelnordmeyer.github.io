@@ -75,14 +75,14 @@ if (botChecker.isHuman() === 'true') {
         if (document.title === 'Not Found') {
           query = '?404=' + encodedUrl;
         }
-        query += '&ua=' + encodedUserAgent;
+        query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
         query += (encodedReferrer ? '&ref=' + encodedReferrer : '');
         self.saveStats(query);
       };
     
       this.trackExternalLink = function(link) {
         var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + encodedUserAgent;
+        query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
         query += '&ref=' + encodedUrl;
         self.saveStats(query);
       };
@@ -150,7 +150,7 @@ if (botChecker.isHuman() === 'true') {
         for(var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
             var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            query += '&ua=' + encodedUserAgent;
+            query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
             query += '&ref=' + encodedUrl;
             // links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
             links[i].addEventListener('click', self.saveStats(query));
