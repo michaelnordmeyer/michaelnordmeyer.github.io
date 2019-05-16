@@ -146,10 +146,6 @@ if (botChecker.isHuman() === 'true') {
       };
         
       this.registerLinks = function() {
-        console.log('Self: ' + self);    
-        console.log('This: ' + this);    
-        console.log('self.getUrl: ' + self.getUrl());    
-        console.log('encodedUrl: ' + encodedUrl);
         var links = document.getElementsByTagName('a');
         for(var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
