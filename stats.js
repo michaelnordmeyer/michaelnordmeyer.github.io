@@ -71,20 +71,19 @@ if (botChecker.isHuman() === 'true') {
       var self = this;
     
       this.pageview = function() {
+        var query = '?url=' + encodedUrl;
         if (document.title === 'Not Found') {
-          var query = '?404=' + self.encodedUrl;
-        } else {
-          var query = '?url=' + self.encodedUrl;
+          query = '?404=' + encodedUrl;
         }
-        query += '&ua=' + self.encodedUserAgent;
-        query += (self.encodedReferrer ? '&ref=' + self.encodedReferrer : '');
+        query += '&ua=' + encodedUserAgent;
+        query += (encodedReferrer ? '&ref=' + encodedReferrer : '');
         self.saveStats(query);
       };
     
       this.trackExternalLink = function(link) {
         var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + self.encodedUserAgent;
-        query += '&ref=' + self.encodedUrl;
+        query += '&ua=' + encodedUserAgent;
+        query += '&ref=' + encodedUrl;
         self.saveStats(query);
       };
     
@@ -147,12 +146,16 @@ if (botChecker.isHuman() === 'true') {
       };
         
       this.registerLinks = function() {
+        console.log('Self: ' + self);    
+        console.log('This: ' + this);    
+        console.log('self.getUrl: ' + self.getUrl());    
+        console.log('encodedUrl: ' + encodedUrl);
         var links = document.getElementsByTagName('a');
         for(var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
             var statsLink = 'https://stats.michaelnordmeyer.com/?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            statsLink += '&ua=' + self.encodedUserAgent;
-            statsLink += '&ref=' + self.encodedUrl;
+            statsLink += '&ua=' + encodedUserAgent;
+            statsLink += '&ref=' + encodedUrl;
             links[i].setAttribute('ping', statsLink);
             // links[i].addEventListener('click', self.trackExternalLink(links[i].href));
             // links[i].onclick = function() {
@@ -161,7 +164,7 @@ if (botChecker.isHuman() === 'true') {
           }
         }
       };
-    
+
       var encodedUrl = encodeURIComponent(self.getUrl());
       var encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
       var encodedReferrer = encodeURIComponent(self.resolveReferrer());
