@@ -1,52 +1,23 @@
 'use strict';
 
-var stats_obj = stats_obj || (function() {
+var botCheckerObject = botCheckerObject || (function() {
   var instance = null;
 
-  function _ins() {
-    var _self = this;
-    
-    this.pageview = function() {
-      if (_self.isHuman() === "true") {
-        var referrer = _self.resolveReferrer();
-        if (document.title === "Not Found") {
-          var query = '?404=' + encodeURIComponent(_self.getUrl());
-        } else {
-          var query = '?url=' + encodeURIComponent(_self.getUrl());
-        }
-        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
-        query += (referrer ? '&ref=' + encodeURIComponent(referrer) : '');
-        _self.saveStats(query);
-      }
-    };
-    
-    this.trackExternalLink = function(link) {
-      if (_self.isHuman() === "true") {
-        var query = '?lnk=' + encodeURIComponent(link);
-        query += '&ua=' + encodeURIComponent(_self.resolveUserAgent());
-        query += '&ref=' + encodeURIComponent(_self.getUrl());
-        _self.saveStats(query);
-      }
-    };
-    
-    this.saveStats = function(query) {
-      var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
-      xhttp.send();
-    };
-    
+  function Instance() {
+    var self = this;
+  
     this.isHuman = function() {
-      if (_self.isBot(navigator.userAgent)) {
+      if (self.isBot(navigator.userAgent)) {
         return 'false';
       }
-      var isHuman = _self.getCookie('_isHuman');
+      var isHuman = self.getCookie('_isHuman');
       if (!isHuman) {
-        _self.setCookie('_isHuman', 'true');
-        isHuman = _self.getCookie('_isHuman');
+        self.setCookie('_isHuman', 'true');
+        isHuman = self.getCookie('_isHuman');
       }
       return isHuman;
     };
-    
+
     this.isBot = function(userAgent) {
       if (userAgent == "" ||
           userAgent.includes('e.ventures') ||
@@ -59,7 +30,7 @@ var stats_obj = stats_obj || (function() {
       }
       return false;
     };
-    
+
     this.getCookie = function(name) {
       var cookies = document.cookie.split(';');
       if (cookies[0] === "") {
@@ -72,83 +43,17 @@ var stats_obj = stats_obj || (function() {
       }
       return '';
     };
-    
+
     this.setCookie = function(name, value) {
       var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure;samesite";
       document.cookie = cookie;
     };
-    
-    this.resolveUserAgent = function() {
-      var userAgent = navigator.userAgent;
-      if (userAgent.includes('(iPhone') ||
-          userAgent.includes('(iPod') ||
-          (userAgent.includes('Android') && userAgent.includes('Mobile'))) {
-        return "mobile";
-      } else if (
-          userAgent.includes('(iPad') ||
-          userAgent.includes('Android')) {
-        return "tablet"
-      } else if (
-          userAgent.includes('(Macintosh') ||
-          userAgent.includes('(Windows') ||
-          userAgent.includes('(X11')) {
-        return "desktop"
-      } else if (
-          userAgent.includes('(PlayStation') ||
-          userAgent.includes('Xbox;')) {
-        return "console"
-      } else {
-        return userAgent;
-//        return "unknown";
-      }
-    };
-    
-    this.resolveReferrer = function() {
-      var referrer = document.referrer;
-      referrer = referrer.match(/^https?:/)
-        ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer)
-          ? ''
-          : referrer)
-        : '';
-      return _self.removeProtocolFromUrl(referrer);
-    };
- 
-    this.removeProtocolFromUrl = function(url) {
-      if (url.indexOf("://") > -1) {
-          var referrer = url.substr(url.indexOf("://") + "://".length);
-          if (referrer.indexOf('/') == referrer.lastIndexOf('/') && referrer.lastIndexOf('/') == referrer.length - 1) {
-            // Only remove the / after TLD if it's the last character
-            return referrer.substr(0, referrer.length - 1);
-          }
-          return referrer;
-      }
-      return url;
-    };
-    
-    this.getUrl = function() {
-      var url = location.pathname + location.search;
-      return (url.startsWith('/') && url.length > 1) ? url.substr(1) : "homepage";
-    };
-        
-    this.registerLinks = function() {
-      var links = document.getElementsByTagName('a');
-      for(var i = 0, length = links.length; i < length; i++) {
-        console.log(links[i].href); 
-        if (links[i].href.startsWith("http")) {
-          links[i].onclick = function() {
-            _self.trackExternalLink(this.href);
-          }
-        }
-      }
-    };
-    
-    _self.pageview();
   }
   
   return new function() {
     this.getInstance = function() {
       if (instance == null) {
-        instance = new _ins();
+        instance = new Instance();
         instance.constructor = null;
       }
       return instance;
@@ -156,4 +61,124 @@ var stats_obj = stats_obj || (function() {
   }
 })();
 
-var stats = stats_obj.getInstance();
+var botChecker = botCheckerObject.getInstance();
+
+if (botChecker.isHuman() === "true") {
+  var statsObject = statsObject || (function() {
+    var instance = null;
+
+    function Instance() {
+      var self = this;
+    
+      this.pageview = function() {
+        if (document.title === "Not Found") {
+          var query = '?404=' + encodedUrl;
+        } else {
+          var query = '?url=' + encodedUrl;
+        }
+        query += '&ua=' + encodedUserAgent;
+        query += (encodedReferrer ? '&ref=' + encodedReferrer : '');
+        self.saveStats(query);
+      };
+    
+      this.trackExternalLink = function(link) {
+        var query = '?lnk=' + encodeURIComponent(link);
+        query += '&ua=' + encodedUserAgent;
+        query += '&ref=' + encodedUrl;
+        self.saveStats(query);
+      };
+    
+      this.saveStats = function(query) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
+        xhttp.send();
+      };
+    
+      this.resolveUserAgent = function() {
+        var userAgent = navigator.userAgent;
+        if (userAgent.includes('(iPhone') ||
+            userAgent.includes('(iPod') ||
+            (userAgent.includes('Android') && userAgent.includes('Mobile'))) {
+          return "mobile";
+        } else if (
+            userAgent.includes('(iPad') ||
+            userAgent.includes('Android')) {
+          return "tablet"
+        } else if (
+            userAgent.includes('(Macintosh') ||
+            userAgent.includes('(Windows') ||
+            userAgent.includes('(X11')) {
+          return "desktop"
+        } else if (
+            userAgent.includes('(PlayStation') ||
+            userAgent.includes('Xbox;')) {
+          return "console"
+        } else {
+          return userAgent;
+  //        return "unknown";
+        }
+      };
+    
+      this.resolveReferrer = function() {
+        var referrer = document.referrer;
+        referrer = referrer.match(/^https?:/)
+          ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer)
+            ? ''
+            : referrer)
+          : '';
+        return self.removeProtocolFromUrl(referrer);
+      };
+ 
+      this.removeProtocolFromUrl = function(url) {
+        if (url.indexOf("://") > -1) {
+            var urlWithoutProtocol = url.substr(url.indexOf("://") + "://".length);
+            if (urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/') && urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1) {
+              // Only remove the / after TLD if it's the last character
+              return urlWithoutProtocol.substr(0, urlWithoutProtocol.length - 1);
+            }
+            return urlWithoutProtocol;
+        }
+        return url;
+      };
+    
+      this.getUrl = function() {
+        var url = location.pathname + location.search;
+        return (url.startsWith('/') && url.length > 1) ? url.substr(1) : "homepage";
+      };
+        
+      this.registerLinks = function() {
+        var links = document.getElementsByTagName('a');
+        for(var i = 0, length = links.length; i < length; i++) {
+          if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
+            var statsLink = 'https://stats.michaelnordmeyer.com/?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
+            statsLink += '&ua=' + encodedUserAgent;
+            statsLink += '&ref=' + encodedUrl;
+            links[i].setAttribute('ping', statsLink);
+            // links[i].addEventListener('click', self.trackExternalLink(links[i].href));
+            // links[i].onclick = function() {
+            //   self.trackExternalLink(this.href);
+            // }
+          }
+        }
+      };
+    
+      var encodedUrl = encodeURIComponent(self.getUrl());
+      var encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
+      var encodedReferrer = encodeURIComponent(self.resolveReferrer());
+      self.pageview();
+      self.registerLinks();
+    }
+  
+    return new function() {
+      this.getInstance = function() {
+        if (instance == null) {
+          instance = new Instance();
+          instance.constructor = null;
+        }
+        return instance;
+      };
+    }
+  })();
+
+  var stats = statsObject.getInstance();
+}
