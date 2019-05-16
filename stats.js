@@ -149,14 +149,11 @@ if (botChecker.isHuman() === 'true') {
         var links = document.getElementsByTagName('a');
         for(var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
-            var statsLink = 'https://stats.michaelnordmeyer.com/?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            statsLink += '&ua=' + encodedUserAgent;
-            statsLink += '&ref=' + encodedUrl;
-            links[i].setAttribute('ping', statsLink);
-            // links[i].addEventListener('click', self.trackExternalLink(links[i].href));
-            // links[i].onclick = function() {
-            //   self.trackExternalLink(this.href);
-            // }
+            var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
+            query += '&ua=' + encodedUserAgent;
+            query += '&ref=' + encodedUrl;
+            // links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
+            links[i].addEventListener('click', self.saveStats(query));
           }
         }
       };
