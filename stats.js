@@ -19,7 +19,7 @@ var botCheckerObject = botCheckerObject || (function() {
     };
 
     this.isBot = function(userAgent) {
-      if (userAgent == "" ||
+      if (userAgent === '' ||
           userAgent.includes('e.ventures') ||
           userAgent.includes('facebookexternalhit') ||
           userAgent.includes('Googlebot') ||
@@ -33,12 +33,12 @@ var botCheckerObject = botCheckerObject || (function() {
 
     this.getCookieValueForKey = function(key) {
       var cookies = document.cookie.split(';');
-      if (cookies[0] === "") {
+      if (cookies[0] === '') {
         return '';
       }
       for (var i = 0, length = cookies.length; i < length; i++) {
         if (cookies[i].match(new RegExp("\\b" + name + "="))) {
-          return decodeURIComponent(cookies[i].split(name + '=')[1]);
+          return decodeURIComponent(cookies[i].split(name + "=")[1]);
         }
       }
       return '';
@@ -89,7 +89,7 @@ if (botChecker.isHuman() === 'true') {
     
       this.saveStats = function(query) {
         var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", 'https://stats.michaelnordmeyer.com/' + query, true);
+        xhttp.open('GET', 'https://stats.michaelnordmeyer.com/' + query, true);
         xhttp.send();
       };
     
