@@ -3,41 +3,31 @@
   <head>
     <meta http-equiv="refresh" content="0; url={{ page.redirect.to | absolute_url }}">
     <meta name="robots" content="noindex,follow">
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Redirect from {{ page.redirect.from | relative_url }} to {{ page.redirect.to | absolute_url }}</title>
     <meta name="description" content="Redirect page">
-
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     <link rel="Shortcut Icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
     <link type="application/atom+xml" rel="alternate" href="{{ '/feed' | relative_url }}" title="{{ site.title | escape }}">
     <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
   </head>
   <body>
-
     {% include header.html %}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
-
           <header class="post-header">
             <h1 class="post-title">Redirecting…</h1>
           </header>
-
           <div class="post-content">
             <a href="{{ page.redirect.to | absolute_url }}">Click here if you are not being redirected.</a>
             <script>location="{{ page.redirect.to | absolute_url }}"</script>
           </div>
-
         </article>
       </div>
     </main>
-
     {% include footer.html %}
-
   </body>
 </html>
