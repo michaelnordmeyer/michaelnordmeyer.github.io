@@ -14,9 +14,10 @@ layout: default
               {{ page.date | date: date_format }}
             </time>
             {% if page.author %}
-              • <span><span class="p-author h-card">{{ page.author }}</span></span>
+              • <span class="p-author h-card">{{ page.author }}</span>
             {% endif %}
-              • Reading time: {{ minutes }} minute{% if minutes > 1 %}s{% endif %}</p>
+              • Reading time: {{ minutes }} minute{% if minutes > 1 %}s{% endif %}
+          </p>
         </header>
         <div class="post-content e-content" itemprop="articleBody">
           {{ content }}
