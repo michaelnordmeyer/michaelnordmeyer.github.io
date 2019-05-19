@@ -10,10 +10,10 @@ var botCheckerObject = botCheckerObject || (function() {
       if (self.isBot(navigator.userAgent)) {
         return 'false';
       }
-      var isHuman = self.getCookie('_isHuman');
+      var isHuman = self.getCookieValueForKey('_isHuman');
       if (!isHuman) {
         self.setCookie('_isHuman', 'true');
-        isHuman = self.getCookie('_isHuman');
+        isHuman = self.getCookieValueForKey('_isHuman');
       }
       return isHuman;
     };
@@ -31,7 +31,7 @@ var botCheckerObject = botCheckerObject || (function() {
       return false;
     };
 
-    this.getCookie = function(name) {
+    this.getCookieValueForKey = function(key) {
       var cookies = document.cookie.split(';');
       if (cookies[0] === "") {
         return '';
@@ -44,8 +44,8 @@ var botCheckerObject = botCheckerObject || (function() {
       return '';
     };
 
-    this.setCookie = function(name, value) {
-      var cookie = name + "=" + encodeURIComponent(value) + ";path=/;secure;samesite";
+    this.setCookie = function(key, value) {
+      var cookie = key + "=" + encodeURIComponent(value) + ";path=/;secure;samesite";
       document.cookie = cookie;
     };
   }
