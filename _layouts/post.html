@@ -21,9 +21,6 @@ layout: default
       <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
       </div>
-      <small>{% include feed-subscribe.html %}</small>
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
-      {% endif %}
+      {% include feed-subscribe.html %}
       <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     </article>
