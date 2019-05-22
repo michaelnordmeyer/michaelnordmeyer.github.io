@@ -16,6 +16,7 @@ var botCheckerObject = botCheckerObject || (function() {
       //   isHuman = self.getCookieValueForKey('_isHuman');
       // }
       // return isHuman;
+      return 'true';
     };
 
     this.isBot = function(userAgent) {
