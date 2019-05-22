@@ -37,15 +37,15 @@ var botCheckerObject = botCheckerObject || (function() {
         return '';
       }
       for (var i = 0, length = cookies.length; i < length; i++) {
-        if (cookies[i].match(new RegExp("\\b" + name + "="))) {
-          return decodeURIComponent(cookies[i].split(name + "=")[1]);
+        if (cookies[i].match(new RegExp('\\b' + name + '='))) {
+          return decodeURIComponent(cookies[i].split(name + '=')[1]);
         }
       }
       return '';
     };
 
     this.setCookie = function(key, value) {
-      var cookie = key + "=" + encodeURIComponent(value) + ";path=/;secure;samesite";
+      var cookie = key + '=' + encodeURIComponent(value) + ';path=/;secure;samesite';
       document.cookie = cookie;
     };
   }
@@ -98,30 +98,30 @@ if (botChecker.isHuman() === 'true') {
         if (userAgent.includes('(iPhone') ||
             userAgent.includes('(iPod') ||
             (userAgent.includes('Android') && userAgent.includes('Mobile'))) {
-          return "mobile";
+          return 'mobile';
         } else if (
             userAgent.includes('(iPad') ||
             userAgent.includes('Android')) {
-          return "tablet"
+          return 'tablet'
         } else if (
             userAgent.includes('(Macintosh') ||
             userAgent.includes('(Windows') ||
             userAgent.includes('(X11')) {
-          return "desktop"
+          return 'desktop'
         } else if (
             userAgent.includes('(PlayStation') ||
             userAgent.includes('Xbox;')) {
-          return "console"
+          return 'console'
         } else {
           return userAgent;
-  //        return "unknown";
+  //        return 'unknown';
         }
       };
     
       this.resolveReferrer = function() {
         var referrer = document.referrer;
         referrer = referrer.match(/^https?:/)
-          ? (RegExp("^https?://[^/]*" + location.host.replace(/^www\./i, "") + "/", "i").test(referrer)
+          ? (RegExp('^https?://[^/]*' + location.host.replace(/^www\./i, '') + '/', 'i').test(referrer)
             ? ''
             : referrer)
           : '';
@@ -129,8 +129,8 @@ if (botChecker.isHuman() === 'true') {
       };
  
       this.removeProtocolFromUrl = function(url) {
-        if (url.indexOf("://") > -1) {
-            var urlWithoutProtocol = url.substr(url.indexOf("://") + "://".length);
+        if (url.indexOf('://') > -1) {
+            var urlWithoutProtocol = url.substr(url.indexOf('://') + '://'.length);
             if (urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/') && urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1) {
               // Only remove the / after TLD if it's the last character
               return urlWithoutProtocol.substr(0, urlWithoutProtocol.length - 1);
@@ -142,13 +142,13 @@ if (botChecker.isHuman() === 'true') {
     
       this.getUrl = function() {
         var url = location.pathname + location.search;
-        return (url.startsWith('/') && url.length > 1) ? url.substr(1) : "homepage";
+        return (url.startsWith('/') && url.length > 1) ? url.substr(1) : 'homepage';
       };
         
       this.registerOutgoingLinks = function() {
         var links = document.getElementsByTagName('a');
         for(var i = 0, length = links.length; i < length; i++) {
-          if (!links[i].href.startsWith("https://michaelnordmeyer.com")) {
+          if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
             var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
             query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
             query += '&ref=' + encodedUrl;
