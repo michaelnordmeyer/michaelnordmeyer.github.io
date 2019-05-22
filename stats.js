@@ -10,12 +10,12 @@ var botCheckerObject = botCheckerObject || (function() {
       if (self.isBot(navigator.userAgent)) {
         return 'false';
       }
-      var isHuman = self.getCookieValueForKey('_isHuman');
-      if (!isHuman) {
-        self.setCookie('_isHuman', 'true');
-        isHuman = self.getCookieValueForKey('_isHuman');
-      }
-      return isHuman;
+      // var isHuman = self.getCookieValueForKey('_isHuman');
+      // if (!isHuman) {
+      //   self.setCookie('_isHuman', 'true');
+      //   isHuman = self.getCookieValueForKey('_isHuman');
+      // }
+      // return isHuman;
     };
 
     this.isBot = function(userAgent) {
