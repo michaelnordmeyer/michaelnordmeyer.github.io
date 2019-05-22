@@ -148,7 +148,7 @@ if (botChecker.isHuman() === 'true') {
         
       this.registerOutgoingLinks = function() {
         var links = document.getElementsByTagName('a');
-        for(var i = 0, length = links.length; i < length; i++) {
+        for (var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
             var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
             query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
