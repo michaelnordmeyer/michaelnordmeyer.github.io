@@ -51,7 +51,7 @@ twitter:
 
 ## Analytics
 stats:
-  url: "https://michaelnordmeyer.com/stats.js"
+  url: "https://michaelnordmeyer.com/stats-min.js"
 
 # piwik:
 #   url: "https://stats.michaelnordmeyer.com/"
