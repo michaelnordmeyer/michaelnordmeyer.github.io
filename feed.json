@@ -4,7 +4,7 @@ permalink: /feed.json
 sitemap: false
 ---
 {
-  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://michaelnordmeyer.com/feed.json — and add it your reader.",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://michaelnordmeyer.com/feed.json — and add it to your reader.",
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
