@@ -1,70 +1,20 @@
 'use strict';
 
-var botCheckerObject = botCheckerObject || (function() {
-  var instance = null;
-
-  function Instance() {
-    var self = this;
-  
-    this.isHuman = function() {
-      if (self.isBot(navigator.userAgent)) {
-        return 'false';
-      }
-      // var isHuman = self.getCookieValueForKey('_isHuman');
-      // if (!isHuman) {
-      //   self.setCookie('_isHuman', 'true');
-      //   isHuman = self.getCookieValueForKey('_isHuman');
-      // }
-      // return isHuman;
-      return 'true';
-    };
-
-    this.isBot = function(userAgent) {
-      if (userAgent === '' ||
-          userAgent.includes('e.ventures') ||
-          userAgent.includes('facebookexternalhit') ||
-          userAgent.includes('Googlebot') ||
-          userAgent.includes('JobborseBot') ||
-          userAgent.includes('woorank') ||
-          userAgent.includes('YandexBot')) {
-        return true;
-      }
-      return false;
-    };
-
-    this.getCookieValueForKey = function(key) {
-      var cookies = document.cookie.split(';');
-      if (cookies[0] === '') {
-        return '';
-      }
-      for (var i = 0, length = cookies.length; i < length; i++) {
-        if (cookies[i].match(new RegExp('\\b' + name + '='))) {
-          return decodeURIComponent(cookies[i].split(name + '=')[1]);
-        }
-      }
-      return '';
-    };
-
-    this.setCookie = function(key, value) {
-      var cookie = key + '=' + encodeURIComponent(value) + ';path=/;secure;samesite';
-      document.cookie = cookie;
-    };
+var isHuman = function(userAgent) {
+  if (userAgent === '' ||
+      userAgent.includes('e.ventures') ||
+      userAgent.includes('facebookexternalhit') ||
+      userAgent.includes('Googlebot') ||
+      userAgent.includes('JobborseBot') ||
+      userAgent.includes('woorank') ||
+      userAgent.includes('YandexBot')) {
+    return false;
+  } else {
+    return true;
   }
-  
-  return new function() {
-    this.getInstance = function() {
-      if (instance == null) {
-        instance = new Instance();
-        instance.constructor = null;
-      }
-      return instance;
-    };
-  }
-})();
+};
 
-var botChecker = botCheckerObject.getInstance();
-
-if (botChecker.isHuman() === 'true') {
+if (isHuman(navigator.userAgent) === true) {
   var statsObject = statsObject || (function() {
     var instance = null;
 
