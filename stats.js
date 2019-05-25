@@ -5,6 +5,7 @@ var isHuman = function(userAgent) {
       userAgent.includes('e.ventures') ||
       userAgent.includes('facebookexternalhit') ||
       userAgent.includes('Googlebot') ||
+      userAgent.includes('Google-Structured-Data-Testing-Tool') ||
       userAgent.includes('JobborseBot') ||
       userAgent.includes('woorank') ||
       userAgent.includes('YandexBot')) {
