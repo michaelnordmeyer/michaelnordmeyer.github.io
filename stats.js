@@ -2,11 +2,14 @@
 
 var isHuman = function(userAgent) {
   if (userAgent === '' ||
+      userAgent.includes('bingbot') ||
+      userAgent.includes('DuckDuckBot') ||
       userAgent.includes('e.ventures') ||
       userAgent.includes('facebookexternalhit') ||
       userAgent.includes('Googlebot') ||
       userAgent.includes('Google-Structured-Data-Testing-Tool') ||
       userAgent.includes('JobborseBot') ||
+      userAgent.includes('Slurp') ||
       userAgent.includes('woorank') ||
       userAgent.includes('YandexBot')) {
     return false;
