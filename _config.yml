@@ -20,7 +20,7 @@ description: "Agile Project Management & Software Engineering"
 bio: "Freelance software developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker, but Sencha only. 🍵"
 
 author: Michael Nordmeyer
-#email: xxx@michaelnordmeyer.com
+#email: xxx@example.com
 github_username: michaelnordmeyer
 twitter_username: mnordmeyer
 linkedin_username: michaelnordmeyer
@@ -53,10 +53,6 @@ twitter:
 stats:
 #  url: "https://michaelnordmeyer.com/stats.js"
   url: "https://michaelnordmeyer.com/stats.min.js"
-
-# piwik:
-#   url: "https://stats.michaelnordmeyer.com/"
-#   site_id: 1
 
 # defaults:
 #   -
