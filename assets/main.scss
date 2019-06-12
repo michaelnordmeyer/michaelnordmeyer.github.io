@@ -79,3 +79,9 @@ footer input[type="search"] { width: 100%; font-size: 1em; }
   .footer-col-1 { width: calc(15% - (30px / 2)); }
   .footer-col-2 { width: calc(85% - (30px / 2)); }
 }
+
+@media screen and (max-width: 800px) {
+//  .social-media-list li { display: inline; }
+  .footer-col-1 { width: calc(15% - (30px / 2)); }
+  .footer-col-2 { width: calc(85% - (30px / 2)); }
+}
