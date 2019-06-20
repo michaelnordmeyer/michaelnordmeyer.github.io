@@ -3,6 +3,7 @@
 var isHuman = function(userAgent) {
   if (userAgent === '' ||
       userAgent.includes('bingbot') ||
+      userAgent.includes('Dataprovider.com') ||
       userAgent.includes('DuckDuckBot') ||
       userAgent.includes('e.ventures') ||
       userAgent.includes('facebookexternalhit') ||
