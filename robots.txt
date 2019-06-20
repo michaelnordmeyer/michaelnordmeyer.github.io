@@ -5,6 +5,7 @@ User-agent: AhrefsBot
 User-agent: alertmix
 User-agent: archive.org_bot
 User-agent: BUbiNG
+User-agent: dataprovider
 User-agent: dotbot
 User-agent: EasouSpider
 User-agent: ElectricMonk
