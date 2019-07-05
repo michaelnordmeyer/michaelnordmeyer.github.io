@@ -62,7 +62,7 @@ if (isHuman(navigator.userAgent) === true) {
       };
     
       this.getUrl = function() {
-        var url = location.pathname + location.search;
+        var url = decodeURIComponent(location.pathname + location.search);
         return (url.startsWith('/') && url.length > 1) ? url.substr(1) : 'homepage';
       };
 
