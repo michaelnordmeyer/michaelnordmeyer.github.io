@@ -39,9 +39,9 @@ if (isHuman(navigator.userAgent) === true) {
         var links = document.getElementsByClassName('outgoing-profile-link');
         for (var i = 0, length = links.length; i < length; i++) {
           if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
-            var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
-            query += '&ref=' + encodedUrl;
+            // var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
+            // query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
+            // query += '&ref=' + encodedUrl;
             // links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
             links[i].addEventListener('click', self.trackOutgoingLink);
           }
