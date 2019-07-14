@@ -37,7 +37,7 @@ if (isHuman(navigator.userAgent) === true) {
       // this.registerOutgoingProfileLinksWithPing = function() {
       //   var links = document.getElementsByClassName('outgoing-profile-link');
       //   for (var i = 0, length = links.length; i < length; i++) {
-      //     var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
+      //     var query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(links[i].href));
       //     query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
       //     query += '&ref=' + encodedUrl;
       //     links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
@@ -61,7 +61,7 @@ if (isHuman(navigator.userAgent) === true) {
       };
     
       this.trackOutgoingLink = function() {
-        var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(this.href));
+        var query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(this.href));
         query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
         query += '&ref=' + encodedUrl;
         self.saveStats(query);
@@ -105,24 +105,23 @@ if (isHuman(navigator.userAgent) === true) {
     
       this.resolveReferrer = function() {
         var referrer = document.referrer;
-        referrer = referrer.match(/^https?:/)
-          ? (RegExp('^https?://[^/]*' + location.host.replace(/^www\./i, '') + '/', 'i').test(referrer)
-            ? ''
-            : referrer)
-          : '';
-        return self.removeProtocolFromUrl(referrer);
+        referrer = referrer.match(/^https?:/) ? self.sanitizeUrlForLogging(referrer) : '';
+        return RegExp(location.host.replace(/^www\./i, '') + '/', 'i').test(referrer) ? '' : referrer;
+      };
+    
+      this.sanitizeUrlForLogging = function(url) {
+        var urlWithoutProtocol = self.removeProtocolFromUrl(url);
+        if (urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/') && urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1) {
+          // Only remove the / after TLD if it's not belonging to the path
+          return urlWithoutProtocol.substr(0, urlWithoutProtocol.length - 1);
+        }
+        return urlWithoutProtocol;
       };
  
       this.removeProtocolFromUrl = function(url) {
-        if (url.indexOf('://') > -1) {
-            var urlWithoutProtocol = url.substr(url.indexOf('://') + '://'.length);
-            if (urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/') && urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1) {
-              // Only remove the / after TLD if it's the last character
-              return urlWithoutProtocol.substr(0, urlWithoutProtocol.length - 1);
-            }
-            return urlWithoutProtocol;
-        }
-        return url;
+        return url.indexOf('://') > -1
+            ? url.substr(url.indexOf('://') + '://'.length)
+            : url;
       };
     
       var encodedUrl = encodeURIComponent(self.resolveUrl());
