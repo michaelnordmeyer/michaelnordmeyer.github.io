@@ -34,17 +34,29 @@ if (isHuman(navigator.userAgent) === true) {
         self.saveStats(query);
       };
         
-      this.registerOutgoingLinks = function() {
-        // var links = document.getElementsByTagName('a');
+      // this.registerOutgoingProfileLinksWithPing = function() {
+      //   var links = document.getElementsByClassName('outgoing-profile-link');
+      //   for (var i = 0, length = links.length; i < length; i++) {
+      //     var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
+      //     query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
+      //     query += '&ref=' + encodedUrl;
+      //     links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
+      //   }
+      // };
+        
+      // this.registerOutgoingLinks = function() {
+      //   var links = document.getElementsByTagName('a');
+      //   for (var i = 0, length = links.length; i < length; i++) {
+      //     if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
+      //       links[i].addEventListener('click', self.trackOutgoingLink);
+      //     }
+      //   }
+      // };
+    
+      this.registerOutgoingProfileLinks = function() {
         var links = document.getElementsByClassName('outgoing-profile-link');
         for (var i = 0, length = links.length; i < length; i++) {
-          if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
-            // var query = '?lnk=' + encodeURIComponent(self.removeProtocolFromUrl(links[i].href));
-            // query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
-            // query += '&ref=' + encodedUrl;
-            // links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
-            links[i].addEventListener('click', self.trackOutgoingLink);
-          }
+          links[i].addEventListener('click', self.trackOutgoingLink);
         }
       };
     
@@ -61,7 +73,7 @@ if (isHuman(navigator.userAgent) === true) {
         xhttp.send();
       };
     
-      this.getUrl = function() {
+      this.resolveUrl = function() {
         var url = decodeURIComponent(location.pathname + location.search);
         return (url.startsWith('/') && url.length > 1) ? url.substr(1) : 'homepage';
       };
@@ -87,7 +99,7 @@ if (isHuman(navigator.userAgent) === true) {
           return 'console'
         } else {
           return userAgent;
-  //        return 'unknown';
+          // return 'unknown';
         }
       };
     
@@ -113,11 +125,11 @@ if (isHuman(navigator.userAgent) === true) {
         return url;
       };
     
-      var encodedUrl = encodeURIComponent(self.getUrl());
+      var encodedUrl = encodeURIComponent(self.resolveUrl());
       var encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
       var encodedReferrer = encodeURIComponent(self.resolveReferrer());
       self.pageview();
-      self.registerOutgoingLinks();
+      self.registerOutgoingProfileLinks();
     }
   
     return new function() {
