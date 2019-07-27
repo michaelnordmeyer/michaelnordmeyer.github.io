@@ -24,7 +24,7 @@ if (isHuman(navigator.userAgent) === true) {
     function Instance() {
       var self = this;
     
-      this.pageview = function() {
+      this.countPageview = function() {
         var query = '?url=' + encodedUrl;
         if (document.title === 'Not Found') {
           query = '?404=' + encodedUrl;
@@ -126,7 +126,7 @@ if (isHuman(navigator.userAgent) === true) {
       var encodedUrl = encodeURIComponent(self.resolveUrl());
       var encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
       var encodedReferrer = encodeURIComponent(self.resolveReferrer());
-      self.pageview();
+      self.countPageview();
       self.registerOutgoingProfileLinks();
     }
   
