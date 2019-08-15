@@ -17,6 +17,6 @@ While it felt good and I liked to look at the Tumblr stream, the Twitter and Fac
 
 While I love Tumblr for the simplicity of creating video, image and link posts, I don’t like the way the URL for those posts look like. There’s always a unique ID between the blog URL and the post name. It’s there to be easier on Tumblr’s servers, which is of little interest for the user. But anyway, I digress.
 
-Having the data on Tumblr’s servers is not _actually_ owning the data, but it’s much easier to get it out from Tumblr than from Twitter or Facebook.
+Having the data stored on Tumblr’s servers is not _actually_ owning the data, but it’s much easier to get it out from Tumblr than from Twitter or Facebook.
 
-I stopped after a while and decided “what the heck, I just post to Twitter and Facebook again.” All these post are ephemeral and I don’t need to hold on to them. I even deleted my 8 year old Tumblr and moved part of the data into this blog.
+I stopped after a while and decided “what the heck, I just post to Twitter and Facebook again.” All these posts are ephemeral and I don’t need to hold on to them. I even deleted my 8 year old Tumblr and moved some posts into this blog.
