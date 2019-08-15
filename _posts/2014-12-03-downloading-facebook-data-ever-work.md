@@ -21,3 +21,7 @@ Great. This didn’t help at all. To answer my own question I asked in the headl
 #### Update 2015-02-05
 
 Finally it worked and I downloaded an archive. But apart from the downloaded media like images and videos, the rest is just plain HTML files. Those files don’t have much data compared to what Facebook is harvesting. The only useful info is friend’s names and email addresses and messages.
+
+#### Update 2018-05-28
+
+Finally I deleted my Facebook account after exporting it one last time. I decided to do this maybe a year ago, after I didn't use Facebook on purpose. I waited for the [European General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) to happen to be sure that Facebook has to actually delete my data and not keep it around to abuse it even more. Life is good.
