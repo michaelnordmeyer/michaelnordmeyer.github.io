@@ -70,6 +70,25 @@ footer input[type="search"] { width: 100%; font-size: 1em; }
     width: calc(85% - (30px / 2))
 }
 
+// .social-media-list was "renamed" to .profiles to avoid content blocker
+// blocking those links
+.profiles a:hover {
+    text-decoration: none
+}
+
+.profiles a:hover .username {
+    text-decoration: underline
+}
+
+.profiles li + li {
+    padding-top: 5px
+}
+
+.profiles {
+    list-style: none;
+    margin-left: 0
+}
+
 // 320, 375, 414
 @media screen and (max-width: 800px) {
 //  .social-media-list li { display: inline; }
@@ -84,7 +103,7 @@ footer input[type="search"] { width: 100%; font-size: 1em; }
 }
 
 @media screen and (max-width: 415px) {
-  .social-media-list li { display: inline; margin-right: 20px; }
+  .profiles li { display: inline; margin-right: 20px; }
   .footer-col-1 { width: calc(100% - (30px / 2)); }
   .footer-col-2 { width: calc(100% - (30px / 2)); }
 }
