@@ -51,7 +51,7 @@ twitter:
 
 ## Analytics
 stats:
-  no-javascript-url: "https://stats.michaelnordmeyer.com"
+  no-javascript-url: "https://s.michaelnordmeyer.com"
 #  script-url: "https://michaelnordmeyer.com/stats.js"
   script-url: "https://michaelnordmeyer.com/stats.min.js"
 

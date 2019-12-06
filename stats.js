@@ -41,7 +41,7 @@ if (isHuman(navigator.userAgent) === true) {
       //     var query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(links[i].href));
       //     query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
       //     query += '&ref=' + encodedUrl;
-      //     links[i].setAttribute('ping', 'https://stats.michaelnordmeyer.com/' + query);
+      //     links[i].setAttribute('ping', 'https://s.michaelnordmeyer.com/' + query);
       //   }
       // };
         
@@ -70,7 +70,7 @@ if (isHuman(navigator.userAgent) === true) {
     
       this.saveStats = function(query) {
         var xhttp = new XMLHttpRequest();
-        xhttp.open('GET', 'https://stats.michaelnordmeyer.com/' + query, true);
+        xhttp.open('GET', 'https://s.michaelnordmeyer.com/' + query, true);
         xhttp.send();
       };
     
