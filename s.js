@@ -87,7 +87,7 @@ if (isHuman(navigator.userAgent) === true) {
           return 'mobile';
         } else if (
             userAgent.includes('(iPad') ||
-            userAgent.includes('Android')) {
+            (userAgent.includes('Android') && userAgent.includes('Tablet'))) {
           return 'tablet'
         } else if (
             userAgent.includes('(Macintosh') ||
