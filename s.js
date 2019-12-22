@@ -9,6 +9,7 @@ var isHuman = function(userAgent) {
       userAgent.includes('facebookexternalhit') ||
       userAgent.includes('Googlebot') ||
       userAgent.includes('Google-Structured-Data-Testing-Tool') ||
+      userAgent.includes('Imapct') ||
       userAgent.includes('JobborseBot') ||
       userAgent.includes('Slurp') ||
       userAgent.includes('woorank') ||
