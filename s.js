@@ -2,6 +2,7 @@
 
 var isHuman = function(userAgent) {
   if (userAgent === '' ||
+      userAgent.includes('Baiduspider') ||
       userAgent.includes('bingbot') ||
       userAgent.includes('Dataprovider') ||
       userAgent.includes('DuckDuckBot') ||
