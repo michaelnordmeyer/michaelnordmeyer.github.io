@@ -6,7 +6,7 @@ date: 2016-12-09 16:11:00 UTC
 ---
 ## Who
 
-I'm a freelance software and web developer, project manager and consultant from [Hamburg, Germany](https://en.wikipedia.org/wiki/Hamburg). I develop concepts, strategies and applications for web and mobile while working for major corporations, digital agencies and small startups.
+I'm Michael Nordmeyer, a freelance software and web developer, project manager and consultant from [Hamburg, Germany](https://en.wikipedia.org/wiki/Hamburg). I develop concepts, strategies and applications for web and mobile while working for major corporations, digital agencies and small startups.
 
 ## What
 
