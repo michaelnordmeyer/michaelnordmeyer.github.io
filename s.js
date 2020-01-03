@@ -108,7 +108,7 @@ if (isHuman(navigator.userAgent) === true) {
     
       this.resolveReferrer = function() {
         var referrer = document.referrer;
-        var sanitizedReferrer = RegExp(/^https?:\/\//i).test(referrer) ? self.sanitizeUrlForLogging(referrer) : '';
+        var sanitizedReferrer = RegExp(/^https?:\/\//i).test(referrer) ? self.sanitizeUrlForLogging(referrer) : 'direct';
         return RegExp(location.host.replace(/^www\./i, ''), 'i').test(sanitizedReferrer) ? '' : sanitizedReferrer;
       };
     
@@ -118,7 +118,8 @@ if (isHuman(navigator.userAgent) === true) {
         if (urlWithoutProtocol[0] == '/') {
           // Removes leading slash from relative URL
           return urlWithoutProtocol.substr(1, urlWithoutProtocol.length);
-        } else if (urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1 && urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/')) {
+        } else if (urlWithoutProtocol.lastIndexOf('/') == urlWithoutProtocol.length - 1
+            && urlWithoutProtocol.indexOf('/') == urlWithoutProtocol.lastIndexOf('/')) {
           // Removes trailing slash from domain names (= path is root)
           return urlWithoutProtocol.substr(0, urlWithoutProtocol.length - 1);
         }
