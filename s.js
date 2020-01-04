@@ -29,7 +29,7 @@ if (isHuman(navigator.userAgent) === true) {
     
       this.countPageview = function() {
         var query = '?url=' + encodedUrl;
-        if (document.title === 'Not Found') {
+        if (document.title === 'Not Found' && encodedUrl != 'null') {
           query = '?404=' + encodedUrl;
         }
         query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
@@ -71,9 +71,9 @@ if (isHuman(navigator.userAgent) === true) {
       };
     
       this.saveStats = function(query) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.open('GET', 'https://s.michaelnordmeyer.com/' + query, true);
-        xhttp.send();
+        var request = new XMLHttpRequest();
+        request.open('GET', 'https://s.michaelnordmeyer.com/' + query, true);
+        request.send();
       };
     
       this.resolveUrl = function() {
@@ -90,7 +90,7 @@ if (isHuman(navigator.userAgent) === true) {
         } else if (
             userAgent.includes('(iPad') ||
             userAgent.includes('Android')) {
-//            (userAgent.includes('Android') && userAgent.includes('Tablet'))) {
+            // (userAgent.includes('Android') && userAgent.includes('Tablet'))) {
           return 'tablet'
         } else if (
             userAgent.includes('(Macintosh') ||
