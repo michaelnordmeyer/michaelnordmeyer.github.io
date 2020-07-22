@@ -12,6 +12,7 @@ var isHuman = function(userAgent) {
       userAgent.includes('Google-Structured-Data-Testing-Tool') ||
       userAgent.includes('Imapct') ||
       userAgent.includes('JobborseBot') ||
+      userAgent.includes('Seekport') ||
       userAgent.includes('Slurp') ||
       userAgent.includes('woorank') ||
       userAgent.includes('YandexBot')) {

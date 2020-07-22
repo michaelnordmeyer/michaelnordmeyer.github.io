@@ -24,6 +24,7 @@ User-agent: MJ12bot
 User-agent: NetcraftSurveyAgent
 User-agent: Netvibes
 User-agent: rogerbot
+User-agent: Seekport
 User-agent: SemrushBot
 User-agent: SemrushBot-SA
 User-agent: SeznamBot
