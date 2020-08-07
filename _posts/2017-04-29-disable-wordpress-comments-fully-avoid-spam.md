@@ -52,4 +52,4 @@ It should be a easy to adapt this to Apache. If there’s no equivalent `server_
 
 ## Conclusion
 
-Regardless if comments are enabled in WordPress or not spammers won’t be able to submit spam anymore. And we don’t need a potentially insecure plugin for that.
+Regardless if comments are enabled in WordPress or not, spammers won’t be able to submit spam anymore. And we don’t need a potentially insecure plugin for that.
