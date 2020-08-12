@@ -16,4 +16,4 @@ Fortunately on the same day I will regularly be at home is the [OpenCoffee Club 
 
 Everybody is free to come. No admission, no registration. Share the love.
 
-<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2370.138782012406!2d9.99099!3d53.55529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1904ef4793%3A0xec8babfcf83a4dfb!2sNeuer+Jungfernstieg+5%2C+20354+Hamburg%2C+Germany!5e0!3m2!1sen!2s!4v1416413810264" width="740" height="448"></iframe>
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2370.138782012406!2d9.99099!3d53.55529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1904ef4793%3A0xec8babfcf83a4dfb!2sNeuer+Jungfernstieg+5%2C+20354+Hamburg%2C+Germany!5e0!3m2!1sen!2s!4v1416413810264" width="740" height="448" loading="lazy"></iframe>
