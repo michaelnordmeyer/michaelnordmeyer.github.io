@@ -16,7 +16,7 @@ tags:
 ---
 Morgen startet [Apples World Wide Developers Conference](https://developer.apple.com/wwdc/), die WWDC, in San Francisco. Wie jedes Jahr Anfang Juni werden im Moscone West (Ecke 4th und Howard, SOMA) Ausblicke auf die von Apple zukünftig verkaufte Software und eingesetzte Technologien gegeben. Seit ein paar Jahren nutzt Apple diese Entwickler-Veranstaltung auch zur Vorstellung neuer Produkte.
 
-<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25226.196780784914!2d-122.401514!3d37.783604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580876347d029%3A0x9235905a65e35573!2s798+Howard+St%2C+San+Francisco%2C+CA+94103%2C+USA!5e0!3m2!1sen!2s!4v1416413530558" width="740" height="448" frameborder="0"></iframe>
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25226.196780784914!2d-122.401514!3d37.783604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580876347d029%3A0x9235905a65e35573!2s798+Howard+St%2C+San+Francisco%2C+CA+94103%2C+USA!5e0!3m2!1sen!2s!4v1416413530558" width="740" height="448" frameborder="0" loading="lazy"></iframe>
 
 Aus eigener Erfahrung – ich war 2006 auf der WWDC – kann ich sagen, dass die WWDC immer eine Reise Wert ist, da historisch gesehen eher kreative Entwickler von Apple angezogen werden. Und San Francisco ist natürlich immer eine Reise Wert. **Die Aufbruchstimmung ist enorm**, wie mir auch von anderen Teilnehmern berichtet worden ist, die die letzten Jahre häufiger dort waren.
 

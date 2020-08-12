@@ -21,7 +21,7 @@ The [current show](http://epicfu.com/show/2010/07/5-ways-to-make-an-awesome-comm
   * Engange
   * Create Meaning
 
-<iframe src="https://www.youtube-nocookie.com/embed/zR569LLNB3E" width="740" height="416" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/zR569LLNB3E" width="740" height="416" frameborder="0" allowfullscreen loading="lazy"></iframe>
 
 [EPIC FU – 5 ways to make an awesome community](http://epicfu.com/show/2010/07/5-ways-to-make-an-awesome-comm.html)
 

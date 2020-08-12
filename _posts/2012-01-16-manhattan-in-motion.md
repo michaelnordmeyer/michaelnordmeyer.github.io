@@ -9,6 +9,6 @@ categories:
 tags:
   - Video
 ---
-<iframe src="https://player.vimeo.com/video/24492485?color=ffffff" width="740" height="416" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/24492485?color=ffffff" width="740" height="416" frameborder="0" allowfullscreen loading="lazy"></iframe>
 
 [Mindrelic – Manhattan in motion](https://vimeo.com/24492485)

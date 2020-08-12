@@ -19,6 +19,6 @@ It’s nearly impossible to load the conference’s online schedule to learn abo
 
 The session I enjoyed most is [Sascha Pallenberg’s](https://twitter.com/sascha_p) “Blogs monetarisieren, aber wie”, blog monetization, obviously in German. As most of the talks at republica are.
 
-<iframe src="https://www.youtube-nocookie.com/embed/5QcgsnTY1bk" width="740" height="534" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/5QcgsnTY1bk" width="740" height="534" frameborder="0" allowfullscreen loading="lazy"></iframe>
 
 It was good day on the #rp10. Except the missing internet.

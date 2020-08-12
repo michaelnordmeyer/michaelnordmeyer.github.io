@@ -22,17 +22,17 @@ Of all the talks I listened to Ola Ahlvarsson’s <cite>Inside the Head of an En
 
 Ahlvarsson described thinking and working habits of serial entrepreneurs:
 
-<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=855720" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=855720" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen loading="lazy"></iframe>
 
 [Dennis Crowley](http://denniscrowley.com/), co-founder of location service [FourSquare](https://foursquare.com/) ~~is speaking tomorrow~~ (he has pneumonia and won’t come), and media strategist [Brian Solis](http://www.briansolis.com/) will give a talk to which I’m looking forward to.
 
 A very unconventional but highly recommended talk is [Itay Talgam](http://www.talgam.com/), an israelian conductor, who is very successful using his “maestro program” to foster team building in enterprise companies. He talked about <cite>Culture Changers: Great Conductors’ Art of Rehearsing</cite>:
 
-<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=885184" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=885184" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen loading="lazy"></iframe>
 
 A video of his next09 talks <cite>Sharing Creativity – Great Conductors of the Age of the Net</cite> is also available online:
 
-<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=923266" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://video.nextconf.eu/v.ihtml?photo%5fid=923266" width="740" height="416" frameborder="0" scrolling="no" allowfullscreen loading="lazy"></iframe>
 
 Here are some photos of the next10 event:
 

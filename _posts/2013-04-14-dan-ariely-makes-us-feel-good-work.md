@@ -9,4 +9,4 @@ categories:
 tags:
   - Video
 ---
-<iframe src="https://www.youtube-nocookie.com/embed/5aH2Ppjpcho?rel=0" width="740" height="416" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/5aH2Ppjpcho?rel=0" width="740" height="416" frameborder="0" allowfullscreen loading="lazy"></iframe>

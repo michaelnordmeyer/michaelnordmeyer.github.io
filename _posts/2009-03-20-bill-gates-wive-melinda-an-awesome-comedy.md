@@ -13,6 +13,6 @@ tags:
   - Satire
   - Video
 ---
-<iframe src="https://www.funnyordie.com/embed/c010c101ac" width="740" height="416" frameborder="0"></iframe>
+<iframe src="https://www.funnyordie.com/embed/c010c101ac" width="740" height="416" frameborder="0" loading="lazy"></iframe>
 
 [Bill Gates’ wife Melinda has a dirty little secret](https://www.funnyordie.com/videos/c010c101ac/bill-gate-s-wife-melinda-has-a-dirty-little-secret)
