@@ -15,6 +15,6 @@ This is the presentation I used for a session at [BarCamp London 7](http://barca
 
 WordPress 2.9 and others will use this API.
 
-<iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="https://www.slideshare.net/slideshow/embed_code/key/2Qc6eQBw0MyB2X" width="740" height="603" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+<iframe src="https://speakerdeck.com/player/844a62eb7b8f49369fe60868ad9106d9" width="740" height="556" style="border:0; padding:0; margin:0; background:transparent;" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-**[oEmbed BarCamp London 7](https://www.slideshare.net/michaelnordmeyer/oembed-barcamp-london-7-54828724 "oEmbed BarCamp London 7")** by **[Michael Nordmeyer](https://www.slideshare.net/michaelnordmeyer)**
+**[oEmbed BarCamp London 7](https://speakerdeck.com/michaelnordmeyer/oembed-barcamp-london-7 "oEmbed BarCamp London 7")** by **[Michael Nordmeyer](https://speakerdeck.com/michaelnordmeyer)**
