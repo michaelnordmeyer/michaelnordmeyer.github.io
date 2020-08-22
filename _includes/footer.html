@@ -48,4 +48,8 @@
 
   </div>
 
+  {%- if jekyll.environment == 'production' and site.stats -%}
+    {%- include stats.html -%}
+  {%- endif -%}
+
 </footer>
