@@ -13,7 +13,7 @@
     <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
   </head>
   <body>
-    {% include header.html %}
+    {%- include header.html -%}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
@@ -27,6 +27,6 @@
         </article>
       </div>
     </main>
-    {% include footer.html %}
+    {%- include footer.html -%}
   </body>
 </html>

@@ -1,8 +1,2 @@
-<script>
-    (function() {
-      var d=document, s=d.createElement('script');
-      s.async=true; s.defer=true; s.src='{{ site.stats.script-url }}';
-      (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
-    })();
-  </script>
-  <noscript><img src="{{ site.stats.no-javascript-url }}{{ page.url | relative_url }}" height="1" width="1"></noscript>
+<script async src="{{ site.stats.script-url }}"></script>
+<noscript><img src="{{ site.stats.no-javascript-url }}{{ page.url | relative_url }}" height="1" width="1"></noscript>
