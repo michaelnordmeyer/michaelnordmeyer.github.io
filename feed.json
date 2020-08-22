@@ -22,7 +22,7 @@ sitemap: false
       "id": "{{ post.id }}",
       "url": "{{ post.url | absolute_url }}",
       "title": {{ post.title | smartify | jsonify }},
-      "date_published": "{{ post.date }}",
+      "date_published": "{{ post.date | date_to_xmlschema }}",
       "summary": {% if post.excerpt %}{{ post.excerpt | smartify | jsonify }}{% else %}{{ post.description | smartify | jsonify }}{% endif %},{% if post.image %}
       "image": "{{ post.image }}",{% endif %}
       "content_html": {{ post.content | smartify | jsonify }}
