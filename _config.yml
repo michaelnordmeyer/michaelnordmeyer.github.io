@@ -9,9 +9,11 @@ gems:
 #  - jemoji
 #  - jekyll-mentions
 #  - jekyll-include-cache
-   
-# https://github.com/jekyll/minima#customization
-theme: minima
+
+# https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css
+# https://github.com/jekyll/minima#customizing-templates
+#theme: minima
+remote_theme: michaelnordmeyer/minima
 minima:
   date_format: "%Y-%m-%d"
 
