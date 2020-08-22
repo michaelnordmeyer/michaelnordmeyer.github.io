@@ -4,14 +4,14 @@ permalink: /feed.json
 sitemap: false
 ---
 {
-  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — {{ site.url }}feed.json — and add it to your reader.",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — {{ site.url }}/feed.json — and add it to your reader.",
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
   "home_page_url": "{{ site.url }}",
-  "feed_url": "{{ site.url }}feed.json",
-  "icon": "{{ site.url }}favicon.ico",
-  "favicon": "{{ site.url }}favicon.ico",
+  "feed_url": "{{ site.url }}/feed.json",
+  "icon": "{{ site.url }}/favicon.ico",
+  "favicon": "{{ site.url }}/favicon.ico",
   "author": {
     "name": "{{ site.author }}",
     "url": "{{ site.url }}"
