@@ -9,8 +9,6 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="Error page">
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-  <link type="application/atom+xml" rel="alternate" href="{{ '/feed' | relative_url }}" title="{{ site.title | escape }}">
-  <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
 </head>
 <body>
   {%- include header.html -%}
