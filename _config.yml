@@ -1,9 +1,9 @@
 # https://pages.github.com/versions/
-# https://help.github.com/articles/configuring-jekyll-plugins/
-gems:
-#  - jekyll-feed
+# https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
+plugins:
   - jekyll-redirect-from
-  - jekyll-seo-tag
+#  - jekyll-feed
+#  - jekyll-seo-tag
 #  - jekyll-sitemap
 #  - jekyll-avatar
 #  - jemoji
@@ -16,13 +16,20 @@ gems:
 remote_theme: michaelnordmeyer/minima
 minima:
   date_format: "%Y-%m-%d"
+  # social_links:
+  #   github: michaelnordmeyer
+  #   twitter: mnordmeyer
+  #   linkedin_username: michaelnordmeyer
+  #   xing_username: Michael_Nordmeyer
 
 title: Michael Nordmeyer
 description: "Agile Project Management & Software Engineering"
 bio: "Freelance software developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker, but Sencha only. 🍵"
 
-author: Michael Nordmeyer
-#email: xxx@example.com
+author:
+  name: Michael Nordmeyer
+#  email: xxx@example.com
+  uri: {{ site.url | absolute_url }}/
 github_username: michaelnordmeyer
 twitter_username: mnordmeyer
 linkedin_username: michaelnordmeyer
@@ -54,8 +61,8 @@ twitter:
 ## Analytics
 stats:
   no-javascript-url: "https://s.michaelnordmeyer.com"
-#  script-url: "https://michaelnordmeyer.com/s.js"
-  script-url: "https://michaelnordmeyer.com/s.min.js"
+#  script-url: "{{ site.url | absolute_url }}/s.js"
+  script-url: "{{ site.url | absolute_url }}/s.min.js"
 
 # defaults:
 #   -

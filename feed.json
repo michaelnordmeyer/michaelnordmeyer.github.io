@@ -13,7 +13,7 @@ sitemap: false
   "icon": "{{ site.url }}/favicon.ico",
   "favicon": "{{ site.url }}/favicon.ico",
   "author": {
-    "name": "{{ site.author }}",
+    "name": "{{ site.author.name }}",
     "url": "{{ site.url }}/"
   },
   "expired": false,

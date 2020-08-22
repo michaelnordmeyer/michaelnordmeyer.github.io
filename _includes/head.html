@@ -7,7 +7,7 @@
   <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
   <title>{% if page.title %}{{ page.title | append: " • " | append: site.title | escape }}{% else %}{{ site.title | append: " • " | append: site.description | escape }}{% endif %}</title>
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: ' • ' | append: site.title | escape }}{% else %}{{ site.title | append: ' • ' | append: site.description | escape }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
+  <meta name="author" content="{{ site.author.name }}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -50,7 +50,7 @@
     {% endif %}
     "author":{
       "@type":"Person",
-      "name":"{{ site.author }}",
+      "name":"{{ site.author.name }}",
       "url":"{{ site.url | absolute_url }}/",
       "sameAs":[
         "https://github.com/michaelnordmeyer",
