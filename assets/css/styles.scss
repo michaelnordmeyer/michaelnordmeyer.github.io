@@ -55,14 +55,14 @@ footer input[type="search"] { width: 100%; font-size: 1em; }
 }
 
 /* SVG icon sizes because Github Pages minima is still on 2.11 */
-.svg-icon {
+/*.svg-icon {
   width: 16px;
   height: 16px;
   display: inline-block;
   fill: #{$grey-color};
   padding-right: 5px;
   vertical-align: text-top;
-}
+}*/
 
 .footer-col-1 {
     width: calc(15% - (30px / 2))
