@@ -10,8 +10,8 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | smartify }}{% else %}{{ site.bio | smartify }}{% endif %}">
-  <link rel="canonical" href="https://michaelnordmeyer.com{{ page.url | relative_url }}">
-  <meta property="og:url" content="https://michaelnordmeyer.com{{ page.url | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title | smartify }}">
 {% if page.date %}
   <meta property="og:type" content="article">
@@ -43,7 +43,7 @@
     {% else %}
     "@type":"Blog",
     {% endif %}
-    "url":"https://michaelnordmeyer.com{{ page.url | relative_url }}",
+    "url":"{{ page.url | absolute_url }}",
     "headline":"{{ page.title | smartify }}",
     {% if page.date %}
     "datePublished":"{{ page.date | date_to_xmlschema }}",
@@ -51,7 +51,7 @@
     "author":{
       "@type":"Person",
       "name":"{{ site.author }}",
-      "url":"https://michaelnordmeyer.com/",
+      "url":"{{ site.url | absolute_url }}/",
       "sameAs":[
         "https://github.com/michaelnordmeyer",
         "https://www.linkedin.com/in/michaelnordmeyer",
@@ -65,19 +65,19 @@
     {% if post.image %}
     "image":{
     	"@type":"ImageObject",
-    	"url":"https://michaelnordmeyer.com/{{ post.image }}"
+    	"url":"{{ site.url | absolute_url }}/{{ post.image }}"
     },
     {% endif %}
     {% if page.layout == 'post' or page.layout == 'page' %}
     "mainEntityOfPage":{
       "@type":"WebPage",
-      "@id":"https://michaelnordmeyer.com{{ page.url | relative_url }}"
+      "@id":"{{ page.url | absolute_url }}"
     },
     {% endif %}
     "publisher":{
       "@type":"Organization",
       "name":"Michael Nordmeyer",
-      "url":"https://michaelnordmeyer.com/",
+      "url":"{{ site.url | absolute_url }}/",
       "sameAs":[
         "https://github.com/michaelnordmeyer",
         "https://www.linkedin.com/in/michaelnordmeyer",
@@ -86,7 +86,7 @@
       ],
       "logo":{
       	"@type":"ImageObject",
-      	"url":"https://michaelnordmeyer.com/favicon.ico"
+      	"url":"{{ site.url | absolute_url }}/favicon.ico"
       }
     },
     "potentialAction": {
@@ -96,10 +96,10 @@
     }
   }</script>
 {% if paginator.previous_page %}
-  <link rel="prev" href="https://michaelnordmeyer.com{{ paginator.previous_page_path | relative_url }}">
+  <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
 {% endif %}
 {% if paginator.next_page %}
-  <link rel="next" href="https://michaelnordmeyer.com{{ paginator.next_page_path | relative_url }}">
+  <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
   <script>
     // https://github.com/dollarshaveclub/reframe.js
