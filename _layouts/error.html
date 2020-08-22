@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="Error page">
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -19,9 +20,10 @@
         <header class="post-header">
           <h1 class="post-title">{{ page.title | escape }}</h1>
         </header>
-        <div class="post-content">
+        <div class="post-content" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
           {{ content }}
         </div>
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </article>
     </div>
   </main>
