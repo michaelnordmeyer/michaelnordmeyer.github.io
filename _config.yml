@@ -29,7 +29,7 @@ bio: "Freelance software developer, project manager, consultant. Whatever role f
 author:
   name: Michael Nordmeyer
 #  email: xxx@example.com
-  uri: {{ site.url | absolute_url }}/
+  uri: https://michaelnordmeyer.com/
 github_username: michaelnordmeyer
 twitter_username: mnordmeyer
 linkedin_username: michaelnordmeyer
@@ -61,8 +61,8 @@ twitter:
 ## Analytics
 stats:
   no-javascript-url: "https://s.michaelnordmeyer.com"
-#  script-url: "{{ site.url | absolute_url }}/s.js"
-  script-url: "{{ site.url | absolute_url }}/s.min.js"
+#  script-url: "{{ stats.no-javascript-url | absolute_url }}/s.js"
+  script-url: "{{ stats.no-javascript-url | absolute_url }}/s.min.js"
 
 # defaults:
 #   -
