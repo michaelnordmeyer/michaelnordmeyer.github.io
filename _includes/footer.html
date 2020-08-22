@@ -7,18 +7,18 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        {%- include social.html -%}
+        {%- include custom-social.html -%}
       </div>
       <div class="footer-col footer-col-2">
         <p>{{ site.bio | escape }}</p>
-        {%- include search.html -%}
+        {%- include search-duckduckg0.html -%}
       </div>
     </div>
 
   </div>
 
   {%- if jekyll.environment == 'production' and site.stats -%}
-    {%- include stats.html -%}
+    {%- include custom-stats.html -%}
   {%- endif -%}
 
 </footer>
