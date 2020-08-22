@@ -1,3 +1,33 @@
+title: Michael Nordmeyer
+author:
+  name: Michael Nordmeyer
+#  email: xxx@example.com
+  uri: https://michaelnordmeyer.com/
+github_username: michaelnordmeyer
+twitter_username: mnordmeyer
+linkedin_username: michaelnordmeyer
+xing_username: Michael_Nordmeyer
+#rss: RSS Feed
+description: "Agile Project Management & Software Engineering"
+bio: "Freelance software developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker, but Sencha only. 🍵"
+
+show_excerpts: true
+ 
+# https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css
+# https://github.com/jekyll/minima#customizing-templates
+#theme: minima
+remote_theme: michaelnordmeyer/minima
+minima:
+  date_format: "%Y-%m-%d"
+  # social_links:
+  #   github: michaelnordmeyer
+  #   twitter: mnordmeyer
+  #   linkedin: michaelnordmeyer
+  #   xing: Michael_Nordmeyer
+
+header_pages:
+  - about.md
+
 # https://pages.github.com/versions/
 # https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
 plugins:
@@ -10,36 +40,6 @@ plugins:
 #  - jekyll-mentions
 #  - jekyll-include-cache
 
-# https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css
-# https://github.com/jekyll/minima#customizing-templates
-#theme: minima
-remote_theme: michaelnordmeyer/minima
-minima:
-  date_format: "%Y-%m-%d"
-  # social_links:
-  #   github: michaelnordmeyer
-  #   twitter: mnordmeyer
-  #   linkedin_username: michaelnordmeyer
-  #   xing_username: Michael_Nordmeyer
-
-title: Michael Nordmeyer
-description: "Agile Project Management & Software Engineering"
-bio: "Freelance software developer, project manager, consultant. Whatever role fits. Likes Ruby on Rails and JavaScript, tolerates Java. Uses HTML/CSS to make the web a better place. Green tea drinker, but Sencha only. 🍵"
-
-author:
-  name: Michael Nordmeyer
-#  email: xxx@example.com
-  uri: https://michaelnordmeyer.com/
-github_username: michaelnordmeyer
-twitter_username: mnordmeyer
-linkedin_username: michaelnordmeyer
-xing_username: Michael_Nordmeyer
-#rss: RSS Feed
-
-header_pages:
-  - about.md
-show_excerpts: true
- 
 lang: en
 feed:
   path: /feed
