@@ -31,8 +31,7 @@ header_pages:
 # https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
 # https://pages.github.com/versions/ Jekyll 3.9.0 vs. 4.1.1
 plugins:
-  - jekyll-redirect-from
-  # 0.15.0 vs. 0.16.0
+  - jekyll-redirect-from # 0.15.0 vs. 0.16.0
 #  - jekyll-feed 0.0.13 vs. 0.0.15
 #  - jekyll-seo-tag 2.6.1
 #  - jekyll-sitemap 1.4.0
