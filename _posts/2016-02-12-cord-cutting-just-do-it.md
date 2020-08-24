@@ -14,7 +14,7 @@ Just cut the cord and stop watching TV. You won’t miss it. Don’t be a couch 
 
 There are so many ways to spend your spare time. TV is linear. You have to be on time because the shows won’t wait. You don’t stop watching because you already paid. At the end of a program you immediately get fed with new shows, which makes switching off hard.
 
-If you for example surf the Internet at least you can choose what and when you want to consume. There’s much more content which you can choose from. It covers even the most arcane hobbies. This arcane stuff is done by people like you and me who happen to love this stuff. And it shows. Much more authentic, less spin.
+If you, for example, surf the Internet at least you can choose what and when you want to consume. There’s much more content which you can choose from. It covers even the most arcane hobbies. This arcane stuff is done by people like you and me who happen to love this stuff. And it shows. Much more authentic, less spin.
 
 If you prefer laid back consumption there’s always [YouTube](https://www.youtube.com/). You have no idea what kind of interesting stuff people upload every day. From workouts and sports to healthy or not so healthy cooking and baking. From living off-grid to van-life or multi-million dollar homes. From old-school music documentaries to green-living documentaries.
 
