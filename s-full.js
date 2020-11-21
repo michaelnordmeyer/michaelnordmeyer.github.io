@@ -57,9 +57,9 @@ var stats_obj = stats_obj || (function() {
     
     this.store = function(url) {
       //console.log("Storing...");
-      var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", url, true);
-      xhttp.send();
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", url, true);
+      xhr.send();
     };
     
     this.beacon = function(type, query) {
