@@ -32,18 +32,18 @@ header_pages:
 # https://pages.github.com/versions/ Jekyll 3.9.0 vs. 4.2.0
 plugins:
   - jekyll-redirect-from # 0.16.0
-#  - jekyll-feed # 0.15.1
-#  - jekyll-seo-tag # 2.6.1 vs. 2.7.1
-#  - jekyll-sitemap # 1.4.0
-#  - jekyll-avatar # 0.7.0
-#  - jemoji # 0.12.0
-#  - jekyll-mentions # 1.6.0
-#  - jekyll-include-cache # ? vs. 0.2.1
+  # - jekyll-feed # 0.15.1
+  # - jekyll-seo-tag # 2.6.1 vs. 2.7.1
+  # - jekyll-sitemap # 1.4.0
+  # - jekyll-avatar # 0.7.0
+  # - jemoji # 0.12.0
+  # - jekyll-mentions # 1.6.0
+  # - jekyll-include-cache # ? vs. 0.2.1
 
 lang: en
 feed:
-  path: /feed
-  # posts_limit: 20
+  path: /534750745074507047507450733
+  posts_limit: 20
   # excerpt_only: false
   
 ## jekyll-seo-tag
@@ -62,7 +62,7 @@ feed:
 ## Analytics
 stats:
   no-javascript-url: "https://s.michaelnordmeyer.com"
-#  script-url: "https://michaelnordmeyer.com/s.js"
+  # script-url: "https://michaelnordmeyer.com/s.js"
   script-url: "https://michaelnordmeyer.com/s.min.js"
 
 # defaults:
