@@ -22,7 +22,7 @@ const isHuman = function(userAgent) {
 };
 
 if (isHuman(navigator.userAgent) === true) {
-  let statsObject = statsObject || (function() {
+  var statsObject = statsObject || (function() {
     let instance = null;
 
     function Instance() {
