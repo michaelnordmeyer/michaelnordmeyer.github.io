@@ -1,6 +1,6 @@
 'use strict';
 
-var isHuman = function(userAgent) {
+const isHuman = function(userAgent) {
   if (userAgent === '' ||
       userAgent.includes('Applebot') ||
       userAgent.includes('Baiduspider') ||
@@ -22,14 +22,14 @@ var isHuman = function(userAgent) {
 };
 
 if (isHuman(navigator.userAgent) === true) {
-  var statsObject = statsObject || (function() {
-    var instance = null;
+  const statsObject = statsObject || (function() {
+    let instance = null;
 
     function Instance() {
-      var self = this;
+      const self = this;
     
       this.countPageview = function() {
-        var query = '?url=' + encodedUrl;
+        let query = '?url=' + encodedUrl;
         if (document.title === 'Not Found' && encodedUrl != 'null') {
           query = '?404=' + encodedUrl;
         }
@@ -39,9 +39,9 @@ if (isHuman(navigator.userAgent) === true) {
       };
         
       // this.registerOutgoingProfileLinksWithPing = function() {
-      //   var links = document.getElementsByClassName('outgoing-profile-link');
-      //   for (var i = 0, length = links.length; i < length; i++) {
-      //     var query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(links[i].href));
+      //   const links = document.getElementsByClassName('outgoing-profile-link');
+      //   for (let i = 0, length = links.length; i < length; i++) {
+      //     let query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(links[i].href));
       //     query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
       //     query += '&ref=' + encodedUrl;
       //     links[i].setAttribute('ping', 'https://s.michaelnordmeyer.com/' + query);
@@ -49,8 +49,8 @@ if (isHuman(navigator.userAgent) === true) {
       // };
         
       // this.registerOutgoingLinks = function() {
-      //   var links = document.getElementsByTagName('a');
-      //   for (var i = 0, length = links.length; i < length; i++) {
+      //   const links = document.getElementsByTagName('a');
+      //   for (let i = 0, length = links.length; i < length; i++) {
       //     if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
       //       links[i].addEventListener('click', self.linkClicked);
       //     }
@@ -58,32 +58,32 @@ if (isHuman(navigator.userAgent) === true) {
       // };
     
       this.registerOutgoingProfileLinks = function() {
-        var links = document.getElementsByClassName('outgoing-profile-link');
-        for (var i = 0, length = links.length; i < length; i++) {
+        const links = document.getElementsByClassName('outgoing-profile-link');
+        for (let i = 0, length = links.length; i < length; i++) {
           links[i].addEventListener('click', self.linkClicked);
         }
       };
     
       this.linkClicked = function() {
-        var query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(this.href));
+        let query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(this.href));
         query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
         query += '&ref=' + encodedUrl;
         self.saveStats(query);
       };
     
       this.saveStats = function(query) {
-        var xhr = new XMLHttpRequest();
+        const xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://s.michaelnordmeyer.com/' + query, true);
         xhr.send();
       };
     
       this.resolveUrl = function() {
-        var url = decodeURIComponent(location.pathname + location.search);
+        const url = decodeURIComponent(location.pathname + location.search);
         return url.startsWith('/') && url.length > 1 ? url.substr(1) : 'homepage';
       };
 
       this.resolveUserAgent = function() {
-        var userAgent = navigator.userAgent;
+        const userAgent = navigator.userAgent;
         if (userAgent.includes('(iPhone') ||
             userAgent.includes('(iPod') ||
             (userAgent.includes('Android') && userAgent.includes('Mobile')) ||
@@ -110,13 +110,13 @@ if (isHuman(navigator.userAgent) === true) {
       };
     
       this.resolveReferrer = function() {
-        var referrer = document.referrer;
-        var sanitizedReferrer = RegExp(/^https?:\/\//i).test(referrer) ? self.sanitizeUrlForLogging(referrer) : 'direct';
+        const referrer = document.referrer;
+        const sanitizedReferrer = RegExp(/^https?:\/\//i).test(referrer) ? self.sanitizeUrlForLogging(referrer) : 'direct';
         return RegExp(location.host.replace(/^www\./i, ''), 'i').test(sanitizedReferrer) ? '' : sanitizedReferrer;
       };
     
       this.sanitizeUrlForLogging = function(url) {
-        var urlWithoutProtocol = url.replace(/^https?:\/\//i, '');
+        const urlWithoutProtocol = url.replace(/^https?:\/\//i, '');
         
         if (urlWithoutProtocol[0] == '/') {
           // Removes leading slash from relative URL
@@ -130,9 +130,9 @@ if (isHuman(navigator.userAgent) === true) {
         return urlWithoutProtocol;
       };
     
-      var encodedUrl = encodeURIComponent(self.resolveUrl());
-      var encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
-      var encodedReferrer = encodeURIComponent(self.resolveReferrer());
+      const encodedUrl = encodeURIComponent(self.resolveUrl());
+      const encodedUserAgent = encodeURIComponent(self.resolveUserAgent());
+      const encodedReferrer = encodeURIComponent(self.resolveReferrer());
       self.countPageview();
       self.registerOutgoingProfileLinks();
     }
@@ -148,5 +148,5 @@ if (isHuman(navigator.userAgent) === true) {
     }
   })();
 
-  var stats = statsObject.getInstance();
+  const stats = statsObject.getInstance();
 }
