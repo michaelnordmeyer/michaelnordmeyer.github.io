@@ -55,7 +55,7 @@ feed:
 #     - https://twitter.com/mnordmeyer
 # twitter:
 #   username: mnordmeyer
-#   logo: /assets/your-company-logo.png
+# logo: /assets/your-company-logo.png
 
 ## Analytics
 stats:
