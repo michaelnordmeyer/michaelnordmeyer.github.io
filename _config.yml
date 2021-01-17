@@ -43,7 +43,7 @@ plugins:
 lang: en
 feed:
   path: /534750745074507047507450733
-  posts_limit: 20
+  posts_limit: 120
   # excerpt_only: false
   
 ## jekyll-seo-tag

@@ -16,11 +16,11 @@ sitemap: false
   {% assign title = site.title | default: site.name %}
   {% if page.collection != "posts" %}
     {% assign collection = page.collection | capitalize %}
-    {% assign title = title | append: " | " | append: collection %}
+    {% assign title = title | append: " • " | append: collection %}
   {% endif %}
   {% if page.category %}
     {% assign category = page.category | capitalize %}
-    {% assign title = title | append: " | " | append: category %}
+    {% assign title = title | append: " • " | append: category %}
   {% endif %}
 
   {% if title %}
@@ -28,7 +28,7 @@ sitemap: false
   {% endif %}
 
   {% if site.description %}
-    <subtitle>{{ site.description | smartify | xml_escape }}</subtitle>
+    <subtitle>{{ site.description | smartify }}</subtitle>
   {% endif %}
 
   {% if site.author %}
