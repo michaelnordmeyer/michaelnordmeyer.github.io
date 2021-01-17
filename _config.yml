@@ -43,8 +43,8 @@ plugins:
 lang: en
 feed:
   path: /feed
-  posts_limit: 20
-  excerpt_only: false
+  # posts_limit: 20
+  # excerpt_only: false
   
 ## jekyll-seo-tag
 # title_separator: " • "
