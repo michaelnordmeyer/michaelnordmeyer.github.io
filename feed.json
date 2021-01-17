@@ -3,6 +3,7 @@ layout: none
 permalink: /feed.json
 sitemap: false
 ---
+{% assign posts_limit = site.feed.posts_limit | default: 10 %}
 {
   "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — {{ site.url }}/feed.json — and add it to your reader.",
   "version": "https://jsonfeed.org/version/1",
@@ -17,7 +18,7 @@ sitemap: false
     "url": "{{ site.url }}/"
   },
   "expired": false,
-  "items": [{% for post in site.posts limit: 20 %}
+  "items": [{% for post in site.posts limit: posts_limit %}
     {
       "id": "{{ post.id }}",
       "url": "{{ post.url | absolute_url }}",
