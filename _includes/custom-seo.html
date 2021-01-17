@@ -71,8 +71,8 @@
     
     {%- if post.image -%}
     "image":{
-    	"@type":"ImageObject",
-    	"url":"{{ site.url | absolute_url }}/{{ post.image }}"
+      "@type":"ImageObject",
+      "url":"{{ site.url | absolute_url }}/{{ post.image }}"
     },
     {%- endif -%}
     
@@ -94,8 +94,8 @@
         "https://twitter.com/mnordmeyer"
       ],
       "logo":{
-      	"@type":"ImageObject",
-      	"url":"{{ site.url | absolute_url }}/favicon.ico"
+        "@type":"ImageObject",
+        "url":"{{ site.url | absolute_url }}/favicon.ico"
       }
     },
     "potentialAction": {
