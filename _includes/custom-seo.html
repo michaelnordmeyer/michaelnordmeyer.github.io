@@ -1,3 +1,4 @@
+  <!-- custom-seo start -->
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: ' • ' | append: site.title | escape }}{% else %}{{ site.title | append: ' • ' | append: site.description | escape }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang | replace:'-','_' }}{% elsif site.lang %}{{ site.lang | replace:'-','_' }}{% else %}{{ "en" }}{% endif %}">
@@ -102,3 +103,4 @@
       "query-input": "required"
     }
   }</script>
+  <!-- custom-seo end -->
