@@ -93,6 +93,7 @@ sitemap: false
           {% assign post_image = post_image | absolute_url | xml_escape %}
         {% endunless %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" medium="image" />
       {% endif %}
 
       {% assign excerpt_only = post.feed.excerpt_only | default: site.feed.excerpt_only %}
