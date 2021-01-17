@@ -38,7 +38,7 @@
   <meta name="twitter:creator" content="@{{ site.twitter.username | replace:'@','' }}">
   <script type="application/ld+json">{
     "@context":"https://schema.org",
-    
+
     {%- if page.layout == 'post' -%}
     "@type":"BlogPosting",
     {%- elsif page.layout == 'page' -%}
@@ -46,18 +46,18 @@
     {%- else -%}
     "@type":"Blog",
     {%- endif -%}
-    
+
     "url":"{{ page.url | absolute_url }}",
     "headline":"{{ page.title | smartify }}",
-    
+
     {%- if page.date -%}
     "datePublished":"{{ page.date | date_to_xmlschema }}",
     {%- endif -%}
-    
+
     {%- if page.modified_date -%}
     "dateModified":"{{ page.modified_date | date_to_xmlschema }}",
     {%- endif -%}
-    
+
     "author":{
       "@type":"Person",
       "name":"{{ site.author.name }}",
@@ -69,25 +69,25 @@
         "https://twitter.com/mnordmeyer"
       ]
     },
-    
+
     {%- if page.excerpt -%}
     "description":"{{ page.excerpt | smartify }}",
     {%- endif -%}
-    
+
     {%- if post.image -%}
     "image":{
       "@type":"ImageObject",
       "url":"{{ site.url | absolute_url }}/{{ post.image }}"
     },
     {%- endif -%}
-    
+
     {%- if page.layout == 'post' or page.layout == 'page' -%}
     "mainEntityOfPage":{
       "@type":"WebPage",
       "@id":"{{ page.url | absolute_url }}"
     },
     {%- endif -%}
-    
+
     "publisher":{
       "@type":"Organization",
       "name":"Michael Nordmeyer",
