@@ -14,7 +14,7 @@
     <li><a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" rel="me" class="outgoing-profile-link"><span class="username">Twitter</span></a></li>
   {%- endif -%}
   {%- if site.rss -%}
-    <li><a href="{{ '/feed' | relative_url }}" rel="me" class="outgoing-profile-link"><span>RSS Feed</span></a></li>
+    <li><a href="{{ '/feed.xml' | relative_url }}" rel="me" class="outgoing-profile-link"><span>RSS Feed</span></a></li>
   {%- endif -%}
 </ul>
 <!-- custom-social end -->
