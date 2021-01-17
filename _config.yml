@@ -43,7 +43,8 @@ plugins:
 lang: en
 feed:
   path: /feed
-
+  posts_limit: 20
+  
 ## jekyll-seo-tag
 # title_separator: " • "
 # social:
