@@ -29,33 +29,33 @@ header_pages:
   - about.md
 
 # https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
-# https://pages.github.com/versions/ Jekyll 3.9.0 vs. 4.1.1
+# https://pages.github.com/versions/ Jekyll 3.9.0 vs. 4.2.0
 plugins:
-  - jekyll-redirect-from # 0.15.0 vs. 0.16.0
-#  - jekyll-feed 0.0.13 vs. 0.0.15
-#  - jekyll-seo-tag 2.6.1
+  - jekyll-redirect-from # 0.16.0
+#  - jekyll-feed 0.15.1
+#  - jekyll-seo-tag 2.6.1 vs. 2.7.1
 #  - jekyll-sitemap 1.4.0
 #  - jekyll-avatar 0.7.0
-#  - jemoji 0.11.1 vs. 0.12.0
-#  - jekyll-mentions 1.5.1 vs. 1.6.0
-#  - jekyll-include-cache ? vs. 0.2.0
+#  - jemoji 0.12.0
+#  - jekyll-mentions 1.6.0
+#  - jekyll-include-cache ? vs. 0.2.1
 
 lang: en
 feed:
   path: /feed
 
 ## jekyll-seo-tag
-title_separator: " • "
-social:
-  name: Michael Nordmeyer
-  links:
-    - https://github.com/michaelnordmeyer
-    - https://www.linkedin.com/in/michaelnordmeyer
-#    - https://www.xing.com/profile/Michael_Nordmeyer
-    - https://twitter.com/mnordmeyer
-twitter:
-  username: mnordmeyer
-# logo: /assets/your-company-logo.png
+# title_separator: " • "
+# social:
+#   name: Michael Nordmeyer
+#   links:
+#     - https://github.com/michaelnordmeyer
+#     - https://www.linkedin.com/in/michaelnordmeyer
+#     - https://www.xing.com/profile/Michael_Nordmeyer
+#     - https://twitter.com/mnordmeyer
+# twitter:
+#   username: mnordmeyer
+#   logo: /assets/your-company-logo.png
 
 ## Analytics
 stats:
