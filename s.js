@@ -78,7 +78,8 @@ if (isHuman(navigator.userAgent) === true) {
       };
     
       this.resolveUrl = function() {
-        const url = decodeURIComponent(location.pathname + location.search);
+        // const url = decodeURIComponent(location.pathname + location.search);
+        const url = decodeURIComponent(location.pathname);
         return url.startsWith('/') && url.length > 1 ? url.substr(1) : 'homepage';
       };
 
