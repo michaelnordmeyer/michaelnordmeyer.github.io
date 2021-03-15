@@ -27,6 +27,8 @@ if (isHuman(navigator.userAgent) === true) {
 
     function Instance() {
       const self = this;
+      const site = 'https://michaelnordmeyer.com/';
+      const statsSite = 'https://s.michaelnordmeyer.com/';
     
       this.countPageview = function() {
         let query = '?url=' + encodedUrl;
@@ -37,21 +39,21 @@ if (isHuman(navigator.userAgent) === true) {
         query += (encodedReferrer ? '&ref=' + encodedReferrer : '');
         self.saveStats(query);
       };
-        
+      
       // this.registerOutgoingProfileLinksWithPing = function() {
       //   const links = document.getElementsByClassName('outgoing-profile-link');
       //   for (let i = 0, length = links.length; i < length; i++) {
       //     let query = '?lnk=' + encodeURIComponent(self.sanitizeUrlForLogging(links[i].href));
       //     query += (encodedUserAgent ? '&ua=' + encodedUserAgent : '');
       //     query += '&ref=' + encodedUrl;
-      //     links[i].setAttribute('ping', 'https://s.michaelnordmeyer.com/' + query);
+      //     links[i].setAttribute('ping', statsSite + query);
       //   }
       // };
-        
+      
       // this.registerOutgoingLinks = function() {
       //   const links = document.getElementsByTagName('a');
       //   for (let i = 0, length = links.length; i < length; i++) {
-      //     if (!links[i].href.startsWith('https://michaelnordmeyer.com')) {
+      //     if (!links[i].href.startsWith(site)) {
       //       links[i].addEventListener('click', self.linkClicked);
       //     }
       //   }
@@ -73,7 +75,7 @@ if (isHuman(navigator.userAgent) === true) {
     
       this.saveStats = function(query) {
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://s.michaelnordmeyer.com/' + query, true);
+        xhr.open('GET', statsSite + query, true);
         xhr.send();
       };
     
