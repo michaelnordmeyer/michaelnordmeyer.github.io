@@ -1,6 +1,6 @@
 'use strict';
 
-const isHuman = function(userAgent) {
+const isHumanVisitor = function(userAgent) {
   if (userAgent === '' ||
       userAgent.includes('Applebot') ||
       userAgent.includes('Baiduspider') ||
@@ -21,7 +21,7 @@ const isHuman = function(userAgent) {
   return true;
 };
 
-if (isHuman(navigator.userAgent) === true) {
+if (isHumanVisitor(navigator.userAgent) === true) {
   var statsObject = statsObject || (function() {
     let instance = null;
 
