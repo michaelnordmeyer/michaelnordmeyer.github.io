@@ -102,10 +102,10 @@ if (isHumanVisitor(navigator.userAgent) === true) {
             userAgent.includes('(Windows') ||
             userAgent.includes('(X11')) {
           return 'desktop'
-        } else if (
-            userAgent.includes('(PlayStation') ||
-            userAgent.includes('Xbox;')) {
-          return 'console'
+        // } else if (
+        //     userAgent.includes('(PlayStation') ||
+        //     userAgent.includes('Xbox;')) {
+        //   return 'console'
         } else {
           return userAgent;
           // return 'unknown';
