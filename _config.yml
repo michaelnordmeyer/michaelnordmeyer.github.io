@@ -60,9 +60,8 @@ feed:
 # logo: /assets/your-company-logo.png
 
 ## Analytics
-stats:
+x-stats:
   no-javascript-url: "https://s.michaelnordmeyer.com"
-  # script-url: "https://michaelnordmeyer.com/s.js"
   script-url: "https://michaelnordmeyer.com/s.min.js"
 
 # defaults:
