@@ -14,10 +14,6 @@
         display: block;
     }
 
-    .site-nav input ~ .trigger {
-        display: block;
-    }
-
     .site-nav .page-link {
         display: block;
         padding: 5px 10px;
