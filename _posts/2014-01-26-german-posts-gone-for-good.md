@@ -10,7 +10,7 @@ tags:
 ---
 I deleted most of my posts written in German, because I decided to write exclusively in English again.
 
-## Why?
+## Why English?
 
 I switched to German in mid-2008 because my audience at the time was mostly German. Writing posts in your native language is much easier and faster as well. Especially if you write about German topics, which is very likely if you live in this country. It seems awkward to write in English about strictly German topics for a mostly German audience.
 
