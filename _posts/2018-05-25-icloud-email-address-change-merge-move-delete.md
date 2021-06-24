@@ -10,7 +10,7 @@ redirect_from:
   - /icloud-email-address/
 categories: Apple
 tags:
-  - Email
+  - E-Mail
   - iCloud
 ---
 I have a couple of Apple accounts. Some are quite old (mac.com, me.com), some are new (icloud.com). I’d like to merge all these addresses into one account and delete the rest. Unfortunately this is not possible.

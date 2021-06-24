@@ -6,7 +6,7 @@ layout: post
 permalink: /simpsons-mock-apple
 redirect_from: /2008/12/die-simpsons-persiflieren-apple/
 image: /images/2008/apple-staff-mob.jpg
-categories: Apple
+categories: Tumblr
 tags:
   - iPod
   - Satire

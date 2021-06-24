@@ -4,8 +4,8 @@ date: 2012-12-18T14:33:00+00:00
 excerpt: You have an expensive bike and want to store it properly? Look no further.
 layout: post
 permalink: /storing-bike-never-looked-easy
-categories: Image
-  - Miscellaneous
+categories: Tumblr
+  - Image
 ---
 Introducing [Tîan](https://mikili.de/products/tian/tian-weiss-eiche/ "tian"). Storing a bike never looked so easy. Tîan is an amazingly minimalist storage rack for bicycles. Functional meets beautiful.
 

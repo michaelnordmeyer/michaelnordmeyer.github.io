@@ -4,9 +4,8 @@ date: 2013-01-26T21:24:53+00:00
 excerpt: The dream computer workstation. No exaggeration.
 layout: post
 permalink: /50000-ultimate-computer-workstation
-categories: Miscellaneous
+categories: Tumblr
 tags:
-  - Computer
   - Image
 ---
 ![Emperor 200](/images/2013/emperor-200.png){: .aligncenter }

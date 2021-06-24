@@ -4,7 +4,7 @@ date: 2012-01-05T20:01:00+00:00
 excerpt: Awesome video showing pointillist art.
 layout: post
 permalink: /3-2-million-dots-210-hours
-categories: Miscellaneous
+categories: Tumblr
 tags:
   - Video
 ---

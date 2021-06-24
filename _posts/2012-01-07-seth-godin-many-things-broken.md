@@ -4,7 +4,7 @@ date: 2012-01-07T02:00:00+00:00
 excerpt: Properly complaining can be eye-opening.
 layout: post
 permalink: /seth-godin-many-things-broken
-categories: Miscellaneous
+categories: Tumblr
 tags:
   - Video
 ---

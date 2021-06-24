@@ -4,7 +4,7 @@ date: 2012-12-24T01:02:00+00:00
 excerpt: The ultimate private outdoor viewing experience.
 layout: post
 permalink: /outdoor-tv-5-m-15-feet-diagonal-retractable-ground
-categories: Miscellaneous
+categories: Tumblr
 tags:
   - Video
 ---

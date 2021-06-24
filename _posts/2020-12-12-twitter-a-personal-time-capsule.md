@@ -6,7 +6,7 @@ layout: post
 permalink: /twitter-a-personal-time-capsule
 categories: Miscellaneous
 tags:
-  - personal
+  - Personal
 ---
 One of the good things about Twitter is that it's like a time capsule. I discover things from ten years back, which I have totally forgotten about, or for which I don't know the details anymore. For posterity I add those to a (neglected) diary I started some years ago.
 

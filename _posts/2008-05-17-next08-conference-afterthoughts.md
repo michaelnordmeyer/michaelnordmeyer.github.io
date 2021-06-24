@@ -8,7 +8,6 @@ categories: Events
 tags:
   - Conference
   - Internet
-  - NEXT Conference
 ---
 The [next08](https://nextconf.eu/) conference has passed. For me it was a crowded day meeting many of my fellow friends at the conference for having great conversations. Some sessions were also extremely inspiring, some were just ordinary. It’s always hard to achieve a balance for attendees with different backgrounds and interests.
 

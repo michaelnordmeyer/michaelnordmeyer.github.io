@@ -10,7 +10,7 @@ redirect_from:
 categories: Apple
 tags:
   - Apps
-  - Email
+  - E-Mail
   - macOS
 ---
 The [Mailbox iOS app everybody loves](https://web.archive.org/web/20151201065705/http://www.mailboxapp.com/ "Link to Mailbox app") gets a OS X companion app. It’s still in beta and you need beta invites. Beta invites for Mailbox are very cool betacoins.

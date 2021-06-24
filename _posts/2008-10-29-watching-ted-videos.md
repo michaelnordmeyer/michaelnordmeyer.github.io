@@ -4,7 +4,7 @@ date: 2008-10-29T22:07:00+00:00
 excerpt: Watching TED videos for educational purposes.
 layout: post
 permalink: /watching-ted-videos
-categories: Miscellaneous
+categories: Tumblr
 ---
 It took me a while to finally start downloading some [TED videos](https://www.ted.com/). Like 150 some.
 

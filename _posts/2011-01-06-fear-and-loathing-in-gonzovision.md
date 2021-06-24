@@ -4,7 +4,7 @@ date: 2011-01-06T10:53:00+00:00
 excerpt: Hunter S. Thompson in a very long and insightful video interview.
 layout: post
 permalink: /fear-and-loathing-in-gonzovision
-categories: Miscellaneous
+categories: Tumblr
 tags:
   - Documentary
   - Video

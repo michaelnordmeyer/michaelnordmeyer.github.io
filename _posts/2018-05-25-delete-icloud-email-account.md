@@ -8,7 +8,7 @@ permalink: /delete-icloud-email-account
 redirect_from: /delete-icloud-email-account/
 categories: Apple
 tags:
-  - Email
+  - E-Mail
   - iCloud
 ---
 To make things clear I’m not writing about _deleting_ an iCloud email account _from_ an iOS device or Mac, but deleting the whole account altogether. Look here for [_removing_ an iCloud email account _from_ a device](https://support.apple.com/en-us/HT201419) without deleting the account. Read on for how to delete an iCloud email account altogether.

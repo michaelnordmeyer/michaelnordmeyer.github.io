@@ -9,7 +9,7 @@ redirect_from:
   - /apple-id-email-addresses-primary-alternate-rescue-notification/
 categories: Apple
 tags:
-  - Email
+  - E-Mail
   - iCloud
 ---
 There are different email addresses you can add to an Apple ID. Here are the different types in a nutshell.
