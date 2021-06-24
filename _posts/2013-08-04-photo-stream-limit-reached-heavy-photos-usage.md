@@ -4,8 +4,7 @@ date: 2013-08-04T16:52:20+00:00
 excerpt: I received a "My Photo Stream Limit Reached" notification from Apple Photos on OS X. That's what you get if you use it heavily.
 layout: post
 permalink: /photo-stream-limit-reached-heavy-photos-usage
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
 ---

@@ -4,8 +4,7 @@ date: 2009-01-21T01:55:00+00:00
 excerpt: A humorous take on nerds.
 layout: post
 permalink: /white-nerdy-by-weird-al-yankovic
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Video
 ---

@@ -5,8 +5,7 @@ excerpt: Strong passwords are important because your personal data is important.
 layout: post
 permalink: /easily-create-strong-passwords
 redirect_from: /easily-create-strong-passwords/
-categories:
-  - Web
+categories: Web
 tags:
   - Security
 ---

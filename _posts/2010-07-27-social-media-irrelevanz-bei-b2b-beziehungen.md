@@ -7,8 +7,7 @@ permalink: /social-media-irrelevanz-bei-b2b-beziehungen
 redirect_from: /2010/07/social-media-irrelevanz-bei-b2b-beziehungen/
 image: /images/2010/conversation.jpg
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - German
   - Social Media

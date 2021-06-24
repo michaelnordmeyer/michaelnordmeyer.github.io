@@ -4,8 +4,7 @@ date: 2016-02-13T12:00:51+00:00
 excerpt: Light on features and slow updates. Does WordPress/Automattic still care about its iPhone app?
 layout: post
 permalink: /is-the-wordpress-ios-app-still-relevant
-categories:
-  - Technology
+categories: Technology
 tags:
   - iOS
   - WordPress

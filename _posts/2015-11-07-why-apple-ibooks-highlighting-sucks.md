@@ -5,8 +5,7 @@ excerpt: Apple iBooks highlights are sometimes ommited from export without notif
 layout: post
 permalink: /why-apple-ibooks-highlighting-sucks
 redirect_from: /why-apple-ibooks-highlighting-sucks/
-categories:
-  - Apple
+categories: Apple
 tags:
   - E-Book
 ---

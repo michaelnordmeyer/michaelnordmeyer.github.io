@@ -1,7 +1,6 @@
 ---
 title: Opcaching
-categories:
-  - Technology
+categories: Technology
 tags:
   - Apache
   - APC

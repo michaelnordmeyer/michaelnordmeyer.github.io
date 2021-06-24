@@ -1,7 +1,6 @@
 ---
 title: Common macOS Things That Don’t Work on iOS
-categories:
-  - Apple
+categories: Apple
 tags:
   - iOS
   - macOS

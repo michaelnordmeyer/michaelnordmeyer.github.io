@@ -7,8 +7,7 @@ permalink: /hd-difference-quality-720p-1080p-resolution
 redirect_from:
   - /2013/01/hd-difference-quality-720p-1080p-resolution/
   - /2013/01/hd-qualitats-unterschied-von-720p-und-1080p/
-categories:
-  - Technology
+categories: Technology
 tags:
   - TV
 ---

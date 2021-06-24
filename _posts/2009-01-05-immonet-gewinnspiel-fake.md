@@ -6,8 +6,7 @@ layout: post
 permalink: /immonet-gewinnspiel-fake
 redirect_from: /blog/2009/01/immonet-gewinnspiel-fak/
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - Affiliate Marketing
   - German

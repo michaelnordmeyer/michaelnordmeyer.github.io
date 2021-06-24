@@ -4,8 +4,7 @@ date: 2008-05-17T14:28:34+00:00
 excerpt: What happened at next08 and my take on it.
 layout: post
 permalink: /next08-conference-afterthoughts
-categories:
-  - Events
+categories: Events
 tags:
   - Conference
   - Internet

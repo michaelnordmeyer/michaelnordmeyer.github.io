@@ -4,8 +4,7 @@ date: 2008-01-26T16:23:31+00:00
 excerpt: WordPress trumps other blog software. Here's why, in a nutshell.
 layout: post
 permalink: /why-i-chose-wordpress-thoughts-from-wordcamp-08
-categories:
-  - Web
+categories: WordPress
 tags:
   - BarCamp
   - Blogging

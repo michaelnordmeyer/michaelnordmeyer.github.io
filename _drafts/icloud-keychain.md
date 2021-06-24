@@ -1,7 +1,6 @@
 ---
 title: iCloud Keychain
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
   - Security

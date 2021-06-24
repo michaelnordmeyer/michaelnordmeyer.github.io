@@ -7,8 +7,7 @@ permalink: /web-tauglichkeit-qualitats-journalistischen-artikeln-kurzanalyse
 redirect_from: /blog/2010/04/aktuelle-web-tauglichkeit-von-qualitats-journalistischen-artikeln-–-eine-kurzanalyse/
 image: /images/2010/google-government-requests.jpg
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - German
   - Internet

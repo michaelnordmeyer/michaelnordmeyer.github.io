@@ -1,7 +1,6 @@
 ---
 title: MacBook 12″ Retina vs. iPad Pro 12.9″ & 9.7″ vs. iPad Air 2 + Keyboard
-categories:
-  - Apple
+categories: Apple
 tags:
   - iPad
   - MacBook

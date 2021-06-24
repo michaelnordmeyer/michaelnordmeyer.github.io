@@ -1,7 +1,6 @@
 ---
 title: Google+ and Facebook to Replace RSS
-categories:
-  - Web
+categories: Web
 tags:
   - Facebook
   - Google

@@ -6,8 +6,7 @@ layout: post
 permalink: /difference-macbook-air-thunderbolt-vs-macbook-pro-2011
 image: /images/2011/macbook-pro-macbook-air-2011.jpg
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - iPad

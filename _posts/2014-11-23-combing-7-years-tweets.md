@@ -5,8 +5,7 @@ excerpt: Twitter extended its search to include all tweets ever tweeted and not 
 layout: post
 permalink: /combing-7-years-tweets
 redirect_from: /combing-7-years-tweets/
-categories:
-  - Web
+categories: Web
 tags:
   - Social Media
 ---

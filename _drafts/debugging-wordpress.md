@@ -1,7 +1,6 @@
 ---
 title: Debugging WordPress
-categories:
-  - Technology
+categories: Technology
 tags:
   - WordPress
 ---

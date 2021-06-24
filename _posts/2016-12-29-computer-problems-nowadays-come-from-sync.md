@@ -4,8 +4,7 @@ date: 2016-12-29T03:51:50+00:00
 excerpt: More than 90 % of the errors in my computing life come from syncing via iCloud and the restrictions of iOS. macOS is fine by comparison.
 layout: post
 permalink: /computer-problems-nowadays-come-from-sync
-categories:
-  - Technology
+categories: Technology
 tags:
   - iOS
   - iPad

@@ -1,7 +1,6 @@
 ---
 title: 'Secury Your Accounts: App Connect Links'
-categories:
-  - Web
+categories: Web
 ---
 https://www.facebook.com/settings/?tab=applications 
 https://twitter.com/settings/applications 

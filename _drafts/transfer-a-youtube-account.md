@@ -1,7 +1,6 @@
 ---
 title: Transfer YouTube Account with Favorites, Playlists, Subscriptions
-categories:
-  - Web
+categories: Web
 ---
 Delete a Page [https://support.google.com/business/answer/4569146](https://support.google.com/business/answer/4569146)
 Delete Your Google+ Profile [https://support.google.com/plus/answer/1044503](https://support.google.com/plus/answer/1044503)

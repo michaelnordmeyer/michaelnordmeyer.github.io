@@ -1,5 +1,4 @@
 ---
 title: YouTube Will Dominate Consumption
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 ---

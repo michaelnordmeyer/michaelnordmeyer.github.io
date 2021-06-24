@@ -4,8 +4,7 @@ date: 2019-05-28T12:01:00+00:00
 excerpt: There are some pitfalls when it comes to data usage. Data charges can add up quickly, especially when tethering. Know where your data goes.
 layout: post
 permalink: /heavy-data-usage-on-mobile-and-desktop
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - iOS
   - macOS

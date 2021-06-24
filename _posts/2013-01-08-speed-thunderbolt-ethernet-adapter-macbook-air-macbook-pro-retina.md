@@ -5,8 +5,7 @@ excerpt: Speed comparison of Apple's Thunderbolt gigabit ethernet adapter vs. wi
 layout: post
 permalink: /speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina
 redirect_from: /speed-thunderbolt-ethernet-adapter-macbook-air-macbook-pro-retina/
-categories:
-  - Apple
+categories: Apple
 tags:
   - LAN
   - Mac

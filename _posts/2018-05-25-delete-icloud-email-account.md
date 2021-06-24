@@ -6,8 +6,7 @@ excerpt: Delete an iCloud email account altogether or delete an iCloud email acc
 layout: post
 permalink: /delete-icloud-email-account
 redirect_from: /delete-icloud-email-account/
-categories:
-  - Apple
+categories: Apple
 tags:
   - Email
   - iCloud

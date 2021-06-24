@@ -1,7 +1,6 @@
 ---
 title: Google Apps vs. iWorks / iCloud
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Google Apps
   - iCloud

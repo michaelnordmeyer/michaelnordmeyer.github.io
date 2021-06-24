@@ -5,8 +5,7 @@ excerpt: Mutig oder dumm? Das Männermagazin FHM hat die eigene Website offline 
 layout: post
 permalink: /fhm-schliest-website-nutzt-exklusiv-facebook
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - Facebook
   - German

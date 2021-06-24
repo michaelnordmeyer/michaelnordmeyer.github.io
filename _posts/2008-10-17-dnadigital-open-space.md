@@ -4,8 +4,7 @@ date: 2008-10-17T16:43:54+00:00
 excerpt: A short introduction to the DNAdigital events.
 layout: post
 permalink: /dnadigital-open-space
-categories:
-  - Events
+categories: Events
 tags:
   - BarCamp
   - Conference

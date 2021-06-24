@@ -1,7 +1,6 @@
 ---
 title: 'Changing a Bank Account in Germany: How Hard Can it Be?'
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Bank
   - Germany

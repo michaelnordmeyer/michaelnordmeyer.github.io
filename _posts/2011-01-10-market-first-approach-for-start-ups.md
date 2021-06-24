@@ -4,8 +4,7 @@ date: 2011-01-10T15:34:00+00:00
 excerpt: How to make money on the web creating and selling applications.
 layout: post
 permalink: /market-first-approach-for-start-ups
-categories:
-  - Web
+categories: Web
 tags:
   - Entrepreneurship
 ---

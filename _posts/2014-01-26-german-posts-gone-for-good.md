@@ -4,8 +4,7 @@ date: 2014-01-26T19:01:57+00:00
 excerpt: I deleted most of my posts written in German, because I decided to write exclusively in English again.
 layout: post
 permalink: /german-posts-gone-for-good
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Blogging
 ---

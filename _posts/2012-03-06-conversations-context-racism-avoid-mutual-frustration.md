@@ -4,8 +4,7 @@ date: 2012-03-06T09:37:00+00:00
 excerpt: A primer how to deal with ill communication.
 layout: post
 permalink: /conversations-context-racism-avoid-mutual-frustration
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Video
 ---

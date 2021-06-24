@@ -1,7 +1,6 @@
 ---
 title: Redownloading Apple Stuff
-categories:
-  - Apple
+categories: Apple
 ---
 What isn't redownloadable:
 

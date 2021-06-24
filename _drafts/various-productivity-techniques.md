@@ -1,7 +1,6 @@
 ---
 title: Different Productivity Techniques
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Lifestyle
 ---

@@ -5,8 +5,7 @@ excerpt: 'WordPress has a cool feature: featured images. Here are some plugins w
 layout: post
 permalink: /wordpress-featured-image-plugins
 redirect_from: /wordpress-featured-images-plugins/
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - WordPress

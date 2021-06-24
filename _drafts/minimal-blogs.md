@@ -1,7 +1,6 @@
 ---
 title: Minimal Blogs
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
 ---

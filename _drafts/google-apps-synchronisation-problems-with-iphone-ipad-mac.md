@@ -1,7 +1,6 @@
 ---
 title: Google Apps Synchronisierungsprobleme mit iPhone, iPad und Mac
-categories:
-  - Apple
+categories: Apple
 tags:
   - Google Apps
   - iPad

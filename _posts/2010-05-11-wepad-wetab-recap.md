@@ -6,8 +6,7 @@ layout: post
 permalink: /wepad-wetab-recap
 image: /images/2010/wetab-widgets.jpg
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - Android
   - German

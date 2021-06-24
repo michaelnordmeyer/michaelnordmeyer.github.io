@@ -4,8 +4,7 @@ date: 2015-05-30T16:11:38+00:00
 excerpt: Online backups take a long time. Here is a list for some common upload speeds to get an idea of how long exactly.
 layout: post
 permalink: /how-long-online-backup-take
-categories:
-  - Web
+categories: Web
 tags:
   - Backup
 ---

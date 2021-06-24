@@ -4,8 +4,7 @@ date: 2008-12-02T09:39:05+00:00
 excerpt: How tea tasting is connected to the Internet.
 layout: post
 permalink: /green-tea-tasting-web-2-0-style
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Lifestyle
 ---

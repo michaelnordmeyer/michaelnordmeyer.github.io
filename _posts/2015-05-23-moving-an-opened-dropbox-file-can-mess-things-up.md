@@ -4,8 +4,7 @@ date: 2015-05-23T12:21:47+00:00
 excerpt: If you move a Dropbox file on another device like your smartphone while having it opened in an application on your computer is a bad idea.
 layout: post
 permalink: /moving-an-opened-dropbox-file-can-mess-things-up
-categories:
-  - Technology
+categories: Technology
 tags:
   - Dropbox
 ---

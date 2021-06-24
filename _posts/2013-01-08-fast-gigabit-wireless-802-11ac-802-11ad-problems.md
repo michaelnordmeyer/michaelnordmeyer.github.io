@@ -6,8 +6,7 @@ layout: post
 permalink: /fast-gigabit-wireless-802-11ac-802-11ad-problems
 redirect_from: /2013/01/schnelles-gigabit-wlan-mit-802-11ac-802-11ad-und-deren-probleme/
 lang: de
-categories:
-  - Technology
+categories: Technology
 tags:
   - German
   - Wireless

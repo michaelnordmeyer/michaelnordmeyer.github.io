@@ -1,7 +1,6 @@
 ---
 title: Why I Prefer WordPress Over Squarespace 7
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - WordPress

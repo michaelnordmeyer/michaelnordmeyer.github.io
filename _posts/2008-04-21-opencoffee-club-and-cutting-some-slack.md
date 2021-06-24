@@ -4,8 +4,7 @@ date: 2008-04-21T21:07:46+00:00
 excerpt: OpenCoffee Club in Hamburg is a bi-weekly gathering of developers and entrepreneurs of the Web 2.0 community in Hamburg meeting at Starbucks to network.
 layout: post
 permalink: /opencoffee-club-and-cutting-some-slack
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Entrepreneurship
   - Startup

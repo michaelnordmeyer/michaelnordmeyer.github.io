@@ -1,7 +1,6 @@
 ---
 title: Apple iTunes iCloud Download Limitation
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
 ---

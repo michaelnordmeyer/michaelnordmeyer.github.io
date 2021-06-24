@@ -6,8 +6,7 @@ layout: post
 permalink: /tedxberlin
 image: /images/2009/tedxberlin-2009.jpg
 lang: de
-categories:
-  - Events
+categories: Events
 tags:
   - Conference
   - German

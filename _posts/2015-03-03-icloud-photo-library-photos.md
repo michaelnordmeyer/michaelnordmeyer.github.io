@@ -6,8 +6,7 @@ layout: post
 permalink: /icloud-photo-library-photos
 redirect_from: /icloud-photo-library-photos/
 image: /images/2015/icloud-photo-library.png
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
 ---

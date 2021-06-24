@@ -4,8 +4,7 @@ date: 2013-09-11T02:04:00+00:00
 excerpt: If you like parkour and Burning Man then this is the perfect video for you.
 layout: post
 permalink: /55-minute-parkour-video-burning-man
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Burning Man
   - Parkour

@@ -7,8 +7,7 @@ permalink: /apple-id-email-addresses-primary-alternate-rescue-notification
 redirect_from:
   - /apple-email-addresses-primary-alternate-rescue-notification
   - /apple-id-email-addresses-primary-alternate-rescue-notification/
-categories:
-  - Apple
+categories: Apple
 tags:
   - Email
   - iCloud

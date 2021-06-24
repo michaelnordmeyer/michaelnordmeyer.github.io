@@ -1,7 +1,6 @@
 ---
 title: Simple Ways to Fix Email
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Email
 ---

@@ -6,8 +6,7 @@ layout: post
 permalink: /rufnummern-ubernahme-bei-iphone-t-mobile-vertragen
 redirect_from: /blog/2008/07/rufnummern-ubernahme-bei-iphone-t-mobile-vertragen/
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - iPhone

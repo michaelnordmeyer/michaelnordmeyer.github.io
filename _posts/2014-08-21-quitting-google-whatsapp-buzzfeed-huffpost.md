@@ -5,8 +5,7 @@ excerpt: I stopped using a couple of very popular services for a variety of reas
 layout: post
 permalink: /quitting-google-whatsapp-buzzfeed-huffpost
 redirect_from: /quitting-google-whatsapp-buzzfeed-huffpost/
-categories:
-  - Web
+categories: Web
 tags:
   - Ethics
   - Privacy

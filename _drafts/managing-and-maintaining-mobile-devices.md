@@ -1,7 +1,6 @@
 ---
 title: Managing and Maintaining Mobile Devices
-categories:
-  - Technology
+categories: Technology
 tags:
   - Apple
   - iPad

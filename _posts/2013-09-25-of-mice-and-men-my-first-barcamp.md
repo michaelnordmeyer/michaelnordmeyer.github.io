@@ -7,8 +7,7 @@ permalink: /of-mice-and-men-my-first-barcamp
 redirect_from:
   - /2013/09/von-maeusen-und-menschen-mein-erstes-barcamp/
   - /2013/09/of-mice-and-men-my-first-barcamp/
-categories:
-  - Events
+categories: Events
 tags:
   - BarCamp
   - Conference

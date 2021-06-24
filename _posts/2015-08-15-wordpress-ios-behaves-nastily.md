@@ -4,8 +4,7 @@ date: 2015-08-15T20:51:39+00:00
 excerpt: WordPress for iOS seemingly deletes the post you're writing while you're writing it. But you can get it back if you're lucky.
 layout: post
 permalink: /wordpress-ios-behaves-nastily
-categories:
-  - Technology
+categories: Technology
 tags:
   - iOS
   - WordPress

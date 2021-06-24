@@ -5,8 +5,7 @@ excerpt: Blogger und Marketing-Experten haben sich beim Immonet-Gewinnspiel-Fake
 layout: post
 permalink: /nachwehen-des-immonet-gewinnspiel-fakes
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - Affiliate Marketing
   - German

@@ -1,7 +1,6 @@
 ---
 title: WordPress wie Tumblr als Tumblelog nutzen
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - Tumblr

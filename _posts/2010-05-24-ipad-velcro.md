@@ -4,8 +4,7 @@ date: 2010-05-24T14:19:00+00:00
 excerpt: A clever way to attach your iPad for different usage scenarios.
 layout: post
 permalink: /ipad-velcro
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Video
 ---

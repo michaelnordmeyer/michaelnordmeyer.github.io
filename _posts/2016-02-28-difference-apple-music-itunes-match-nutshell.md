@@ -4,8 +4,7 @@ date: 2016-02-28T11:56:02+00:00
 excerpt: Apple Music and iTunes Match have overlapping features which makes them confusing. I explain why it's reasonable to have both.
 layout: post
 permalink: /difference-apple-music-itunes-match-nutshell
-categories:
-  - Apple
+categories: Apple
 tags:
   - Apple Music
   - iTunes Match

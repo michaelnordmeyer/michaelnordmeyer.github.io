@@ -7,8 +7,7 @@ permalink: /mailbox-mac-os-x-beta
 redirect_from:
   - /2014/08/mailbox-mac-os-x-beta/
   - /mailbox-mac-os-x-beta/
-categories:
-  - Apple
+categories: Apple
 tags:
   - Apps
   - Email

@@ -1,7 +1,6 @@
 ---
 title: 'If you liked this article, please share it on del.icio.us, StumbleUpon or on Digg. I’d appreciate it. :)'
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Blogging
 ---

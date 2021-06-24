@@ -4,8 +4,7 @@ date: 2015-07-25T21:00:24+00:00
 excerpt: If you have an old Google profile like www.google.com/profiles/yourusername and want to get rid of it, you can delete it using a trick.
 layout: post
 permalink: /delete-public-google-profile
-categories:
-  - Web
+categories: Web
 tags:
   - Google
   - Privacy

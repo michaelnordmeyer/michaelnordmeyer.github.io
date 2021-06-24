@@ -4,8 +4,7 @@ date: 2016-11-24T20:54:09+00:00
 excerpt: I want to buy movies but buying them on iTunes or Google Play would limit the ability to switch platforms because of high additional costs.
 layout: post
 permalink: /the-problem-with-owning-movies-today
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Google Play
   - iTunes

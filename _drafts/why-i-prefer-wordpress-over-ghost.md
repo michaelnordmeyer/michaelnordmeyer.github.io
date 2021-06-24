@@ -1,7 +1,6 @@
 ---
 title: Why I Prefer WordPress Over Ghost
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - WordPress

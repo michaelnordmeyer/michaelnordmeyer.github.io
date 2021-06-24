@@ -5,8 +5,7 @@ excerpt: Das 2012 MacBook Air ist mittlerweile fast so gut wie ein MacBook Pro R
 layout: post
 permalink: /difference-macbook-air-thunderbolt-vs-macbook-pro-retina-2012
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - iPad

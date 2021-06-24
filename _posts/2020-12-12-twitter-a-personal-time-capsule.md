@@ -4,8 +4,7 @@ date: 2020-12-12T12:21:00+00:00
 excerpt: Twitter sometimes is a personal time capsule, which allows me to remember things, which I can add to my diary retroactively to create a thread of my life.
 layout: post
 permalink: /twitter-a-personal-time-capsule
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - personal
 ---

@@ -4,8 +4,7 @@ date: 2013-09-22T19:41:38+00:00
 excerpt: Ever wondered what Burning Man is all about? Here are four videos which perfectly present Burning Man.
 layout: post
 permalink: /burning-man-videos
-categories:
-  - Miscellaneous
+categories: Tumblr
 tags:
   - Burning Man
   - Video

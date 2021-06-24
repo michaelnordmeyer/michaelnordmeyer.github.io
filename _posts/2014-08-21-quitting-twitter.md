@@ -4,8 +4,7 @@ date: 2014-08-21T15:12:54+00:00
 excerpt: A friend of mine quit Twitter recently. I think this is not unreasonable if you think about how Twitter wants to change itself to monetize better.
 layout: post
 permalink: /quitting-twitter
-categories:
-  - Web
+categories: Web
 tags:
   - Social Media
 ---

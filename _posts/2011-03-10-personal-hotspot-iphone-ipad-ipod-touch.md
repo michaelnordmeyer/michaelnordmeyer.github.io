@@ -6,8 +6,7 @@ layout: post
 permalink: /personal-hotspot-iphone-ipad-ipod-touch
 image: /images/2011/personal-hotspot-ios-4.3.jpg
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - iOS

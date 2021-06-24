@@ -7,8 +7,7 @@ permalink: /storing-videos-on-icloud-drive-on-ios
 redirect_from:
   - /storing-videos-in-icloud-drive-on-ios
   - /storing-videos-on-icloud-drive-on-ios/
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
   - iOS

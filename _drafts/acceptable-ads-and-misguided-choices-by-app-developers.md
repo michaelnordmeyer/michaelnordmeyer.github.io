@@ -1,7 +1,6 @@
 ---
 title: Acceptable Ads and Misguided Choices by Content Blocker Developers
-categories:
-  - Web
+categories: Web
 tags:
   - Advertisement
   - iOS

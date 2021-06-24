@@ -1,7 +1,6 @@
 ---
 title: Comments and SEO
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - SEO

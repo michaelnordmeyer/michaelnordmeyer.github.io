@@ -6,8 +6,7 @@ layout: post
 permalink: /macbook-air-2010-macbook-pro-differences-omissions
 image: /images/2011/macbook-air-2010.jpg
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - Mac

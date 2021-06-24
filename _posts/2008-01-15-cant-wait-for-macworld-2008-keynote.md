@@ -5,8 +5,7 @@ excerpt: Eagerly waiting for the Apple keynote.
 layout: post
 permalink: /cant-wait-for-macworld-2008-keynote
 image: /images/2008/apple-keynote.jpg
-categories:
-  - Apple
+categories: Apple
 tags:
   - iPhone
   - Mac

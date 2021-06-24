@@ -6,8 +6,7 @@ layout: post
 permalink: /apples-wwdc-2010-iphone-ipad-gold-rush
 image: /images/2010/apple-wwdc-2006.jpg
 lang: de
-categories:
-  - Apple
+categories: Apple
 tags:
   - German
   - iPad

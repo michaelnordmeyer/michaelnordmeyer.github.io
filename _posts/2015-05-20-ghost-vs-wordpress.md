@@ -5,8 +5,7 @@ excerpt: I do like the concept of Ghost, but I'm not committing to a product whe
 layout: post
 permalink: /ghost-vs-wordpress
 redirect_from: /ghost-vs-wordpress/
-categories:
-  - Technology
+categories: Technology
 tags:
   - Blogging
   - Ghost

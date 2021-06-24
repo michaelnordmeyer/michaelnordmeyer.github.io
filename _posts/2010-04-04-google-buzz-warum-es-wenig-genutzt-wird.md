@@ -6,8 +6,7 @@ layout: post
 permalink: /google-buzz-warum-es-wenig-genutzt-wird
 redirect_from: /2010/04/google-buzz-warum-es-wenig-genutzt-wird/
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - German
   - Google

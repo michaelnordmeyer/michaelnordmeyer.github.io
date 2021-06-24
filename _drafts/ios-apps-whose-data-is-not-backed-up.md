@@ -1,7 +1,6 @@
 ---
 title: iOS Apps Whose Data Is Not Backed Up
-categories:
-  - Apple
+categories: Apple
 tags:
   - Backup
   - iCloud

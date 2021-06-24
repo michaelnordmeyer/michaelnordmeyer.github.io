@@ -6,8 +6,7 @@ layout: post
 permalink: /musik-buzz-promotion-und-anonyme-pakete
 redirect_from: /2011/03/musik-buzz-promotion-und-anonyme-pakete/
 lang: de
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - German
 ---

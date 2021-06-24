@@ -4,8 +4,7 @@ date: 2016-08-10T15:45:56+00:00
 excerpt: I'm much faster when using physical keyboards on iPad. Especially the 9.7" iPads, where there's no number row. But some things are annoying.
 layout: post
 permalink: /ipad-keyboard-annoyances
-categories:
-  - Apple
+categories: Apple
 tags:
   - iOS
   - iPad

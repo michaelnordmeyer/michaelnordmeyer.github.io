@@ -4,8 +4,7 @@ date: 2010-02-22T22:39:56+00:00
 excerpt: Explaining Google hackathons.
 layout: post
 permalink: /google-chrome-extensions-hackathon-hamburg
-categories:
-  - Events
+categories: Events
 tags:
   - Development
   - Google

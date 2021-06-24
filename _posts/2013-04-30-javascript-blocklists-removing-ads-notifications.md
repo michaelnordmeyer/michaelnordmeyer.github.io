@@ -7,8 +7,7 @@ permalink: /javascript-blocklists-removing-ads-notifications
 redirect_from:
   - /2013/04/javascript-blocklisten-fuer-besseres-surfen/
   - /javascript-blocklists-removing-ads-notifications/
-categories:
-  - Web
+categories: Web
 tags:
   - Advertisement
 ---

@@ -1,7 +1,6 @@
 ---
 title: Strong and Application-specific Passwords
-categories:
-  - Web
+categories: Web
 tags:
   - Security
 ---

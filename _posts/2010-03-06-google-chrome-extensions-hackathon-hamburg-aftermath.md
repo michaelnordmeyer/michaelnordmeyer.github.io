@@ -4,8 +4,7 @@ date: 2010-03-06T23:41:27+00:00
 excerpt: A review of a Google hackathon.
 layout: post
 permalink: /google-chrome-extensions-hackathon-hamburg-aftermath
-categories:
-  - Events
+categories: Events
 tags:
   - Development
   - Google

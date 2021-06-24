@@ -1,7 +1,6 @@
 ---
 title: Developer Setup Problems on macOS
-categories:
-  - Apple
+categories: Apple
 tags:
   - Development
   - macOS

@@ -1,7 +1,6 @@
 ---
 title: LEMP for WordPress
-categories:
-  - Technology
+categories: Technology
 tags:
   - WordPress
 ---

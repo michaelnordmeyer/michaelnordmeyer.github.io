@@ -5,8 +5,7 @@ excerpt: How to properly build a community.
 layout: post
 permalink: /community-building-top-5
 image: /images/2010/epicfu-community-building.jpg
-categories:
-  - Web
+categories: Web
 tags:
   - Community
   - Social Media

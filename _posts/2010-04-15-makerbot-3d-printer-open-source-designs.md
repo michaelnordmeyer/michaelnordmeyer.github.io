@@ -5,8 +5,7 @@ excerpt: 3D printing with MakerBot is almost quasi-teleportation.
 layout: post
 permalink: /makerbot-3d-printer-open-source-designs
 image: /images/2010/bre-pettis-and-his-makerbot.jpg
-categories:
-  - Technology
+categories: Technology
 tags:
   - Conference
   - re:publica

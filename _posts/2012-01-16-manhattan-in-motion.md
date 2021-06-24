@@ -4,8 +4,7 @@ date: 2012-01-16T15:16:00+00:00
 excerpt: A time lapse movie of Manhattan. Very relaxing.
 layout: post
 permalink: /manhattan-in-motion
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - Video
 ---

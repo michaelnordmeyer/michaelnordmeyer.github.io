@@ -5,8 +5,7 @@ excerpt: I attend an internet & online conference and I'm offline. Underpowered 
 layout: post
 permalink: /republica-2010-modern-technology-failure
 image: /images/2010/republica-2010-panel.jpg
-categories:
-  - Events
+categories: Events
 tags:
   - Conference
   - re:publica

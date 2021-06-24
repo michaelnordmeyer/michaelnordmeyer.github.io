@@ -6,8 +6,7 @@ layout: post
 permalink: /amazon-kindle-e-book-backup
 redirect_from: /2012/12/amazon-kindle-e-book-backup/
 image: /images/2012/amazon-kindle.jpg
-categories:
-  - Technology
+categories: Technology
 tags:
   - Amazon
   - Apps

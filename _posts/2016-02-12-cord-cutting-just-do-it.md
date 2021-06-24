@@ -4,8 +4,7 @@ date: 2016-02-12T17:28:12+00:00
 excerpt: Just cut the cord. You won't miss it. Don't be a couch potato and let other people put ideas in your mind while spending your spare time.
 layout: post
 permalink: /cord-cutting-just-do-it
-categories:
-  - Miscellaneous
+categories: Miscellaneous
 tags:
   - TV
   - YouTube

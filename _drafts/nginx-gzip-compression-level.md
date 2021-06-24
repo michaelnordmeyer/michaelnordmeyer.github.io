@@ -1,7 +1,6 @@
 ---
 title: Nginx GZIP Compression Level
-categories:
-  - Technology
+categories: Technology
 ---
 https://nginx.org/en/docs/http/ngx_http_gzip_module.html
 

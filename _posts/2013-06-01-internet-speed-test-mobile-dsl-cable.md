@@ -5,8 +5,7 @@ excerpt: Ein schneller und einfacher Weg herauszufinden, wie schnell die Interne
 layout: post
 permalink: /internet-speed-test-mobile-dsl-cable
 lang: de
-categories:
-  - Web
+categories: Web
 tags:
   - German
   - Internet

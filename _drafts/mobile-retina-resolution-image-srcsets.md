@@ -4,8 +4,7 @@ date:
 excerpt:
 layout: post
 permalink:
-categories:
-  - Technology
+categories: Technology
 tags:
   - Mobile
   - Web Development

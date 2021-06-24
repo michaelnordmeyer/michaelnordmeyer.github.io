@@ -1,8 +1,7 @@
 ---
 title: Thoughts on My Personal Relation with Facebook
 excerpt: I took a hiatus from Facebook. Even after pruning my feed it wasn't serving me anymore. Then I realized why Facebook is detrimental to my sanity.
-categories:
-  - Web
+categories: Web
 tags:
   - Facebook
   - Social Media

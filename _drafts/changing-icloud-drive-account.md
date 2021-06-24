@@ -1,7 +1,6 @@
 ---
 title: Changing iCloud Drive Account
-categories:
-  - Apple
+categories: Apple
 ---
 ## iBooks
 

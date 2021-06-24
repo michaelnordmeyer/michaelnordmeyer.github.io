@@ -1,7 +1,6 @@
 ---
 title: WordPress Tuning and Monitoring
-categories:
-  - Technology
+categories: Technology
 tags:
   - WordPress
 ---

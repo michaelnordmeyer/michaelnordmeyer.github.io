@@ -4,8 +4,7 @@ date: 2014-03-16T12:32:58+00:00
 excerpt: These scores may be useful, but in the process these sites have to gather a lot of public and private data across different networks.
 layout: post
 permalink: /deleted-klout-trustcloud-accounts-removed-data
-categories:
-  - Web
+categories: Web
 tags:
   - Privacy
   - Social Media

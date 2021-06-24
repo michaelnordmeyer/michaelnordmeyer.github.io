@@ -1,7 +1,6 @@
 ---
 title: Hello Sense Review
-categories:
-  - Technology
+categories: Technology
 tags:
   - Health
   - Quantify Yourself

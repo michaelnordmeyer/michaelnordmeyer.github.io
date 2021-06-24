@@ -1,7 +1,6 @@
 ---
 title: Tweeting to Notes.app. A 30 Day Challenge Aftermath
-categories:
-  - Web
+categories: Web
 tags:
   - 30 Day Challenge
   - Facebook

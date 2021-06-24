@@ -4,8 +4,7 @@ date: 2014-11-30T09:11:37+00:00
 excerpt: Safari/iCloud automatic logins are convenient. But it weakens website account security by letting others easily change your sensitive account information.
 layout: post
 permalink: /safaris-icloud-keychain-security-problem
-categories:
-  - Apple
+categories: Apple
 tags:
   - iCloud
   - Security

@@ -1,7 +1,6 @@
 ---
 title: Tumblr vs. WordPress
-categories:
-  - Web
+categories: Web
 tags:
   - Blogging
   - Tumblr

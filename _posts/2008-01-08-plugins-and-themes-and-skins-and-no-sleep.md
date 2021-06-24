@@ -4,8 +4,7 @@ date: 2008-01-08T03:34:29+00:00
 excerpt: Getting a grip on WordPress.
 layout: post
 permalink: /plugins-and-themes-and-skins-and-no-sleep
-categories:
-  - Web
+categories: WordPress
 tags:
   - WordPress
 ---

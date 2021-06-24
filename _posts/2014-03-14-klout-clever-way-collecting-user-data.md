@@ -4,8 +4,7 @@ date: 2014-03-14T19:16:14+00:00
 excerpt: Klout is a very clever way to gather data from users without giving much in return. Users only get a vanity number, and Klout perks are the worst.
 layout: post
 permalink: /klout-clever-way-collecting-user-data
-categories:
-  - Web
+categories: Web
 tags:
   - Privacy
   - Social Media

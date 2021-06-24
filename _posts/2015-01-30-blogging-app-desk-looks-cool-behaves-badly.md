@@ -5,8 +5,7 @@ excerpt: I bought Desk because I wanted to get an undistracted writing experienc
 layout: post
 permalink: /blogging-app-desk-looks-cool-behaves-badly
 redirect_from: /blogging-app-desk-looks-cool-behaves-badly/
-categories:
-  - Technology
+categories: Technology
 tags:
   - Apps
   - Blogging

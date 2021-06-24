@@ -7,8 +7,7 @@ permalink: /apple-time-capsule-power-consumption
 redirect_from:
   - /2013/04/stromverbrauch-apple-time-capsule-2-tb/
   - apple-time-capsule-power-consumption/
-categories:
-  - Apple
+categories: Apple
 tags:
   - Environment
 ---
