@@ -6,32 +6,6 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-.site-nav .nav-trigger {
-    display:none
-}
-
-.site-nav .menu-icon > svg path {
-    fill: #424242
-}
-
-.site-nav label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor:pointer
-}
-
-.site-nav input:checked ~ .trigger {
-    display: block;
-    padding-bottom:5px
-}
-
-.site-nav .page-link:not(:last-child) {
-    margin-right:0
-}
-
 @media screen and (min-width: 600px) {
     .site-nav {
       position: absolute;
@@ -41,7 +15,7 @@
     }
 
     .site-nav label[for="nav-trigger"] {
-        display:none
+        display:block
     }
 
     .site-nav .menu-icon {
@@ -49,7 +23,7 @@
     }
 
     .site-nav input ~ .trigger {
-        display:none
+        display:block
     }
 
     .site-nav .page-link {
@@ -59,7 +33,7 @@
     }
 
     .site-nav .page-link:not(:last-child) {
-        margin-right:20px
+        margin-right:0
     }
 }
 
