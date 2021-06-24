@@ -25,11 +25,10 @@
             <a itemprop="url" class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-          {%- for path in category_paths -%}
-            {%- assign my_category_page = site.categories | where: "path", path | first -%}
-            {%- if my_category_page.title -%}
-            <a itemprop="url" class="page-link" href="{{ my_category_page.url | relative_url }}">{{ my_category_page.title | escape }}</a>
-            {%- endif -%}
+          {% assign sortedCategories = site.categories | sort %}
+          {% for category in sortedCategories %}
+            {% assign cat4url = category[0] | remove:' ' | downcase %}
+            <a itemprop="url" class="page-link" href="{{site.baseurl}}/category/{{cat4url}}">{{ category[0] | escape }}</a>
           {%- endfor -%}
         </div>
       </nav>
