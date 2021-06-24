@@ -6,6 +6,7 @@ layout: post
 permalink: /is-the-wordpress-ios-app-still-relevant
 categories: WordPress
 tags:
+  - Blogging
   - iOS
   - WordPress
 ---

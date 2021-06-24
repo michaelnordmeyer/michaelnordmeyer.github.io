@@ -6,6 +6,7 @@ layout: post
 permalink: /plugins-and-themes-and-skins-and-no-sleep
 categories: WordPress
 tags:
+  - Blogging
   - WordPress
 ---
 Toying around with this blog is fun. At least sometimes. I mean – err – at the beginning.

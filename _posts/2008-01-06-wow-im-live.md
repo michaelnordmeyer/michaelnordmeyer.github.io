@@ -5,5 +5,7 @@ excerpt: Everybody has to start somewhere.
 layout: post
 permalink: /wow-im-live
 categories: WordPress
+tags:
+  - Blogging
 ---
 Never thought I would get my blog up and running this decade.

@@ -6,6 +6,7 @@ layout: post
 permalink: /disable-wordpress-comments-fully-avoid-spam
 categories: WordPress
 tags:
+  - Blogging
   - Spam
   - WordPress
 ---

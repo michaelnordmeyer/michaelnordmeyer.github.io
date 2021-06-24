@@ -6,6 +6,7 @@ layout: post
 permalink: /wordpress-ios-behaves-nastily
 categories: WordPress
 tags:
+  - Blogging
   - iOS
   - WordPress
 ---
