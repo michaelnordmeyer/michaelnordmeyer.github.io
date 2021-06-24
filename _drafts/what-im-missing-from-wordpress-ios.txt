@@ -5,8 +5,7 @@ excerpt: "Things I really miss when writing and posting with WordPress for iOS."
 layout: post
 permalink: /missing-from-wordpress-ios
 image: /images/2008/apple-staff-mob.jpg
-categories:
-  - Technology
+categories: Technology
 tags:
   - WordPress
 ---
