@@ -5,3 +5,61 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.site-nav .nav-trigger {
+    display:none
+}
+
+.site-nav .menu-icon > svg path {
+    fill: #424242
+}
+
+.site-nav label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor:pointer
+}
+
+.site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom:5px
+}
+
+.site-nav .page-link:not(:last-child) {
+    margin-right:0
+}
+
+@media screen and (min-width: 600px) {
+    .site-nav {
+      position: absolute;
+      float: none;
+      border: 1px solid #e8e8e8;
+      background-color: #fdfdfd;
+    }
+
+    .site-nav label[for="nav-trigger"] {
+        display:none
+    }
+
+    .site-nav .menu-icon {
+        display: block;
+    }
+
+    .site-nav input ~ .trigger {
+        display:none
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left:20px
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right:20px
+    }
+}
+
