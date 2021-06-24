@@ -9,7 +9,7 @@ tags:
   - Blogging
   - Development
 ---
-I still have some repositories on Github I have used for customizing my former WordPress installations. I didn't use them in a while because Github Pages still fit my needs better. No hosting, no hassle, and blazingly fast because the pages are static.
+I still have some repositories on Github I have used for customizing my former WordPress installations. I didn't use them in a while because Github Pages still fit my needs better. No hosting, no hassle, and blazingly fast, because the pages are static.
 
 Some changes to update and fix great plugins, which haven't been updated in a while:
 
