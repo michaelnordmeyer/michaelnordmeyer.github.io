@@ -10,8 +10,4 @@ I'm Michael Nordmeyer, a freelance software and web developer, project manager a
 
 ## What
 
-I strongly prefer agile and lean methodologies and use Scrum and Kanban in my projects. Currently these are my technologies of choice if I do the actual coding: Ruby on Rails, JavaScript, HTML5, CSS3. Detailed profiles are on LinkedIn or XING. You can contact me on any of the following sites. If you choose LinkedIn or XING, please introduce yourself in a meaningful manner and state your business. I get way too many connect requests without telling me about the nature of the request.
-
-## Where Else
-
-Follow the respective links in the footer.
+I strongly prefer agile and lean methodologies and use Scrum and Kanban in my projects. Currently these are my technologies of choice if I do the actual coding: Ruby on Rails, JavaScript, HTML5, CSS3. Detailed profiles are on [LinkedIn](https://www.linkedin.com/in/michaelnordmeyer) or [XING](https://www.xing.com/profile/Michael_Nordmeyer). If you choose to contact me on LinkedIn or XING, please introduce yourself in a meaningful manner and state your business. I get way too many connection requests without telling me about the nature of the request.
