@@ -1,5 +1,6 @@
 ---
 layout: category
-category-name: WordPress
+title: Category WordPress
 permalink: /category/wordpress
+category-name: WordPress
 ---
