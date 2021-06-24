@@ -4,7 +4,7 @@ date: 2009-11-12T12:57:34+00:00
 excerpt: A short introduction to oEmbed.
 layout: post
 permalink: /oembed-presentation
-categories: Technology
+categories: Development
 tags:
   - BarCamp
   - Conference
