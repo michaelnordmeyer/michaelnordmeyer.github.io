@@ -27,7 +27,6 @@ minima:
 
 header_pages:
   - about.md
-  - wordpress.md
 
 # https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
 # https://pages.github.com/versions/ Jekyll 3.9.0 vs. 4.2.0
