@@ -12,7 +12,7 @@ tags:
 ---
 A year or two ago I used [Tumblr](https://www.tumblr.com/) to take back the Internet and own my data. I posted links, images and videos on Tumblr to cross-post those to Twitter and Facebook.
 
-While it felt good and I liked to look at the Tumblr stream, the Twitter and Facebook streams didn’t look as good. To no surprise all links point back to Tumblr, which they should, but there was information and meaning lost in this. It wasn’t as clear where these posts actually point to.
+While it felt good and I liked to look at the [Tumblr stream](/category/tumblelog), the Twitter and Facebook streams didn’t look as good. To no surprise all links point back to Tumblr, which they should, but there was information and meaning lost in this. It wasn’t as clear where these posts actually point to.
 
 While I love Tumblr for the simplicity of creating video, image and link posts, I don’t like the way the URL for those posts look like. There’s always a unique ID between the blog URL and the post name. It’s there to be easier on Tumblr’s servers, which is of little interest for the user. But anyway, I digress.
 
