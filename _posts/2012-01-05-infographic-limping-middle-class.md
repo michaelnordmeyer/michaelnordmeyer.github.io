@@ -4,7 +4,7 @@ date: 2012-01-05T21:34:00+00:00
 excerpt: Cleverly summed up in a single infographic why the middle class is missing out.
 layout: post
 permalink: /infographic-limping-middle-class
-categories: Tumblr
+categories: Tumblelog
 tags:
   - Image
   - Infographic

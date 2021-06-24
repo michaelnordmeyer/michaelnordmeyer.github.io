@@ -4,7 +4,7 @@ date: 2008-12-26T13:42:00+00:00
 excerpt: When geeks get creative to play music.
 layout: post
 permalink: /jingle-bells-for-geeks
-categories: Tumblr
+categories: Tumblelog
 tags:
   - Video
 ---
