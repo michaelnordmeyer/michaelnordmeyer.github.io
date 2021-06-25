@@ -10,6 +10,6 @@ tags:
 ---
 ![Emperor 200](/images/2013/emperor-200.png){: .aligncenter }
 
-A $50,000 [ultimate computer workstation](http://www.mwelab.com/) with several exclusive features such as touch screen control center, air filtering system, light therapy, electric powered leather seat, up to 3 x 27″ LED screens and a breathtaking sound.
+A $50,000 [ultimate computer workstation](http://www.mwelab.com/) with several exclusive features such as touch screen control center, air filtering system, light therapy, electric powered leather seat, up to 3 × 27″ LED screens and a breathtaking sound.
 
 Just for ergonomic working purposes, of course.

@@ -34,36 +34,36 @@ A video of his next09 talks <cite>Sharing Creativity – Great Conductors of the
 
 Here are some photos of the next10 event:
 
-![Lunch](/images/2010/next-conference-2010-0223.jpg "Lunch")
+![Lunch](/images/2010/next-conference-2010-0223.jpg "Lunch"){: .aligncenter }
 
-![Waiting in line for lunch](/images/2010/next-conference-2010-0224.jpg "Waiting in line for lunch")
+![Waiting in line for lunch](/images/2010/next-conference-2010-0224.jpg "Waiting in line for lunch"){: .aligncenter }
 
-![Chill-out zone](/images/2010/next-conference-2010-0227.jpg "Chill-out zone")
+![Chill-out zone](/images/2010/next-conference-2010-0227.jpg "Chill-out zone"){: .aligncenter }
 
-![Dumbed-down presentations](/images/2010/next-conference-2010-0229.jpg "Dumbed-down presentations")
+![Dumbed-down presentations](/images/2010/next-conference-2010-0229.jpg "Dumbed-down presentations"){: .aligncenter }
 
-![Peter Sunde presents Flattr](/images/2010/next-conference-2010-0235.jpg "Peter Sunde presents Flattr")
+![Peter Sunde presents Flattr](/images/2010/next-conference-2010-0235.jpg "Peter Sunde presents Flattr"){: .aligncenter }
 
-![A notebook space](/images/2010/next-conference-2010-0239.jpg "A notebook space")
+![A notebook space](/images/2010/next-conference-2010-0239.jpg "A notebook space"){: .aligncenter }
 
-![Networking](/images/2010/next-conference-2010-0240.jpg "Networking")
+![Networking](/images/2010/next-conference-2010-0240.jpg "Networking"){: .aligncenter }
 
-![Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/next-conference-2010-0244.jpg "Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”")
+![Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”](/images/2010/next-conference-2010-0244.jpg "Busy note taking during Ola Ahlversson’s talk “Inside the Head of an Entrepreneur”"){: .aligncenter }
 
-![Smartphone distraction](/images/2010/next-conference-2010-0250.jpg "Smartphone distraction")
+![Smartphone distraction](/images/2010/next-conference-2010-0250.jpg "Smartphone distraction"){: .aligncenter }
 
-![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](/images/2010/next-conference-2010-0257.jpg "Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”")
+![Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”](/images/2010/next-conference-2010-0257.jpg "Interested attendees listening to Lego’s Peter Espersen’s “Working with your community, not against it”"){: .aligncenter }
 
-![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.](/images/2010/next-conference-2010-0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.")
+![The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees.](/images/2010/next-conference-2010-0261.jpg "The WePad was presented by the boss himself. Nobody was allowed to touch the WeTab, even his employees."){: .aligncenter }
 
-![A crowded WePad booth](/images/2010/next-conference-2010-0260.jpg "A crowded WePad booth")
+![A crowded WePad booth](/images/2010/next-conference-2010-0260.jpg "A crowded WePad booth"){: .aligncenter }
 
-![Brian Solis](/images/2010/next-conference-2010-0258.jpg "Brian Solis")
+![Brian Solis](/images/2010/next-conference-2010-0258.jpg "Brian Solis"){: .aligncenter }
 
-![A panel](/images/2010/next-conference-2010-0259.jpg "A panel")
+![A panel](/images/2010/next-conference-2010-0259.jpg "A panel"){: .aligncenter }
 
-![Stefana Broadbent of University College London](/images/2010/next-conference-2010-0262.jpg "Stefana Broadbent of University College London")
+![Stefana Broadbent of University College London](/images/2010/next-conference-2010-0262.jpg "Stefana Broadbent of University College London"){: .aligncenter }
 
-![Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson](/images/2010/next-conference-2010-0264.jpg "Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson")
+![Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson](/images/2010/next-conference-2010-0264.jpg "Stefana Broadbent and Stowe Boyd are being moderated by Ola Ahlvarsson"){: .aligncenter }
 
-![Jemima Gibbons about Social Leadership](/images/2010/next-conference-2010-0266.jpg "Jemima Gibbons about Social Leadership")
+![Jemima Gibbons about Social Leadership](/images/2010/next-conference-2010-0266.jpg "Jemima Gibbons about Social Leadership"){: .aligncenter }
