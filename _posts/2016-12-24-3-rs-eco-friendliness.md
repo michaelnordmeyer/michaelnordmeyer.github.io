@@ -7,6 +7,7 @@ permalink: /3-rs-eco-friendliness
 categories: Tumblelog
 tags:
   - Environment
+  - Post
 ---
   * Reduce
   * Reuse

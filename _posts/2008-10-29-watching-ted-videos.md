@@ -5,6 +5,8 @@ excerpt: Watching TED videos for educational purposes.
 layout: post
 permalink: /watching-ted-videos
 categories: Tumblelog
+tags:
+  - Post
 ---
 It took me a while to finally start downloading some [TED videos](https://www.ted.com/). Like 150 some.
 
