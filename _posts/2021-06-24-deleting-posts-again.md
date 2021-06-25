@@ -1,7 +1,7 @@
 ---
 title: Deleting Posts Again
 date: 2021-06-24T19:57:00+00:00
-excerpt: I deleted most of my posts written in German, because I decided to write exclusively in English again.
+excerpt: I deleted posts again, after I deleted a lot seven years ago.
 layout: post
 permalink: /deleting-posts-again
 categories: Miscellaneous
