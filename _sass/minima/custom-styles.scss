@@ -1,0 +1,69 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+table {
+  margin-top: $spacing-unit;
+}
+
+/*th:first-child, td:first-child { padding-left: 0; }*/
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	margin-bottom: $spacing-unit;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+figure > img { margin: 0 auto; }
+figcaption { text-align: center; }
+
+.aligncenter { display: block; margin: 0 auto; }
+
+.site-header h1 { margin-bottom: 0; }
+
+.post-list > li > h2 {
+  margin-bottom: 1px;
+  line-height: 1.2;
+}
+.post-image { margin-bottom: $spacing-unit / 2; }
+.post .rss-subscribe { font-size: small; }
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 { width: calc(100% - (#{$spacing-unit} / 2)); }
+
+footer {
+  h2 > a,
+  h2 > a:visited { color: #424242; }
+  input[type="search"] { width: 100%; font-size: 1em; }
+}
+
+@media screen and (min-width: 481px) {
+  footer input[type="search"] { width: 50%; }
+}
+
+.profiles {
+  list-style: none;
+  columns: 4;
+  margin-left: 0;
+  font-size: $small-font-size;
+  a:hover { text-decoration: none }
+  a:hover .username { text-decoration: underline }
+}
+
+// 320, 375, 414
+@media screen and (min-width: 321px) {
+  .profiles { font-size: $base-font-size; }
+}
+
+@media screen and (min-width: 415px) {
+  .profiles {
+    columns: 1;
+    li + li { padding-top: 5px }
+  }
+  .footer-col-1 { width: calc(15% - (#{$spacing-unit} / 2)); }
+  .footer-col-2 { width: calc(85% - (#{$spacing-unit} / 2)); }
+}
