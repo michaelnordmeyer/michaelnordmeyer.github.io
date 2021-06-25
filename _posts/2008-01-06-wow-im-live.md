@@ -7,5 +7,6 @@ permalink: /wow-im-live
 categories: WordPress
 tags:
   - Blogging
+  - WordPress
 ---
 Never thought I would get my blog up and running this decade.
