@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
     .site-nav {
-        position: relative;
+        position: absolute;
         top: 9px;
         right: 15px;
         border: 1px solid #e8e8e8;
