@@ -10,4 +10,6 @@ tags:
 ---
 I deleted posts again, after [I had deleted a lot seven years ago](/german-posts-gone-for-good).
 
-Most of them are not relevant anymore, even for posterity, like hardware tests or reviews. And some of them were in German. I kept those because they have been linked to. But times are a changing. I deleted about 150 posts altogether.
+Most of them are not relevant anymore, even for posterity, like hardware tests or reviews. And some of them were in German. I kept those because they have been linked to. But times are a changing.
+
+Between now and then I deleted about 150 posts altogether.
