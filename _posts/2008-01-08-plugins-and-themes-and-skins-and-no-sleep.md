@@ -9,7 +9,7 @@ tags:
   - Blogging
   - WordPress
 ---
-Toying around with this blog is fun. At least sometimes. I mean – err – at the beginning.
+Toying around with this blog is fun. At least sometimes. I mean – err – in the beginning.
 
 Some people did some great stuff for WordPress which I appreciate very much. But after trying out some new themes and plugins, I need more plugins for the new themes and new themes which support those shiny new plugins.
 
