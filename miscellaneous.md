@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Category Miscellaneous
+title: Category: Miscellaneous
 permalink: /category/miscellaneous
 category-name: Miscellaneous
 ---
