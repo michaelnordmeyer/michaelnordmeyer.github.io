@@ -2,7 +2,6 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <h2 class="footer-heading"><a href="/">{{ site.title | escape }}</a></h2>
 
     <div class="footer-col-wrapper">
@@ -11,10 +10,10 @@
       </div>
       <div class="footer-col footer-col-2">
         <p>{{ site.bio | escape }}</p>
+
         {%- include search-duckduckgo.html -%}
       </div>
     </div>
-
   </div>
 
   {%- if jekyll.environment == 'production' and site.stats -%}
