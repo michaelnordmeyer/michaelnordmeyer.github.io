@@ -5,13 +5,6 @@
   <link type="application/json" rel="alternate" href="{{ '/feed.json' | relative_url }}" title="{{ site.title | escape }}">
   <link rel="Shortcut Icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   <title>{% if page.title %}{{ page.title | append: " • " | append: site.title | escape }}{% else %}{{ site.title | append: " • " | append: site.description | escape }}{% endif %}</title>
-
-  <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#EC3224">
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#EC3224">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#EC3224">
     
 {%- if paginator.previous_page -%}
   <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
