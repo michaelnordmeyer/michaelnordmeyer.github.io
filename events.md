@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Category: Events
+title: "Category: Events"
 permalink: /category/events
 category-name: Events
 ---
